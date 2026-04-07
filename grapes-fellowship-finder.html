@@ -241,7 +241,7 @@ mark{background:#FEF08A;padding:0 1px;border-radius:2px}
 
 <div class="ct">
   <div class="rb">
-    <div class="rc"><strong id="rc">0</strong> results</div>
+    <div class="rc" id="rc-wrap"><strong id="rc">0</strong> <span id="rc-label">results</span></div>
     <button class="atog" id="atog" onclick="togActive()">Showing active only</button>
     <select id="ss" onchange="render()">
       <option value="deadline">Active deadlines first</option>
@@ -450,8 +450,10 @@ function render(){
   if(pg>total) pg=1;
   const page=res.slice((pg-1)*PG,pg*PG);
   const terms=q?expand(q):[];
-  const h=t=>hl(t,terms);
   const el=document.getElementById('gc');
+  const lbl=document.getElementById('rc-label');
+  if(lbl) lbl.textContent=q?`results for "${q}"`:terms.length?'results':'fellowships';
+
 
   if(!page.length){
     el.innerHTML='<div class="empty"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg><p>No fellowships match your search.<br/>Try different keywords or clear your filters.</p></div>';
@@ -465,10 +467,10 @@ function render(){
       else dlp=`<span class="dp df"><span class="dot"></span>${r.deadline}</span>`;
       const amt=r.amount?`<span class="ap">${r.amount}</span>`:'';
       const pend=isPend?'<div class="ps">Needs verification &mdash; deadline and availability unconfirmed</div>':'';
-      const ag=r.agency2?`${h(r.agency1)} &amp; ${h(r.agency2)}`:h(r.agency1);
+      const ag=r.agency2?`${r.agency1} &amp; ${r.agency2}`:r.agency1;
       const tbg=r.awardType?`<span class="bg b-typ">${r.awardType}</span>`:'';
-      const desc=r.description?`<div class="bd">${h(r.description)}</div>`:'';
-      const eligRow=r.eligibility?`<div class="fi" style="grid-column:1/-1"><div class="fk">Eligibility</div><div class="fv">${h(r.eligibility)}</div></div>`:'';
+      const desc=r.description?`<div class="bd">${r.description}</div>`:'';
+      const eligRow=r.eligibility?`<div class="fi" style="grid-column:1/-1"><div class="fk">Eligibility</div><div class="fv">${r.eligibility}</div></div>`:'';
       const fields=`<div class="bf">
         <div class="fi"><div class="fk">Primary Agency</div><div class="fv">${r.agency1||'—'}</div></div>
         <div class="fi"><div class="fk">Award Type</div><div class="fv">${r.awardType||'—'}</div></div>
@@ -480,7 +482,7 @@ function render(){
       </div>`;
       return `<div class="${cls}" id="c${i}">
         <div class="ch" onclick="tog(${i})">
-          <div class="cm"><div class="ct2">${h(r.title)}</div><div class="ca">${ag}</div></div>
+          <div class="cm"><div class="ct2">${r.title}</div><div class="ca">${ag}</div></div>
           <div class="cs">
             <div class="bgs">
               <span class="bg ${sbc(r.season)}">${r.season}</span>
