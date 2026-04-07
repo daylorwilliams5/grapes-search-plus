@@ -154,7 +154,47 @@ mark{background:#FEF08A;padding:0 1px;border-radius:2px}
 </head>
 <body>
 
-<nav><span class="nu">UCLA</span><span class="nd">Division of Graduate Education</span></nav>
+<nav><span class="nu">UCLA</span><span class="nd">Division of Graduate Education</span><span style="margin-left:auto"><button onclick="openSub()" style="background:var(--gold);color:var(--navy);border:none;padding:5px 14px;border-radius:5px;font-size:12px;font-weight:700;cursor:pointer">+ Submit a Fellowship</button></span></nav>
+
+<!-- SUBMIT MODAL -->
+<div id="subModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:center;justify-content:center">
+  <div style="background:#fff;border-radius:12px;width:min(560px,95vw);padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.25);position:relative;max-height:90vh;overflow-y:auto">
+    <button onclick="closeSub()" style="position:absolute;top:14px;right:16px;background:none;border:none;font-size:20px;cursor:pointer;color:#9CA3AF">&#10005;</button>
+    <h2 style="font-size:17px;font-weight:800;color:#003B5C;margin-bottom:4px">Submit a Fellowship</h2>
+    <p style="font-size:13px;color:#6B7280;margin-bottom:20px">Paste the URL of a fellowship page — we'll pull the details automatically and notify the DGE team.</p>
+
+    <div id="subStep1">
+      <label style="font-size:12px;font-weight:700;color:#374151;display:block;margin-bottom:6px">Fellowship URL</label>
+      <div style="display:flex;gap:8px;margin-bottom:16px">
+        <input id="subUrl" type="url" placeholder="https://www.example.org/fellowship" style="flex:1;padding:9px 12px;border:1.5px solid #E5EAF0;border-radius:7px;font-size:13px;outline:none" oninput="document.getElementById('subUrl').style.borderColor='#E5EAF0'"/>
+        <button onclick="previewUrl()" id="prevBtn" style="background:#2774AE;color:#fff;border:none;padding:9px 16px;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap">Preview</button>
+      </div>
+      <div id="subPreview" style="display:none;background:#F2F5F9;border-radius:8px;padding:14px;margin-bottom:16px;border-left:3px solid #2774AE">
+        <div style="font-size:11px;font-weight:700;color:#9CA3AF;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Extracted Details</div>
+        <div id="subPreviewContent"></div>
+      </div>
+      <div id="subError" style="display:none;background:#FEF2F2;color:#DC2626;padding:10px 12px;border-radius:7px;font-size:13px;margin-bottom:12px"></div>
+
+      <label style="font-size:12px;font-weight:700;color:#374151;display:block;margin-bottom:6px">Your name <span style="font-weight:400;color:#9CA3AF">(optional)</span></label>
+      <input id="subName" type="text" placeholder="e.g. Daylor Williams" style="width:100%;padding:9px 12px;border:1.5px solid #E5EAF0;border-radius:7px;font-size:13px;margin-bottom:16px;outline:none;box-sizing:border-box"/>
+
+      <label style="font-size:12px;font-weight:700;color:#374151;display:block;margin-bottom:6px">Notes <span style="font-weight:400;color:#9CA3AF">(optional)</span></label>
+      <textarea id="subNotes" placeholder="Any additional context, eligibility notes, or corrections..." style="width:100%;padding:9px 12px;border:1.5px solid #E5EAF0;border-radius:7px;font-size:13px;resize:vertical;min-height:70px;outline:none;box-sizing:border-box"></textarea>
+
+      <div style="display:flex;gap:10px;margin-top:18px">
+        <button onclick="closeSub()" style="flex:1;padding:10px;border:1.5px solid #E5EAF0;border-radius:7px;font-size:13px;font-weight:600;background:#fff;cursor:pointer;color:#6B7280">Cancel</button>
+        <button onclick="submitFellowship()" style="flex:2;padding:10px;background:#003B5C;color:#fff;border:none;border-radius:7px;font-size:13px;font-weight:700;cursor:pointer">Submit to DGE Team</button>
+      </div>
+    </div>
+
+    <div id="subStep2" style="display:none;text-align:center;padding:20px 0">
+      <div style="font-size:36px;margin-bottom:12px">✓</div>
+      <div style="font-size:16px;font-weight:700;color:#003B5C;margin-bottom:8px">Submitted!</div>
+      <div style="font-size:13px;color:#6B7280">The DGE team will review and add this fellowship to GRAPES Search+. Thank you!</div>
+      <button onclick="closeSub()" style="margin-top:20px;background:#2774AE;color:#fff;border:none;padding:9px 24px;border-radius:7px;font-size:13px;font-weight:600;cursor:pointer">Close</button>
+    </div>
+  </div>
+</div>
 
 <div class="hdr">
 <div class="hi">
@@ -595,6 +635,86 @@ document.getElementById('si').addEventListener('input',function(){
   document.getElementById('cx').classList.toggle('show',this.value.length>0);
   st=setTimeout(()=>{q=this.value.trim();pg=1;render();},220);
 });
+
+// ── SUBMISSION FLOW ──
+// Google Form endpoint — replace FORM_ID and entry IDs after creating the form
+const GFORM_URL='https://docs.google.com/forms/d/e/FORM_ID/formResponse';
+const GFORM_ENTRIES={url:'entry.URL_ENTRY',name:'entry.NAME_ENTRY',notes:'entry.NOTES_ENTRY',extracted:'entry.EXTRACTED_ENTRY'};
+
+function openSub(){
+  document.getElementById('subModal').style.display='flex';
+  document.getElementById('subStep1').style.display='block';
+  document.getElementById('subStep2').style.display='none';
+  document.getElementById('subUrl').value='';
+  document.getElementById('subName').value='';
+  document.getElementById('subNotes').value='';
+  document.getElementById('subPreview').style.display='none';
+  document.getElementById('subError').style.display='none';
+}
+function closeSub(){document.getElementById('subModal').style.display='none';}
+document.getElementById('subModal').addEventListener('click',function(e){if(e.target===this)closeSub();});
+
+async function previewUrl(){
+  const url=document.getElementById('subUrl').value.trim();
+  if(!url){document.getElementById('subUrl').style.borderColor='#DC2626';return;}
+  const btn=document.getElementById('prevBtn');
+  btn.textContent='Fetching...';btn.disabled=true;
+  document.getElementById('subError').style.display='none';
+  document.getElementById('subPreview').style.display='none';
+  try{
+    // Use allorigins proxy to bypass CORS
+    const proxy=`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const res=await fetch(proxy,{signal:AbortSignal.timeout(8000)});
+    const json=await res.json();
+    const html=json.contents||'';
+    const doc=new DOMParser().parseFromString(html,'text/html');
+    // Extract details
+    const title=(doc.querySelector('h1')||doc.querySelector('title'))?.textContent?.trim()?.slice(0,120)||'(title not found)';
+    const meta=doc.querySelector('meta[name="description"]')?.content||'';
+    const bodyText=doc.body?.innerText||doc.body?.textContent||'';
+    const dl=findDl(bodyText);
+    document.getElementById('subPreviewContent').innerHTML=`
+      <div style="font-size:13px;font-weight:700;color:#111;margin-bottom:4px">${esc(title)}</div>
+      ${meta?`<div style="font-size:12px;color:#4B5563;margin-bottom:6px">${esc(meta.slice(0,200))}</div>`:''}
+      ${dl?`<div style="font-size:12px;color:#2774AE"><strong>Deadline detected:</strong> ${esc(dl)}</div>`:'<div style="font-size:12px;color:#9CA3AF">No deadline detected</div>'}
+    `;
+    document.getElementById('subPreview').style.display='block';
+    document.getElementById('subPreview').dataset.extracted=JSON.stringify({title,meta:meta.slice(0,300),deadline:dl||'',url});
+  }catch(e){
+    document.getElementById('subError').textContent='Could not fetch that page. You can still submit the URL and the DGE team will review it.';
+    document.getElementById('subError').style.display='block';
+  }
+  btn.textContent='Preview';btn.disabled=false;
+}
+
+function findDl(text){
+  const m=text.match(/(?:deadline|due|applications?\s+(?:due|close[sd]?))[:\s]+([A-Z][a-z]+ \d{1,2},? \d{4})/i)
+    ||text.match(/((?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2},? \d{4})/i);
+  return m?m[1].trim():null;
+}
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+async function submitFellowship(){
+  const url=document.getElementById('subUrl').value.trim();
+  if(!url){document.getElementById('subUrl').style.borderColor='#DC2626';return;}
+  const name=document.getElementById('subName').value.trim();
+  const notes=document.getElementById('subNotes').value.trim();
+  const extracted=document.getElementById('subPreview').dataset.extracted||'';
+
+  // Submit via Google Form (no-cors mode — fire and forget)
+  const body=new FormData();
+  body.append(GFORM_ENTRIES.url, url);
+  body.append(GFORM_ENTRIES.name, name||'Anonymous');
+  body.append(GFORM_ENTRIES.notes, notes);
+  body.append(GFORM_ENTRIES.extracted, extracted);
+  try{
+    await fetch(GFORM_URL,{method:'POST',mode:'no-cors',body});
+  }catch(e){/* no-cors always throws, that's fine */}
+
+  document.getElementById('subStep1').style.display='none';
+  document.getElementById('subStep2').style.display='block';
+}
+
 init();
 </script>
 </body>
