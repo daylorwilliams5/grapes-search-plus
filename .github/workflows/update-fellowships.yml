@@ -1,0 +1,89 @@
+name: Update Fellowship Data
+
+# Runs automatically at the start of each UCLA academic cycle:
+#   Fall    → September 1
+#   Winter  → January 1
+#   Spring  → March 15
+#   Summer  → June 15
+# Can also be triggered manually from the GitHub Actions tab.
+
+on:
+  schedule:
+    - cron: '0 8 1 9 *'   # Sep 1  — Fall cycle
+    - cron: '0 8 1 1 *'   # Jan 1  — Winter cycle
+    - cron: '0 8 15 3 *'  # Mar 15 — Spring cycle
+    - cron: '0 8 15 6 *'  # Jun 15 — Summer cycle
+  workflow_dispatch:
+    inputs:
+      spreadsheet_url:
+        description: 'Direct URL to the latest GRAPES .xlsx spreadsheet (optional)'
+        required: false
+        default: ''
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl requests
+
+      - name: Download latest spreadsheet (if URL provided)
+        if: ${{ github.event.inputs.spreadsheet_url != '' }}
+        run: |
+          curl -L "${{ github.event.inputs.spreadsheet_url }}" -o data/GRAPES_latest.xlsx
+          echo "Downloaded spreadsheet from URL."
+
+      - name: Check for spreadsheet
+        id: check
+        run: |
+          if ls data/*.xlsx 1> /dev/null 2>&1; then
+            SHEET=$(ls data/*.xlsx | head -1)
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "sheet=$SHEET" >> $GITHUB_OUTPUT
+            echo "Spreadsheet found: $SHEET"
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "No spreadsheet found in data/. Skipping extraction."
+          fi
+
+      - name: Extract fellowship records
+        if: steps.check.outputs.found == 'true'
+        run: |
+          python scripts/01_extract.py \
+            --input "${{ steps.check.outputs.sheet }}" \
+            --output data/fellowships_base.json \
+            --cutoff-years 3
+
+      - name: Rebuild HTML from updated data
+        if: steps.check.outputs.found == 'true'
+        run: |
+          python scripts/03_merge_and_rebuild.py \
+            --base data/fellowships_base.json \
+            --output grapes-fellowship-finder.html
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add grapes-fellowship-finder.html data/fellowships_base.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            CYCLE=$(python -c "
+          import datetime
+          m = datetime.date.today().month
+          cycle = 'Fall' if m >= 9 else 'Summer' if m >= 6 else 'Spring' if m >= 3 else 'Winter'
+          print(cycle)
+          ")
+            git commit -m "Auto-update: $CYCLE cycle $(date +'%Y-%m-%d')"
+            git push
+          fi

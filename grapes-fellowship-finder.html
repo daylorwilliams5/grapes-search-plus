@@ -166,7 +166,6 @@ mark{background:#FEF08A;padding:0 1px;border-radius:2px}
     <div class="stats">
       <div class="stat"><div class="n" id="s1">—</div><div class="l">Fellowships</div></div>
       <div class="stat"><div class="n" id="s2">—</div><div class="l">Open Deadlines</div></div>
-      <div class="stat"><div class="n" id="s3">—</div><div class="l">Verified</div></div>
     </div>
   </div>
   <div class="sw"><div class="si">
@@ -293,7 +292,6 @@ function init(){
   }).join('');
   document.getElementById('s1').textContent=DATA.length;
   document.getElementById('s2').textContent=DATA.filter(r=>r.sortTier===0).length;
-  document.getElementById('s3').textContent=DATA.filter(r=>r.enriched).length;
   render();
 }
 
