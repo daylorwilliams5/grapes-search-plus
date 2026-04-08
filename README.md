@@ -7,7 +7,7 @@ Created by Daylor Williams for the UCLA Division of Graduate Education (DGE).
 
 ## What it is
 
-GRAPES Search+ is a self-contained, searchable database of **266 verified graduate fellowships**, grants, and awards curated from the UCLA DGE GRAPES dataset. Students can find relevant funding by searching natural language queries ("psychology dissertation", "travel grant conference") or by filtering by field of study, award type, and season.
+GRAPES Search+ is a self-contained, searchable database of **350+ verified graduate fellowships**, grants, and awards curated from the UCLA DGE GRAPES dataset. Students can find relevant funding by searching natural language queries ("psychology dissertation", "travel grant conference") or by filtering by field of study, award type, and season.
 
 Live demo: https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html
 
