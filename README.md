@@ -29,7 +29,7 @@ Live demo: https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowshi
 | File | Description |
 |------|-------------|
 | `grapes-fellowship-finder.html` | The main app — open this in any browser |
-| `data/fellowships_master.json` | All 350 enriched fellowship records |
+| `data/fellowships_master.json` | All 363 enriched fellowship records |
 | `scripts/01_extract.py` | Extracts fellowship records from the DGE Excel spreadsheet |
 | `scripts/02_enrich.py` | Template for enriching fellowship records via web scraping |
 | `scripts/03_merge_and_rebuild.py` | Merges enriched data and rebuilds the HTML |
