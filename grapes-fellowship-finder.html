@@ -759,8 +759,6 @@ function init(){
   const opt=(arr,all)=>`<option value="">${all}</option>`+arr.map(([v,l])=>`<option value="${v}">${esc(l)}</option>`).join('')+'<option value="multi" hidden>Multiple selected</option>';
   document.getElementById('typeSel').innerHTML=opt(TYPES,'Any type');
   document.getElementById('fieldSel').innerHTML=opt(FIELDS,'Any field');
-  const open=DATA.filter(r=>r._status==='open').length;
-  document.getElementById('lede').textContent=`${DATA.length} fellowships, grants, and awards for UCLA graduate students — ${open} accepting applications now. Curated by the Division of Graduate Education.`;
   readHash();render();
 }
 
