@@ -3,13 +3,13 @@
 **Graduate fellowship, grant, and award finder for UCLA graduate students.**
 Created by Daylor Williams for the UCLA Division of Graduate Education (DGE).
 
-**[Open GRAPES Search+ →](https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html)**
+**[Open GRAPES Search+ →](https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html?v=2)**
 
 ![GRAPES Search+ search page](docs/screenshot.png)
 
 ## What it is
 
-GRAPES Search+ is a searchable database of 363 graduate fellowships, grants, and awards, built from the UCLA DGE GRAPES dataset. Students can search in plain language ("psychology dissertation", "conference travel") and narrow results by deadline, award type, field of study, and application season.
+GRAPES Search+ is a searchable database of graduate fellowships, grants, and awards, built from the UCLA DGE GRAPES dataset. Students can search in plain language ("psychology dissertation", "conference travel") and narrow results by deadline, award type, field of study, and application season.
 
 Listings reviewed by DGE this cycle are marked verified. The rest are shown with an "Unverified listing" note so students know to double-check the details.
 
