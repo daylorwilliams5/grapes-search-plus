@@ -6,8 +6,14 @@ Merges enriched fellowship data and rebuilds the self-contained HTML app.
 Usage:
     python 03_merge_and_rebuild.py \
         --data ../data/fellowships_master.json \
+        [--base ../data/fellowships_base.json] \
         --template ../grapes-fellowship-finder.html \
         --output ../grapes-fellowship-finder.html
+
+With --base, fresh records from 01_extract.py are merged into the master
+data first: deadlines, season, and status come from the spreadsheet, while
+enriched fields (description, eligibility, amount, URL, type) are kept.
+Records new to the spreadsheet are added.
 
 The script replaces the `const DATA=[...]` block in the HTML with
 the updated JSON data, preserving all app logic and styling.
@@ -68,6 +74,28 @@ def parse_deadline(dl_str):
         return None
 
 
+BASE_FIELDS = ("deadline", "deadlineSort", "deadlinePassed", "sortTier", "season", "status")
+
+
+def merge_base(records, base):
+    by_id = {r["id"]: r for r in records}
+    updated = added = 0
+    for b in base:
+        r = by_id.get(b["id"])
+        if r is None:
+            records.append(b)
+            by_id[b["id"]] = b
+            added += 1
+            continue
+        # Only take the spreadsheet's deadline when it has one
+        fields = BASE_FIELDS if b.get("deadline") else ("season", "status")
+        for k in fields:
+            r[k] = b[k]
+        updated += 1
+    print(f"Merged base: {updated} updated, {added} added")
+    return records
+
+
 def process_records(records):
     today = datetime.date.today()
     cutoff = today.replace(year=today.year - CUTOFF_YEARS)
@@ -124,6 +152,7 @@ def rebuild_html(data, html_path, output_path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", required=True, help="Path to fellowships JSON data file")
+    parser.add_argument("--base", help="Optional fresh records from 01_extract.py to merge in")
     parser.add_argument("--template", required=True, help="Path to current HTML file (used as template)")
     parser.add_argument("--output", required=True, help="Output HTML path")
     args = parser.parse_args()
@@ -132,6 +161,10 @@ def main():
     with open(args.data) as f:
         records = json.load(f)
     print(f"Loaded {len(records)} records")
+
+    if args.base:
+        with open(args.base) as f:
+            records = merge_base(records, json.load(f))
 
     records = process_records(records)
 
