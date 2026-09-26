@@ -34,7 +34,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pandas openpyxl requests
+        run: pip install pandas openpyxl requests python-dateutil
 
       - name: Download latest spreadsheet (if URL provided)
         if: ${{ github.event.inputs.spreadsheet_url != '' }}
@@ -67,14 +67,16 @@ jobs:
         if: steps.check.outputs.found == 'true'
         run: |
           python scripts/03_merge_and_rebuild.py \
+            --data data/fellowships_master.json \
             --base data/fellowships_base.json \
+            --template grapes-fellowship-finder.html \
             --output grapes-fellowship-finder.html
 
       - name: Commit and push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add grapes-fellowship-finder.html data/fellowships_base.json
+          git add grapes-fellowship-finder.html data/fellowships_master.json data/fellowships_base.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
