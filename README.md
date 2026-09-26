@@ -1,47 +1,71 @@
 # GRAPES Search+
 
-**Graduate fellowship, grant & award finder for UCLA graduate students.**
+**Graduate fellowship, grant, and award finder for UCLA graduate students.**
 Created by Daylor Williams for the UCLA Division of Graduate Education (DGE).
 
----
+**[Open GRAPES Search+ →](https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html)**
+
+![GRAPES Search+ search page](docs/screenshot.png)
 
 ## What it is
 
-GRAPES Search+ is a self-contained, searchable database of **350+ verified graduate fellowships**, grants, and awards curated from the UCLA DGE GRAPES dataset. Students can find relevant funding by searching natural language queries ("psychology dissertation", "travel grant conference") or by filtering by field of study, award type, and season.
+GRAPES Search+ is a searchable database of 363 graduate fellowships, grants, and awards, built from the UCLA DGE GRAPES dataset. Students can search in plain language ("psychology dissertation", "conference travel") and narrow results by deadline, award type, field of study, and application season.
 
-Live demo: https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html
-
----
+Listings reviewed by DGE this cycle are marked verified. The rest are shown with an "Unverified listing" note so students know to double-check the details.
 
 ## Features
 
-- Natural language search with synonym expansion (e.g. "psychology" → behavioral, cognitive, social science), with matches highlighted
-- Multi-select filters with live counts: deadline status, award type, field of study, application season, verified-only
-- Recurring deadlines: when a listed deadline has passed, the next cycle is estimated from it instead of hiding the listing
-- Detail panel for each award, with sponsor, amount, eligibility, and a link to the official page
-- Save awards to a personal list (stored in the browser)
-- Shareable searches: filters and keywords are kept in the URL
-- Fully self-contained single HTML file — no server, no login, no build step (web fonts load from Google Fonts, with system-font fallback)
+- **Plain-language search.** Related terms are included automatically (for example, "psychology" also finds behavioral, cognitive, and social science awards), and matches are highlighted.
+- **Filters with live counts** for deadline status, award type, field of study, application season, and verified listings.
+- **Recurring deadlines.** Most awards open every year, so when a listed deadline has passed, the next one is estimated from it and labeled as an estimate instead of the listing being hidden.
+- **Detail panel** for each award, with the sponsor, amount, eligibility, and a link to the official page.
+- **Saved list.** Students can bookmark awards; the list is stored in their browser.
+- **Shareable searches.** Keywords and filters are kept in the page address.
+- **Single HTML file.** No server, login, or build step. Fonts load from Google Fonts, with system fonts as a fallback.
 
----
+## Updating the data
+
+The data refreshes automatically at the start of each application cycle (September 1, January 1, March 15, and June 15) through a GitHub Actions workflow. It can also be run by hand from the **Actions** tab, optionally with a link to the latest GRAPES spreadsheet.
+
+Each run does the following:
+
+1. **Extract** records from the GRAPES `.xlsx` file in `data/`.
+2. **Merge** them into the existing data. Deadlines, season, and status come from the spreadsheet. Descriptions, eligibility, amounts, and links are kept. New awards are added, and awards whose deadlines are more than three years old are removed.
+3. **Rebuild** the HTML page and commit the changes.
+
+To run the same steps locally:
+
+```bash
+pip install pandas openpyxl python-dateutil
+
+python scripts/01_extract.py \
+  --input "data/GRAPES AnnLog.xlsx" \
+  --output data/fellowships_base.json
+
+python scripts/03_merge_and_rebuild.py \
+  --data data/fellowships_master.json \
+  --base data/fellowships_base.json \
+  --template grapes-fellowship-finder.html \
+  --output grapes-fellowship-finder.html
+```
+
+New awards added this way have only the basic details from the spreadsheet. `scripts/02_enrich.py` is a starting point for filling in descriptions, eligibility, and links from the sponsors' websites.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `grapes-fellowship-finder.html` | The main app — open this in any browser |
-| `data/fellowships_master.json` | All 363 enriched fellowship records |
-| `scripts/01_extract.py` | Extracts fellowship records from the DGE Excel spreadsheet |
-| `scripts/02_enrich.py` | Template for enriching fellowship records via web scraping |
-| `scripts/03_merge_and_rebuild.py` | Merges enriched data and rebuilds the HTML |
-
----
+| `grapes-fellowship-finder.html` | The app, with the data embedded. Open it in any browser. |
+| `data/fellowships_master.json` | All fellowship records, including descriptions and eligibility |
+| `scripts/01_extract.py` | Extracts records from the DGE GRAPES spreadsheet |
+| `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
+| `scripts/03_merge_and_rebuild.py` | Merges new spreadsheet records into the data and rebuilds the HTML |
+| `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 
 ## Data source
 
-Base fellowship list from the UCLA DGE GRAPES database.
-Fellowship details (descriptions, eligibility, deadlines, official URLs) scraped from official fellowship websites.
+The list of fellowships comes from the UCLA DGE GRAPES database. Descriptions, eligibility, deadlines, and official links were gathered from each sponsor's website. Students should always confirm details on the official page before applying.
 
 ---
 
-*Built for UCLA DGE | Created by Daylor Williams*
+*Built for UCLA DGE by Daylor Williams*
