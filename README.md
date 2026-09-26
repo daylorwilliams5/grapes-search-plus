@@ -3,7 +3,7 @@
 **Graduate fellowship, grant, and award finder for UCLA graduate students.**
 Created by Daylor Williams for the UCLA Division of Graduate Education (DGE).
 
-**[Open GRAPES Search+ →](https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html)**
+**[Open GRAPES Search+ →](https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowship-finder.html?v=2)**
 
 ![GRAPES Search+ search page](docs/screenshot.png)
 
