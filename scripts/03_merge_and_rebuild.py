@@ -11,9 +11,11 @@ Usage:
         --output ../grapes-fellowship-finder.html
 
 With --base, fresh records from 01_extract.py are merged into the master
-data first: deadlines, season, and status come from the spreadsheet, while
-enriched fields (description, eligibility, amount, URL, type) are kept.
-Records new to the spreadsheet are added.
+data first: status comes from the spreadsheet, a deadline is taken only when
+it's newer than the one on file, rows marked deleted are removed, and rows
+not yet on the site are written to data/new_from_spreadsheet.json for
+research instead of being published. Record numbers in
+data/excluded_ids.json are never re-added.
 
 The script replaces the `const DATA=[...]` block in the HTML with
 the updated JSON data, preserving all app logic and styling.
@@ -28,8 +30,6 @@ import argparse
 import datetime
 from pathlib import Path
 
-
-CUTOFF_YEARS = 3  # Remove records with deadlines older than this
 
 AWARD_TYPE_MAP = {
     "postdoctoral fellowship": "Postdoctoral Fellowship",
@@ -74,74 +74,100 @@ def parse_deadline(dl_str):
         return None
 
 
-BASE_FIELDS = ("deadline", "deadlineSort", "deadlinePassed", "sortTier", "season", "status")
+def load_audit(data_path):
+    """Record numbers removed after the last audit, and the audit date."""
+    path = Path(data_path).with_name("excluded_ids.json")
+    if not path.exists():
+        return set(), ""
+    with open(path) as f:
+        audit = json.load(f)
+    return {r["id"] for r in audit["records"]}, audit.get("audited", "")
 
 
-def merge_base(records, base):
-    by_id = {r["id"]: r for r in records}
-    updated = added = 0
+def merge_base(records, base, excluded, audited=""):
+    """Merge fresh spreadsheet rows (from 01_extract.py) into the site data.
+
+    - Rows marked deleted in the spreadsheet are removed from the site.
+    - A listing's deadline is replaced only when staff updated that row after
+      the last audit (its "Last Updated" date), its own date has passed or is
+      missing, and the spreadsheet's date is newer. Dates confirmed against
+      sponsor sites aren't overwritten by older projections, and rolling
+      programs keep no date.
+    - Status (verified / unverified) follows the spreadsheet.
+    - Rows not on the site are returned separately for research; they are
+      not published, since the spreadsheet has no descriptions or links.
+    """
+    today = datetime.date.today().isoformat()
+    by_id = {}
+    for r in records:
+        by_id.setdefault(r["id"], []).append(r)
+    # The spreadsheet can list a record twice; prefer the published row
+    rows = {}
     for b in base:
-        r = by_id.get(b["id"])
-        if r is None:
-            records.append(b)
-            by_id[b["id"]] = b
-            added += 1
+        if b["id"] not in rows or rows[b["id"]]["status"] != "Published":
+            rows[b["id"]] = b
+    deleted, updated, new = set(), 0, []
+    for b in rows.values():
+        rid = b["id"]
+        if b["status"] == "Deleted":
+            if rid in by_id:
+                deleted.add(rid)
             continue
-        # Only take the spreadsheet's deadline when it has one
-        fields = BASE_FIELDS if b.get("deadline") else ("season", "status")
-        for k in fields:
-            r[k] = b[k]
-        updated += 1
-    print(f"Merged base: {updated} updated, {added} added")
-    return records
+        if rid not in by_id:
+            if rid not in excluded:
+                new.append(b)
+            continue
+        for r in by_id[rid]:
+            changed = r["status"] != b["status"]
+            r["status"] = b["status"]
+            current = r.get("deadlineSort") or "9999-12-31"
+            rolling = current.startswith("9999") and r.get("season") == "Open/Rolling"
+            stale = current < today or current.startswith("9999")
+            fresh = b.get("updated", "") > audited
+            if b["deadline"] and fresh and stale and not rolling and \
+               (current.startswith("9999") or b["deadlineSort"] > current):
+                for k in ("deadline", "deadlineSort", "season"):
+                    r[k] = b[k]
+                changed = True
+            updated += changed
+    records = [r for r in records if r["id"] not in deleted]
+    print(f"Merged spreadsheet: {updated} listings updated, {len(deleted)} removed as deleted, "
+          f"{len(new)} new rows need research")
+    return records, new
 
 
 def process_records(records):
+    """Normalize award types and recompute deadline flags. Nothing is removed:
+    the app estimates the next cycle from past deadlines, and listings come
+    off the site only when the spreadsheet marks them deleted."""
     today = datetime.date.today()
-    cutoff = today.replace(year=today.year - CUTOFF_YEARS)
-
-    out = []
-    removed = 0
-
     for r in records:
-        # Remove incomplete + stale records
-        if not r.get("description") and not r.get("eligibility") and r.get("sortTier") == 2:
-            removed += 1
-            continue
-
-        # Normalize award type
         if r.get("awardType"):
             r["awardType"] = normalize_award_type(r["awardType"])
-
-        # Recompute sort tier from deadline
         dl_date = parse_deadline(r.get("deadline"))
         if dl_date:
-            if dl_date < cutoff:
-                removed += 1
-                continue
-            passed = dl_date < today
-            r["deadlinePassed"] = passed
             r["deadlineSort"] = dl_date.strftime("%Y-%m-%d")
-            r["sortTier"] = 2 if passed else 0
-        elif not r.get("deadline"):
-            r["sortTier"] = 1
+            r["deadlinePassed"] = dl_date < today
+            r["sortTier"] = 2 if dl_date < today else 0
+        else:
+            r["deadline"] = ""
             r["deadlineSort"] = "9999-12-31"
             r["deadlinePassed"] = False
-
-        out.append(r)
-
-    print(f"Processed: {len(out)} records kept, {removed} removed")
-    return out
+            r["sortTier"] = 1
+    print(f"Processed: {len(records)} records")
+    return records
 
 
 def rebuild_html(data, html_path, output_path):
     with open(html_path) as f:
         html = f.read()
 
-    # Replace the DATA block
-    new_data_js = json.dumps(data, separators=(",", ":"))
-    start = html.index("const DATA=[")
-    end = html.index("];", start) + 2
+    # Replace the DATA line. Compact JSON has no raw newlines, so the data
+    # always ends at the end of its line; "</" is escaped so text in the
+    # data can't close the <script> tag.
+    new_data_js = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
+    start = html.index("const DATA=")
+    end = html.index("\n", start)
     html = html[:start] + "const DATA=" + new_data_js + ";" + html[end:]
 
     with open(output_path, "w") as f:
@@ -164,7 +190,12 @@ def main():
 
     if args.base:
         with open(args.base) as f:
-            records = merge_base(records, json.load(f))
+            excluded, audited = load_audit(args.data)
+            records, new = merge_base(records, json.load(f), excluded, audited)
+        new_path = Path(args.data).with_name("new_from_spreadsheet.json")
+        with open(new_path, "w") as f:
+            json.dump(new, f, indent=2)
+        print(f"Rows to research before adding: {new_path}")
 
     records = process_records(records)
 
