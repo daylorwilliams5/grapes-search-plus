@@ -15,12 +15,13 @@ Live demo: https://daylorwilliams5.github.io/grapes-search-plus/grapes-fellowshi
 
 ## Features
 
-- Natural language search with synonym expansion (e.g. "psychology" → behavioral, cognitive, social science)
-- Field of Study filter: Social Sciences, STEM, Humanities, Health, Arts, Law & Policy, Education, International
-- Award Type filter: Postdoctoral, Dissertation, Research Grant, Travel Grant, Scholarship, Internship
-- Season filter: Fall, Winter, Spring, Summer, Open/Rolling
-- Defaults to active/upcoming deadlines — past deadlines hidden by toggle
-- Fully self-contained single HTML file — no server, no login, no dependencies
+- Natural language search with synonym expansion (e.g. "psychology" → behavioral, cognitive, social science), with matches highlighted
+- Multi-select filters with live counts: deadline status, award type, field of study, application season, verified-only
+- Recurring deadlines: when a listed deadline has passed, the next cycle is estimated from it instead of hiding the listing
+- Detail panel for each award, with sponsor, amount, eligibility, and a link to the official page
+- Save awards to a personal list (stored in the browser)
+- Shareable searches: filters and keywords are kept in the URL
+- Fully self-contained single HTML file — no server, no login, no build step (web fonts load from Google Fonts, with system-font fallback)
 
 ---
 
