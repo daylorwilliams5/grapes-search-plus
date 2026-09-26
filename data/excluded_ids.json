@@ -1,0 +1,171 @@
+{
+  "note": "Record numbers removed after the September 2026 audit. 03_merge_and_rebuild.py will not re-add them from the spreadsheet. Delete an entry here to allow it back.",
+  "audited": "2026-09-25",
+  "records": [
+    {
+      "id": 2,
+      "title": "Laboratory Graduate Research Appointments",
+      "reason": "Duplicate of 489"
+    },
+    {
+      "id": 17,
+      "title": "Postdoctoral Research Associates Program",
+      "reason": "Deleted by DGE (Jan 2025)"
+    },
+    {
+      "id": 32,
+      "title": "Grants for Health Services Research Dissertation Program",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 43,
+      "title": "Professional Internship Program",
+      "reason": "Deleted by DGE (Jan 2025)"
+    },
+    {
+      "id": 46,
+      "title": "Naval Research Laboratory (NRL) Postdoctoral Fellowship Program",
+      "reason": "Deleted by DGE (Jan 2025)"
+    },
+    {
+      "id": 91,
+      "title": "Library Research Grants",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 92,
+      "title": "Harvey Fellows Program",
+      "reason": "No longer selecting new fellows"
+    },
+    {
+      "id": 104,
+      "title": "Jennings Randolph Peace Scholarship Dissertation Program",
+      "reason": "No current program page (USIP fellowship pages removed)"
+    },
+    {
+      "id": 122,
+      "title": "Fellowships in the Humanities and Social Sciences in Turkey",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 164,
+      "title": "Glenn Foundation/AFAR Breakthroughs in Gerontology Award",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 239,
+      "title": "Arit Summer Fellowships For Intensive Advanced Turkish Language Study at Bogazici University, Istanbul",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 243,
+      "title": "Clark Postdoctoral Fellowships",
+      "reason": "Not offered for 2026-27"
+    },
+    {
+      "id": 280,
+      "title": "Postdoctoral Research Program",
+      "reason": "Deleted by DGE (Jan 2025)"
+    },
+    {
+      "id": 313,
+      "title": "National Endowment for the Arts (NEA) Literature Fellowships, Creative Writing",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 337,
+      "title": "Associate Fellowship Program",
+      "reason": "Program paused"
+    },
+    {
+      "id": 343,
+      "title": "Predoctoral Program",
+      "reason": "Deleted by DGE (Jan 2025)"
+    },
+    {
+      "id": 418,
+      "title": "Natural Sciences or Engineering, Nuclear Security, Social Media Lab, Biotechnology and Innovation, and International Security Fellowship",
+      "reason": "Duplicate of 278"
+    },
+    {
+      "id": 495,
+      "title": "EMGIP (\u00c9migr\u00e9 Memorial German Internship Program) Bundestag Internship",
+      "reason": "No current program page; funding suspended"
+    },
+    {
+      "id": 503,
+      "title": "Hunt Postdoctoral Fellowship",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 533,
+      "title": "Grants-in-Aid for Research at the Rockefeller Archive Center",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 645,
+      "title": "Grassroots Development Fellowship Program",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 666,
+      "title": "FLoW Regional Clean Energy Business Plan Competition",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 744,
+      "title": "Residential Postdoctoral Fellowship Program",
+      "reason": "Program paused"
+    },
+    {
+      "id": 857,
+      "title": "Multicultural Postdoctoral Fellowship Program",
+      "reason": "No reachable program page"
+    },
+    {
+      "id": 926,
+      "title": "Craft Research Fund Graduate Grant",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 929,
+      "title": "Craft Research Fund Project Grants",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 951,
+      "title": "Allergan-USC Industry Fellowship USC-Allergan Pharmaceutical Industry Fellowship",
+      "reason": "Discontinued"
+    },
+    {
+      "id": 954,
+      "title": "Summer Fellowships in Disability Policy Research",
+      "reason": "Not offered this cycle"
+    },
+    {
+      "id": 1053,
+      "title": "William Andrews Clark Memorial Library",
+      "reason": "Duplicate of 967 (general Clark Library fellowships listing)"
+    },
+    {
+      "id": 1054,
+      "title": "William Andrews Clark Memorial Library Dissertation Fellowships/Predoctoral Fellowships",
+      "reason": "Duplicate of 794"
+    },
+    {
+      "id": 1065,
+      "title": "Helen and Robert Appel Fellowship in History and Technology",
+      "reason": "No details available"
+    },
+    {
+      "id": 1066,
+      "title": "Robert David Lion Gardiner Foundation/Andrew W. Mellon Foundation Fellowship",
+      "reason": "No details available"
+    },
+    {
+      "id": 1115,
+      "title": "Black Feminism Initiative (BFI) Graduate Fellowships",
+      "reason": "Duplicate of 1063 and 1064"
+    }
+  ]
+}

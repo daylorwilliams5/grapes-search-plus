@@ -1,11 +1,14 @@
 name: Update Fellowship Data
 
-# Runs automatically at the start of each UCLA academic cycle:
+# Merges the latest GRAPES spreadsheet into the site at the start of each
+# UCLA academic cycle:
 #   Fall    → September 1
 #   Winter  → January 1
 #   Spring  → March 15
 #   Summer  → June 15
-# Can also be triggered manually from the GitHub Actions tab.
+# The spreadsheet comes from the newest .xlsx in data/, or from a link given
+# when running the workflow by hand from the Actions tab. With neither, the
+# run does nothing.
 
 on:
   schedule:
@@ -16,9 +19,12 @@ on:
   workflow_dispatch:
     inputs:
       spreadsheet_url:
-        description: 'Direct URL to the latest GRAPES .xlsx spreadsheet (optional)'
+        description: 'Direct download link to the latest GRAPES .xlsx spreadsheet (optional)'
         required: false
         default: ''
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -34,36 +40,37 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pandas openpyxl requests python-dateutil
+        run: pip install pandas openpyxl python-dateutil
 
-      - name: Download latest spreadsheet (if URL provided)
+      - name: Download spreadsheet (if a link was given)
         if: ${{ github.event.inputs.spreadsheet_url != '' }}
+        env:
+          SPREADSHEET_URL: ${{ github.event.inputs.spreadsheet_url }}
         run: |
-          curl -L "${{ github.event.inputs.spreadsheet_url }}" -o data/GRAPES_latest.xlsx
-          echo "Downloaded spreadsheet from URL."
+          curl -fsSL "$SPREADSHEET_URL" -o data/GRAPES_latest.xlsx
+          echo "Downloaded spreadsheet."
 
-      - name: Check for spreadsheet
+      - name: Find spreadsheet
         id: check
         run: |
-          if ls data/*.xlsx 1> /dev/null 2>&1; then
-            SHEET=$(ls data/*.xlsx | head -1)
-            echo "found=true" >> $GITHUB_OUTPUT
-            echo "sheet=$SHEET" >> $GITHUB_OUTPUT
-            echo "Spreadsheet found: $SHEET"
+          SHEET=$(ls -t data/*.xlsx 2>/dev/null | head -1)
+          if [ -n "$SHEET" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            echo "sheet=$SHEET" >> "$GITHUB_OUTPUT"
+            echo "Using spreadsheet: $SHEET"
           else
-            echo "found=false" >> $GITHUB_OUTPUT
-            echo "No spreadsheet found in data/. Skipping extraction."
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "No spreadsheet in data/ and no link given. Nothing to update."
           fi
 
       - name: Extract fellowship records
         if: steps.check.outputs.found == 'true'
+        env:
+          SHEET: ${{ steps.check.outputs.sheet }}
         run: |
-          python scripts/01_extract.py \
-            --input "${{ steps.check.outputs.sheet }}" \
-            --output data/fellowships_base.json \
-            --cutoff-years 3
+          python scripts/01_extract.py --input "$SHEET" --output data/fellowships_base.json
 
-      - name: Rebuild HTML from updated data
+      - name: Merge and rebuild the site
         if: steps.check.outputs.found == 'true'
         run: |
           python scripts/03_merge_and_rebuild.py \
@@ -73,19 +80,16 @@ jobs:
             --output grapes-fellowship-finder.html
 
       - name: Commit and push if anything changed
+        if: steps.check.outputs.found == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add grapes-fellowship-finder.html data/fellowships_master.json data/fellowships_base.json
+          git add grapes-fellowship-finder.html data/fellowships_master.json data/new_from_spreadsheet.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            CYCLE=$(python -c "
-          import datetime
-          m = datetime.date.today().month
-          cycle = 'Fall' if m >= 9 else 'Summer' if m >= 6 else 'Spring' if m >= 3 else 'Winter'
-          print(cycle)
-          ")
+            m=$(date +%-m)
+            if [ "$m" -ge 9 ]; then CYCLE=Fall; elif [ "$m" -ge 6 ]; then CYCLE=Summer; elif [ "$m" -ge 3 ]; then CYCLE=Spring; else CYCLE=Winter; fi
             git commit -m "Auto-update: $CYCLE cycle $(date +'%Y-%m-%d')"
             git push
           fi

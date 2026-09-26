@@ -2,7 +2,11 @@
 01_extract.py
 =============
 Extracts fellowship records from the UCLA DGE GRAPES Excel spreadsheet
-and produces a base JSON file ready for enrichment.
+and produces a base JSON file for 03_merge_and_rebuild.py --base.
+
+Reads the "GRAPES Updates" sheet (or the first sheet if it's missing).
+Columns are matched by the start of their header, so small wording
+changes like "STATUS (published, pending, delete, deleted)" still work.
 
 Usage:
     python 01_extract.py --input "GRAPES AnnLog.xlsx" --output ../data/fellowships_base.json
@@ -15,122 +19,130 @@ import pandas as pd
 import json
 import argparse
 import datetime
-import re
 from pathlib import Path
 
 
+# Header prefixes for each field, checked in order
+COLUMNS = {
+    "id": ["RECORD NUMBER", "RECORD_NUMBER", "ID", "REC NUM"],
+    "title": ["AWARD TITLE", "TITLE"],
+    "agency1": ["AGENCY 1", "AGENCY", "SPONSOR"],
+    "agency2": ["AGENCY 2", "CO-SPONSOR", "CO SPONSOR"],
+    "period": ["APPLICATION PERIOD", "SEASON", "REVIEW PERIOD"],
+    "deadline": ["DEADLINE"],
+    "status": ["STATUS (", "STATUS"],
+    "active": ["STATUS:", "ACTIVE"],
+    "updated": ["LAST UPDATED", "UPDATED"],
+}
+
+
+def find_columns(columns):
+    headers = {c: str(c).strip().upper().replace("_", " ") for c in columns}
+    found = {}
+    for field, prefixes in COLUMNS.items():
+        for p in prefixes:
+            match = next((c for c, h in headers.items() if h.startswith(p) and c not in found.values()), None)
+            if match is not None:
+                found[field] = match
+                break
+    return found
+
+
+def cell(row, cols, field):
+    """Cell text, or '' for missing/empty cells."""
+    col = cols.get(field)
+    if col is None:
+        return ""
+    v = row[col]
+    if v is None or (not isinstance(v, str) and pd.isna(v)):
+        return ""
+    return str(v).strip()
+
+
 def normalize_season(val):
-    if not val or pd.isna(val):
-        return "Open/Rolling"
-    v = str(val).strip()
+    v = (val or "").lower()
     for s in ["Fall", "Winter", "Spring", "Summer"]:
-        if s.lower() in v.lower():
+        if s.lower() in v:
             return s
     return "Open/Rolling"
 
 
+def normalize_status(val):
+    v = (val or "").strip().upper()
+    if v.startswith("DELETE"):
+        return "Deleted"
+    if v.startswith("PENDING"):
+        return "Pending"
+    return "Published"
+
+
 def parse_deadline(dl):
-    if pd.isna(dl):
-        return None, None, None
-    if isinstance(dl, datetime.datetime):
-        return dl.date(), dl.strftime("%b %d, %Y"), dl.strftime("%Y-%m-%d")
-    try:
-        dt = pd.to_datetime(str(dl), errors="coerce")
-        if pd.notna(dt):
-            return dt.date(), dt.strftime("%b %d, %Y"), dt.strftime("%Y-%m-%d")
-    except Exception:
-        pass
-    return None, str(dl).strip(), "9999-12-31"
+    if dl is None or (not isinstance(dl, str) and pd.isna(dl)):
+        return None
+    dt = pd.to_datetime(dl, errors="coerce")
+    return None if pd.isna(dt) else dt.date()
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True, help="Path to DGE GRAPES .xlsx file")
     parser.add_argument("--output", default="../data/fellowships_base.json")
-    parser.add_argument("--cutoff-years", type=int, default=3,
-                        help="Skip fellowships with deadlines older than this many years")
     args = parser.parse_args()
 
     today = datetime.date.today()
-    cutoff = today.replace(year=today.year - args.cutoff_years)
 
-    # Load spreadsheet — try multiple sheet names
     xl = pd.ExcelFile(args.input)
     print(f"Sheets found: {xl.sheet_names}")
-    sheet = next((s for s in xl.sheet_names if "annual" in s.lower() or "fellow" in s.lower()), xl.sheet_names[0])
+    sheet = next((s for s in xl.sheet_names if s.strip().lower() == "grapes updates"), xl.sheet_names[0])
     df = pd.read_excel(args.input, sheet_name=sheet)
     print(f"Loaded {len(df)} rows from sheet '{sheet}'")
 
-    # Normalize column names
-    df.columns = [str(c).strip().upper().replace(" ", "_") for c in df.columns]
-    print(f"Columns: {list(df.columns)}")
-
-    # Parse deadlines
-    if "DEADLINE" in df.columns:
-        df["DEADLINE"] = pd.to_datetime(df["DEADLINE"], errors="coerce")
+    cols = find_columns(df.columns)
+    print(f"Columns used: {cols}")
+    missing = [f for f in ("id", "title", "deadline") if f not in cols]
+    if missing:
+        raise SystemExit(f"Spreadsheet is missing required columns: {missing}")
 
     records = []
-    skipped = 0
-
     for _, row in df.iterrows():
-        # Get ID
-        rid = row.get("RECORD_NUMBER") or row.get("ID") or row.get("REC_NUM") or None
-        if pd.isna(rid) if rid is not None else True:
-            continue
-        rid = int(rid)
-
-        title = str(row.get("TITLE") or row.get("AWARD_TITLE") or "").strip()
-        if not title:
+        rid = pd.to_numeric(row[cols["id"]], errors="coerce")
+        title = cell(row, cols, "title")
+        if pd.isna(rid) or not title:
             continue
 
-        agency1 = str(row.get("AGENCY") or row.get("SPONSOR") or row.get("AGENCY_1") or "").strip()
-        agency2 = str(row.get("AGENCY_2") or row.get("CO_SPONSOR") or "").strip()
-        season = normalize_season(row.get("SEASON") or row.get("REVIEW_PERIOD"))
-        status = str(row.get("STATUS") or "Published").strip()
-
-        # Deadline
-        dl_raw = row.get("DEADLINE")
-        dl_date, dl_str, dl_sort = parse_deadline(dl_raw)
-
-        # Skip too-old deadlines
-        if dl_date and dl_date < cutoff:
-            skipped += 1
-            continue
-
-        # Determine sort tier
-        dl_passed = bool(dl_date and dl_date < today)
-        if dl_date and not dl_passed:
-            sort_tier = 0  # upcoming
-        elif not dl_date:
-            sort_tier = 1  # no deadline
-        else:
-            sort_tier = 2  # recently passed
+        dl = parse_deadline(row[cols["deadline"]])
+        updated = parse_deadline(row[cols["updated"]]) if "updated" in cols else None
+        status = normalize_status(cell(row, cols, "status"))
+        if cell(row, cols, "active").upper().startswith("D"):
+            status = "Deleted"
 
         records.append({
-            "id": rid,
+            "id": int(rid),
             "title": title,
-            "agency1": agency1,
-            "agency2": agency2 if agency2 and agency2 != "nan" else "",
-            "season": season,
-            "deadline": dl_str,
-            "deadlineSort": dl_sort or "9999-12-31",
-            "deadlinePassed": dl_passed,
-            "sortTier": sort_tier,
-            "status": status if status != "nan" else "Published",
+            "agency1": cell(row, cols, "agency1"),
+            "agency2": cell(row, cols, "agency2"),
+            "season": normalize_season(cell(row, cols, "period")),
+            "deadline": dl.strftime("%b %d, %Y") if dl else "",
+            "deadlineSort": dl.isoformat() if dl else "9999-12-31",
+            "deadlinePassed": bool(dl and dl < today),
+            "sortTier": (2 if dl < today else 0) if dl else 1,
+            "status": status,
             "officialUrl": "",
             "description": "",
             "eligibility": "",
             "amount": "",
             "awardType": "",
             "enriched": False,
+            "updated": updated.isoformat() if updated else "",
         })
 
-    print(f"Extracted: {len(records)} records | Skipped (too old): {skipped}")
+    print(f"Extracted {len(records)} records "
+          f"({sum(r['status'] == 'Deleted' for r in records)} marked deleted)")
 
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w") as f:
-        json.dump(records, f, indent=2, default=str)
+        json.dump(records, f, indent=2)
     print(f"Saved to {out}")
 
 
