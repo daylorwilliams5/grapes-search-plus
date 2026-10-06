@@ -25,13 +25,20 @@ Listings reviewed by DGE this cycle are marked verified. The rest are shown with
 
 ## Updating the data
 
-The data refreshes automatically at the start of each application cycle (September 1, January 1, March 15, and June 15) through a GitHub Actions workflow. It can also be run by hand from the **Actions** tab, optionally with a link to the latest GRAPES spreadsheet.
+A GitHub Actions workflow merges the latest GRAPES spreadsheet into the site at the start of each application cycle (September 1, January 1, March 15, and June 15). To use it, either commit the spreadsheet to `data/` (the newest `.xlsx` there is used) or run the workflow by hand from the **Actions** tab with a direct download link. With neither, the run does nothing.
 
 Each run does the following:
 
-1. **Extract** records from the GRAPES `.xlsx` file in `data/`.
-2. **Merge** them into the existing data. Deadlines, season, and status come from the spreadsheet. Descriptions, eligibility, amounts, and links are kept. New awards are added, and awards whose deadlines are more than three years old are removed.
-3. **Rebuild** the HTML page and commit the changes.
+1. **Extract** the rows from the spreadsheet's "GRAPES Updates" sheet.
+2. **Merge** them into the site data:
+   - Listing status (verified or unverified) follows the spreadsheet.
+   - A deadline from the spreadsheet is used only if staff updated that row after the last audit, the listing's own date has passed, and the spreadsheet's date is newer. This keeps deadlines that were confirmed on sponsor sites.
+   - Rows marked deleted in the spreadsheet come off the site.
+   - Rows not yet on the site are saved to `data/new_from_spreadsheet.json` to be researched, rather than published without a description or link.
+   - Record numbers in `data/excluded_ids.json` (programs removed as discontinued, paused, or duplicate) are never added back.
+3. **Rebuild** the page and commit the changes.
+
+Listings are never removed just because their deadline is old. The page estimates the next deadline from the last one for a year and a half, then asks students to check the sponsor's page.
 
 To run the same steps locally:
 
@@ -49,18 +56,26 @@ python scripts/03_merge_and_rebuild.py \
   --output grapes-fellowship-finder.html
 ```
 
-New awards added this way have only the basic details from the spreadsheet. `scripts/02_enrich.py` is a starting point for filling in descriptions, eligibility, and links from the sponsors' websites.
+`scripts/02_enrich.py` is a starting point for filling in descriptions, eligibility, and links for new rows from the sponsors' websites.
+
+## Turning on "Submit a fellowship"
+
+The page has a form for suggesting new fellowships, but its button stays hidden until it's connected to a Google Form. To turn it on, create a Google Form with fields for the link, name, notes, and extracted details, then replace `FORM_ID` and the four `entry.*` values in `GFORM_URL` and `GFORM_ENTRIES` near the end of `grapes-fellowship-finder.html`.
 
 ## Files
 
 | File | Description |
 |------|-------------|
 | `grapes-fellowship-finder.html` | The app, with the data embedded. Open it in any browser. |
+| `index.html` | Sends the site's root address to the app |
 | `data/fellowships_master.json` | All fellowship records, including descriptions and eligibility |
+| `data/excluded_ids.json` | Record numbers removed after the September 2026 audit, with reasons |
+| `data/new_from_spreadsheet.json` | Spreadsheet rows waiting to be researched (written by each update) |
 | `scripts/01_extract.py` | Extracts records from the DGE GRAPES spreadsheet |
 | `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
-| `scripts/03_merge_and_rebuild.py` | Merges new spreadsheet records into the data and rebuilds the HTML |
+| `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
+| `grapes-system-design.md`, `chat-system-design.md` | Design notes |
 
 ## Data source
 
