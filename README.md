@@ -58,6 +58,32 @@ python scripts/03_merge_and_rebuild.py \
 
 `scripts/02_enrich.py` is a starting point for filling in descriptions, eligibility, and links for new rows from the sponsors' websites.
 
+## Checking listings with the research agent
+
+Instead of scraping sponsor sites, a Claude research agent can check listings and propose updates. For each listing it searches the web, reads the sponsor's pages, and reports the current deadline, award amount, eligibility, and official link. Every value must come with the page it came from and a quote copied from that page. The script then checks each quote against the page text and drops any value whose quote isn't on the page or doesn't contain the value.
+
+Checked changes are never published directly. The **Agent Research** workflow opens a pull request with the changes and a report of the evidence, and DGE staff review and merge it. The agent only:
+
+- moves a deadline later (never earlier),
+- fills in an amount when a listing has none,
+- replaces a link when the current one is broken.
+
+It never changes a listing's verified status. Eligibility differences and programs that look discontinued are listed in the report for staff to handle.
+
+To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently. Each run prints its token use and an estimated cost.
+
+To run it locally:
+
+```bash
+pip install anthropic requests beautifulsoup4 python-dateutil pypdf
+export ANTHROPIC_API_KEY=...
+
+python scripts/02_agent_research.py --limit 5            # report only
+python scripts/02_agent_research.py --ids 97,412 --apply # write changes to the data
+```
+
+The report is written to `data/agent_report.md`. Tests for the evidence checks run with `python -m pytest tests/` and don't call the API.
+
 ## Turning on "Submit a fellowship"
 
 The page has a form for suggesting new fellowships, but its button stays hidden until it's connected to a Google Form. To turn it on, create a Google Form with fields for the link, name, notes, and extracted details, then replace `FORM_ID` and the four `entry.*` values in `GFORM_URL` and `GFORM_ENTRIES` near the end of `grapes-fellowship-finder.html`.
@@ -73,8 +99,11 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `data/new_from_spreadsheet.json` | Spreadsheet rows waiting to be researched (written by each update) |
 | `scripts/01_extract.py` | Extracts records from the DGE GRAPES spreadsheet |
 | `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
+| `scripts/02_agent_research.py` | Checks listings against sponsor sites with a research agent and proposes verified updates |
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
+| `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
+| `tests/` | Tests for the research agent's evidence checks |
 | `grapes-system-design.md`, `chat-system-design.md` | Design notes |
 
 ## Data source
