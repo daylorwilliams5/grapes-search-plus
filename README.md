@@ -100,6 +100,8 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/01_extract.py` | Extracts records from the DGE GRAPES spreadsheet |
 | `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
 | `scripts/02_agent_research.py` | Checks listings against sponsor sites with a research agent and proposes verified updates |
+| `scripts/make_worklist.py` | Builds a spreadsheet for checking listings by hand, sorted by upcoming deadline |
+| `worklists/` | Manual update worklists |
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 | `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
