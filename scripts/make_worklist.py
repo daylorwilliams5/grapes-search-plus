@@ -80,7 +80,7 @@ in_fill = PatternFill('solid', fgColor='FFF7D6')
 thin = Side(style='thin', color='D0D0D0')
 border = Border(bottom=thin)
 link_font = Font(name=F, size=10, color='0563C1', underline='single')
-STATUSES = ['Updated', 'No change needed', 'Not posted yet', 'Discontinued / paused', 'Link broken - new link found', 'Link broken - not found']
+STATUSES = ['Updated', 'No change needed', 'Not posted yet', 'Open deadline (no date)', 'Discontinued / paused', 'Link broken - new link found', 'Link broken - not found']
 
 # A distinctive word from each title, since the backend searches by program
 # name and works best with a single word: the word that appears in the
@@ -132,6 +132,9 @@ lines = [
     ('"Website (backend format)" is the official link without http:// or https://, ready to paste into the backend Website field.', base),
     ('"Estimated next deadline" rolls the last known deadline forward a year. It is a guess to help prioritize, not a confirmed date.', base),
     ('"Days left" counts from today and updates when the file is opened.', base),
+    ('"New deadline" shows as M/D/YYYY (e.g. 2/1/2027), the format the backend\'s Deadline Date field asks for.', base),
+    ('"Campus deadline?" is Yes when the date is a UCLA internal deadline (check the Campus Deadline box in the backend).', base),
+    ('For programs with no fixed date, pick Status "Open deadline (no date)" and check Open Deadline in the backend.', base),
     ('', base),
     ('Priorities', bold),
 ]
@@ -149,17 +152,17 @@ for i, (t, f) in enumerate(lines, 1):
     c = ws0.cell(row=i, column=1, value=t)
     c.font = f
 ex_r = len(lines) + 1
-ex_hdr = ['Backend record matches?', 'New deadline', 'New amount', 'Source link', 'Status', 'Notes', 'Checked by', 'Date checked']
-ex_val = ['Yes', datetime.date(2026, 11, 1), '$30,000 stipend', 'https://www.lbi.org/about/fellowships/lbi-daad-fellowships/',
+ex_hdr = ['Backend record matches?', 'New deadline', 'Campus deadline?', 'New amount', 'Source link', 'Status', 'Notes', 'Checked by', 'Date checked']
+ex_val = ['Yes', datetime.date(2026, 11, 1), 'No', '$30,000 stipend', 'https://www.lbi.org/about/fellowships/lbi-daad-fellowships/',
           'Updated', 'Second deadline May 1 for spring cycle', 'DW', datetime.date(2026, 10, 13)]
 for j, (h, v) in enumerate(zip(ex_hdr, ex_val), 1):
     hc = ws0.cell(row=ex_r, column=j, value=h); hc.font = hdr_font; hc.fill = in_hdr_fill
     hc.alignment = Alignment(wrap_text=True)
     vc = ws0.cell(row=ex_r + 1, column=j, value=v); vc.font = base; vc.fill = in_fill
     if isinstance(v, datetime.date):
-        vc.number_format = 'mmm d, yyyy'
+        vc.number_format = 'm/d/yyyy' if h == 'New deadline' else 'mmm d, yyyy'
 ws0.column_dimensions['A'].width = 16
-for col, w in zip('BCDEFGH', [14, 18, 40, 16, 34, 12, 14]):
+for col, w in zip('BCDEFGHI', [14, 11, 18, 40, 16, 34, 12, 14]):
     ws0.column_dimensions[col].width = w
 
 # ---------------- Worklist ----------------
@@ -168,7 +171,7 @@ cols = [
     ('Priority', 16), ('Record #', 9), ('Search word', 14), ('Title', 44), ('Sponsor', 30),
     ('Site status', 12), ('Season', 11), ('Deadline on file', 15), ('Estimated next deadline', 15),
     ('Days left', 9), ('Amount on file', 22), ('Official link', 12), ('Website (backend format)', 36),
-    ('Backend record matches?', 13), ('New deadline', 14), ('New amount', 18), ('Source link', 30),
+    ('Backend record matches?', 13), ('New deadline', 14), ('Campus deadline?', 11), ('New amount', 18), ('Source link', 30),
     ('Status', 24), ('Notes', 36), ('Checked by', 11), ('Date checked', 13),
 ]
 C = {h: j for j, (h, _) in enumerate(cols, 1)}
@@ -202,8 +205,10 @@ for i, (p, _, _, r, last, nxt) in enumerate(rows, 2):
         c.alignment = Alignment(vertical='top', wrap_text=j in wrap)
         if j >= FIRST_INPUT:
             c.fill = in_fill
-    for h in ('Deadline on file', 'Estimated next deadline', 'New deadline', 'Date checked'):
+    for h in ('Deadline on file', 'Estimated next deadline', 'Date checked'):
         ws.cell(row=i, column=C[h]).number_format = 'mmm d, yyyy'
+    # The backend's Deadline Date field takes M/D/YYYY with no leading zeros
+    ws.cell(row=i, column=C['New deadline']).number_format = 'm/d/yyyy'
     ws.cell(row=i, column=C['Days left']).number_format = '0;-0;0'
     url = r.get('officialUrl') or ''
     if url:
@@ -221,7 +226,7 @@ ws.add_data_validation(dv)
 dv.add(col_range('Status'))
 dvm = DataValidation(type='list', formula1='"Yes,No"', allow_blank=True)
 ws.add_data_validation(dvm)
-dvm.add(col_range('Backend record matches?'))
+dvm.add(col_range('Backend record matches?')); dvm.add(col_range('Campus deadline?'))
 dvd = DataValidation(type='date', operator='greaterThan', formula1='DATE(2020,1,1)', allow_blank=True)
 dvd.error = 'Enter a date, e.g. 11/1/2026'
 ws.add_data_validation(dvd)
