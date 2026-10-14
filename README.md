@@ -101,6 +101,7 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
 | `scripts/02_agent_research.py` | Checks listings against sponsor sites with a research agent and proposes verified updates |
 | `scripts/make_worklist.py` | Builds a spreadsheet for checking listings by hand, sorted by upcoming deadline |
+| `scripts/make_update_list.py` | Builds a spreadsheet of the deadlines and links confirmed in the September audit that differ from the DGE spreadsheet |
 | `worklists/` | Manual update worklists |
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
