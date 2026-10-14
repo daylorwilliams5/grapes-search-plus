@@ -70,6 +70,11 @@ def search_word(r):
     return min(c, key=lambda w: (freq.get(w.lower(), 0), -len(w))) if c else ''
 
 
+def amount(r):
+    a = (r.get('amount') or '').strip()
+    return a if a and a.lower() not in ('not specified', 'varies') else 'Not listed: check sponsor page'
+
+
 # ---------- Work out the updates ----------
 updates, unmatched = [], []
 for r in now:
@@ -187,6 +192,7 @@ lines = [
     ('', base),
     ('Blue cells are the new values. Dates are in M/D/YYYY, the format the backend\'s Deadline Date field asks for.', base),
     ('Websites are shown without https://, the way the backend\'s Website field asks for them.', base),
+    ('Award amount is what the sponsor page said in September. "Not listed" means it wasn\'t found; check the sponsor page.', base),
     ('Some new deadlines have already passed: the sponsor hadn\'t posted the next cycle in September. Enter the newer date,', base),
     ('but check the page first in case the next cycle is now posted.', base),
 ]
@@ -199,7 +205,7 @@ ws = wb.create_sheet('Updates')
 cols = [('Record #', 9), ('Search word', 14), ('Title', 42), ('What to change', 26),
         ('Spreadsheet deadline', 13), ('New deadline', 13), ('New deadline passed?', 11),
         ('Open Deadline box', 11), ('Spreadsheet website', 34), ('New website', 34),
-        ('Backend shows', 16), ('Done', 20), ('Notes', 34)]
+        ('Award amount', 28), ('Backend shows', 16), ('Done', 20), ('Notes', 34)]
 rows = []
 for r, o, ch in updates:
     what = []
@@ -216,13 +222,13 @@ for r, o, ch in updates:
         old_dl, new_dl, ('Yes' if new_dl and new_dl < TODAY else '') if new_dl else '',
         'Check it' if 'open' in ch else '',
         ch['url'][0] if 'url' in ch else '', ch['url'][1] if 'url' in ch else '',
-        None, None, None,
+        amount(r), None, None, None,
     ])
-n = table(ws, cols, rows, first_input=11,
+n = table(ws, cols, rows, first_input=12,
           new_cols={'New deadline', 'Open Deadline box', 'New website'},
-          wrap={'Title', 'Spreadsheet website', 'New website', 'Notes'},
+          wrap={'Title', 'Spreadsheet website', 'New website', 'Award amount', 'Notes'},
           dates={'Spreadsheet deadline', 'New deadline'}, links={'New website'})
-done_dropdown(ws, 'L', n, ['Entered', 'Already up to date', 'Sponsor page differs', 'Record not found'])
+done_dropdown(ws, 'M', n, ['Entered', 'Already up to date', 'Sponsor page differs', 'Record not found'])
 # Add the current website to every row, so the sponsor page is one click away
 for i, (r, _, ch) in enumerate(updates, 2):
     if 'url' not in ch:
@@ -233,15 +239,15 @@ ws.cell(row=1, column=10).value = 'New website (grey = unchanged, link only)'
 # ---------- Check ----------
 wc = wb.create_sheet('Check')
 cols = [('Record #', 9), ('Search word', 14), ('Title', 42), ('Researched deadline', 13),
-        ('Rolling?', 9), ('Researched website', 40), ('Backend shows', 16), ('Done', 20), ('Notes', 34)]
+        ('Rolling?', 9), ('Researched website', 40), ('Award amount', 28), ('Backend shows', 16), ('Done', 20), ('Notes', 34)]
 unmatched.sort(key=lambda r: (day(r['deadlineSort']) is None or day(r['deadlineSort']) < TODAY,
                               day(r['deadlineSort']) or datetime.date(9999, 1, 1)))
 rows = [[r['id'], search_word(r), r['title'], day(r['deadlineSort']),
          'Yes' if r.get('season') == 'Open/Rolling' and not day(r['deadlineSort']) else '',
-         site_url(r['officialUrl']), None, None, None] for r in unmatched]
-n = table(wc, cols, rows, first_input=7, wrap={'Title', 'Researched website', 'Notes'},
+         site_url(r['officialUrl']), amount(r), None, None, None] for r in unmatched]
+n = table(wc, cols, rows, first_input=8, wrap={'Title', 'Researched website', 'Award amount', 'Notes'},
           dates={'Researched deadline'}, links={'Researched website'})
-done_dropdown(wc, 'H', n, ['Matches', 'Entered', 'Sponsor page differs', 'Record not found'])
+done_dropdown(wc, 'I', n, ['Matches', 'Entered', 'Sponsor page differs', 'Record not found'])
 
 # ---------- Review for removal ----------
 wr = wb.create_sheet('Review for removal')
