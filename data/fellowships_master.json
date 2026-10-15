@@ -7170,10 +7170,10 @@
     "agency1": "American Research Center in Egypt (ARCE)",
     "agency2": "U.S. Bureau of Educational & Cultural Affairs (ECA); National Endowment for the Humanities (NEH)",
     "season": "Winter",
-    "deadline": "Jan 05, 2025",
-    "deadlineSort": "2025-01-05",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "",
+    "deadlineSort": "9999-12-31",
+    "deadlinePassed": false,
+    "sortTier": 1,
     "status": "Pending",
     "officialUrl": "https://arce.org/fellowships-landing/",
     "description": "An umbrella of ARCE-administered fellowships (including ARCE-NEH, Digital Humanities, Egyptian PhD Dissertation Research, and Pre-Dissertation Travel Grants) supporting research in Egypt in Egyptology, Islamic studies, and related fields.",
@@ -8016,10 +8016,10 @@
     "agency1": "University of California Natural Reserve System (UC NRS)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Dec 01, 2027",
-    "deadlineSort": "2027-12-01",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadline": "Jan 16, 2026",
+    "deadlineSort": "2026-01-16",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://ucnature.org/research/student-research-funding/mathias-grant/",
     "description": "Funds graduate student research conducted at UC Natural Reserve System field sites, across any discipline.",
@@ -8032,8 +8032,6 @@
       "masters",
       "phd"
     ],
-    "checked": "2026-10-15",
-    "checkedSource": "https://ucnature.org/mathias-graduate-research-grant/application-information/",
     "researched": "2026-10-15"
   },
   {
@@ -8889,8 +8887,8 @@
     "agency1": "University of Michigan (UMich)",
     "agency2": "Department of Afroamerican and African Studies (DAAS)",
     "season": "Fall",
-    "deadline": "Nov 01, 2027",
-    "deadlineSort": "2027-11-01",
+    "deadline": "Nov 01, 2026",
+    "deadlineSort": "2026-11-01",
     "deadlinePassed": false,
     "sortTier": 0,
     "status": "Pending",
@@ -8904,8 +8902,6 @@
     "levels": [
       "postdoc"
     ],
-    "checked": "2026-10-15",
-    "checkedSource": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
     "researched": "2026-10-15"
   },
   {

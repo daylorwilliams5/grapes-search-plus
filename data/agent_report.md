@@ -1,5 +1,7 @@
 # Agent research report
 
+**Removed before merging (left for a manual check):** 72 Mathias (page says Dec 1, 2027 but letters were due Jan 16, 2026, likely a typo on the page), 135 Du Bois-Mandela-Rodney (page has moved on to the following cycle; Nov 1, 2026 may still be right), 189 ARCE (would have filled an empty deadline with Jan 5, 2025). These three keep their previous deadlines and stay unverified. 189's amount is still updated.
+
 50 listings checked, 14 with changes to apply, 22 with a current deadline confirmed on the sponsor's page (these stop showing as unverified on the site). Estimated API cost: $0.72.
 
 Each change below was found on the sponsor's page, and its quote was matched against that page automatically. Please open the source links for anything that looks off.
