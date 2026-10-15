@@ -16,11 +16,11 @@ on:
         required: false
         default: '20'
       select:
-        description: 'Which listings: stale (deadline passed), missing (no amount or deadline), or all'
+        description: 'Which listings: stale (deadline passed), pending (not verified by DGE), missing (no amount or deadline), or all'
         required: false
         default: 'stale'
         type: choice
-        options: [stale, missing, all]
+        options: [stale, pending, missing, all]
       ids:
         description: 'Specific record numbers, comma-separated (overrides the two above)'
         required: false

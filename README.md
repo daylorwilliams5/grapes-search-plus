@@ -69,7 +69,9 @@ Checked changes are never published directly. The **Agent Research** workflow op
 - fills in an amount when a listing has none,
 - replaces a link when the current one is broken.
 
-It never changes a listing's verified status. Eligibility differences and programs that look discontinued are listed in the report for staff to handle.
+It doesn't change a listing's status in the DGE spreadsheet. Eligibility conflicts and programs that look discontinued are listed in the report for staff to handle.
+
+**Checking unverified listings.** Run Agent Research with **pending** selected to check listings DGE hasn't published this cycle, about 50 at a time. When the agent confirms a current deadline on the sponsor's page and the pull request is merged, the listing is marked as checked on that date. The site then treats it as verified for six months: the "Unverified listing" label goes away and the details say when the deadline was checked. Listings the agent couldn't confirm stay unverified and are skipped for 30 days, so the next batch moves on to new ones. Merge each batch's pull request before running the next. Use the reports to mark the same listings published in the GRAPES admin system.
 
 To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently, using Claude Haiku 5.5, the cheapest model. Its price goes up fivefold for prompts over 100,000 tokens, so each listing is limited to 3 searches and 5 pages of up to 10,000 tokens. Pick Sonnet or Opus in the run form for harder listings; they're more thorough and cost more. Each run prints its token use and an estimated cost.
 

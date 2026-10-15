@@ -137,3 +137,22 @@ def test_server_serves_the_page_with_the_panel_and_answers():
             {"reply": "Found one.", "matches": [{"id": 12, "why": "Fits."}]}
     finally:
         server.shutdown()
+
+
+def test_verified_listings_come_first():
+    a = assistant({"reply": "", "matches": [{"id": 99, "why": "Unverified."}, {"id": 12, "why": "Verified."},
+                                            {"id": 5, "why": "Verified too."}]})
+    out = a.ask([{"role": "user", "text": "anything"}])
+    assert [m["id"] for m in out["matches"]] == [12, 5, 99]
+
+
+def test_instructions_prefer_verified_listings():
+    assert "Prefer verified listings" in srv.INSTRUCTIONS
+
+
+def test_recently_checked_listings_count_as_verified():
+    checked = dict(RECORDS[1], checked="2026-09-01")
+    stale = dict(RECORDS[1], id=98, checked="2025-01-01")
+    a = srv.Assistant(FakeClient({}), [checked, stale], today=TODAY)
+    assert a.verified == {99}
+    assert "unverified listing" not in a.catalog.splitlines()[1]

@@ -50,7 +50,8 @@ what to check.
 
 Don't state deadlines, amounts, or links in your reply: the page shows them under each \
 recommendation. Prefer listings that are open or expected to reopen over ones whose dates \
-are unknown.
+are unknown. Prefer verified listings: recommend one marked "unverified listing" only when \
+no verified listing fits as well, and never more unverified than verified ones.
 
 If you need one fact to give a useful answer (degree stage, field, or citizenship), ask \
 for it in one short question, and still suggest what you can. Never ask for a name, \
@@ -108,6 +109,18 @@ def deadline_text(r, today):
             return f"expected to reopen around {nxt:%b %d, %Y}"
 
 
+def is_verified(r, today):
+    """Published by DGE, or its current deadline was confirmed on the sponsor's
+    page in the last six months (the same rule the page uses)."""
+    if r.get("status") == "Published":
+        return True
+    try:
+        checked = datetime.date.fromisoformat(r.get("checked") or "")
+    except ValueError:
+        return False
+    return (today - checked).days <= 183
+
+
 def clip(text, n):
     text = re.sub(r"\s+", " ", text or "").strip()
     return text if len(text) <= n else text[: n - 1] + "…"
@@ -125,7 +138,7 @@ def build_catalog(records, today):
             "U.S. citizens and permanent residents only" if r.get("citizenship") == "us" else "",
             f"eligibility: {clip(r.get('eligibility'), 160)}" if r.get("eligibility") else "",
             f"about: {clip(r.get('description'), 130)}" if r.get("description") else "",
-            "" if r.get("status") == "Published" else "unverified listing",
+            "" if is_verified(r, today) else "unverified listing",
         ]
         lines.append(" | ".join(p for p in parts if p))
     return "\n".join(lines)
@@ -141,6 +154,7 @@ class Assistant:
         self.model = model
         self.today = today or datetime.date.today()
         self.ids = {r["id"] for r in records}
+        self.verified = {r["id"] for r in records if is_verified(r, self.today)}
         self.catalog = build_catalog(records, self.today)
 
     def messages(self, history):
@@ -189,13 +203,15 @@ class Assistant:
         return {"reply": data.get("reply", "").strip(), "matches": self.real_matches(data.get("matches", []))}
 
     def real_matches(self, matches):
-        """Drops record numbers that aren't listings and repeats, and caps the count."""
+        """Drops record numbers that aren't listings and repeats, puts verified
+        listings first (keeping the model's order otherwise), and caps the count."""
         seen, out = set(), []
         for m in matches:
             i = m.get("id")
             if isinstance(i, int) and i in self.ids and i not in seen:
                 seen.add(i)
                 out.append({"id": i, "why": str(m.get("why", "")).strip()})
+        out.sort(key=lambda m: m["id"] not in self.verified)
         return out[:MAX_MATCHES]
 
 

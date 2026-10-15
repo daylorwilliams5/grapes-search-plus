@@ -83,7 +83,8 @@ def test_correct_findings_are_applied(no_network):
     )
     checks, changes, flags = ar.check_findings(record(), f, agent_docs(), TODAY)
     assert checks["deadline"]["verdict"] == "verified"
-    assert changes == {"deadline": "Nov 01, 2026", "amount": "$30,000 stipend"}
+    assert changes == {"deadline": "Nov 01, 2026", "amount": "$30,000 stipend",
+                       "checked": TODAY, "checkedSource": URL}
 
 
 def test_curly_quotes_and_spacing_still_match(no_network):
@@ -229,7 +230,7 @@ def test_research_handles_pause_turn_and_collects_fetched_pages(no_network):
     # The paused turn is sent back so the agent can continue it
     assert client.calls[1]["messages"][-1]["role"] == "assistant"
     _, changes, _ = ar.check_findings(record(), f, docs, TODAY)
-    assert changes == {"deadline": "Nov 01, 2026"}
+    assert changes == {"deadline": "Nov 01, 2026", "checked": TODAY, "checkedSource": URL}
 
 
 def test_research_nudges_once_then_gives_up():
@@ -307,7 +308,7 @@ def test_yearly_date_without_year_is_applied_and_marked():
     docs = {URL: "Applications are accepted annually from 1 November to 1 March."}
     f = findings(deadline=field("2027-03-01", "Applications are accepted annually from 1 November to 1 March."))
     checks, changes, _ = ar.check_findings(record(), f, docs, TODAY)
-    assert changes == {"deadline": "Mar 01, 2027"}
+    assert changes == {"deadline": "Mar 01, 2027", "checked": TODAY, "checkedSource": URL}
     assert checks["deadline"]["year_inferred"] is True
 
 
@@ -338,3 +339,26 @@ def test_citizenship_reading():
     assert ar.citizenship("Open to U.S. citizens and international students") == "open"
     assert ar.citizenship("Graduate students worldwide") == "open"
     assert ar.citizenship("Doctoral candidates in history") is None
+
+
+def test_confirmed_current_deadline_counts_as_a_check_even_if_unchanged(no_network):
+    f = findings(deadline=field("2026-11-01", "Applications are due November 1, 2026"))
+    _, changes, _ = ar.check_findings(record(deadlineSort="2026-11-01", deadline="Nov 01, 2026"),
+                                      f, agent_docs(), TODAY)
+    assert changes == {"checked": TODAY, "checkedSource": URL}
+
+
+def test_past_deadline_is_not_a_check(no_network):
+    docs = {URL: "Applications were due January 5, 2026."}
+    f = findings(deadline=field("2026-01-05", "Applications were due January 5, 2026."))
+    _, changes, _ = ar.check_findings(record(deadlineSort="2025-01-05"), f, docs, TODAY)
+    assert "checked" not in changes
+
+
+def test_select_pending_skips_recent_checks_and_attempts():
+    recs = [record(id=1, status="Pending"),
+            record(id=2, status="Published"),
+            record(id=3, status="Pending", checked="2099-01-01"),
+            record(id=4, status="Pending", researched="2099-01-01"),
+            record(id=5, status="Pending", researched="2000-01-01")]
+    assert [r["id"] for r in ar.select_records(recs, "pending", limit=10)] == [1, 5]

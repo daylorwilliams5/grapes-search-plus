@@ -159,6 +159,13 @@ def select_records(records, mode, ids=None, limit=20):
     if mode == "stale":
         pool = [r for r in records if r.get("deadlinePassed")]
         pool.sort(key=lambda r: r.get("deadlineSort") or "", reverse=True)
+    elif mode == "pending":
+        # Listings DGE hasn't published, not already checked or tried in the
+        # last 30 days, so repeated batches move through the list
+        cutoff = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
+        pool = [r for r in records if r.get("status") != "Published"
+                and max(r.get("checked", ""), r.get("researched", "")) < cutoff]
+        pool.sort(key=lambda r: r["id"])
     elif mode == "missing":
         pool = [r for r in records if not r.get("amount") or not r.get("deadline")]
     else:
@@ -466,6 +473,10 @@ def check_findings(record, findings, agent_docs, today):
                          f"(sponsor: {'U.S. only' if found == 'us_only' else 'open to non-U.S. applicants'})")
     if dl["verdict"] == "verified" and dl["value"] < today:
         flags.append("Sponsor hasn't posted a deadline after today yet")
+    # A current deadline confirmed on the sponsor's page counts as a check
+    if dl["verdict"] == "verified" and dl["value"] >= today:
+        changes["checked"] = today
+        changes["checkedSource"] = dl["source_url"]
     return checks, changes, flags
 
 
@@ -478,13 +489,18 @@ def md(text, limit=300):
     return text if len(text) <= limit else text[:limit] + "…"
 
 
+CHECK_KEYS = ("checked", "checkedSource")
+
+
 def write_report(results, path, cost):
-    applied = [r for r in results if r["changes"]]
+    applied = [r for r in results if any(k not in CHECK_KEYS for k in r["changes"])]
+    confirmed = [r for r in results if "checked" in r["changes"]]
     lines = [
         "# Agent research report",
         "",
-        f"{len(results)} listings checked, {len(applied)} with changes to apply. "
-        f"Estimated API cost: ${cost:.2f}.",
+        f"{len(results)} listings checked, {len(applied)} with changes to apply, "
+        f"{len(confirmed)} with a current deadline confirmed on the sponsor's page "
+        f"(these stop showing as unverified on the site). Estimated API cost: ${cost:.2f}.",
         "",
         "Each change below was found on the sponsor's page, and its quote was matched "
         "against that page automatically. Please open the source links for anything that looks off.",
@@ -496,11 +512,14 @@ def write_report(results, path, cost):
         if r.get("error"):
             lines += [f"Agent did not finish: {r['error']}", ""]
             continue
-        if r["changes"]:
+        edits = {k: v for k, v in r["changes"].items() if k not in CHECK_KEYS}
+        if edits:
             lines += ["| Field | On file | Proposed |", "|---|---|---|"]
-            for k, v in r["changes"].items():
+            for k, v in edits.items():
                 lines.append(f"| {k} | {md(r['before'].get(k))} | {md(v)} |")
             lines.append("")
+        if "checked" in r["changes"]:
+            lines.append("- ✅ Current deadline confirmed on the sponsor's page")
         for flag in r["flags"]:
             lines.append(f"- ⚠️ {flag}")
         lines += ["", "<details><summary>Evidence</summary>", ""]
@@ -531,7 +550,7 @@ def estimate_cost(usage):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", default="data/fellowships_master.json")
-    parser.add_argument("--select", choices=["stale", "missing", "all"], default="stale")
+    parser.add_argument("--select", choices=["stale", "pending", "missing", "all"], default="stale")
     parser.add_argument("--ids", help="Comma-separated record numbers to check")
     parser.add_argument("--limit", type=int, default=20)
     parser.add_argument("--apply", action="store_true", help="Write verified changes to --data")
@@ -584,12 +603,14 @@ def main():
     print(f"Report: {out / 'agent_report.md'}")
 
     if args.apply:
-        by_id = {r["id"]: r for r in results if r["changes"]}
+        by_id = {r["id"]: r for r in results if not r.get("error")}
         n = 0
         for rec in records:
             if rec["id"] in by_id:
                 rec.update(by_id[rec["id"]]["changes"])
-                n += 1
+                # Recorded even with no changes, so a pending batch moves on
+                rec["researched"] = today
+                n += bool(by_id[rec["id"]]["changes"])
         with open(args.data, "w") as f:
             json.dump(records, f, indent=2, default=str)
         print(f"Applied changes to {n} listings in {args.data}. "
