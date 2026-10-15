@@ -446,7 +446,10 @@ def check_findings(record, findings, agent_docs, today):
     dl = checks["deadline"]
     if dl["verdict"] == "verified":
         current = record.get("deadlineSort") or ""
-        if current.startswith("9999") or dl["value"] > current:
+        # A deadline more than a year old says little about the next cycle,
+        # so it never fills in or replaces what's on file
+        year_ago = (datetime.date.fromisoformat(today) - datetime.timedelta(days=365)).isoformat()
+        if dl["value"] >= year_ago and (current.startswith("9999") or dl["value"] > current):
             changes["deadline"] = datetime.date.fromisoformat(dl["value"]).strftime("%b %d, %Y")
         dl["year_inferred"] = year_inferred(dl["value"], dl.get("quote", ""))
     am = checks["amount"]
