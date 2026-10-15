@@ -148,3 +148,11 @@ def test_verified_listings_come_first():
 
 def test_instructions_prefer_verified_listings():
     assert "Prefer verified listings" in srv.INSTRUCTIONS
+
+
+def test_recently_checked_listings_count_as_verified():
+    checked = dict(RECORDS[1], checked="2026-09-01")
+    stale = dict(RECORDS[1], id=98, checked="2025-01-01")
+    a = srv.Assistant(FakeClient({}), [checked, stale], today=TODAY)
+    assert a.verified == {99}
+    assert "unverified listing" not in a.catalog.splitlines()[1]

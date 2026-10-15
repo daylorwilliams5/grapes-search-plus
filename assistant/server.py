@@ -109,6 +109,18 @@ def deadline_text(r, today):
             return f"expected to reopen around {nxt:%b %d, %Y}"
 
 
+def is_verified(r, today):
+    """Published by DGE, or its current deadline was confirmed on the sponsor's
+    page in the last six months (the same rule the page uses)."""
+    if r.get("status") == "Published":
+        return True
+    try:
+        checked = datetime.date.fromisoformat(r.get("checked") or "")
+    except ValueError:
+        return False
+    return (today - checked).days <= 183
+
+
 def clip(text, n):
     text = re.sub(r"\s+", " ", text or "").strip()
     return text if len(text) <= n else text[: n - 1] + "…"
@@ -126,7 +138,7 @@ def build_catalog(records, today):
             "U.S. citizens and permanent residents only" if r.get("citizenship") == "us" else "",
             f"eligibility: {clip(r.get('eligibility'), 160)}" if r.get("eligibility") else "",
             f"about: {clip(r.get('description'), 130)}" if r.get("description") else "",
-            "" if r.get("status") == "Published" else "unverified listing",
+            "" if is_verified(r, today) else "unverified listing",
         ]
         lines.append(" | ".join(p for p in parts if p))
     return "\n".join(lines)
@@ -142,7 +154,7 @@ class Assistant:
         self.model = model
         self.today = today or datetime.date.today()
         self.ids = {r["id"] for r in records}
-        self.verified = {r["id"] for r in records if r.get("status") == "Published"}
+        self.verified = {r["id"] for r in records if is_verified(r, self.today)}
         self.catalog = build_catalog(records, self.today)
 
     def messages(self, history):

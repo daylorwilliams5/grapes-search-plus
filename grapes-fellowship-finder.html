@@ -172,6 +172,7 @@ mark{background:#FFF1A8;color:inherit;padding:0 1px;border-radius:2px}
 .dsec h3{font-size:15px;font-weight:700;margin-bottom:6px}
 .dsec p{color:var(--ink-2);font-size:16px;line-height:1.6}
 .notice{background:#FFF8E1;border:1px solid #F1DB8F;border-radius:6px;padding:12px 14px;font-size:14px;color:#6B4A00;margin-top:20px}
+.notice.ok{background:#EAF5EF;border-color:#B9DCC8;color:#17543A}
 .dft{display:flex;gap:10px;padding:16px 32px;border-top:1px solid var(--line);background:#fff}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 20px;border-radius:4px;font-weight:700;font-size:16px;text-decoration:none}
 .btn.solid{background:var(--navy);color:#fff}
@@ -444,6 +445,14 @@ function sameDayIn(d,y){
   const last=new Date(y,d.getMonth()+1,0).getDate();
   return new Date(y,d.getMonth(),Math.min(d.getDate(),last));
 }
+// A listing counts as verified when DGE has published it, or when its current
+// deadline was confirmed on the sponsor's page in the last six months
+const CHECK_DAYS=183;
+function checkedRecently(r){
+  const d=parseDay(r.checked);
+  return !!d&&(TODAY-d)/864e5<=CHECK_DAYS;
+}
+function isVerified(r){return r.status==='Published'||checkedRecently(r);}
 function daysText(n){return n===0?'Due today':n===1?'Due tomorrow':`${n} days left`;}
 
 // ── Search ──
@@ -576,7 +585,7 @@ function passes(r,skip){
     const sel=eff[g.key]||state[g.key];
     if(sel.size&&![...sel].some(v=>g.test(r,v))) return false;
   }
-  if(state.verified&&r.status!=='Published') return false;
+  if(state.verified&&!isVerified(r)) return false;
   if(state.saved&&!saved.has(r.id)) return false;
   // A search with no usable words (e.g. just punctuation) matches nothing
   if(parsed.rest&&!(scores.get(r.id)>0)) return false;
@@ -621,7 +630,7 @@ function rowHTML(r){
         <span>${esc(typeLbl)}</span>
         <span>${esc(r.season)} cycle</span>
         ${r.citizenship==='us'?'<span>U.S. citizens &amp; permanent residents</span>':''}
-        ${r.status!=='Published'?'<span class="unv">Unverified listing</span>':''}
+        ${isVerified(r)?'':'<span class="unv">Unverified listing</span>'}
       </div>
     </div>
     <button class="save${on?' on':''}" data-save="${r.id}" aria-pressed="${on}" aria-label="${on?'Remove':'Save'} ${esc(r.title)}${on?' from saved':''}">${BM}</button>
@@ -637,7 +646,7 @@ function renderFilters(){
     const open=openG.has(g.key)||eff[g.key].size;
     return `<details class="fg" data-fg="${g.key}"${open?' open':''}><summary>${g.title}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 9 6 6 6-6"/></svg></summary><div class="opts">${opts}</div>${g.note?`<p class="fnote">${g.note}</p>`:''}</details>`;
   }).join('');
-  const vc=DATA.filter(r=>passes(r)&&r.status==='Published').length;
+  const vc=DATA.filter(r=>passes(r)&&isVerified(r)).length;
   document.getElementById('fgroups').innerHTML=html+
     `<div class="fg"><label class="opt"><input type="checkbox" id="verChk"${state.verified?' checked':''}/>Verified listings only<span class="c">${vc}</span></label><p class="fnote">Unverified listings haven't been reviewed by DGE this cycle.</p></div>`;
 }
@@ -725,7 +734,8 @@ function openDetail(id){
       <div><dt>Application season</dt><dd>${esc(r.season)}</dd></div>
       <div><dt>${r.agency2?'Co-sponsor':'Sponsor'}</dt><dd>${esc(r.agency2||r.agency1||'Not listed')}</dd></div>
     </dl>
-    ${r.status!=='Published'?'<div class="notice">This listing hasn’t been verified by DGE this cycle. The deadline and availability may have changed.</div>':''}
+    ${isVerified(r)?'':'<div class="notice">This listing hasn’t been verified by DGE this cycle. The deadline and availability may have changed.</div>'}
+    ${r.status!=='Published'&&checkedRecently(r)?`<div class="notice ok">Deadline checked against the sponsor’s page on ${fmt(parseDay(r.checked))}.</div>`:''}
     ${r.description?`<div class="dsec"><h3>About</h3><p>${esc(r.description)}</p></div>`:''}
     ${r.eligibility?`<div class="dsec"><h3>Eligibility</h3><p>${esc(r.eligibility)}</p></div>`:''}`;
   document.getElementById('dFt').innerHTML=r.officialUrl
