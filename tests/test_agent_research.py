@@ -362,3 +362,17 @@ def test_select_pending_skips_recent_checks_and_attempts():
             record(id=4, status="Pending", researched="2099-01-01"),
             record(id=5, status="Pending", researched="2000-01-01")]
     assert [r["id"] for r in ar.select_records(recs, "pending", limit=10)] == [1, 5]
+
+
+def test_deadline_over_a_year_old_is_not_applied(no_network):
+    docs = {URL: "Application Submission Deadline: January 5th, 2025, 11:59 PM EST."}
+    f = findings(deadline=field("2025-01-05", "Application Submission Deadline: January 5th, 2025"))
+    _, changes, _ = ar.check_findings(record(deadline="", deadlineSort="9999-12-31"), f, docs, TODAY)
+    assert changes == {}
+
+
+def test_recent_past_deadline_still_fills_an_empty_one(no_network):
+    docs = {URL: "Application Deadline: September 15, 2026, 5:00 PM EDT"}
+    f = findings(deadline=field("2026-09-15", "Application Deadline: September 15, 2026"))
+    _, changes, _ = ar.check_findings(record(deadline="", deadlineSort="9999-12-31"), f, docs, TODAY)
+    assert changes == {"deadline": "Sep 15, 2026"}
