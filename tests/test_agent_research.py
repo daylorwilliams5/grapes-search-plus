@@ -192,7 +192,7 @@ class FakeClient:
 
 
 def api_message(content, stop_reason):
-    return {"id": "msg_1", "type": "message", "role": "assistant", "model": ar.MODEL,
+    return {"id": "msg_1", "type": "message", "role": "assistant", "model": "claude-haiku-4-5",
             "content": content, "stop_reason": stop_reason, "stop_sequence": None,
             "usage": {"input_tokens": 1000, "output_tokens": 200,
                       "server_tool_use": {"web_search_requests": 2, "web_fetch_requests": 1}}}
@@ -256,3 +256,27 @@ def test_main_writes_report_and_applies(tmp_path, monkeypatch, no_network):
     assert out[2]["deadline"] == "Nov 03, 2025"
     report = (tmp_path / "agent_report.md").read_text()
     assert "Nov 01, 2026" in report and "quote not found on the source page" in report
+
+
+def test_haiku_uses_basic_web_tools_and_no_effort():
+    client = FakeClient([api_message([submit_block(findings())], "tool_use")])
+    ar.research(client, record(), TODAY, model="haiku")
+    call = client.calls[0]
+    assert call["model"] == "claude-haiku-4-5"
+    assert [t.get("type") for t in call["tools"][:2]] == ["web_search_20250305", "web_fetch_20250910"]
+    assert "output_config" not in call and "fallbacks" not in call
+
+
+def test_sonnet_uses_newer_web_tools_and_fallbacks():
+    client = FakeClient([api_message([submit_block(findings())], "tool_use")])
+    ar.research(client, record(), TODAY, model="sonnet")
+    call = client.calls[0]
+    assert call["model"] == "claude-sonnet-5-5"
+    assert call["tools"][0]["type"] == "web_search_20260209"
+    assert call["fallbacks"] == "default"
+
+
+def test_cost_estimate_uses_model_prices():
+    usage = {"input_tokens": 1_000_000, "output_tokens": 100_000, "web_search_requests": 10}
+    assert round(ar.estimate_cost(usage, "haiku"), 2) == 1.60
+    assert round(ar.estimate_cost(usage, "opus"), 2) == 6.10

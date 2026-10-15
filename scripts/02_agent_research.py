@@ -47,7 +47,24 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dparser
 
-MODEL = "claude-opus-5-5"
+# Models the agent can run on, cheapest first. Haiku only supports the basic
+# web search and fetch tools, and takes no effort setting or fallbacks.
+MODELS = {
+    "haiku": {"id": "claude-haiku-4-5", "price": (1, 5),
+              "search": "web_search_20250305", "fetch": "web_fetch_20250910", "extra": {}},
+    "sonnet": {"id": "claude-sonnet-5-5", "price": (2, 10),
+               "search": "web_search_20260209", "fetch": "web_fetch_20260209",
+               "extra": {"output_config": {"effort": "medium"},
+                         "betas": ["server-side-fallback-2026-07-01"], "fallbacks": "default"}},
+    "opus": {"id": "claude-opus-5-5", "price": (4, 20),
+             "search": "web_search_20260209", "fetch": "web_fetch_20260209",
+             "extra": {"output_config": {"effort": "medium"},
+                       "betas": ["server-side-fallback-2026-07-01"], "fallbacks": "default"}},
+}
+DEFAULT_MODEL = "haiku"
+# Cap on how much of each fetched page the agent reads, to keep long pages
+# from running up the cost
+MAX_PAGE_TOKENS = 25000
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; UCLA-DGE-FellowshipBot/1.0; research@ucla.edu)"
 }
@@ -173,11 +190,13 @@ def fetched_documents(content):
     return docs
 
 
-def research(client, record, today, max_searches=6, max_fetches=10):
+def research(client, record, today, model=DEFAULT_MODEL, max_searches=5, max_fetches=8):
     """Run the agent on one listing. Returns (findings or None, fetched docs, usage)."""
+    m = MODELS[model]
     tools = [
-        {"type": "web_search_20260209", "name": "web_search", "max_uses": max_searches},
-        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": max_fetches},
+        {"type": m["search"], "name": "web_search", "max_uses": max_searches},
+        {"type": m["fetch"], "name": "web_fetch", "max_uses": max_fetches,
+         "max_content_tokens": MAX_PAGE_TOKENS},
         SUBMIT_TOOL,
     ]
     messages = [{"role": "user", "content": listing_prompt(record, today)}]
@@ -186,14 +205,12 @@ def research(client, record, today, max_searches=6, max_fetches=10):
 
     for _ in range(8):
         with client.beta.messages.stream(
-            model=MODEL,
+            model=m["id"],
             max_tokens=32000,
             system=SYSTEM,
             tools=tools,
             messages=messages,
-            output_config={"effort": "medium"},
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
+            **m["extra"],
         ) as stream:
             response = stream.get_final_message()
 
@@ -455,9 +472,10 @@ def write_report(results, path, cost):
 
 # ----------------------------------------------------------------------------
 
-def estimate_cost(usage):
-    # Claude Opus 5.5: $4 / $20 per million tokens; web search $10 per 1,000
-    return (usage["input_tokens"] * 4 + usage["output_tokens"] * 20) / 1e6 + \
+def estimate_cost(usage, model=DEFAULT_MODEL):
+    # Per-million-token prices from MODELS; web search is $10 per 1,000
+    price_in, price_out = MODELS[model]["price"]
+    return (usage["input_tokens"] * price_in + usage["output_tokens"] * price_out) / 1e6 + \
         usage["web_search_requests"] * 0.01
 
 
@@ -469,6 +487,8 @@ def main():
     parser.add_argument("--limit", type=int, default=20)
     parser.add_argument("--apply", action="store_true", help="Write verified changes to --data")
     parser.add_argument("--out-dir", default="data")
+    parser.add_argument("--model", choices=list(MODELS), default=DEFAULT_MODEL,
+                        help="haiku is cheapest; sonnet and opus are more thorough")
     args = parser.parse_args()
 
     import anthropic
@@ -479,7 +499,7 @@ def main():
     ids = [int(i) for i in args.ids.split(",")] if args.ids else None
     batch = select_records(records, args.select, ids, args.limit)
     today = datetime.date.today().isoformat()
-    print(f"Checking {len(batch)} listings with {MODEL}")
+    print(f"Checking {len(batch)} listings with {MODELS[args.model]['id']}")
 
     results, total = [], {"input_tokens": 0, "output_tokens": 0, "web_search_requests": 0}
     for i, rec in enumerate(batch, 1):
@@ -487,7 +507,7 @@ def main():
         result = {"id": rec["id"], "title": rec["title"], "changes": {}, "flags": [], "checks": {}}
         t0 = time.time()
         try:
-            findings, docs, usage = research(client, rec, today)
+            findings, docs, usage = research(client, rec, today, args.model)
         except anthropic.APIStatusError as e:
             result["error"] = f"API error {e.status_code}"
             results.append(result)
@@ -506,9 +526,9 @@ def main():
         results.append(result)
 
     out = Path(args.out_dir)
-    cost = estimate_cost(total)
+    cost = estimate_cost(total, args.model)
     with open(out / "agent_proposals.json", "w") as f:
-        json.dump({"date": today, "model": MODEL, "usage": total, "results": results}, f, indent=2)
+        json.dump({"date": today, "model": MODELS[args.model]["id"], "usage": total, "results": results}, f, indent=2)
     write_report(results, out / "agent_report.md", cost)
     print(f"\nTokens: {total['input_tokens']:,} in, {total['output_tokens']:,} out; "
           f"{total['web_search_requests']} searches; about ${cost:.2f}")

@@ -70,7 +70,7 @@ Checked changes are never published directly. The **Agent Research** workflow op
 
 It never changes a listing's verified status. Eligibility differences and programs that look discontinued are listed in the report for staff to handle.
 
-To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently. Each run prints its token use and an estimated cost.
+To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently, using Claude Haiku, the cheapest model. Pick Sonnet or Opus in the run form for harder listings; they're more thorough and cost more. Each run prints its token use and an estimated cost.
 
 To run it locally:
 
@@ -80,6 +80,7 @@ export ANTHROPIC_API_KEY=...
 
 python scripts/02_agent_research.py --limit 5            # report only
 python scripts/02_agent_research.py --ids 97,412 --apply # write changes to the data
+python scripts/02_agent_research.py --limit 5 --model sonnet  # a more thorough model
 ```
 
 The report is written to `data/agent_report.md`. Tests for the evidence checks run with `python -m pytest tests/` and don't call the API.

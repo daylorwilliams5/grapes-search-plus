@@ -25,6 +25,12 @@ on:
         description: 'Specific record numbers, comma-separated (overrides the two above)'
         required: false
         default: ''
+      model:
+        description: 'Model: haiku is cheapest; sonnet and opus are more thorough and cost more'
+        required: false
+        default: 'haiku'
+        type: choice
+        options: [haiku, sonnet, opus]
 
 permissions:
   contents: write
@@ -53,8 +59,9 @@ jobs:
           LIMIT: ${{ github.event.inputs.limit }}
           SELECT: ${{ github.event.inputs.select }}
           IDS: ${{ github.event.inputs.ids }}
+          MODEL: ${{ github.event.inputs.model }}
         run: |
-          args=(--data data/fellowships_master.json --limit "$LIMIT" --select "$SELECT" --apply)
+          args=(--data data/fellowships_master.json --limit "$LIMIT" --select "$SELECT" --model "${MODEL:-haiku}" --apply)
           if [ -n "$IDS" ]; then args+=(--ids "$IDS"); fi
           python scripts/02_agent_research.py "${args[@]}"
 
