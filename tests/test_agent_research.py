@@ -192,7 +192,7 @@ class FakeClient:
 
 
 def api_message(content, stop_reason):
-    return {"id": "msg_1", "type": "message", "role": "assistant", "model": "claude-haiku-4-5",
+    return {"id": "msg_1", "type": "message", "role": "assistant", "model": "claude-haiku-5-5",
             "content": content, "stop_reason": stop_reason, "stop_sequence": None,
             "usage": {"input_tokens": 1000, "output_tokens": 200,
                       "server_tool_use": {"web_search_requests": 2, "web_fetch_requests": 1}}}
@@ -222,7 +222,10 @@ def test_research_handles_pause_turn_and_collects_fetched_pages(no_network):
     f, docs, usage = ar.research(client, record(), TODAY)
     assert f["deadline"]["value"] == "2026-11-01"
     assert docs == {URL: text}
-    assert usage == {"input_tokens": 2000, "output_tokens": 400, "web_search_requests": 4}
+    assert {k: usage[k] for k in ("input_tokens", "output_tokens", "web_search_requests")} == \
+        {"input_tokens": 2000, "output_tokens": 400, "web_search_requests": 4}
+    # Two requests of 1,000 in / 200 out at Haiku 5.5's lower tier
+    assert round(usage["token_cost"], 6) == round(2 * (1000 * 0.10 + 200 * 0.50) / 1e6, 6)
     # The paused turn is sent back so the agent can continue it
     assert client.calls[1]["messages"][-1]["role"] == "assistant"
     _, changes, _ = ar.check_findings(record(), f, docs, TODAY)
@@ -258,13 +261,15 @@ def test_main_writes_report_and_applies(tmp_path, monkeypatch, no_network):
     assert "Nov 01, 2026" in report and "quote not found on the source page" in report
 
 
-def test_haiku_uses_basic_web_tools_and_no_effort():
+def test_haiku_uses_basic_web_tools_and_no_fallbacks():
     client = FakeClient([api_message([submit_block(findings())], "tool_use")])
     ar.research(client, record(), TODAY, model="haiku")
     call = client.calls[0]
-    assert call["model"] == "claude-haiku-4-5"
+    assert call["model"] == "claude-haiku-5-5"
     assert [t.get("type") for t in call["tools"][:2]] == ["web_search_20250305", "web_fetch_20250910"]
-    assert "output_config" not in call and "fallbacks" not in call
+    assert call["tools"][1]["max_content_tokens"] == ar.MAX_PAGE_TOKENS
+    assert call["output_config"] == {"effort": "medium"}
+    assert "fallbacks" not in call and "betas" not in call
 
 
 def test_sonnet_uses_newer_web_tools_and_fallbacks():
@@ -276,7 +281,23 @@ def test_sonnet_uses_newer_web_tools_and_fallbacks():
     assert call["fallbacks"] == "default"
 
 
-def test_cost_estimate_uses_model_prices():
-    usage = {"input_tokens": 1_000_000, "output_tokens": 100_000, "web_search_requests": 10}
-    assert round(ar.estimate_cost(usage, "haiku"), 2) == 1.60
-    assert round(ar.estimate_cost(usage, "opus"), 2) == 6.10
+class Usage:
+    def __init__(self, input_tokens, output_tokens):
+        self.input_tokens, self.output_tokens = input_tokens, output_tokens
+
+
+def test_haiku_price_tiers():
+    # Up to 100,000 prompt tokens: $0.10 / $0.50 per million
+    assert round(ar.request_cost("haiku", Usage(100_000, 1_000)), 6) == round(0.01 + 0.0005, 6)
+    # Over 100,000: $0.50 / $2.50 per million, for the whole request
+    assert round(ar.request_cost("haiku", Usage(200_000, 1_000)), 6) == round(0.10 + 0.0025, 6)
+    assert round(ar.request_cost("opus", Usage(1_000_000, 100_000)), 2) == 6.00
+
+
+def test_estimate_adds_searches():
+    assert round(ar.estimate_cost({"token_cost": 0.05, "web_search_requests": 10}), 2) == 0.15
+
+
+def test_limits_keep_a_listing_under_haiku_price_tier():
+    # Pages the agent can read on one listing, plus room for search results and the prompt
+    assert ar.MAX_FETCHES * ar.MAX_PAGE_TOKENS <= 60_000

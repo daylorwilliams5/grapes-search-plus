@@ -70,7 +70,7 @@ Checked changes are never published directly. The **Agent Research** workflow op
 
 It never changes a listing's verified status. Eligibility differences and programs that look discontinued are listed in the report for staff to handle.
 
-To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently, using Claude Haiku, the cheapest model. Pick Sonnet or Opus in the run form for harder listings; they're more thorough and cost more. Each run prints its token use and an estimated cost.
+To set it up, add an `ANTHROPIC_API_KEY` repository secret and turn on **Allow GitHub Actions to create and approve pull requests** under Settings → Actions → General. Then run **Agent Research** from the **Actions** tab. By default it checks the 20 listings whose deadlines passed most recently, using Claude Haiku 5.5, the cheapest model. Its price goes up fivefold for prompts over 100,000 tokens, so each listing is limited to 3 searches and 5 pages of up to 10,000 tokens. Pick Sonnet or Opus in the run form for harder listings; they're more thorough and cost more. Each run prints its token use and an estimated cost.
 
 To run it locally:
 
