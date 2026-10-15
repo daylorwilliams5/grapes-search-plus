@@ -17,6 +17,9 @@ not yet on the site are written to data/new_from_spreadsheet.json for
 research instead of being published. Record numbers in
 data/excluded_ids.json are never re-added.
 
+Each listing is also tagged with who can apply (citizenship and degree
+stage) for the page's filters; see eligibility_tags.py.
+
 The script replaces the `const DATA=[...]` block in the HTML with
 the updated JSON data, preserving all app logic and styling.
 
@@ -29,6 +32,8 @@ import re
 import argparse
 import datetime
 from pathlib import Path
+
+from eligibility_tags import load_overrides, tag as tag_eligibility
 
 
 AWARD_TYPE_MAP = {
@@ -198,6 +203,7 @@ def main():
         print(f"Rows to research before adding: {new_path}")
 
     records = process_records(records)
+    tag_eligibility(records, load_overrides(args.data))
 
     # Save updated master data
     data_path = Path(args.data)

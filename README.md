@@ -16,7 +16,8 @@ Listings reviewed by DGE this cycle are marked verified. The rest are shown with
 ## Features
 
 - **Plain-language search.** Related terms are included automatically (for example, "psychology" also finds behavioral, cognitive, and social science awards), and matches are highlighted.
-- **Filters with live counts** for deadline status, award type, field of study, application season, and verified listings.
+- **Filters with live counts** for deadline status, award type, degree stage, field of study, citizenship, application season, and verified listings.
+- **Understands who you are.** Phrases like "international student", "not a US citizen", "postdoc", "master's student" or "PhD candidate" in the search box turn on the matching filter, shown as a chip, instead of being searched as keywords.
 - **Recurring deadlines.** Most awards open every year, so when a listed deadline has passed, the next one is estimated from it and labeled as an estimate instead of the listing being hidden.
 - **Detail panel** for each award, with the sponsor, amount, eligibility, and a link to the official page.
 - **Saved list.** Students can bookmark awards; the list is stored in their browser.
@@ -85,6 +86,22 @@ python scripts/02_agent_research.py --limit 5 --model sonnet  # a more thorough 
 
 The report is written to `data/agent_report.md`. Tests for the evidence checks run with `python -m pytest tests/` and don't call the API.
 
+## Student assistant (local prototype)
+
+`assistant/server.py` runs the search page on your own computer with a chat panel added. Students describe their degree, field, citizenship, and what the funding is for, and the assistant recommends listings. It can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. Record numbers that aren't listings are dropped.
+
+```bash
+pip install anthropic
+export ANTHROPIC_API_KEY=...
+python assistant/server.py      # then open http://localhost:8000
+```
+
+It uses Claude Haiku 5.5. The list of listings (about 60,000 tokens) is cached between questions. Questions aren't stored. It's a demo for staff: it sends questions to the Claude API, so don't open it to students until IT has approved where it runs. Tests: `python -m pytest tests/`.
+
+## Citizenship and degree-stage tags
+
+Each rebuild tags every listing with who can apply, read from its eligibility text by `scripts/eligibility_tags.py`: whether it's limited to U.S. citizens and permanent residents, and which degree stages (master's and professional, doctoral before candidacy, dissertation stage, postdoctoral) it's open to. Listings that don't say are included in every filter. The tags come from pattern matching, so some will be wrong: correct a listing in `data/eligibility_overrides.json` and it stays corrected. To review all tags, run `python scripts/eligibility_tags.py`.
+
 ## Turning on "Submit a fellowship"
 
 The page has a form for suggesting new fellowships, but its button stays hidden until it's connected to a Google Form. To turn it on, create a Google Form with fields for the link, name, notes, and extracted details, then replace `FORM_ID` and the four `entry.*` values in `GFORM_URL` and `GFORM_ENTRIES` near the end of `grapes-fellowship-finder.html`.
@@ -104,10 +121,13 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/make_worklist.py` | Builds a spreadsheet for checking listings by hand, sorted by upcoming deadline |
 | `scripts/make_update_list.py` | Builds a spreadsheet of the deadlines and links confirmed in the September audit that differ from the DGE spreadsheet |
 | `worklists/` | Manual update worklists |
+| `scripts/eligibility_tags.py` | Tags listings with citizenship limits and degree stages for the filters |
+| `data/eligibility_overrides.json` | Staff corrections to those tags |
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 | `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
-| `tests/` | Tests for the research agent's evidence checks |
+| `assistant/` | Local prototype of the student assistant (server, chat panel) |
+| `tests/` | Tests for the research agent and the assistant prototype |
 | `grapes-system-design.md`, `chat-system-design.md` | Design notes |
 
 ## Data source
