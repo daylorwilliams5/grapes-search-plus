@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-15",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input_tokens": 215170,
+    "output_tokens": 13721,
+    "web_search_requests": 3,
+    "token_cost": 0.0283775
+  },
+  "results": [
+    {
+      "id": 1119,
+      "title": "Leonard A. Lauder Fellowships in Modern Art",
+      "changes": {
+        "deadline": "Oct 15, 2026"
+      },
+      "flags": [
+        "Eligibility on the sponsor's page may differ from the listing"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "quote": "Each year, the Research Center offers four fellowships:",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-15",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "quote": "Application deadline: Thursday, October 15, 2026, 5 pm ET",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$50,000 stipend for Pre-Doctoral fellows, $60,000 for Post-Doctoral fellows, $70,000 for Mid-Career fellows, plus a $6,000 travel stipend and a monthly health insurance payment",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "quote": "$50,000 for Pre-Doctoral fellows",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Doctoral students currently enrolled in a PhD program (Pre-Doctoral), PhD holders within seven years of the PhD (Post-Doctoral), or established scholars (Mid-Career), in art history or related humanities, with projects focused on modern art from the late 19th century through the 1960s; US citizens, permanent residents, and non-US applicants with valid US work authorization are eligible.",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "quote": "Graduate students pursuing a doctoral dissertation (who are currently enrolled in a PhD program) should apply for the Pre-Doctoral Fellowship",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art",
+          "quote": "Each year, the Research Center offers four fellowships:",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Oct 17, 2025) is out of date. The sponsor's page lists the 2026 cycle deadline as Thursday, October 15, 2026, 5 pm ET, which is today, so it closes later today; the listing's deadline has been corrected to 2026-10-15 for that reason. Fellowship periods for this cycle are September 1, 2027 onward. The sponsor's page says applicants are notified by the end of January following the deadline. The listing says predoctoral applicants must be \"advanced to candidacy,\" but the sponsor's page says applicants must be currently enrolled in a PhD program; I followed the sponsor. The listing's amount field showed only the $6,000 travel stipend; the sponsor's stipend amounts are reported above. The page also lists a separate one-year Non-Residential Doctoral Dissertation Completion Fellowship with its own page (https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-non-residential-fellowship-in-modern-art), which was not checked. The sponsor's page says a candidate may apply for this fellowship on one further occasion after an unsuccessful application.",
+      "before": {
+        "deadline": "Oct 17, 2025"
+      }
+    },
+    {
+      "id": 112,
+      "title": "NSF Graduate Research Fellowship Program",
+      "changes": {},
+      "flags": [
+        "Eligibility on the sponsor's page may differ from the listing"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+          "source_url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+          "quote": "# NSF Graduate Research Fellowship Program (GRFP)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-19",
+          "source_url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+          "quote": "October 19 2026  - Deadline date",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$37,000 stipend plus $16,000 Cost of Education allowance per year for three years of support over a five-year fellowship period",
+          "source_url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+          "quote": "For each of the three years of support, NSF provides a $37,000 stipend and a $16,000 Cost of Education allowance",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "U.S. citizens, nationals, or permanent residents who are in or entering a research-based master's or doctoral STEM program at an accredited nonprofit U.S. institution, including senior undergraduates and bachelor's holders not yet enrolled in graduate study, and first-year graduate students with less than one academic year completed.",
+          "source_url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
+          "quote": "Applicants must be U.S. citizens, nationals, or permanent residents",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active funding opportunity (NSF 26-526, FY2027 competition)",
+          "source_url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
+          "quote": "This document is the current version.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's Oct 19, 2026 date is only the Life Sciences deadline. The sponsor lists per-field deadlines: Oct 19 (Life Sciences), Oct 20 (Computer and Information Science and Engineering; Materials Research; Psychology; Social Sciences), Oct 22 (Engineering), and Oct 23 (Chemistry; Geosciences; Mathematical Sciences; Physics and Astronomy), all at 8 p.m. Eastern. Applicants must use the deadline for the field on their application, so the listing's single date may be wrong for them. Reference letters are due October 16, 2026 at 8 p.m. ET, one day from today. The listing's eligibility is narrower than the solicitation: the solicitation also allows senior undergraduates and bachelor's holders with no graduate enrollment to apply, and it requires a research-based (thesis) degree program. Citizenship and prior-award rules come from the solicitation, not the program page. Applicants who previously accepted a GRFP are excluded. The program page gives the award per fellowship and the solicitation gives a maximum of $53,000 per award to the institution. Listing's amount matches the sponsor.",
+      "before": {}
+    },
+    {
+      "id": 480,
+      "title": "Horton (Hydrology) Research Grant",
+      "changes": {
+        "amount": "Research grant not to exceed $10,000 (plus travel allowance of up to $500 for U.S./Canadian applicants or $1,000 for international applicants)"
+      },
+      "flags": [
+        "Eligibility on the sponsor's page may differ from the listing"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.agu.org/honors/horton-grant",
+          "source_url": "https://www.agu.org/honors/horton-grant",
+          "quote": "Open to doctoral students in hydrology, water resources, or a closely related field who want to attend AGU annual meeting.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "Research grant not to exceed $10,000 (plus travel allowance of up to $500 for U.S./Canadian applicants or $1,000 for international applicants)",
+          "source_url": "https://www.agu.org/honors/horton-grant",
+          "quote": "A research grant not to exceed $10,000 to cover research and travel costs of up to $500 for U.S. and Canadian-based applicants and $1,000 for international applicants.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Doctoral (Ph.D.) students enrolled in hydrology, water resources, or a closely related field, who are active AGU student members and stay enrolled for the award year.",
+          "source_url": "https://www.agu.org/honors/horton-grant",
+          "quote": "be enrolled in a doctoral program in hydrology, water resources, or a closely related field such as water resources policy science",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.agu.org/honors/horton-grant",
+          "quote": "The Horton Research Grant is awarded to up to three Ph.D. students studying hydrology, water resources, or a closely related field each year",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The deadline is left empty on purpose. The sponsor's overview page lists the submission window as \"5 January - 13 March\" but does not state a year, and the listing's \"Mar 27, 2026\" does not match that date. The 2026 window has closed, so the next cycle would most likely close 13 March 2027, but the page does not state that year, so I did not enter it. Please confirm the date on the sponsor's site before relying on it. Applications are submitted through AGU's OpenWater system, and recommenders' letters must also arrive by the application deadline. The listing says \"Graduate students,\" but the sponsor limits the award to doctoral students. The listing's amount field was blank; the sponsor's page gives the amount as a grant of up to $10,000. The page is live and shows the 2026 cycle, with no discontinuation notice.",
+      "before": {
+        "amount": ""
+      }
+    },
+    {
+      "id": 545,
+      "title": "Institute of European Studies (IES) & Center for German and European Studies CGES (General) Predissertation & Dissertation Fellowships",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://ies.berkeley.edu/grants-graduate",
+          "source_url": "https://ies.berkeley.edu/grants-graduate",
+          "quote": "IES offers a range of grant and fellowship opportunities for UC Berkeley graduate students in all fields of study whose research, scholarship, or professional interests engage with Europe.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        }
+      },
+      "notes": "Could not verify this listing. (1) The listed officialUrl is the IIS \"Pre-Dissertation Research Grant in International Studies\" page, a different program run by the International & Area Studies unit, not the IES/CGES General Predissertation & Dissertation Fellowship. The version I fetched says \"Submit your application HERE by March 15, 2024,\" so that page is stale; a search snippet of the same page showed March 13, 2025, but I did not fetch that version. (2) The IES graduate grants page (ies.berkeley.edu/grants-graduate) does not name a program matching this listing's title. It lists Nov 1 deadlines for the Gerald D. and Norma Feldman Graduate Student Dissertation Fellowship ($3,000, for research on Europe) and the Helmut Kohl Award ($2,000), plus many \"Nov 1\" European partner-university fellowships, but with no year shown. The Feldman page requires candidacy and a dissertation on Europe, which does not match this listing's \"predissertation\" label. (3) The listed deadline, Nov 01, 2025, has passed. I left the deadline empty rather than guess the 2026 date. (4) The listed $3,000-$5,000 range does not appear on any sponsor page I fetched. (5) Recommend the listing be checked with ies@berkeley.edu, the contact on the IES page, or retired/re-matched to the correct program page before publication.",
+      "before": {}
+    },
+    {
+      "id": 309,
+      "title": "Society of Exploration Geophysicists (SEG) Foundation Scholarships",
+      "changes": {
+        "deadline": "Mar 01, 2027"
+      },
+      "flags": [
+        "Eligibility on the sponsor's page may differ from the listing"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://seg.org/programs/student-programs/scholarships/",
+          "source_url": "https://seg.org/programs/student-programs/scholarships/",
+          "quote": "https://seg.org/programs/student-programs/scholarships/",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-03-01",
+          "source_url": "https://seg.org/programs/student-programs/scholarships/",
+          "quote": "Applications are accepted annually from 1 November to 1 March.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$500 to $10,000 per academic year",
+          "source_url": "https://seg.org/programs/student-programs/scholarships/",
+          "quote": "Awards range from US$500 to US$10,000 per academic year.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "High school seniors planning to attend college, and undergraduate or graduate students with above-average grades, pursuing a college curriculum directed toward a career in applied geophysics; awards are merit-based, and some are restricted to citizenship, residency, field, university, or veteran status.",
+          "source_url": "https://seg.org/programs/student-programs/scholarships/",
+          "quote": "Pursue a college curriculum directed toward a career in applied geophysics",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://seg.org/programs/student-programs/scholarships/",
+          "quote": "The next round of scholarship applications will open on 1 November 2026",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Nov 01, 2025) is out of date. The sponsor page says applications run each year from 1 November to 1 March, and the next round opens 1 November 2026, so the cycle that closes next is 1 March 2027. The page does not give an exact closing time. The listing says \"worldwide\", and the page notes awards went to students in 14 countries and includes a non-US citizen category, but it does not explicitly state worldwide eligibility. The page does not say the program is discontinued or paused. The listing's \"Foundation\" name is not used on the page; the page is titled \"Scholarships\" under SEG's student programs. The official_url quote is the URL itself because the page does not repeat it as text; the value was confirmed by fetching that page.",
+      "before": {
+        "deadline": "Nov 01, 2025"
+      }
+    }
+  ]
+}
