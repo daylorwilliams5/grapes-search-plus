@@ -137,3 +137,14 @@ def test_server_serves_the_page_with_the_panel_and_answers():
             {"reply": "Found one.", "matches": [{"id": 12, "why": "Fits."}]}
     finally:
         server.shutdown()
+
+
+def test_verified_listings_come_first():
+    a = assistant({"reply": "", "matches": [{"id": 99, "why": "Unverified."}, {"id": 12, "why": "Verified."},
+                                            {"id": 5, "why": "Verified too."}]})
+    out = a.ask([{"role": "user", "text": "anything"}])
+    assert [m["id"] for m in out["matches"]] == [12, 5, 99]
+
+
+def test_instructions_prefer_verified_listings():
+    assert "Prefer verified listings" in srv.INSTRUCTIONS

@@ -50,7 +50,8 @@ what to check.
 
 Don't state deadlines, amounts, or links in your reply: the page shows them under each \
 recommendation. Prefer listings that are open or expected to reopen over ones whose dates \
-are unknown.
+are unknown. Prefer verified listings: recommend one marked "unverified listing" only when \
+no verified listing fits as well, and never more unverified than verified ones.
 
 If you need one fact to give a useful answer (degree stage, field, or citizenship), ask \
 for it in one short question, and still suggest what you can. Never ask for a name, \
@@ -141,6 +142,7 @@ class Assistant:
         self.model = model
         self.today = today or datetime.date.today()
         self.ids = {r["id"] for r in records}
+        self.verified = {r["id"] for r in records if r.get("status") == "Published"}
         self.catalog = build_catalog(records, self.today)
 
     def messages(self, history):
@@ -189,13 +191,15 @@ class Assistant:
         return {"reply": data.get("reply", "").strip(), "matches": self.real_matches(data.get("matches", []))}
 
     def real_matches(self, matches):
-        """Drops record numbers that aren't listings and repeats, and caps the count."""
+        """Drops record numbers that aren't listings and repeats, puts verified
+        listings first (keeping the model's order otherwise), and caps the count."""
         seen, out = set(), []
         for m in matches:
             i = m.get("id")
             if isinstance(i, int) and i in self.ids and i not in seen:
                 seen.add(i)
                 out.append({"id": i, "why": str(m.get("why", "")).strip()})
+        out.sort(key=lambda m: m["id"] not in self.verified)
         return out[:MAX_MATCHES]
 
 
