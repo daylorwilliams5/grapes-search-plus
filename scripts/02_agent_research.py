@@ -128,8 +128,10 @@ to find the sponsor's page.
 3. Call submit_findings with:
    - official_url: the sponsor's page for this program.
    - deadline: the application deadline for the next cycle that closes after today, as \
-YYYY-MM-DD. If the sponsor hasn't posted the next cycle yet, give the most recent deadline \
-they state. If applications are rolling or there is no fixed deadline, leave the value empty \
+YYYY-MM-DD. If the page gives a yearly date without a year (e.g. "applications close \
+13 March each year"), give its next date after today and say in notes that you added the year. \
+If the sponsor hasn't posted the next cycle and only states a past deadline, give that most \
+recent deadline. If applications are rolling or there is no fixed deadline, leave the value empty \
 and say so in notes. If there are several deadlines (letters, internal nomination), give the \
 one for the applicant's own application and mention the others in notes.
    - amount: the award amount as the sponsor states it, e.g. "$30,000 stipend".
@@ -345,6 +347,30 @@ def deadline_in_quote(value, quote):
                for y, mo, d in dates_in(normalize(quote)))
 
 
+def year_inferred(value, quote):
+    """True when the quote gives the date's month and day but not its year."""
+    try:
+        date = datetime.date.fromisoformat(value)
+    except ValueError:
+        return False
+    found = [(y, mo, d) for y, mo, d in dates_in(normalize(quote)) if (mo, d) == (date.month, date.day)]
+    return bool(found) and all(y is None for y, _, _ in found)
+
+
+US_ONLY = re.compile(r"\b(u\.?s\.? citizens?|united states citizens?|citizens? (or|and) (u\.?s\.? )?permanent residents?|u\.?s\.? nationals?)\b")
+OPEN_TO_ALL = re.compile(r"\b(international (students|applicants|scholars)|non-u\.?s\.?|any nationality|all nationalities|regardless of (citizenship|nationality)|no citizenship requirement|foreign nationals?|worldwide)\b")
+
+
+def citizenship(text):
+    """'us_only', 'open', or None when the text doesn't say."""
+    t = normalize(text)
+    if OPEN_TO_ALL.search(t):
+        return "open"
+    if US_ONLY.search(t):
+        return "us_only"
+    return None
+
+
 def amount_in_quote(value, quote):
     """Every number in the amount (e.g. 30,000) must appear in the quote."""
     nums = [n.replace(",", "") for n in re.findall(r"\d[\d,]*", value)]
@@ -415,6 +441,7 @@ def check_findings(record, findings, agent_docs, today):
         current = record.get("deadlineSort") or ""
         if current.startswith("9999") or dl["value"] > current:
             changes["deadline"] = datetime.date.fromisoformat(dl["value"]).strftime("%b %d, %Y")
+        dl["year_inferred"] = year_inferred(dl["value"], dl.get("quote", ""))
     am = checks["amount"]
     if am["verdict"] == "verified" and not record.get("amount"):
         changes["amount"] = am["value"]
@@ -429,9 +456,14 @@ def check_findings(record, findings, agent_docs, today):
     if findings.get("program_status") in ("discontinued", "paused") and \
        checks["program_status_evidence"]["verdict"] == "verified":
         flags.append(f"Sponsor page says the program is {findings['program_status']}")
+    # Only flag eligibility when the citizenship rules conflict; wording
+    # differences alone are expected and not worth a reviewer's time
     el = checks["eligibility"]
-    if el["verdict"] == "verified" and normalize(el["value"]) != normalize(record.get("eligibility")):
-        flags.append("Eligibility on the sponsor's page may differ from the listing")
+    if el["verdict"] == "verified":
+        found, listed = citizenship(el["value"]), citizenship(record.get("eligibility"))
+        if found and listed and found != listed:
+            flags.append("Citizenship rules on the sponsor's page differ from the listing "
+                         f"(sponsor: {'U.S. only' if found == 'us_only' else 'open to non-U.S. applicants'})")
     if dl["verdict"] == "verified" and dl["value"] < today:
         flags.append("Sponsor hasn't posted a deadline after today yet")
     return checks, changes, flags
@@ -476,6 +508,8 @@ def write_report(results, path, cost):
             if c["verdict"] == "empty":
                 continue
             mark = "✅" if c["verdict"] == "verified" else f"❌ {c['reason']}"
+            if c.get("year_inferred"):
+                mark += " (year added: the page gives this date without one)"
             lines.append(f"- **{name}** {mark}: {md(c.get('value'), 200)}")
             if c.get("quote"):
                 lines.append(f"  > {md(c['quote'])}")

@@ -301,3 +301,40 @@ def test_estimate_adds_searches():
 def test_limits_keep_a_listing_under_haiku_price_tier():
     # Pages the agent can read on one listing, plus room for search results and the prompt
     assert ar.MAX_FETCHES * ar.MAX_PAGE_TOKENS <= 60_000
+
+
+def test_yearly_date_without_year_is_applied_and_marked():
+    docs = {URL: "Applications are accepted annually from 1 November to 1 March."}
+    f = findings(deadline=field("2027-03-01", "Applications are accepted annually from 1 November to 1 March."))
+    checks, changes, _ = ar.check_findings(record(), f, docs, TODAY)
+    assert changes == {"deadline": "Mar 01, 2027"}
+    assert checks["deadline"]["year_inferred"] is True
+
+
+def test_dated_quote_is_not_marked_inferred():
+    f = findings(deadline=field("2026-11-01", "Applications are due November 1, 2026"))
+    checks, _, _ = ar.check_findings(record(), f, agent_docs(), TODAY)
+    assert checks["deadline"]["year_inferred"] is False
+
+
+def test_eligibility_wording_differences_are_not_flagged():
+    docs = {URL: "Open to doctoral students enrolled in a PhD program in art history."}
+    f = findings(eligibility=field("PhD students in art history",
+                                   "Open to doctoral students enrolled in a PhD program"))
+    _, _, flags = ar.check_findings(record(eligibility="Graduate students"), f, docs, TODAY)
+    assert flags == []
+
+
+def test_citizenship_conflict_is_flagged():
+    docs = {URL: "Applicants must be U.S. citizens or permanent residents."}
+    f = findings(eligibility=field("U.S. citizens or permanent residents",
+                                   "Applicants must be U.S. citizens or permanent residents"))
+    _, _, flags = ar.check_findings(record(eligibility="Open to international students"), f, docs, TODAY)
+    assert any("U.S. only" in fl for fl in flags)
+
+
+def test_citizenship_reading():
+    assert ar.citizenship("U.S. citizens, nationals, or permanent residents") == "us_only"
+    assert ar.citizenship("Open to U.S. citizens and international students") == "open"
+    assert ar.citizenship("Graduate students worldwide") == "open"
+    assert ar.citizenship("Doctoral candidates in history") is None
