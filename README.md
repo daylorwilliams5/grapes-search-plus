@@ -85,6 +85,18 @@ python scripts/02_agent_research.py --limit 5 --model sonnet  # a more thorough 
 
 The report is written to `data/agent_report.md`. Tests for the evidence checks run with `python -m pytest tests/` and don't call the API.
 
+## Student assistant (local prototype)
+
+`assistant/server.py` runs the search page on your own computer with a chat panel added. Students describe their degree, field, citizenship, and what the funding is for, and the assistant recommends listings. It can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. Record numbers that aren't listings are dropped.
+
+```bash
+pip install anthropic
+export ANTHROPIC_API_KEY=...
+python assistant/server.py      # then open http://localhost:8000
+```
+
+It uses Claude Haiku 5.5. The list of listings (about 60,000 tokens) is cached between questions. Questions aren't stored. It's a demo for staff: it sends questions to the Claude API, so don't open it to students until IT has approved where it runs. Tests: `python -m pytest tests/`.
+
 ## Turning on "Submit a fellowship"
 
 The page has a form for suggesting new fellowships, but its button stays hidden until it's connected to a Google Form. To turn it on, create a Google Form with fields for the link, name, notes, and extracted details, then replace `FORM_ID` and the four `entry.*` values in `GFORM_URL` and `GFORM_ENTRIES` near the end of `grapes-fellowship-finder.html`.
@@ -107,7 +119,8 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 | `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
-| `tests/` | Tests for the research agent's evidence checks |
+| `assistant/` | Local prototype of the student assistant (server, chat panel) |
+| `tests/` | Tests for the research agent and the assistant prototype |
 | `grapes-system-design.md`, `chat-system-design.md` | Design notes |
 
 ## Data source
