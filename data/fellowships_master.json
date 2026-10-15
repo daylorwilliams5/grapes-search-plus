@@ -58,11 +58,14 @@
     "officialUrl": "https://www.switzernetwork.org/fellowship/become-fellow",
     "description": "Environmental leadership fellowship supporting professionals working on critical environmental challenges across the U.S.",
     "eligibility": "Professionals with advanced degree and experience in the environmental field.",
-    "amount": "",
+    "amount": "$18,000 cash award",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.switzernetwork.org/fellowship/become-fellow",
+    "researched": "2026-10-15"
   },
   {
     "id": 1059,
@@ -285,7 +288,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 668,
@@ -617,7 +621,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 61,
@@ -640,7 +645,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 45,
@@ -648,10 +654,10 @@
     "agency1": "National Human Genome Research Institute (NHGRI)",
     "agency2": "National Institutes of Health (NIH)",
     "season": "Fall",
-    "deadline": "Oct 12, 2026",
-    "deadlineSort": "2026-10-12",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 12, 2027",
+    "deadlineSort": "2027-02-12",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.genome.gov/careers-training/NHGRI-Funding-Opportunities-Training-Career-Development",
     "description": "NHGRI career development award providing salary and research support for 3\u20135 years of intensive research career development under an experienced mentor.",
@@ -662,7 +668,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+    "researched": "2026-10-15"
   },
   {
     "id": 55,
@@ -682,7 +691,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "open",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-15",
+    "checkedSource": "https://aiar.org/fellowships/",
+    "researched": "2026-10-15"
   },
   {
     "id": 23,
@@ -817,7 +829,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 210,
@@ -1145,7 +1158,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+    "researched": "2026-10-15"
   },
   {
     "id": 508,
@@ -1512,7 +1528,10 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+    "researched": "2026-10-15"
   },
   {
     "id": 703,
@@ -1735,7 +1754,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 204,
@@ -1758,7 +1778,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.americanantiquarian.org/short-term-fellowships",
+    "researched": "2026-10-15"
   },
   {
     "id": 205,
@@ -1780,7 +1803,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://massmedia.secure-platform.com/a/",
+    "researched": "2026-10-15"
   },
   {
     "id": 218,
@@ -2048,10 +2074,10 @@
     "agency1": "Cultural Services of the French Embassy in the U.S.",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Jan 25, 2026",
-    "deadlineSort": "2026-01-25",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 18, 2027",
+    "deadlineSort": "2027-01-18",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://chateaubriand-fellowship.org/",
     "description": "Fellowship for PhD students enrolled at U.S. institutions conducting dissertation research in France in humanities and social sciences.",
@@ -2062,7 +2088,10 @@
     "citizenship": "other",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://chateaubriand-fellowship.org/hss-application/",
+    "researched": "2026-10-15"
   },
   {
     "id": 1068,
@@ -2413,7 +2442,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 480,
@@ -2902,7 +2932,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-15"
   },
   {
     "id": 514,
@@ -2952,10 +2983,10 @@
     "agency1": "University of California (UC), Berkeley",
     "agency2": "College of Natural Resources",
     "season": "Fall",
-    "deadline": "Dec 12, 2025",
-    "deadlineSort": "2025-12-12",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 04, 2026",
+    "deadlineSort": "2026-12-04",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
     "description": "Two-year postdoctoral fellowships at UC Berkeley supporting advanced research in natural resource economics and political economy from any social science discipline.",
@@ -2966,7 +2997,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+    "researched": "2026-10-15"
   },
   {
     "id": 501,
@@ -3446,10 +3480,10 @@
     "agency1": "U.S. Department of State",
     "agency2": "Bureau of Educational and Cultural Affairs",
     "season": "Summer",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Sep 15, 2026",
+    "deadlineSort": "2026-09-15",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://exchanges.state.gov/us/program/fulbright-us-scholar-program",
     "description": "Prestigious U.S. Department of State fellowship enabling American scholars and professionals to teach, research, and participate in exchanges abroad in over 130 countries.",
@@ -3460,7 +3494,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 713,
@@ -3694,14 +3729,15 @@
     "officialUrl": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
     "description": "Graduate research fellowship at the High Altitude Observatory supporting research in solar and solar-terrestrial physics.",
     "eligibility": "Graduate students interested in solar and related atmospheric physics research.",
-    "amount": "",
+    "amount": "$4,000 per month stipend, plus airfare for one visit per year",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 500,
@@ -4279,7 +4315,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.fraxa.org/fragile-x-research/grant-application/",
+    "researched": "2026-10-15"
   },
   {
     "id": 202,
@@ -4301,7 +4340,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 250,
@@ -5297,7 +5337,10 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://newcombefoundation.org/fellowships/",
+    "researched": "2026-10-15"
   },
   {
     "id": 412,
@@ -5411,7 +5454,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+    "researched": "2026-10-15"
   },
   {
     "id": 679,
@@ -5588,7 +5634,8 @@
     "citizenship": "us",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 762,
@@ -7131,7 +7178,7 @@
     "officialUrl": "https://arce.org/fellowships-landing/",
     "description": "An umbrella of ARCE-administered fellowships (including ARCE-NEH, Digital Humanities, Egyptian PhD Dissertation Research, and Pre-Dissertation Travel Grants) supporting research in Egypt in Egyptology, Islamic studies, and related fields.",
     "eligibility": "Varies by fellowship track; includes graduate students conducting PhD dissertation research as well as postdoctoral and independent scholars.",
-    "amount": "",
+    "amount": "Per diem of $2,200\u2013$3,520 per month based on academic rank, plus round-trip airfare (not a lump-sum award)",
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
@@ -7140,7 +7187,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 519,
@@ -7172,10 +7220,10 @@
     "agency1": "Office for Science and Technology, Embassy of France in the United States",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Jan 25, 2026",
-    "deadlineSort": "2026-01-25",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 18, 2027",
+    "deadlineSort": "2027-01-18",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://chateaubriand-fellowship.org/stem-application/",
     "description": "Funds 4-9 months of doctoral research in France for PhD students enrolled at U.S. institutions in STEM fields, providing a monthly allowance of up to 1,850 euros.",
@@ -7186,7 +7234,10 @@
     "citizenship": "other",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://chateaubriand-fellowship.org/stem-application/",
+    "researched": "2026-10-15"
   },
   {
     "id": 538,
@@ -7543,7 +7594,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-15"
   },
   {
     "id": 895,
@@ -7634,7 +7686,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 544,
@@ -7769,7 +7822,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 100,
@@ -7791,7 +7845,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 78,
@@ -7813,7 +7868,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 49,
@@ -7835,7 +7891,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 628,
@@ -7904,7 +7961,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 644,
@@ -7949,7 +8007,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 72,
@@ -7972,7 +8031,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 179,
@@ -7994,7 +8054,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 128,
@@ -8016,7 +8077,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 196,
@@ -8039,7 +8101,8 @@
     "levels": [
       "masters",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 215,
@@ -8198,7 +8261,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 274,
@@ -8423,7 +8487,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://acsus.org/acsus-enders-graduate-fellowship",
+    "researched": "2026-10-15"
   },
   {
     "id": 52,
@@ -8445,7 +8512,8 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 24,
@@ -8465,7 +8533,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "other",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-15"
   },
   {
     "id": 1011,
@@ -8525,13 +8594,14 @@
     "officialUrl": "https://sarweb.org/scholars/resident/",
     "description": "Nine-month residential fellowships in Santa Fe, NM, supporting scholars completing a book-length research project in anthropology and related humanities/social science fields.",
     "eligibility": "Scholars who have completed their PhD with a substantially developed research manuscript.",
-    "amount": "",
+    "amount": "$40,000 stipend for doctoral-level Lamon fellows ($35,000 for PhD candidates)",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 99,
@@ -8539,10 +8609,10 @@
     "agency1": "The Metropolitan Museum of Art",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 17, 2025",
-    "deadlineSort": "2025-10-17",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Oct 15, 2026",
+    "deadlineSort": "2026-10-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
     "description": "Supports fellows conducting independent research on art history or visual culture in residence at the Met, with access to its collections and curatorial staff.",
@@ -8554,7 +8624,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+    "researched": "2026-10-15"
   },
   {
     "id": 712,
@@ -8621,7 +8694,10 @@
     "levels": [
       "masters",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://employment.williams.edu/faculty-positions/2027-gaius-charles-bolin-dissertation-and-post-mfa-fellowship-cognitive-science/",
+    "researched": "2026-10-15"
   },
   {
     "id": 227,
@@ -8709,7 +8785,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+    "researched": "2026-10-15"
   },
   {
     "id": 689,
@@ -8799,7 +8878,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 135,
@@ -8821,7 +8901,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-15"
   },
   {
     "id": 147,
@@ -8837,14 +8918,17 @@
     "officialUrl": "https://www.fu-berlin.de/en/sites/bprogram/index.html",
     "description": "Research program for early-career scholars in the social sciences and humanities studying contemporary Germany and Europe (18th century-present); offers dissertation and postdoctoral fellowship tracks.",
     "eligibility": "Doctoral candidates (dissertation fellowship) or postdocs (postdoc fellowship) in relevant fields, run in cooperation with GSA.",
-    "amount": "",
+    "amount": "EUR 1550 per month for 10 to 12 months, plus EUR 1200 travel reimbursement",
     "awardType": "Dissertation Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.fu-berlin.de/en/sites/bprogram/application/Deadline-Notification-Selection/index.html",
+    "researched": "2026-10-15"
   },
   {
     "id": 187,
@@ -8867,7 +8951,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-15",
+    "checkedSource": "https://www.getty.edu/projects/graduate-internships/",
+    "researched": "2026-10-15"
   },
   {
     "id": 198,
@@ -8875,10 +8962,10 @@
     "agency1": "University of Illinois Urbana-Champaign, College of Fine and Applied Arts",
     "agency2": "John Robert Gregg Fund, The New York Community Trust",
     "season": "Winter",
-    "deadline": "Dec 01, 2025",
-    "deadlineSort": "2025-12-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 01, 2026",
+    "deadlineSort": "2026-12-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
     "description": "One-time fellowship for a year of independent, non-degree advanced study/creative work following graduation, in art/design, dance, music, theatre, architecture, landscape architecture, or urban/regional planning.",
@@ -8887,7 +8974,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-15",
+    "checkedSource": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+    "researched": "2026-10-15"
   },
   {
     "id": 217,

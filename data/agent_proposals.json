@@ -1,0 +1,2486 @@
+{
+  "date": "2026-10-15",
+  "model": "claude-haiku-5-5",
+  "usage": {
+    "input_tokens": 2124482,
+    "output_tokens": 124754,
+    "web_search_requests": 28,
+    "token_cost": 0.4353344000000001
+  },
+  "results": [
+    {
+      "id": 12,
+      "title": "Newkirk Fellowship",
+      "changes": {
+        "amount": "$4,000 per month stipend, plus airfare for one visit per year"
+      },
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "quote": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-04-01",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "quote": "Febuary 11, 2026\u2013April 1, 2026",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$4,000 per month stipend, plus airfare for one visit per year",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "quote": "Stipend of $4,000 per month",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Applicants must be enrolled full time in a graduate program with interests common to HAO research and an identified PhD advisor committed to collaborating with HAO.",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "quote": "The applicant must be enrolled full time in a university graduate program with a common interest in HAO research goals.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Applications for this program are accepted once a year.",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/newkirk-fellowship",
+          "quote": "Applications for this program are accepted once a year.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline of Apr 01, 2026 is in the past as of 2026-10-15. The sponsor page still shows only the 2026 cycle (February 11, 2026 to April 1, 2026), and no 2027 dates are posted, so the most recent deadline is given as the value. The listing's amount field was empty; the page states a stipend of $4,000 per month plus airfare, which I added. The page does not state a discontinued or paused status. Applications go by email to hao-newkirk@ucar.edu with five items: cover letter, research statement, CV, transcripts, and an advisor support letter. The page says the visit must occur within one year of acceptance. The listing's URL matches the sponsor page and loads correctly.",
+      "before": {
+        "amount": ""
+      }
+    },
+    {
+      "id": 22,
+      "title": "Core Fulbright US Scholar Program",
+      "changes": {
+        "deadline": "Sep 15, 2026"
+      },
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://exchanges.state.gov/us/program/fulbright-us-scholar-program",
+          "source_url": "https://exchanges.state.gov/us/program/fulbright-us-scholar-program",
+          "quote": "The Fulbright U.S. Scholar Program sends approximately 800 American scholars and professionals per year to approximately 130 countries",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-09-15",
+          "source_url": "https://fulbrightscholars.org/us-scholar-awards",
+          "quote": "Application Deadline: September 15, 2026, 5:00 PM EDT (UTC -4:00)",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "U.S. citizens (permanent residence is not enough) who meet the education and experience requirements stated in each award, which may call for a terminal degree or professional qualifications; graduate students seeking degree funding are ineligible.",
+          "source_url": "https://fulbrightscholars.org/us-scholar-awards",
+          "quote": "Applicants must hold U.S. citizenship by the application deadline. Permanent residence is not sufficient.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: the sponsor's page describes the 2027-28 competition as open and the program as ongoing.",
+          "source_url": "https://fulbrightscholars.org/us-scholar-awards",
+          "quote": "Step 5: Start an Application The 2027-28 Fulbright U.S. Scholar Competition is open!",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "Deadline: the 2027-28 U.S. Scholar competition closed September 15, 2026, which is before today (2026-10-15). The sponsor has not posted a later cycle, so I gave that most recent deadline as the sponsor states it; the listing's deadline should be treated as closed until the next cycle is posted. The listing's blank deadline is therefore filled, but with a past date. Amount: neither the State Department page nor the Fulbright Scholars page gives a general award amount; the Fulbright site describes per-award benefits in each award's listing, so I left the amount empty rather than use the listing's \"typically covers salary, housing, and travel\" wording, which I could not confirm. Official URL: the listed State Department page is valid and describes the program; application details are on fulbrightscholars.org, run by IIE for the program. Eligibility: the sponsor's page also notes postdoc awards and that specific awards set degree and career-profile requirements, so the listing's \"doctorate or significant professional experience\" is a simplification.",
+      "before": {
+        "deadline": ""
+      }
+    },
+    {
+      "id": 24,
+      "title": "Japanese Government (MEXT) Scholarship for Research Students",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "source_url": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "quote": "The Embassy of Japan in Washington, D.C. processes MEXT Scholarship applications for U.S. citizens residing in Maryland, Virginia, and the District of Columbia.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-05-21",
+          "source_url": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "quote": "The deadline for application documents to be submitted to the Embassy is **May 21st, 2026***.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Airfare to Japan, university tuition, and a stipend for cost of living (no dollar figure stated on the page)",
+          "source_url": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "quote": "It provides airfare to Japan, tuition for the university, and a stipend for cost of living.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "U.S. citizens residing in Maryland, Virginia, or the District of Columbia (other U.S. residents apply through their local Japanese consulate) who have completed an undergraduate degree before the scholarship term begins, for research master's or doctoral study in Japan.",
+          "source_url": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "quote": "U.S. citizenship and residence in Maryland, Virginia, or the District of Columbia",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: the page is dated 2026/5/22 and links to 2027 MEXT Research Scholarship guidelines with a term starting April 2027.",
+          "source_url": "https://www.us.emb-japan.go.jp/itpr_en/mext-scholarship.html",
+          "quote": "The term of the 2027 MEXT Research Scholarship is from April 2027 to March 2028 with the possibility of extension.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's details are out of date and should not be used as they stand. (1) Deadline: the listing says Jun 10, 2026, but the sponsor page gives May 21, 2026 as the document deadline for the Research Students track, and states it is not a postmark deadline. That date has passed. The sponsor has not posted a later cycle, so I gave the most recent stated date. The page's timeline is for the 2027 award (April 2027 departure), so the next cycle is likely similar but unconfirmed. (2) Eligibility: the listing says non-Japanese nationals applying through their home-country embassy. The page limits the embassy route to U.S. citizens; other U.S. residents use their local consulate. The page does not list non-U.S. nationals. Other requirements: born on or after April 2, 1992, and, if Japanese is the language of instruction, travel to the DC embassy for the first screening. (3) Amount: the page gives no monthly stipend figure, so I left the value descriptive. (4) Season: the listing says Spring, but the page says departure is April or September/October 2027. (5) The page covers several MEXT tracks (Undergraduate, Research, Japanese Studies); I checked only the Research Students section, which matches this listing. Full guidelines are at studyinjapan.go.jp (the page links a 2027 Research Guidelines PDF, which I did not open).",
+      "before": {}
+    },
+    {
+      "id": 38,
+      "title": "ACSUS-Enders Graduate Fellowship in Canada-U.S. Relations",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://acsus.org/acsus-enders-graduate-fellowship"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "source_url": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "quote": "[Apply Now](mailto:info@acsus.org)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-08-15",
+          "source_url": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "quote": "August 15, 2027",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$5,000 grant award",
+          "source_url": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "quote": "$5,000",
+          "verdict": "rejected",
+          "reason": "quote too short to check"
+        },
+        "eligibility": {
+          "value": "US citizens or permanent residents enrolled full-time in a US master's or doctoral program, preparing a thesis or dissertation substantially on Canada, Canada-U.S. relations, or comparative North American policy, with research conducted in Canada.",
+          "source_url": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "quote": "Students must be US citizens or permanent residents",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Application deadline posted for the 2027-2028 award period",
+          "source_url": "https://acsus.org/acsus-enders-graduate-fellowship",
+          "quote": "August 15, 2027",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page lists the application deadline as August 15, 2027, with notification August 31, 2027 and award period Academic Year 2027-2028. The listing's \"Summer\" season does not match the page, which describes an academic-year award. The page's canonical URL is https://acsus.org/awards/acsus-enders-graduate-fellowship/; the listed URL also loads the same content. The page's eligibility also requires that the student be enrolled in a US program and present their research at an ACSUS meeting, and the fellowship funds research in Canada, which the listing omits. The page's apply button is a mailto link to info@acsus.org, not an online portal. Some listing details are checked against the page as published on 2026-08-31 (modified date). No discontinuation or pause was stated.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 45,
+      "title": "Mentored Research Scientist Development Awards",
+      "changes": {
+        "deadline": "Feb 12, 2027",
+        "checked": "2026-10-15",
+        "checkedSource": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+          "source_url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+          "quote": "Mentored Research Scientist Development Award (Parent K01 - Independent Clinical Trial Not Allowed)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-02-12",
+          "source_url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+          "quote": "February 12, 2027",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Salary per the applicant institution's salary structure, plus research support of up to $40,000 per year (for 3-5 years of protected time)",
+          "source_url": "https://www.genome.gov/careers-training/NHGRI-Funding-Opportunities-Training-Career-Development",
+          "quote": "Up to $40,000 per year.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Candidates must be U.S. citizens or permanent residents holding a research or health-professional doctoral degree who propose research under a qualified mentor in biomedical, behavioral, or clinical sciences.",
+          "source_url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+          "quote": "Candidates for the K01 award must have a research or health-professional doctoral degree.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active; NOFO expiration date May 08, 2027",
+          "source_url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html",
+          "quote": "May 08, 2027",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline of Oct 12, 2026 is a cycle that closed three days ago, so it is not the next deadline. The sponsor's due-date table for PA-24-176 lists the next date as February 12, 2027; the sponsor gives dates without years, so I added 2027 from the table. The NHGRI page lists the K01 cycles as \"February 12, June 12, October 12\" without years, and it also lists the companion PA-24-175 (Parent K01 - Independent Clinical Trial Required), which is for applicants leading an independent clinical trial and has the same due dates. The listing's generic description fits both; this entry uses the non-clinical-trial NOFO, PA-24-176. The NHGRI page's \"Important Dates\" for PA-24-176 and the NOFO table both fall within the NOFO period. The listing's officialUrl (NHGRI funding page) is a multi-program index; I used the NIH NOFO page as official_url. The amount is research support only; salary is set by each institution's salary scale, so the value combines both. The NHGRI page's overview states that these opportunities are limited to U.S. citizens or permanent residents, except K99/R00. Note: the NOFO's due-date table shows 'Not Applicable' for AIDS dates, and the NIH website is being restructured, so verify dates in the live NOFO before applying.",
+      "before": {
+        "deadline": "Oct 12, 2026",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 49,
+      "title": "Michigan Society of Fellows Postdoctoral Fellowship",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://societyoffellows.umich.edu/the-fellowship/application-guidelines/",
+          "source_url": "https://societyoffellows.umich.edu/the-fellowship/application-guidelines/",
+          "quote": "Application Guidelines \u2013 University of Michigan Society of Fellows",
+          "verdict": "rejected",
+          "reason": "quote not found on the source page"
+        },
+        "deadline": {
+          "value": "2026-09-14",
+          "source_url": "https://societyoffellows.umich.edu/the-fellowship/application-guidelines/",
+          "quote": "The application deadline is Monday, September 14, 2026, 11:59 PM EDT.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Applicants must have completed a PhD or comparable professional or artistic degree (not from the University of Michigan in the applied field) between June 1, 2024 and August 24, 2027; non-US citizens may apply.",
+          "source_url": "https://societyoffellows.umich.edu/the-fellowship/application-guidelines/",
+          "quote": "Applicants must complete their Ph.D. (or comparable professional or artistic) degree between June 1, 2024, and August 24, 2027.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active annual competition",
+          "source_url": "https://societyoffellows.umich.edu/the-fellowship/application-guidelines/",
+          "quote": "The application form will be available annually on August 1, 12:01 AM EDT.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The deadline is the most recent one on the sponsor's page (Sep 14, 2026). Today is 2026-10-15, so it has passed. The sponsor has not yet posted a 2027 application deadline in the pages I fetched, so the next cycle's deadline is unconfirmed; check the page again after August 1 when the next form opens. The listing's \"Sep 21, 2026\" is the letter-of-recommendation deadline (one week after the application deadline, per the FAQ), not the application deadline; the FAQ quote is \"The deadline to submit letters of recommendation is 11:59 PM (EDT) on Monday, September 21, 2026.\" The listing's \"Fall\" season and the 2026 start date should also be treated with care. The sponsor's pages I fetched do not state a stipend, so amount is empty; third-party sites cite $63,000 but I did not use them. The listing's official URL is the sponsor's own guidelines page and is still valid. The sponsor's pages also mention a new Arts Initiative fellowship for the 2027\u20132030 term, which has separate MFA-based eligibility, and the guidelines say the Ph.D. window is \"strictly observed.\" The eligibility line above describes the general Ph.D. track only.",
+      "before": {}
+    },
+    {
+      "id": 52,
+      "title": "Fulbright-Hays Doctoral Dissertation Research Abroad (DDRA) Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "unclear",
+          "source_url": "https://www.federalregister.gov/documents/2025/05/09/2025-08109/withdrawal-of-notices-inviting-application-and-cancellation-of-the-competitions-for-the",
+          "quote": "are withdrawn and the competitions cancelled as of May 9, 2025.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing is out of date and should not be published as-is. (1) The listed URL (fulbright.wisc.edu/ddra/) is a UW-Madison campus page, not the sponsor's. It states that \"The 2025-2026 DDRA competition has been cancelled.\" The Jan 27, 2025 date is a UW-Madison campus deadline for that cancelled cycle, not a deadline for any open cycle. (2) The sponsor's notice (U.S. Department of Education, Federal Register, 9 May 2025) withdrew the FY2025 DDRA competition and cancelled it as of May 9, 2025. It does not say the program itself is discontinued, so status is \"unclear.\" Inside Higher Ed reported the Department said the cancellation was \"just for fiscal year 2025\" and did not say whether the program would resume in FY2026. Georgetown's graduate school page (not sponsor) says the Department indicated it is not accepting new applications for 2025-26. UCLA's graduate page says it has no further information on future application cycles. (3) Deadline left empty: no next cycle has been posted, and the most recent sponsor-stated deadline falls under a withdrawn notice. (4) Amount left empty: the sponsor's fetched page does not state an award amount. A 2024 Federal Register notice snippet gave an estimated range of $15,000\u2013$60,000, but I did not fetch that page, so I did not use it. (5) Eligibility left empty: the listing's eligibility text matches the UW-Madison page, not a sponsor page I could read. The sponsor's Department of Education page (ed.gov, under ifle/fulbright-hays-doctoral-dissertation-research-abroad) returned errors on fetch twice, so I could not confirm it as the official page or read its deadline or eligibility text. Search snippets from it said the FY2025 competition closed January 29, 2025, but I could not verify that by fetching. Recommend a manual check of that page and of any FY2026/FY2027 notice before republishing.",
+      "before": {}
+    },
+    {
+      "id": 54,
+      "title": "National Museum of the American Indian (NMAI) Internship Program",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://internships.si.edu/opportunity/internships-national-museum-american-indian"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+          "source_url": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+          "quote": "Internships at the National Museum of the American Indian",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-11-15",
+          "source_url": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+          "quote": "Winter/Spring Deadline:** November 15",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": true
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Enrolled students in an academic program can apply, and non-students may also apply by explaining in the essay how the internship would serve their professional or academic goals; the page tags the program for undergraduate/recent graduates and graduate/doctoral students, with no citizenship requirement.",
+          "source_url": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+          "quote": "If you are currently enrolled in an academic program you are eligible to apply.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://internships.si.edu/opportunity/internships-national-museum-american-indian",
+          "quote": "The National Museum of the American Indian (NMAI) offers internships during the Fall, Winter/Spring, and Summer terms",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page (internships.si.edu, Smithsonian Office of Academic Appointments and Internships) lists the Winter/Spring deadline as November 15 with no year; I added 2026, the next November 15 after today (2026-10-15). Applications go through the SOLAA system, and the page says all application components must be uploaded there, including two recommendation letters. The NMAI Conservation internship is a separate application. Amount: the page only says \"Stipends Available\" and gives no dollar figure, so the amount field is left blank; the listing's \"Varies by position\" is not on the sponsor's page. The listing's \"post-graduate\" wording is not used; the page's tags say Undergraduate/Recent Graduate and Graduate/Doctoral. A search snippet showed an October 25, 2026 'Spring' deadline, but that belongs to the National Museum of American History internship on the Public Affairs & Social Media listing page, not NMAI, so I did not use it. The NMAI page's contact email is nmaiinterns@si.edu in a search snippet, while the fetched page shows an obfuscated email; the phone number 202-633-6988 is on the page. The listing's season 'Winter' matches the Winter/Spring term.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 55,
+      "title": "Albright Institute of Archaeological Research Fellowships (Jerusalem)",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://aiar.org/fellowships/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://aiar.org/fellowships/",
+          "source_url": "https://aiar.org/fellowships/",
+          "quote": "Applications for 2027\u20132028 AIAR Fellowships Are Open!",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-06",
+          "source_url": "https://aiar.org/fellowships/",
+          "quote": "Applications close December 6, 2026.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$3,000 to $20,000 depending on fellowship type",
+          "source_url": "https://aiar.org/fellowships/",
+          "quote": "$20,000 award for 4 months (up to two awards available).",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Applicants must be humanities or social sciences students or scholars studying the southern Levant, and eligibility within the program varies by fellowship (degree stage, citizenship).",
+          "source_url": "https://aiar.org/fellowships/",
+          "quote": "Applications are open to students and scholars of the humanities and social sciences",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Applications open for 2027\u20132028 fellowships",
+          "source_url": "https://aiar.org/fellowships/",
+          "quote": "Applications for 2027\u20132028 AIAR Fellowships Are Open!",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's agencies (NEH and ASOR) are not mentioned on the AIAR fellowships page I fetched; the page is the Albright Institute's own site, so I did not confirm either agency's role. The deadline matches the page: applications for the 2027\u20132028 cycle close 6 December 2026, and the year is stated on the page so none was added. The amount range matches the page: the Shufro Summer Research Fellowship is $3,000 for one month, and the Seymour Gitin Distinguished Professorship is $20,000 (up to two awards); the other fellowships are $12,000 or $13,500. The quote shown is the top of the range. The listing's eligibility (\"archaeology and related Near Eastern studies\") is broader or different than the page, which says humanities and social sciences studying the southern Levant from deep prehistory to the Early Modern period, plus related fields such as museum studies. Individual awards have specific limits: Meyers Dissertation Fellowship is for US-citizen doctoral students; ECA Annual Professorship is for US-citizen postdoctoral scholars; Shufro is for doctoral, postdoctoral and senior scholars of all nationalities. The page lists about six fellowships, so a single amount and eligibility line can't capture all of them. Residency is required in Jerusalem, and the Shufro award's residency is in summer 2028. The ECA portal opens 1 September 2026, which is before the deadline. Fetched on 2026-10-15.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 61,
+      "title": "Scoville Peace Fellowship",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://scoville.org/apply/",
+          "source_url": "https://scoville.org/apply/",
+          "quote": "Herbert Scoville Jr. Peace Fellowship Program invites recent college and graduate school alumni",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-02-27",
+          "source_url": "https://scoville.org/overview/deadlines/",
+          "quote": "Fall 2026 Fellowship\u2014February 27, 2026",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$4,497 per month salary, with up to $400/month health insurance reimbursement and travel to DC reimbursed",
+          "source_url": "https://scoville.org/benefits/salary/",
+          "quote": "Fellows receive a salary of $4,497 per month.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Recent college graduates and graduate students who have completed a bachelor's degree by the start of the fellowship, with US citizens (in the US or overseas) and non-citizens living in the US on a work visa eligible, working on peace and security issues.",
+          "source_url": "https://scoville.org/overview/eligibility/",
+          "quote": "Candidates are required to have completed a baccalaureate degree by the time the fellowship commences.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://scoville.org/overview/deadlines/",
+          "quote": "Spring Fellowship\u2013begin between January 15 and April 1",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listed deadline (Feb 27, 2026) has passed. The sponsor's deadlines page (last modified Feb 2026) lists only the Fall 2026 cycle, so I've reported that most recent date as the sponsor's own posted deadline. The sponsor's homepage (seen in search snippet, not fetched) says the fall 2026 deadline has passed and applications are closed. A UC Berkeley scholarships page says to check back in April 2026 for the Fall 2026 deadline and that the Spring 2027 application will be due in October 2026; I did not verify this on the sponsor's site, so the next deadline is unconfirmed and the user should check scoville.org before relying on it. The listing's officialUrl (/apply/) returned the overview content rather than a separate application page; the overview page is the sponsor's program page. Amount: the sponsor's salary page (modified July 2026) gives $4,497/month. The benefits page's meta description still says $3,500/month, an older figure, and third-party sites cite $4,283/month; I used the most recent sponsor figure. The listing's 'Salary, health insurance, and travel covered' is consistent with the sponsor's page, which also lists $1,500 professional development. The listing's season ('Fall') is incomplete: the sponsor runs both spring and fall fellowships.",
+      "before": {}
+    },
+    {
+      "id": 62,
+      "title": "HSF Scholar Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.hsf.net/scholarship/",
+          "source_url": "https://www.hsf.net/scholarship/",
+          "quote": "2026 HSF Scholar Program Application",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-02-15",
+          "source_url": "https://www.hsf.net/scholarship/",
+          "quote": "February 15",
+          "verdict": "rejected",
+          "reason": "quote too short to check"
+        },
+        "amount": {
+          "value": "$500\u2013$5,000, based on relative need",
+          "source_url": "https://www.hsf.net/scholarship/",
+          "quote": "Award amounts range from $500 - $5,000, based on relative need.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Students of Hispanic heritage (any race) who are U.S. citizens, permanent residents, or DACA recipients, with at least a 2.5 GPA as college or graduate students, planning to enroll full-time at an accredited U.S. public or not-for-profit four-year university or graduate school, and who complete the FAFSA.",
+          "source_url": "https://www.hsf.net/scholarship/",
+          "quote": "Minimum of 3.0 GPA on a 4.0 scale (or equivalent) for high school students; minimum of 2.5 GPA on a 4.0 scale (or equivalent) for college and graduate students",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.hsf.net/scholarship/",
+          "quote": "2026 HSF Scholar Program Application",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page (fetched today, 2026-10-15) covers the 2026 cycle and shows the status as \"Closed\". Its deadline is February 15, 2026; the year 2026 appears on the line after \"February 15\" on the page, and I took it from there. No 2027 cycle is posted yet, so this past deadline is the most recent one given, as the rules require. The page lists the cycle timeline as: available January 5 2026, finalist phase March 2026, selection June 2026, documents June\u2013November 2026, awards Fall 2026. The page describes the award as \"$500-$5,000\" for HSF Scholars, with scholarships depending on available funds. Eligibility on file says \"enrolled full-time\"; the page says \"plan to enroll full-time\" at a public or not-for-profit four-year university or graduate school for the 2026-2027 academic year. The page also lists a 3.0 GPA minimum for high school students, which doesn't apply to this college/graduate listing. The page does not say the program is discontinued or paused. The on-file link (https://www.hsf.net/scholarship/) resolves to the page I read.",
+      "before": {}
+    },
+    {
+      "id": 66,
+      "title": "NAEd/Spencer Dissertation Fellowship Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://naeducation.org/naed-spencer-dissertation-fellowship/",
+          "source_url": "https://naeducation.org/naed-spencer-dissertation-fellowship/",
+          "quote": "The fellowship encourages a new generation of scholars from various disciplines and professional fields to undertake research relevant to improving education.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$30,000 stipend (paid in two installments for one academic year)",
+          "source_url": "https://naeducation.org/naed-spencer-dissertation-fellowship/",
+          "quote": "Fellows receive $30,000 for one academic year, distributed in two installments.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Doctoral candidates at a graduate school in the United States (US citizenship not required) who must complete pre-dissertation requirements by June 1, 2027, with the topic focused on education research.",
+          "source_url": "https://naeducation.org/naed-spencer-dissertation-fellowship/",
+          "quote": "Be candidates for the doctoral degree at a graduate school within the United States. US citizenship is not required.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active program, currently not accepting applications",
+          "source_url": "https://naeducation.org/naed-spencer-dissertation-fellowship/",
+          "quote": "As a highly competitive initiative, this fellowship annually identifies and supports 35 of the most exceptional researchers conducting dissertation studies relevant to education.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "Listing corrections needed: (1) Amount: the sponsor states $30,000, not $27,500. (2) Deadline: the dissertation page shows the application deadline as \"Closed\" with no date, and the NAEd fellowships index page lists \"TBD - October 2027\" with no specific day, so no deadline is entered; the listing's \"Oct 08, 2026\" does not appear on the sponsor's pages and should not be used. Funding status on both pages reads \"Not accepting applications.\" (3) Eligibility: the page does not use the \"ABD by application deadline\" wording. It requires candidacy for a doctoral degree at a US graduate school and completion of pre-dissertation requirements by June 1, 2027 (the page's FAQ lists course requirements, qualifying exams, and approval of the dissertation proposal). Program status is marked active because the sponsor describes it as an ongoing annual program; no page says it is discontinued or paused. The official URL is confirmed as the sponsor's page.",
+      "before": {}
+    },
+    {
+      "id": 67,
+      "title": "Korea Foundation Fellowship for Field Research",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.kf.or.kr/kfEng/cm/cntnts/cntntsView.do?mi=15556&cntntsId=2182",
+          "source_url": "https://www.kf.or.kr/kfEng/cm/cntnts/cntntsView.do?mi=15556&cntntsId=2182",
+          "quote": "The KF Fellowship for Field Research offers program support to provide eminent overseas Korean studies scholars",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-14",
+          "source_url": "https://apply.kf.or.kr/main.nkf?lang=en_US",
+          "quote": "Application Deadline 10-14-2026 18:00 (KST)",
+          "verdict": "rejected",
+          "reason": "quote does not contain this date"
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open to scholars from outside Korea whose research is in Korean studies or Korea-related humanities or social sciences, with a Type A track for doctoral candidates (the sponsor's program page does not separately list a doctoral-candidate requirement).",
+          "source_url": "https://www.kf.or.kr/kfEng/cm/cntnts/cntntsView.do?mi=15556&cntntsId=2182",
+          "quote": "Scholars from outside of Korea who are 1) conducting comparative or case studies in the field of Korean studies",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Annual cycle still listed; the 2027 cycle appears on the sponsor's application portal.",
+          "source_url": "https://apply.kf.or.kr/main.nkf?lang=en_US",
+          "quote": "Individual 2027 KF Fellowship for Field Research",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Sep 01, 2025) is outdated. The sponsor's portal shows the 2027 cycle with a deadline of 10-14-2026 18:00 (KST), which closed yesterday (2026-10-15); I entered that as the most recent stated deadline because no 2028 cycle is posted yet. The aggregator nxpo page also gives 14 October 2026, consistent with the portal. The reference-letter deadline, which the 2026 cycle set one week after applications closed, is not confirmed for 2027. The amount is left empty: the sponsor's program page lists support types (travel insurance, entry expenses, round-trip airfare) but no monetary figure, and the aggregator's stipend figures were not used. The listing's eligibility wording (\"graduate students... typically doctoral candidates\") does not match the sponsor's \"scholars from outside of Korea\" wording; the sponsor's 2027 Type A doctoral track was seen only on an aggregator, so the eligibility value relies on the program page. The listing's official URL (en.kf.or.kr) redirects to the general KF site; I used the program page instead.",
+      "before": {}
+    },
+    {
+      "id": 72,
+      "title": "Mildred E. Mathias Graduate Student Research Grant Program",
+      "changes": {
+        "deadline": "Dec 01, 2027",
+        "checked": "2026-10-15",
+        "checkedSource": "https://ucnature.org/mathias-graduate-research-grant/application-information/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://ucnature.org/research/student-research-funding/mathias-grant/",
+          "source_url": "https://ucnature.org/research/student-research-funding/mathias-grant/",
+          "quote": "The Mildred E. Mathias Graduate Student Research Grant Program funds graduate research at UC Nature reserves.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-12-01",
+          "source_url": "https://ucnature.org/mathias-graduate-research-grant/application-information/",
+          "quote": "The application deadline is December 1, 2027",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Up to $3,000 per applicant (up to $38,000 total available)",
+          "source_url": "https://ucnature.org/research/student-research-funding/mathias-grant/",
+          "quote": "Awards are a maximum of $3,000 per applicant.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Graduate students (PhD or Master's) at a University of California campus, in any discipline, who use at least one UC Nature reserve for a significant part of their field research.",
+          "source_url": "https://ucnature.org/mathias-graduate-research-grant/application-information/",
+          "quote": "Applicants must be graduate students enrolled in a PhD or Master\u2019s program at a University of California campus.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active cycle",
+          "source_url": "https://ucnature.org/mathias-graduate-research-grant/application-information/",
+          "quote": "The application deadline is December 1, 2027",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Jan 16, 2026) is out of date. The application information page gives the application deadline as December 1, 2027, which is the next cycle after today; the year comes from the page itself, not added by me. That same page says \"Letters of recommendation must be received by January 16, 2026,\" so the listed date is the past letter deadline, not the application deadline. The page is internally inconsistent in places (the reporting section refers to FY25-26 reports and the page image is labelled 2027), so the applicant should confirm the December 1, 2027 date with UC Nature. The listed amount \"approx. $38,000 total pool\" is reflected as \"up to $38,000 total available\" on the main page. The listed officialUrl still resolves to the sponsor's program page and was kept. No discontinued or paused status was stated.",
+      "before": {
+        "deadline": "Jan 16, 2026",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 77,
+      "title": "Presidential Management Fellows (PMF) Program",
+      "changes": {},
+      "flags": [
+        "Sponsor page says the program is discontinued"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.pmf.gov/",
+          "source_url": "https://www.pmf.gov/",
+          "quote": "Welcome to PMF.gov",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "Full federal salary and benefits (no dollar figure or GS grade stated on the sponsor page)",
+          "source_url": "https://www.pmf.gov/the-opportunity/compensation/index.html",
+          "quote": "you will receive full salary and benefits just like any other Federal employee",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Current graduate students expected to finish an advanced degree by August 31 of the year after the application, or recent graduates who earned one in the two years before it opens (the program itself has been terminated).",
+          "source_url": "https://www.pmf.gov/become-a-pmf/eligibility/index.html",
+          "quote": "\u201cAdvanced degree\u201d is defined as a professional or graduate degree (e.g., Master's, Ph.D., J.D.).",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Discontinued: the sponsor reports that a White House Executive Order directs termination of the PMF Program, and shutdown is underway, including cancellation of the Class of 2025 application.",
+          "source_url": "https://www.pmf.gov/news-events/termination-of-the-pmf-program/index.html",
+          "quote": "which directs the termination of the Presidential Management Fellows (PMF) Program.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor's own site (OPM's pmf.gov) says the PMF Program is being terminated and shut down. The Feb 19, 2025 notice says PMF Class of 2025 application was cancelled, and an Apr 18, 2025 update says OPM is working on a final rule to convert current Fellows. No next application cycle is posted, so the deadline is left empty; the sponsor page gives no deadline at all. The listing's \"Fall\" season is outdated. The amount is stated only as full salary and benefits; no GS scale is given on the sponsor page. The eligibility rules (Aug 31 completion date, two-year rule) come from the sponsor's eligibility page, last updated 07-26-2024, and are historical. Third-party pages (e.g., energy.gov, Duke, Buffalo) give past deadlines, but I did not use them since they are not the sponsor's pages. The listing's \"Federal salary (GS scale)\" wording could not be confirmed on the sponsor's pages.",
+      "before": {}
+    },
+    {
+      "id": 78,
+      "title": "The Berlin Prize",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.americanacademy.de/fellowship-application/",
+          "source_url": "https://www.americanacademy.de/fellowship-application/",
+          "quote": "Applications for the 2027-28 Berlin Prize are now closed. We plan to open our 2028-29 competition in July 2027.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-09-25",
+          "source_url": "https://www.americanacademy.de/apply/apply-for-a-fellowship/",
+          "quote": "The application deadline for the 2027-28 Berlin Prize is Friday, September 25, 2026, at 12:00 p.m. ET/6:00 p.m. CET.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$5,000 monthly stipend plus roundtrip airfare, accommodation, and partial board",
+          "source_url": "https://www.americanacademy.de/apply/apply-for-a-fellowship/",
+          "quote": "Berlin Prize Fellows receive monthly stipends of $5000, roundtrip airfare",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open only to U.S. citizens and permanent residents; emerging scholars should hold a PhD and a strong record of peer-reviewed work, and applicants in most other fields need a significant record of publication or production.",
+          "source_url": "https://www.americanacademy.de/apply/apply-for-a-fellowship/",
+          "quote": "Fellowships are restricted to citizens and permanent residents of the United States.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "The program continues: the Academy plans its 2028-29 competition for July 2027.",
+          "source_url": "https://www.americanacademy.de/apply/apply-for-a-fellowship/",
+          "quote": "We plan to open our 2028-29 competition in July 2027.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Sep 25, 2026) is correct for the 2027-28 cycle, but it is already past as of 2026-10-15, and the sponsor's page says the 2027-28 applications are closed. The sponsor has not posted a 2028-29 deadline (only that the competition opens July 2027), so I entered the most recent stated deadline, 2026-09-25, rather than a future date. The year was already stated on the page, so I did not add one. The page gives 12:00 p.m. ET / 6:00 p.m. CET. Letters of recommendation were due October 2, 2026, also past. The listed URL redirects to the canonical page at /fellowship-application/, and the content I read was from the listed URL. The sponsor describes the stipend as $5000 per month; the listing's \"$5,000\" matches. The page says fellows get roundtrip airfare, accommodation near the Hans Arnhold Center, and partial board. The listing's eligibility is accurate on citizenship, but the doctorate requirement applies only to emerging scholars, and the page also covers journalists, writers, and policy experts without a PhD. Visual artists and composers apply only through nomination-based competitions, and the Academy does not accept mathematics or natural sciences proposals.",
+      "before": {}
+    },
+    {
+      "id": 84,
+      "title": "California Sea Grant State Fellowship",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://caseagrant.ucsd.edu/funding/2027-california-sea-grant-state-fellowship",
+          "source_url": "https://caseagrant.ucsd.edu/funding/2027-california-sea-grant-state-fellowship",
+          "quote": "2027 California Sea Grant State Fellowship",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-06-12",
+          "source_url": "https://caseagrant.ucsd.edu/funding/call-host-applications-2027-state-fellowship",
+          "quote": "Fellowship Applications due: June 12, 2026 by 5:00 PM PT",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$58,656 monthly stipend plus $3,792 health insurance and $2,500 travel; direct annual cost $64,948 (sponsor's host-cost summary, 2027 cycle)",
+          "source_url": "https://caseagrant.ucsd.edu/funding/call-host-applications-2027-state-fellowship",
+          "quote": "Direct annual cost of fellowship award (stipend [$58,656], health insurance [$3,792], travel [$2,500])= $64,948",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Post-graduate students who are near completion of, or recently completed, a graduate degree relevant to California coastal and marine resources; the sponsor's fellowship page also admits recent graduates from a California university with a degree dated after May 1, 2025.",
+          "source_url": "https://caseagrant.ucsd.edu/funding/call-host-applications-2027-state-fellowship",
+          "quote": "The program matches highly motivated and outstanding graduate students (near completion of degree or recently completed)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "The 2027 cycle is open with applications due June 12, 2026 and the fellowship starts in winter 2027.",
+          "source_url": "https://caseagrant.ucsd.edu/funding/call-host-applications-2027-state-fellowship",
+          "quote": "The fellowship, for this year\u2019s competition, will begin in the winter of 2027 (January to March).",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Jun 12, 2026) is in the past as of 2026-10-15. The sponsor has not posted a later cycle in the pages I could reach, so I gave the most recent deadline, as the rules require. No year was added to the date. The listing's season \"Summer\" conflicts with the sponsor: the fellowship runs 12 months starting January\u2013March 2027, so the season field looks wrong. The listing's amount was empty; I filled it from the sponsor's host-cost summary, which gives the fellow award components. The sponsor's fellowship page itself (the official_url) returned \"You don't have permission to access this domain\" when I fetched it, so the official_url quote is only the page title as it appeared in search results and is not verified by fetch. The eligibility quote comes from the host-application page. The fellowship page's own eligibility text (recent graduates after May 1, 2025, with degree completion required before start) was seen only in search snippets, not fetched. The listing's \"master's or PhD\" wording is narrower than the sponsor's \"graduate students\" phrasing, so check it. The 2028 cycle's deadline was not found. The instrumentl and grantexec aggregators give different stipend figures ($61,524 for an earlier cycle), which I did not use.",
+      "before": {}
+    },
+    {
+      "id": 85,
+      "title": "U.S. Department of State Student Internship Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://careers.state.gov/interns-fellows/student-internship-program/",
+          "source_url": "https://careers.state.gov/interns-fellows/student-internship-program/",
+          "quote": "The U.S. Department of State Student Internship Program is a paid internship",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "Paid internship; compensation at GS-04/Step 1 base pay schedule, plus furnished housing and travel to orientation and internship location",
+          "source_url": "https://careers.state.gov/interns-fellows/student-internship-program/",
+          "quote": "Paid interns receive compensation as a GS-04/Step 1 under the base pay schedule",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "U.S. citizens at least 18 years old who are enrolled at least part-time (or are recent graduates or U.S. veterans) with 60+ credit hours for undergraduates, a minimum 3.2 GPA, and the ability to obtain a Secret security clearance.",
+          "source_url": "https://careers.state.gov/interns-fellows/student-internship-program/",
+          "quote": "Be a United States citizen at the time of application.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://careers.state.gov/interns-fellows/student-internship-program/",
+          "quote": "Future application cycles will open at a later date.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page does not state a closing date for any Fall cycle, so the deadline is left empty. The listing's \"Sep 01, 2026\" date does not appear on the page. The timeline table gives only the Fall application open period as \"February\" (no close date), and the page says \"Spring and Summer 2027 applications are now closed while we select candidates. Future application cycles will open at a later date.\" Applications for the next Fall cycle therefore appear to open around February 2027 (per the table), but the sponsor has not posted a closing date. The page also says applications are submitted through USAJOBS and require a transcript showing student status; the listing's 3.2 GPA and 60-credit figures match the page, but the page adds citizenship, age 18+, Secret clearance, a no-prior-participation rule, and veteran/recent-graduate paths. The page was modified 2026-10-07. Program status is marked active based on the page being current, not on any explicit discontinuation notice.",
+      "before": {}
+    },
+    {
+      "id": 94,
+      "title": "Japanese Studies Fellowship Program for Doctoral Candidates",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+          "source_url": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+          "quote": "Japanese Studies Fellowship Programs (for US Applicants)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-01",
+          "source_url": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+          "quote": "11:59pm EST on Tuesday, December 1, 2026",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Doctoral Fellowship applicants must have achieved ABD status by the time the fellowship begins, and the page says applicants who are not U.S. citizens or permanent residents follow a different application process.",
+          "source_url": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+          "quote": "Applicants must have achieved ABD status by the time the fellowship begins.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://ny.jpf.go.jp/grants/grants-for-japanese-studies/fellowship-program/",
+          "quote": "2027-2028 Fellowship Categories",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The page lists a Proposal deadline of December 1, 2026 for the 2027-2028 cycle, which matches the listing. The deadline is the 11:59pm EST close on that date. The page covers three fellowship categories (Long-Term Research, Short-Term Research, and Doctoral); the listing's ABD requirement applies to the Doctoral Fellowship, which is for 4-12 month doctoral research projects. The page does not state a dollar award amount; it only says benefits include a monthly stipend, airfare, insurance, and other allowances, so the amount is left empty. The page does not explicitly say \"U.S. citizens or permanent residents\" in visible text. It says different application processes apply to applicants without American citizenship or permanent residency, and the detailed eligibility sits in an application guidelines document (a .docx file) that I did not open, so the citizenship restriction in the listing is unverified. Results are notified in April 2027. Humanities, social sciences, and comparative research projects are the stated fields.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 99,
+      "title": "Fellowship in History of Art and Visual Culture",
+      "changes": {
+        "deadline": "Oct 15, 2026",
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "quote": "Application deadline: Thursday, October 15, 2026, 5 pm ET",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-15",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "quote": "Application deadline: Thursday, October 15, 2026, 5 pm ET",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$53,000 stipend for junior fellows; $63,000 stipend for senior fellows; plus $6,000 for research travel",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "quote": "Junior fellows receive a stipend of $53,000.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "PhD candidates through senior postdoctoral scholars in the history of art, visual culture or related fields may apply; MA students and PhD students who have not yet defended their dissertation proposal are not eligible, and non-US citizens or permanent residents need valid US work authorization.",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "quote": "PhD candidates through senior postdoctoral scholars are eligible to apply. MA students and PhD students who have not yet defended their dissertation proposal are not eligible.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Open cycle for the 2027-2028 fellowship period",
+          "source_url": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
+          "quote": "Fellowship period:** September 1, 2027 through August 31, 2028",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline of Oct 17, 2025 is out of date. The sponsor page lists the current application deadline as Thursday, October 15, 2026, 5 pm ET, which is today, so it is still open until 5 pm ET. The listing's URL is correct and the page loads. The listing's \"Fall\" season and \"Fellowship\" type are consistent with the page's 2027-2028 fellowship period starting September 1, 2027. Other dates on the page: notification by the last Friday in February following the deadline. Only the junior stipend quote is verbatim; the senior $63,000 and travel $6,000 amounts appear on the page under the Stipend and Travel headings. Tthe page does not explicitly say whether the stipend is annual, so no period was added. The program_status evidence is the fellowship-period line, not an explicit statement that the program is active; no discontinued or paused notice was found.",
+      "before": {
+        "deadline": "Oct 17, 2025",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 100,
+      "title": "Harvard Radcliffe Institute Fellowship Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.radcliffe.harvard.edu/radcliffe-fellowship/application-information",
+          "source_url": "https://www.radcliffe.harvard.edu/radcliffe-fellowship/application-information",
+          "quote": "The Harvard Radcliffe Institute Fellowship Program offers scientists, writers, scholars, public intellectuals, and artists a rare chance to pursue ambitious projects for a full academic year",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$78,000 stipend plus $5,000 project expense allowance",
+          "source_url": "https://www.radcliffe.harvard.edu/radcliffe-fellowship/application-information",
+          "quote": "Fellows receive a stipend of $78,000 plus an additional $5,000 to cover project expenses.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Scholars, scientists, writers, and artists at any career stage may apply, but not people currently enrolled in a degree program or former Harvard Radcliffe fellows (1999-present); humanities and science applicants generally need a doctorate, and discipline-specific rules apply.",
+          "source_url": "https://www.radcliffe.harvard.edu/radcliffe-fellowship/application-information",
+          "quote": "those currently enrolled in a degree program are ineligible to apply",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active cycle language: the page describes the 2027\u20132028 cycle and says 2028\u20132029 information will be posted in spring 2027.",
+          "source_url": "https://www.radcliffe.harvard.edu/radcliffe-fellowship/application-information",
+          "quote": "Please check back in spring 2027 for 2028\u20132029 fellowship application information.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline of Sep 10, 2026 could not be confirmed. The sponsor page says \"The deadline for applying has passed.\" and gives no calendar date for the 2026 cycle; the next cycle (2028\u20132029) has not been posted, so I left the deadline empty rather than guess. Its FAQ page (secure-platform.com) was fetched but shows no date. The listing's Sep 10, 2026 date should be treated as unverified and the listing's deadline should be updated when the sponsor posts the 2028\u20132029 dates in spring 2027. Results for the 2027\u20132028 cycle will be sent by the end of March 2027. The page also lists discipline-specific requirements (e.g., humanities/social sciences need a doctorate at least four years before appointment and published work; creative arts have their own track records), and the amount is for the fellowship year. Relocation, housing and childcare funds may also be available per the page. The sponsor page is the Radcliffe Institute site; the listing's agency2 'Harvard University' is consistent with the page's footer.",
+      "before": {}
+    },
+    {
+      "id": 108,
+      "title": "Fannie and John Hertz Graduate Fellowship Award",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.hertzfoundation.org/hertz-fellowship/apply/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.hertzfoundation.org/hertz-fellowship/",
+          "source_url": "https://www.hertzfoundation.org/hertz-fellowship/",
+          "quote": "The Hertz Fellowship provides financial and lifelong professional support for the nation\u2019s most promising doctoral students in the applied sciences, engineering and mathematics.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-30",
+          "source_url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+          "quote": "The 2027 Fellowship application is now open through October 30, 2026.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Up to $250,000 in funding over up to five years",
+          "source_url": "https://www.hertzfoundation.org/hertz-fellowship/",
+          "quote": "The Hertz Fellowship awards up to five years of funding, valued at up to $250,000\u2014and so much more.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Applicants must be U.S. citizens or permanent residents enrolled as a first- or second-year PhD student in fall 2027, planning a full-time, in-person PhD in applied physical and biological sciences, mathematics, or engineering at a U.S. institution.",
+          "source_url": "https://www.hertzfoundation.org/hertz-fellowship/who-can-apply/",
+          "quote": "be enrolled as a first- or second-year PhD student in fall 2027 (when funding would begin);",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Open for the 2027 cycle",
+          "source_url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+          "quote": "The 2027 Fellowship application is now open through October 30, 2026.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Oct 30, 2026) matches the sponsor's apply page, which gives it as the application deadline for the 2027 cycle; the reference deadline is in November 2026 and recommender forms follow. Eligibility differs from the listing: the sponsor's page does not mention college seniors or gap-year students; it says applicants must be enrolled as a first- or second-year PhD student in fall 2027 (the listing says first-year). Sponsor also says it does not fund non-PhD professional degrees (MD/PhD PhD portion is supported). The sponsor's fields are \"applied physical and biological sciences, mathematics or engineering,\" which is narrower than the listing's \"applied sciences\" wording. The listing's \"Fall\" season is consistent with the fall 2027 start. Several third-party sites give other dates (Oct 23, Oct 31, Nov 2 recommender), which I did not use. The sponsor's page lists UCLA among participating schools. Amount is the sponsor's \"valued at up to $250,000\"; the sponsor's wording on the stipend/tuition split is not stated as a fixed figure.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 110,
+      "title": "The Woodrow Wilson Doctoral Dissertation Fellowship In Women's Studies",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        }
+      },
+      "notes": "Could not verify this listing against the sponsor's own pages. The listed URL (https://citizensandscholars.org/dissertation-fellowship-in-womens-studies/) redirects to the sponsor's \"About Us\" page (cands.org/about-us/), which does not mention this fellowship, so the link on file is out of date. The sponsor now appears as the Institute for Citizens & Scholars (cands.org), formerly the Woodrow Wilson National Fellowship Foundation. The cands.org Resources page also has no fellowship listing. I did not find the program's current page on cands.org, so I left official_url, deadline, amount and eligibility empty. Aggregator results (CollegeXpress, Scholarships.com, USC, UNH, Barnard, a 2020 UCSB post) show a deadline in October and a $5,000 award, but these are not sponsor pages and some are from earlier years, so I did not use them. The listed \"Nov 01, 2026\" deadline is not supported by any page I could read. Next step: locate the current program page on cands.org (for example through its fellowships section or a search for the program on cands.org) and check the 2026 deadline and award there.",
+      "before": {}
+    },
+    {
+      "id": 111,
+      "title": "Graduate Fellowships In the Physical Sciences",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://stemfellowships.org/",
+          "source_url": "https://stemfellowships.org/",
+          "quote": "Graduate Fellowships for STEM Development",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-01-31",
+          "source_url": "https://stemfellowships.org/applicants/",
+          "quote": "Application Deadline:",
+          "verdict": "rejected",
+          "reason": "quote does not contain this date"
+        },
+        "amount": {
+          "value": "$20,000 annual expense allowance (renewable, typically three to six years)",
+          "source_url": "https://stemfellowships.org/applicants/",
+          "quote": "GFSD Fellows receive an annual expense allowance of $20,000.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Graduate students accepted at a participating GFSD-member university and pursuing a full-time graduate degree in the physical sciences or related engineering fields; the sponsor pages checked do not state a citizenship requirement.",
+          "source_url": "https://stemfellowships.org/applicants/",
+          "quote": "leading to a graduate degree in the physical sciences or related engineering fields",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Applications open",
+          "source_url": "https://stemfellowships.org/applicants/",
+          "quote": "Applications for the 2027 fellowship cycle are now open.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor now operates as Graduate Fellowships for STEM Development (GFSD), which its homepage says is formerly the National Physical Science Consortium (NPSC), so the listing's agency name is outdated. The listed link works and is the sponsor's own site. The 2027 cycle deadline of January 31, 2027 is stated on both the homepage and the applicants page; the recommender deadline is the same date. The listing says U.S. citizens only, but I did not find citizenship stated on the sponsor pages I fetched, so that part of the eligibility is unverified; the listing's \"renewable for 3\u20136 years\" matches the sponsor's \"typically renewable for three to six years\" wording. The sponsor describes the $20,000 as an expense allowance, and tuition is handled separately by participating universities. The deadline value was checked against the sponsor's applicants page, whose quote is only the label; the full date appears on the homepage and applicants page.",
+      "before": {}
+    },
+    {
+      "id": 116,
+      "title": "Andrew W. Mellon Fellowship of Scholars in the Humanities",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "source_url": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "quote": "Mellon Fellowship of Scholars in the Humanities | Stanford Humanities Center",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-10-15",
+          "source_url": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "quote": "The deadline is 11:59 PM on October 15, 2026.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$98,000 stipend for 2026\u201327, plus a $6,000 per year research account and a one-time $9,000 moving stipend",
+          "source_url": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "quote": "The stipend for 2026\u201327 is $98,000.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Recent humanities PhD holders whose doctorate was awarded in a window running from mid-2023 to mid-2027 may apply, but applicants cannot hold a Stanford PhD, and the program only accepts applications in designated fields each cycle.",
+          "source_url": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "quote": "cannot hold PhDs from Stanford University",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Applications open for the 2027-2028 cycle",
+          "source_url": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
+          "quote": "Applications for 2027-2028 are now open.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Oct 15, 2026) matches the sponsor page, which gives 11:59 PM Pacific on that date; today is the last day, so it is still open but closes tonight. The page's eligibility window (PhD received between July 31, 2023 and July 31, 2027) and Stanford-PhD exclusion match the listing. The page's stipend figure is labelled for 2026\u201327, so the amount for fellowships beginning fall 2027 may change. The $9,000 is a one-time moving and equipment stipend. The page says that for fall 2027 starts, applications are accepted only in German Studies, Iberian and Latin American Cultures, Music, and Philosophy; the listing does not mention this restriction. The listing names the Andrew W. Mellon Foundation as agency2, but the fetched sponsor page does not mention the foundation, so I could not verify that field. Recommendation letters must arrive by the deadline. The page is the Stanford Humanities Center's own page, so the official URL is confirmed.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 125,
+      "title": "Resident Scholar Fellowships",
+      "changes": {
+        "amount": "$40,000 stipend for doctoral-level Lamon fellows ($35,000 for PhD candidates)"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://sarweb.org/scholars/resident/",
+          "source_url": "https://sarweb.org/scholars/resident/",
+          "quote": "Resident Scholars",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-11-02",
+          "source_url": "https://sarweb.org/scholars/resident/",
+          "quote": "Applications accepted through the first Monday in November to be considered for a residency beginning September 1 the following year.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this date"
+        },
+        "amount": {
+          "value": "$40,000 stipend for doctoral-level Lamon fellows ($35,000 for PhD candidates)",
+          "source_url": "https://sarweb.org/scholars/resident/katrin-h-lamon-fellowship/",
+          "quote": "Fellows receive a stipend ($40,000 for doctoral level scholars and $35,000 for PhD candidates)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Native scholars working in the humanities or social sciences who hold a doctorate or are PhD candidates, for the Katrin H. Lamon Fellowship.",
+          "source_url": "https://sarweb.org/scholars/resident/katrin-h-lamon-fellowship/",
+          "quote": "Scholars with doctorates who plan to write their books and PhD candidates who plan to write their dissertations are eligible.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://sarweb.org/scholars/resident/",
+          "quote": "Applications accepted through the first Monday in November to be considered for a residency beginning September 1 the following year.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's URL is the SAR Resident Scholars overview, which covers several fellowships; the listing's funders (Lamon Endowment, Vera R. Campbell Foundation) are matched to the Lamon Fellowship page only, and the Vera R. Campbell Foundation is not named on either page I fetched. Deadline: the page gives no year, so I added 2026 (first Monday in November 2026 is 2 November, which is after today). The page's general description is \"Applications accepted through the first Monday in November\"; the 2 November date is my calculation from that rule and the listing's date matches it. Eligibility conflict: the listing says applicants must have completed a PhD with a substantially developed manuscript, but the Lamon page also accepts PhD candidates writing dissertations, and the overview says \"either pre- or postdoctoral\". I used the Lamon page wording and did not copy the listing's restriction. Amount: the listing field was empty. The Lamon page gives $40,000 for doctoral-level scholars and $35,000 for PhD candidates, and the overview gives general stipends of $70,000 (senior, nine months), $35,000 (senior, 4.5 months) and $50,000 (junior, nine months). The Lamon page describes one nine-month fellowship, so the listing may apply to a different award. The Lamon page also says \"One nine-month residential fellowship\", and the overview says Lamon fellowships are for \"Native American scholars, either pre- or postdoctoral\". Award type: the listing says Postdoctoral, but the Lamon page includes PhD candidates. Season: the listing's Fall season matches the September 1 residency start in the overview.",
+      "before": {
+        "amount": ""
+      }
+    },
+    {
+      "id": 128,
+      "title": "Andrew W. Mellon Postdoctoral Fellowship (Wesleyan University Center for the Humanities)",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "source_url": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "quote": "Andrew W. Mellon, Center for the Humanities - Wesleyan University",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-01-08",
+          "source_url": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "quote": "DEADLINE FOR APPLICATIONS: January 8th, 2026",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$70,000 annual stipend plus $3,000 research funding per year",
+          "source_url": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "quote": "Each fellow will be awarded an annual stipend of $70,000 and $3,000 of research funding per year.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Scholars in any humanities or humanistic social science field who have received, or will receive by June 2026, a Ph.D. earned after June 2022.",
+          "source_url": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "quote": "Candidates do not need to have been awarded their Ph.D. at the time of application, but will need to have received it by June 2026.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Next fellowship period: 2026-2027 (page does not state a later cycle or any discontinuation)",
+          "source_url": "https://www.wesleyan.edu/humanities/fellowships/mellon.html",
+          "quote": "Next fellowship period: 2026-2027",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor's page lists a deadline of January 8th, 2026 for the 2026-2027 fellowship period. Today is 2026-10-15, so that deadline has passed. No later cycle or 2027-2028 deadline is posted, so I gave the most recent deadline as the sponsor states it; no year was added. The listing's \"Jan 08, 2026\" matches the page. The listing's eligibility wording (\"roughly the past 3-4 years\") is vaguer than the page, which specifies a Ph.D. received after June 2022 and by June 2026; I used the page's wording. The page says two fellows are appointed, with possible reappointment for 2027-2028 based on performance. Applications require a letter, CV, three recommendation letters, and a writing sample of up to 25 pages, submitted through an online Workday portal. Interviews were held in February or March 2026. The listing's season \"Winter\" is not stated on the page.",
+      "before": {}
+    },
+    {
+      "id": 135,
+      "title": "Du Bois-Mandela-Rodney Postdoctoral Fellowship",
+      "changes": {
+        "deadline": "Nov 01, 2027",
+        "checked": "2026-10-15",
+        "checkedSource": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "source_url": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "quote": "canonical: https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-11-01",
+          "source_url": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "quote": "All application materials are due by November 1, 2027 at 5 p.m. Eastern Standard Time.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$56,000 package ($52,000 stipend including health insurance, $3,000 research and travel, up to $1,000 relocation)",
+          "source_url": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "quote": "The fellowship package is worth $56,000 plus benefits.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Scholars working on Africa or the African diaspora who have a PhD in hand from an institution other than the University of Michigan and are no more than five years past their degree.",
+          "source_url": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "quote": "Candidates must have a Ph.D. in hand from an institution other than the University of Michigan and be no more than five years beyond the completion of their degree.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active cycle posted for 2028-29",
+          "source_url": "https://lsa.umich.edu/daas/graduates/fellowship-and-grant-funding/du-bois-mandela-rodney-post-doctoral-fellowship.html",
+          "quote": "The link to apply will be posted to this page in September 2027.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Nov 01, 2026) and eligibility window (PhD Jan 2022-Aug 2027, 2027-28 cycle) do not match the sponsor page. The page describes the 2028-29 cycle: all materials due November 1, 2027 at 5 p.m. EST, and PhD earned no earlier than January 1, 2023 and no later than August 31, 2028. The page does not mention a November 1, 2026 deadline, so I used the 2027 date that the page states; the year was not added by me. Other dates on the page: reference letters due November 8, 2027 at 5 p.m. EST; notification by January 29, 2028. Applicants who have not finished the PhD must also submit advisor-verification and ABD transcript materials. Fellows must also teach a five- or six-week mini-course during one semester. The page says the application link will be posted in September 2027, so it was not available yet. The amount breakdown in the listing matches the page. The program-status value \"active\" reflects the page posting a current cycle; the page does not state it is active in those words.",
+      "before": {
+        "deadline": "Nov 01, 2026",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 139,
+      "title": "FRAXA Research Foundation Postdoctoral Fellowships",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.fraxa.org/fragile-x-research/grant-application/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "source_url": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "quote": "FRAXA Fellowship applications are due on February 1 each year.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-02-01",
+          "source_url": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "quote": "FRAXA Fellowship applications are due on February 1 each year.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": true
+        },
+        "amount": {
+          "value": "$50,000 per year for up to 2 years",
+          "source_url": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "quote": "FRAXA Fellowships provide $50,000 per year for up to 2 years.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Any university, hospital, or other non-profit lab worldwide may apply, with a limit of one application per lab group and a requirement that the PI show adequate overall funding for the project; the page does not explicitly restrict the fellowship to postdocs or to therapeutics-only work.",
+          "source_url": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "quote": "Any university, hospital, or other non-profit lab in the world may apply.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.fraxa.org/fragile-x-research/grant-application/",
+          "quote": "FRAXA Fellowship applications are due on February 1 each year.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's link and deadline are confirmed by the sponsor's \"How to Apply for Research Grants\" page (last modified 2026-04-01 per page metadata); the listing's URL is correct. The page gives a yearly date with no year, so I added 2027 as the next February 1 after today (2026-10-15). Discrepancies: the page's section heading reads \"FRAXA Fellowships offer $100,000 over 2 Years,\" but the body and the amount quote say $50,000 per year for up to 2 years; I used the per-year figure. The listing's eligibility says \"focused on Fragile X therapeutics,\" but the page says priority goes to translational or preclinical Fragile X research and that Curative Therapies proposals can also be submitted through the Fellowship program; the \"adequate overall funding\" and \"one application per lab\" conditions are confirmed. The page does not explicitly say \"postdoctoral\" for the Fellowship; the listing's postdoc label comes from aggregator/other sources (e.g., a GuideStar profile saying applicants must have an MD, PhD or MD/PhD), which I did not use as a source. Applicants should also check the page's requirement to email the application and a letter of intent to Dr. Michael Tranfaglia, which the page calls essential before submitting. Program status: no discontinuation stated; the page is actively maintained.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 147,
+      "title": "Berlin Program for Advanced German and European Studies",
+      "changes": {
+        "amount": "EUR 1550 per month for 10 to 12 months, plus EUR 1200 travel reimbursement",
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.fu-berlin.de/en/sites/bprogram/application/Deadline-Notification-Selection/index.html"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.fu-berlin.de/en/sites/bprogram/index.html",
+          "source_url": "https://www.fu-berlin.de/en/sites/bprogram/index.html",
+          "quote": "The program provides up to one year of research support at the Freie Universit\u00e4t Berlin",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-01",
+          "source_url": "https://www.fu-berlin.de/en/sites/bprogram/application/Deadline-Notification-Selection/index.html",
+          "quote": "Application deadline is:** **December 1**",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": true
+        },
+        "amount": {
+          "value": "EUR 1550 per month for 10 to 12 months, plus EUR 1200 travel reimbursement",
+          "source_url": "https://www.fu-berlin.de/en/sites/bprogram/application/Fellowships/index.html",
+          "quote": "Fellowships for dissertation research are EUR 1550 per month for 10 to 12 months and carries a travel reimbursement of EUR 1200.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Full-time graduate students at a university outside Germany who have completed all Ph.D. coursework and reached ABD status by the start of the Berlin stay, in social science or humanities fields.",
+          "source_url": "https://www.fu-berlin.de/en/sites/bprogram/application/Fellowships/index.html",
+          "quote": "Applicants for a dissertation fellowship must be full-time graduate students at a university outside Germany",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.fu-berlin.de/en/sites/bprogram/index.html",
+          "quote": "We offer five different fellowships to scholars from North America, Africa and China",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The deadline page gives \"December 1\" with no year; I added 2026 as the next cycle after today (2026-10-15). The sponsor says applications open November 1 and notifications come in March. The sponsor page does not list a \"Winter\" season; the listing's \"Winter\" label is unverified. The listing's amount field was empty; I filled it from the sponsor's Dissertation Fellowship terms (EUR 1550/month, 10\u201312 months, EUR 1200 travel). The sponsor's text describes the program as open to scholars from North America, Africa and China, and the Dissertation Fellowship is for full-time graduate students outside Germany; the listing's \"relevant fields\" is narrower than the sponsor's \"all social science and humanities disciplines.\" The listing's GSA co-sponsorship is confirmed (GSA is described as \"our North American partner and co-sponsor\"). The listing's \"postdocs\" option is a separate Postdoc Fellowship, not this dissertation listing. The Kerstin Leitner Berlin Dissertation Fellowship (for China/Africa) is a separate award with its own flyer and is not covered by this deadline. The deadline page's metadata date is 2022, so the page may be stale. The fellowships page was updated 2025-09-24 and references 2026-27 flyers, which suggests the program is current.",
+      "before": {
+        "amount": "",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 150,
+      "title": "Charlotte W. Newcombe Doctoral Dissertation Fellowship",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://newcombefoundation.org/fellowships/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://newcombefoundation.org/fellowships/",
+          "source_url": "https://newcombefoundation.org/fellowships/",
+          "quote": "A nationally recognized fellowship supporting doctoral candidates during the final year of dissertation writing",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-11-01",
+          "source_url": "https://newcombefoundation.org/fellowships/",
+          "quote": "Application Deadline: November 1",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": true
+        },
+        "amount": {
+          "value": "$33,500 (sponsor's stated funding; listing says $31,000 stipend)",
+          "source_url": "https://newcombefoundation.org/fellowships/",
+          "quote": "Funding: $33,500",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "PhD candidates at accredited U.S. graduate schools in the humanities and social sciences (STEM fields only if religion, ethics or values are central) who have completed pre-dissertation requirements, including proposal approval, and are in the dissertation writing stage.",
+          "source_url": "https://newcombefoundation.org/fellowships/",
+          "quote": "be ABD, and have completed all pre-dissertation requirements fulfilled by the application deadline",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: sponsor page lists an open 2026 cycle with applications opening August 1 and a November 1 deadline",
+          "source_url": "https://newcombefoundation.org/fellowships/",
+          "quote": "Read the announcement for the 2026 Fellows",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page gives the deadline as \"November 1\" without a year; I added 2026 because the page's timeline runs into a February 17, 2027 finalist deadline, so the Nov 1 date is the 2026 cycle, which is after today (2026-10-15). Other sponsor-page dates: Phase 1 recommendation deadline November 5; Phase 1 applications open August 1. Amount: the listing's $31,000 is not what the sponsor page states. The sponsor says \"Funding: $33,500\", and the page describes the award as a one-year, non-renewable fellowship. The $31,000 figure appears on Scholarships.com, an aggregator, so I did not use it. The listing's \"completed coursework, passed preliminaries\" is not on the sponsor page, which instead requires completion of pre-dissertation requirements and proposal approval. The sponsor also requires that the degree be campus-based at a U.S. institution, and it excludes professional doctorates. The listing's \"Winter\" season is not stated on the sponsor page. The official URL on file works and matches the sponsor's page. Some aggregators list a November 15 deadline, which appears to be an outdated older cycle and conflicts with the sponsor's November 1.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 151,
+      "title": "Scholars-in-Residence Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.nypl.org/about/fellowships-institutes/schomburg-center-scholars-in-residency",
+          "source_url": "https://www.nypl.org/about/fellowships-institutes/schomburg-center-scholars-in-residency",
+          "quote": "The Schomburg Center Scholars-in-Residence Program offers long-term and short-term fellowships to support scholars and writers working on projects",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open to scholars and writers whose projects would benefit from the Schomburg Center's resources; the fetched page does not specify degree stage.",
+          "source_url": "https://www.nypl.org/about/fellowships-institutes/schomburg-center-scholars-in-residency",
+          "quote": "to support scholars and writers working on projects that would benefit from access to the Center's extensive resources",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.nypl.org/about/fellowships-institutes/schomburg-center-scholars-in-residency",
+          "quote": "The Schomburg Center Scholars-in-Residence Program offers long-term and short-term fellowships",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listed official URL loads and describes the program, but it contains no deadline, stipend amount, or eligibility criteria, so those fields are blank. A search result (not a fetched page) from nypl.org/about/.../scholars-in-residency/application said the 2027-28 deadline is December 1, 2026 (11:59 PM) and gave a $35,000 long-term stipend and $3,000/month short-term stipend. I could not fetch that page (two attempts failed), so I did not submit those values; they should be verified before relying on them. The listed deadline \"Dec 01, 2026\" matches that search snippet. Eligibility conflict: the listing says PhD candidates (ABD) can apply. The search snippets say long-term fellowships are for postdoctoral scholars, independent researchers and creative writers, and a snippet from the Schomburg smapply site says current doctoral students may apply if they will defend and graduate before the fellowship starts; this was not confirmed on the fetched page. Also, the sponsor page says applicants must have legal right to work in the US (from the Schomburg fellowships page, not fetched). Stale-listing check: the 2026-27 cycle closed Dec 2, 2025 per older pages, so the listing's Winter 2026 label is out of date for the 2027-28 cycle.",
+      "before": {}
+    },
+    {
+      "id": 159,
+      "title": "Switzer Fellowship Program",
+      "changes": {
+        "amount": "$18,000 cash award",
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.switzernetwork.org/fellowship/become-fellow"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "source_url": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "quote": "Applications for 2027 Switzer Fellowships are now open.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-14",
+          "source_url": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "quote": "Applications will close at 11:59 pm PST, Monday December 14th, 2026.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$18,000 cash award",
+          "source_url": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "quote": "The fellowship includes a $18,000 cash award",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Graduate students (Master's or Ph.D.) enrolled full-time in an accredited U.S. or U.S. territory graduate institution, with environmental career goals, who are U.S. citizens, permanent residents, DACA recipients, refugees or asylees; international students are ineligible.",
+          "source_url": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "quote": "Applicants must be enrolled in an accredited graduate institution in the United States or U.S. territories.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.switzernetwork.org/fellowship/become-fellow",
+          "quote": "Applications for 2027 Switzer Fellowships are now open.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's eligibility (\"Professionals with advanced degree and experience in the environmental field\") does not match the sponsor page: the fellowship is for graduate students (Master's and Ph.D., including mid-career students), not specifically professionals with advanced degrees. The sponsor page states the deadline with the year included (2026), so no year was added. The deadline is for the 2027 cycle; the page also says applications open mid-September 2026. A separate deadline applies to Switzer alumni-connection requests (November 16), which is not the application deadline. The official page is the one on file and was fetched directly; the listing's URL was current. The sponsor page does not list an amount in the listing's field format, but states an $18,000 unrestricted cash award paid in two installments. No discontinued or paused language was found.",
+      "before": {
+        "amount": "",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 161,
+      "title": "Yale LGBT Studies Research Fellowship",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://lgbts.yale.edu/research",
+          "source_url": "https://lgbts.yale.edu/research",
+          "quote": "The Lesbian, Gay, Bisexual, and Transgender Studies Fellowship at Yale University is offered annually",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$5,500",
+          "source_url": "https://lgbts.yale.edu/research",
+          "quote": "The fellowship provides an award of $5,500, which is intended to pay for travel to and from New Haven and act as a living allowance.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open to scholars in any field researching LGBTQ or queer studies at Yale, including dissertation-stage graduate students, independent scholars, and faculty, who live more than 100 miles from New Haven.",
+          "source_url": "https://lgbts.yale.edu/research",
+          "quote": "Scholars residing within 100 miles of New Haven are ineligible.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://lgbts.yale.edu/research",
+          "quote": "The Lesbian, Gay, Bisexual, and Transgender Studies Fellowship at Yale University is offered annually",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's June 20, 2026 deadline is not supported by the sponsor's pages. The sponsor's application page now reads \"The application for the 2026-27 Fellowship is closed,\" so the 2026-27 cycle has ended. A search snippet of the sponsor's /research page gave a 2026-27 deadline of Wednesday, July 1, 2026 at 11:59 PM EST, but neither fetched page displayed that date, so I left the deadline empty rather than rely on the snippet. The next cycle has not been posted. Eligibility differs from the listing: the page says the fellowship is open to scholars from across the country and around the world in any field, and names graduate students doing dissertation research, independent scholars, and faculty; it does not say \"doctoral students not enrolled at Yale.\" The listing's \"plus transportation, room, board, and research stipend\" is not on the page, which describes the $5,500 as intended for travel to and from New Haven and a living allowance. The page also requires a 20-day minimum residence and one confidential recommendation letter due the same day as the application.",
+      "before": {}
+    },
+    {
+      "id": 162,
+      "title": "American Heart Association Predoctoral Fellowship",
+      "changes": {},
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "source_url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "quote": "2027 Predoctoral Fellowship",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-08-04",
+          "source_url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "quote": "Proposals for Heart Association Predoctoral Fellowships are due by Tuesday, August 4, 2026 at 3 p.m. CT.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$29,364 stipend, plus $4,550 per year for health insurance and $2,000 per year project support",
+          "source_url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "quote": "Awardees will receive a $29,364 stipend, plus $4,550 for health insurance and $2,000 project support per year.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Full-time students enrolled in an eligible doctoral program (such as PhD, MD, DO, DVM, PharmD, DDS, or DrPH) at U.S.-based non-profit institutions, who hold a qualifying U.S. immigration or citizenship status at proposal submission.",
+          "source_url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "quote": "Applicants must be full-time students enrolled in MD, DO, DVM, PharmD, DDS, DrPH or PhD in science, nursing, public health or equivalent clinical health science doctoral program.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship",
+          "quote": "Proposals for Heart Association Predoctoral Fellowships are due by Tuesday, August 4, 2026 at 3 p.m. CT.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The fetched sponsor page is titled \"2027 Predoctoral Fellowship\" and gives an RFP posted date of April 28, 2026, with an award start of Jan. 1, 2027. The only deadline it states is Tuesday, August 4, 2026 at 3 p.m. CT, which is before today (2026-10-15). No later cycle date is posted, so I reported that most recent deadline as the value; the listing's Aug 04, 2026 date is therefore correct but already closed, and applicants should check whether the sponsor posts a new deadline. Proposals must be submitted through ProposalCentral, and applicants must be AHA Professional Members at submission. Each applicant may submit only one Predoctoral Fellowship application per deadline. Award duration is one or two years, and the page says the Association does not pay indirect costs on fellowships. The page also states the Association does not accept late proposals. Eligibility also requires U.S. citizenship, permanent residency, or another listed visa/status at submission, and the research must be at a U.S.-based non-profit institution. The listing's \"AHA-mission-relevant research\" wording is a paraphrase of the page's cardiovascular, cerebrovascular and brain health focus.",
+      "before": {}
+    },
+    {
+      "id": 176,
+      "title": "Chateaubriand Fellowship - Science, Technology, Engineering & Mathematics (STEM)",
+      "changes": {
+        "deadline": "Jan 18, 2027",
+        "checked": "2026-10-15",
+        "checkedSource": "https://chateaubriand-fellowship.org/stem-application/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://chateaubriand-fellowship.org/stem-application/",
+          "source_url": "https://chateaubriand-fellowship.org/stem-application/",
+          "quote": "2027/2028 STEM call: Click to apply now",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-01-18",
+          "source_url": "https://chateaubriand-fellowship.org/stem-application/",
+          "quote": "Application deadline: January 18, 2027 at 11:59 pm EST",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Up to 1850 euros per month (monthly allowance, depending on other funding)",
+          "source_url": "https://chateaubriand-fellowship.org/stem-application/",
+          "quote": "Monthly allowance (up to 1850 euros/month, depending on other sources of funding)",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Current PhD students registered at an American university in STEM or health research fields may apply, but French citizens and dual French citizens are ineligible; US citizenship is not required.",
+          "source_url": "https://chateaubriand-fellowship.org/stem-application/",
+          "quote": "Dual French citizens are also ineligible.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active; the sponsor's page announces the 2027/2028 call and says it will open October 5, 2026.",
+          "source_url": "https://chateaubriand-fellowship.org/stem-application/",
+          "quote": "The call for applications for the 2027-2028 academic year will open on October 5th 2026",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Jan 25, 2026) is out of date. The sponsor's STEM page now lists the next cycle's deadline as January 18, 2027 at 11:59 pm EST, which is the value submitted. The page's calendar heading still says \"2026-2027 academic year\" even though it lists the 2027 deadline and the 2027-2028 call, so the heading appears to be stale. The page also says the 2027-2028 call \"will open\" October 5, 2026; since today is October 15, 2026, it should already be open, but I could not confirm the live status of the application form. Other sponsor-hosted pages (the HSS page) still show the closed 2026-2027 call, so they were not used for this listing. The amount on the page is stated as a monthly allowance of up to 1850 euros, depending on other funding, plus round-trip airfare and health insurance support. The eligibility sentence also requires being currently engaged in PhD work and an agreed French host lab and co-supervision, which I left out for brevity. The listing's \"Winter\" season matches the January deadline.",
+      "before": {
+        "deadline": "Jan 25, 2026",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 179,
+      "title": "Alan T. Waterman Award",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.nsf.gov/honorary-awards/waterman",
+          "source_url": "https://www.nsf.gov/honorary-awards/waterman",
+          "quote": "The nomination period is currently closed.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$1,000,000 over five years (a grant of $1,000,000 over a five-year period, plus a medal)",
+          "source_url": "https://www.nsf.gov/honorary-awards/waterman",
+          "quote": "the awardee receives a grant of $1,000,000 over a five-year period",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Nominees must be U.S. citizens or permanent residents and either 40 or younger, or no more than 10 years past their Ph.D., by December 31 of the year they are nominated; nominees must also be working in a field of science or engineering NSF supports, and federal employees are not eligible.",
+          "source_url": "https://www.nsf.gov/honorary-awards/waterman",
+          "quote": "Be 40 years of age or younger OR not be more than 10 years beyond receipt of their Ph.D. by December 31st of the year they are nominated.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.nsf.gov/honorary-awards/waterman",
+          "quote": "The annual award is the nation's highest honor for early-career scientists and engineers.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "No application deadline is stated for the next cycle. The NSF page says the nomination period is currently closed and gives no date for the 2027 cycle, so the deadline field is empty. The page does not say when the next call opens; the only timing reference is a 2024 webinar held on August 14, 2024 for that year's call. The listing's \"Fall\" season and the deadline field could not be confirmed. This is a nomination-based award, not a student application, so the listing's \"Award\" type is an approximation. The official URL in the listing works and matches the sponsor page. The listing's eligibility matches the sponsor's stated criteria. The amount is confirmed. The sponsor's page describes the award as a grant of $1,000,000 over five years plus a medal. Award is for research at the institution of the recipient's choice, in NSF-supported disciplines.",
+      "before": {}
+    },
+    {
+      "id": 182,
+      "title": "Gaius Charles Bolin Dissertation and Post-MFA Fellowships",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://employment.williams.edu/faculty-positions/2027-gaius-charles-bolin-dissertation-and-post-mfa-fellowship-cognitive-science/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://employment.williams.edu/faculty-positions/",
+          "source_url": "https://employment.williams.edu/faculty-positions/",
+          "quote": "2027 Gaius Charles Bolin Dissertation and Post-MFA Fellowship: Arabic Studies",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-11-15",
+          "source_url": "https://employment.williams.edu/faculty-positions/2027-gaius-charles-bolin-dissertation-and-post-mfa-fellowship-cognitive-science/",
+          "quote": "by 11:59pm on November 15, 2026",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$60,000 annual stipend",
+          "source_url": "https://employment.williams.edu/faculty-positions/2027-gaius-charles-bolin-dissertation-and-post-mfa-fellowship-cognitive-science/",
+          "quote": "The annual stipend for the position is $60,000.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Ph.D. candidates who have finished all coursework except the dissertation by the end of the current academic year, or recent post-MFA graduates (degrees granted in 2026 or 2027), who are U.S. citizens, nationals, or permanent residents (plus listed statuses such as DACA, TPS, asylees, and refugees) and are pursuing higher-education careers in the U.S.; open only in participating academic units.",
+          "source_url": "https://employment.williams.edu/faculty-positions/2027-gaius-charles-bolin-dissertation-and-post-mfa-fellowship-cognitive-science/",
+          "quote": "Eligible candidates for the fellowship include all U.S. citizens, U.S. nationals, and U.S. permanent residents",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "2027 cycle posted with open application",
+          "source_url": "https://employment.williams.edu/faculty-positions/",
+          "quote": "Open Faculty Positions",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's URL is the general Williams faculty-positions index, which lists separate 2027 Bolin postings for about 15 academic units (Arabic Studies, Asian Studies, Biology, Classics, Cognitive Science, Economics, German, Jewish Studies, Math, Philosophy, Physics & Astronomy, Political Science, Psychology, Statistics). I verified the deadline and stipend on the Cognitive Science unit page; I did not open the other unit pages, and the page says participating units change yearly, so a unit's deadline should be confirmed on its own page. The deadline is for the application to the fellowship, which is submitted via Interfolio; the page does not list separate letter or nomination deadlines beyond the two recommendation letters being part of the application. The listing's \"$60,000 annual stipend (2027 cohort)\" matches the page, which also lists a $4,000 research allowance and benefits. Eligibility note: the page says Ph.D. candidates must finish all doctoral work except the dissertation by the end of the current academic year, and post-MFA applicants must hold a degree granted in 2026 or 2027. The listing's \"across a range of departments\" wording is accurate. Older sources (a 2025 cycle with a November 15 deadline, and a 2026 Music page) were not used for values.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 187,
+      "title": "Getty Graduate Internships",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.getty.edu/projects/graduate-internships/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.getty.edu/projects/graduate-internships/",
+          "source_url": "https://www.getty.edu/projects/graduate-internships/",
+          "quote": "Advanced internships at Getty for graduate students who are pursuing careers in the visual arts",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-11-03",
+          "source_url": "https://www.getty.edu/projects/graduate-internships/",
+          "quote": "The application deadline for 2027-2028 Graduate Internships is November 3, 2026.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$52,500 for twelve months plus $1,500 relocation",
+          "source_url": "https://www.getty.edu/projects/graduate-internships/",
+          "quote": "The grant amount is $52,500 for twelve months, plus $1,500 towards relocation expenses.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open to students of all nationalities who are enrolled in a relevant graduate program (M.A., Ph.D., or graduate conservation certificate) or who completed a relevant graduate degree on or after January 1, 2024, and have postgraduate experience.",
+          "source_url": "https://www.getty.edu/projects/graduate-internships/",
+          "quote": "Individuals who have completed a relevant graduate degree* on or after January 1, 2024, with postgraduate experience in their field",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.getty.edu/projects/graduate-internships/",
+          "quote": "Status Active",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The sponsor page is the Getty Projects page for Graduate Internships; it lists the 2027-2028 cycle with an application deadline of November 3, 2026, which is the next cycle closing after today (I did not need to add a year). Letters of recommendation must be received by 5:00 p.m. Pacific Time on the same date, so applicants should get recommenders' letters in by then. The listing's eligibility wording (\"completed a relevant graduate degree in the prior year\") is out of date or inaccurate: the page sets the cutoff as degrees completed on or after January 1, 2024, and does not use a one-year window. The listing's amount matches the page, which also notes up to $3,000 in research travel support and that grant funds may be subject to taxes. The internship term runs full-time from September 13, 2027 through August 25, 2028, based in Los Angeles (Getty Center) or Malibu (Getty Villa). The page notes the Getty Center will be closed to the public from spring 2027 to spring 2028, though staff and interns will still work on site. Foreign nationals need J-1 (intern/trainee) or F-1 status that works for the full term, and the page says Getty does not meet STEM OPT requirements. Finalist interviews are in January 2027 and decisions in spring 2027. The listing's 'Fall' season and the official URL are consistent with the page. The page lists the program as Active but does not describe it as discontinued or paused.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 188,
+      "title": "S.V. Ciriacy-Wantrup Postdoctoral Fellowships in Natural Resource Economics and Political Economy",
+      "changes": {
+        "deadline": "Dec 04, 2026",
+        "checked": "2026-10-15",
+        "checkedSource": "https://nature.berkeley.edu/academics/ciriacy-wantrup"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "source_url": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "quote": "The S.V. Ciriacy-Wantrup Postdoctoral Fellowships in Natural Resource Economics and Political Economy will be awarded for the 2027-2028 academic year",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-04",
+          "source_url": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "quote": "Applications completed by **December 4, 2026** will receive full consideration.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$86,897 first-year salary for a two-year postdoctoral award (salary increases in year two), plus $2,000 per year research allowance and one-way economy airfare to Berkeley",
+          "source_url": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "quote": "A two-year postdoctoral award with a salary of $86,897 for the first year and will increase for the second year.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Scholars from any social science discipline (and related fields such as law and planning) with a recent doctorate who will contribute to natural resource economics; proposals whose primary emphasis is statistical or econometric theory are ineligible.",
+          "source_url": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "quote": "Applications are open to scholars from any social science discipline, and related professional fields such as law and planning",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Fellowship is open for the 2027-2028 cycle with the application opening September 28, 2026",
+          "source_url": "https://nature.berkeley.edu/academics/ciriacy-wantrup",
+          "quote": "The application opens on September 28, 2026.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Dec 12, 2025) and amount ($69,073\u2013$77,030) are out of date. The sponsor page now describes the 2027-2028 award cycle, with applications due December 4, 2026 (a full year is stated on the page, so no year was added). The page gives a first-year salary of $86,897 rising in year two, not the listed range, so I used the page's figure; the year-two salary is not stated as a number. The page also says three referee contacts are needed for the 26-27 cycle, and the page's college name is \"Rausser College of Natural Resources,\" not \"College of Natural Resources.\" Questions go to Leslie Le (lesle@berkeley.edu). Applications are submitted through Aperecruit.",
+      "before": {
+        "deadline": "Dec 12, 2025",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 189,
+      "title": "ARCE Fellowship Program (Funded Fellowships)",
+      "changes": {
+        "deadline": "Jan 05, 2025",
+        "amount": "Per diem of $2,200\u2013$3,520 per month based on academic rank, plus round-trip airfare (not a lump-sum award)"
+      },
+      "flags": [
+        "Sponsor hasn't posted a deadline after today yet"
+      ],
+      "checks": {
+        "official_url": {
+          "value": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "source_url": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "quote": "This fellowship is open to U.S. citizen pre-doctoral candidates (ABD), postdoctoral scholars, faculty and senior scholars",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2025-01-05",
+          "source_url": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "quote": "Application Submission Deadline: January 5th, 2025, 11:59 PM EST.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Per diem of $2,200\u2013$3,520 per month based on academic rank, plus round-trip airfare (not a lump-sum award)",
+          "source_url": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "quote": "Per diem ranges from $2,200-$3,520 per month based on academic rank, plus round trip airfare.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "U.S. citizens who are ABD doctoral candidates, postdoctoral scholars, faculty, or independent scholars at an accredited university in the U.S. or abroad may apply for the CAORC-funded research fellowship.",
+          "source_url": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "quote": "Applicant must be an American citizen and at an accredited university in the U.S. or abroad.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Fellowship program is described as currently offered, with the note that applications reopen if funds are available",
+          "source_url": "https://arce.org/fellowship/arce-caorc-research-fellowships/",
+          "quote": "Applications will be open again in October/November if funds are available.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing points to ARCE's general fellowships landing page, which lists several tracks (Digital Humanities, Egyptian PhD Dissertation, Research Associates, Pre-Dissertation Travel Grant, Short-Term Postdoc Grant, etc.) and gives no single deadline or amount. I used the CAORC-funded Research Fellowship page as the \"funded fellowship\" the listing most likely means. Its only stated application deadline is January 5, 2025, which has passed, and the page says applications are closed and will reopen in October/November if funds are available. The next cycle's deadline is not posted, so I left the most recent sponsor-stated date. The landing page also says \"Reference letters must be requested by January 15\" (no year given), which is a referee step rather than the application deadline. The listing's \"NEH\" agency is not on the current research fellowship page, which cites only the U.S. State Department ECA bureau via CAORC; older ARCE/third-party pages mention NEH-funded tracks, so that claim could not be confirmed from the current sponsor pages. The amount is per diem plus airfare, not a fixed award. Other tracks on the landing page have their own deadlines and were not checked in full.",
+      "before": {
+        "deadline": "",
+        "amount": ""
+      }
+    },
+    {
+      "id": 190,
+      "title": "ASP Postdoctoral Fellow Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www2.hao.ucar.edu/about/visitor-program/postdoctoral-fellows",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/postdoctoral-fellows",
+          "quote": "HAO offers two-year postdoctoral fellowships to early career Ph.D. scientists interested in theoretical, experimental and observational studies of the Sun and Earth\u2019s upper atmosphere.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Early-career PhD holders interested in solar and upper-atmosphere research (theoretical, experimental, or observational) may apply, per HAO's page; the listing's broader field list (atmospheric sciences, oceanography, chemistry) is not on that page.",
+          "source_url": "https://www2.hao.ucar.edu/about/visitor-program/postdoctoral-fellows",
+          "quote": "HAO offers two-year postdoctoral fellowships to early career Ph.D. scientists interested in theoretical, experimental and observational studies of the Sun and Earth\u2019s upper atmosphere.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        }
+      },
+      "notes": "Could not verify the listing. The listed URL (asp.ucar.edu/postdocs/postdoctoral-fellowships) returned an error, and my attempts to reach the ASP prospective-applicants pages were blocked, so no ASP sponsor page was read. The HAO postdoc page I did read is the sponsor's own page. It describes a two-year fellowship with the same salary and benefits as ASP postdocs, and it sends applicants to the ASP site for how to apply. It gives no deadline and no dollar amount, so those fields are empty.\n\nDeadline: left empty. Only non-sponsor sources gave a date. A job-board posting (milwaukeejobs.com) and an Instrumentl grant listing both show October 25, 2026. Neither is a sponsor page, so I did not use that date. Verify it on the ASP site before relying on it. Past cycles closed in late October or early November (for example October 31 in 2023 and 2024, and November 3, 2024, per older postings), so the listing's date may be right but is unconfirmed.\n\nAmount: left empty. Aggregator posts cite about $82,650 a year, but no sponsor page I could read states it. The listing's \"competitive salary + benefits\" is therefore unverified.\n\nEligibility: the listing's field list (atmospheric sciences, oceanography, chemistry) does not match the HAO page, which focuses on solar and upper-atmosphere research. The ASP posting also requires a PhD in an area related to NCAR research, or completion of it before the appointment. The eligibility value above reflects only what the HAO page states.\n\nStatus: no page I read says the program is discontinued or paused, but I found no explicit statement that it is active, so I marked it unclear. Recommend a manual check of the ASP site and the current cycle before publishing.",
+      "before": {}
+    },
+    {
+      "id": 195,
+      "title": "Chateaubriand Fellowship - Humanities & Social Sciences (HSS)",
+      "changes": {
+        "deadline": "Jan 18, 2027",
+        "checked": "2026-10-15",
+        "checkedSource": "https://chateaubriand-fellowship.org/hss-application/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://chateaubriand-fellowship.org/hss-application/",
+          "source_url": "https://chateaubriand-fellowship.org/hss-application/",
+          "quote": "2027/2028 HSS call: Click to apply now",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-01-18",
+          "source_url": "https://chateaubriand-fellowship.org/hss-application/",
+          "quote": "Application deadline: January 18th, 2027, at 11:59 pm EST",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "Monthly allowance (currently 1850 euros/month), round-trip airfare between the U.S. and France (covered up to 1,410\u20ac), and health insurance for the fellowship duration",
+          "source_url": "https://chateaubriand-fellowship.org/hss-application/",
+          "quote": "currently 1850 euros/month",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "PhD students currently working on their doctorate and registered at a U.S. institution, in any Humanities or Social Sciences discipline; non-U.S. citizens may apply, but French and dual French citizens are not eligible.",
+          "source_url": "https://chateaubriand-fellowship.org/hss-application/",
+          "quote": "You must be currently working on your PhD",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://chateaubriand-fellowship.org/hss-application/",
+          "quote": "2027/2028 HSS call: Click to apply now",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline (Jan 25, 2026) is stale. The sponsor's HSS page now lists the 2027-2028 cycle with an application deadline of January 18, 2027 at 11:59 pm EST, and the full year is stated on the page, so no year was added. The sponsor's HSS page states the award as a monthly allowance, round-trip airfare, and health insurance; the listing's \"Monthly stipend\" wording is close, but the page gives 1850 euros/month, and airfare is capped at 1,410\u20ac and booked by Campus France. Eligibility also requires a letter of agreement from a U.S. advisor and a letter of invitation from a French professor, which the listing mentions only as \"letters\". The official_url I used is the HSS application page rather than the homepage on file; the homepage (https://chateaubriand-fellowship.org/) describes the HSS program but gives no deadline. Award notification is end of May 2027. Some sponsor pages still show 2026-2027 text (e.g., \"The 2026-2027 call for applications is closed\"), but the HSS page's current call is 2027-2028. Neither the sponsor pages nor the search results say the program is discontinued or paused. Third-party sites (Petersons, DAAD Scholarships, UIC) still show the January 25, 2026 deadline and were not used as sources.",
+      "before": {
+        "deadline": "Jan 25, 2026",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 196,
+      "title": "KCC Japan Education Exchange Graduate Fellowship Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.kccjee.org/graduate-fellowship-program",
+          "source_url": "https://www.kccjee.org/graduate-fellowship-program",
+          "quote": "Graduate Fellowships For PHD Research in Japan",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "$30,000",
+          "source_url": "https://www.kccjee.org/graduate-fellowship-program",
+          "quote": "One fellowship of $30,000 will be awarded.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "PhD graduate students may apply for support for research or study in Japan, and selected applicants may affiliate with Kobe College (Kobe Jogakuin) for the award year.",
+          "source_url": "https://www.kccjee.org/graduate-fellowship-program",
+          "quote": "to support qualified PhD graduate students for research or study in Japan",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.kccjee.org/graduatefellowship",
+          "quote": "2026 - 2027 Ritsumeikan University",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "Deadline left empty: the sponsor's program page (and the linked past-recipients page) states no application deadline or application-cycle dates, and I could not find a sponsor page that posts one for the next cycle. Do not use older third-party deadlines (e.g., early January, March 2019, March 15 2021 notices on other sites) as current; they are not from the sponsor's current pages. Contact programs@kccjee.org to confirm the next cycle. The listing's \"(one-time)\" wording is not stated on the sponsor page; the page only says one fellowship of $30,000 will be awarded. The sponsor page's eligibility section does not list citizenship or stage requirements; older pages (not the current sponsor page) mention US citizenship and advancement to candidacy, so verify with the sponsor. The sponsor page shows a 2026-2027 fellow and a past 2010\u20132015 suspension, but no current suspension, so status is recorded as active. The listing's URL works and matches the sponsor's page.",
+      "before": {}
+    },
+    {
+      "id": 198,
+      "title": "Kate Neal Kinley Memorial Fellowship",
+      "changes": {
+        "deadline": "Dec 01, 2026",
+        "checked": "2026-10-15",
+        "checkedSource": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "source_url": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "quote": "These creative fellowships for promising young graduates of the University of Illinois at Urbana-Champaign and other prestigious institutions",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2026-12-01",
+          "source_url": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "quote": "The application period for the 2027-28 fellowship cycle is now open and will close on December 1, 2026 at 11:59pm CST.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$20,000 (one fellowship in art and design, dance, instrumental or vocal music, or theatre; other fellowships are under $20,000)",
+          "source_url": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "quote": "One of $20,000 in art and design, dance, instrumental or vocal music, or theatre",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Graduates of UIUC's College of Fine and Applied Arts or similar institutions of equal standing whose main studies were in architecture, art, dance, landscape architecture, music, theatre, or urban and regional planning; no age limit, with preference for applicants who have not reached their 25th birthday.",
+          "source_url": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "quote": "The fellowships are open to graduates of the College of Fine and Applied Arts of the University of Illinois Urbana-Champaign",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://faa.illinois.edu/research/research-funding-resources/kate-neal-kinley-memorial-fellowship/",
+          "quote": "The application period for the 2027-28 fellowship cycle is now open and will close on December 1, 2026 at 11:59pm CST.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's deadline of Dec 01, 2025 is out of date; the sponsor page now shows the 2027-28 cycle closing December 1, 2026 at 11:59pm CST, which is the next deadline after today. The page's year is stated in full, so no year was added. The listing's official URL is the sponsor's page and loads correctly. The page is the College of Fine and Applied Arts' page; the John Robert Gregg Fund and The New York Community Trust are described on the page as partial funders, not the administering sponsor. Several aggregators (WeMakeScholars, CampusReel, Access Scholarships) list December 1 or December 3 and older cycles; these were not used. The sponsor page also says recipients cannot hold instructor, lecturer or faculty appointments while receiving the stipend, and that the fellowship is not a tuition waiver for UIUC applicants. The page says there is no fixed award amount for the other two tiers beyond \"less than $20,000\", so the amount field reports only the $20,000 tier.",
+      "before": {
+        "deadline": "Dec 01, 2025",
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 202,
+      "title": "Thurgood Marshall Dissertation Fellowships",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "source_url": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "quote": "Dartmouth College invites applications for the Thurgood Marshall Pre-to-Postdoctoral Fellowship in the",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "quote": "Review of applications will begin **February 15, 2026** and continue until the position is filled.",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "Approximately $49,860 first year (predoctoral) and $67,580 second year (postdoctoral), plus benefits and a research allocation",
+          "source_url": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "quote": "annual stipend of approximately $49,860 in the first year as a predoctoral fellow",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Doctoral scholars completing a dissertation whose research addresses African Diaspora, African American, African, or Africana Studies across any geography or discipline; the page stresses support for underrepresented scholars and those able to advance educational diversity.",
+          "source_url": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "quote": "supports scholars whose research addresses any geographies, disciplines, and interdisciplinary spaces across African Diaspora, African American, African, or Africana Studies",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: the page says the application for the 26-28 cycle is open via Interfolio",
+          "source_url": "https://aaas.dartmouth.edu/research/thurgood-marshall-dissertation-and-postdoctoral-fellowship",
+          "quote": "The application for the 26-28 cycle is now available via Interfolio",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's URL works and matches the sponsor's page (Dartmouth Department of African and African American Studies), and the listed amounts match the page. No fixed deadline is posted. The page says review begins February 15, 2026 and continues until the position is filled, which is a review start date rather than a closing date, so the deadline is left empty and the listing's Open/Rolling status is consistent with the page. The page does not say \"final stages of dissertation\" in those words; it says fellows are expected to complete the dissertation at the end of their first year, so I did not use that phrasing. The page also says exact funding levels are set at the time of offer. The 2025-27 and 2024-26 fellow profiles are on the page but not used. Interfolio application page was not fetched.",
+      "before": {}
+    },
+    {
+      "id": 204,
+      "title": "Short-Term Visiting Academic Research Fellowships",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://www.americanantiquarian.org/short-term-fellowships"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://www.americanantiquarian.org/academic-research-fellowships/1-2-month-residential",
+          "source_url": "https://www.americanantiquarian.org/academic-research-fellowships/1-2-month-residential",
+          "quote": "The application deadline for the one to two month fellowships administered by AAS is **January 15, 2027**.",
+          "verdict": "rejected",
+          "reason": "quote not found on the source page"
+        },
+        "deadline": {
+          "value": "2027-01-15",
+          "source_url": "https://www.americanantiquarian.org/short-term-fellowships",
+          "quote": "The application deadline for the one to two month fellowships administered by AAS is **January 15, 2027**.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$2,400 per month stipend (AAS one- to two-month residential fellowships); the AAS-DGfA Ebeling grant is a maximum of Euro 1,800",
+          "source_url": "https://www.americanantiquarian.org/short-term-fellowships",
+          "quote": "The stipend is $2,400 per month.",
+          "verdict": "rejected",
+          "reason": "quote does not contain this amount"
+        },
+        "eligibility": {
+          "value": "Most AAS one- to two-month fellowships are open to doctoral candidates doing dissertation research and some to postdoctoral scholars or independent researchers, but the DGfA-linked Ebeling fellowship is limited to German citizens or permanent residents at postgraduate or postdoctoral stages.",
+          "source_url": "https://www.americanantiquarian.org/short-term-fellowships",
+          "quote": "While some are for postdoctoral scholars, most of the fellowships are open to doctoral candidates engaged in dissertation research.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "active",
+          "source_url": "https://www.americanantiquarian.org/short-term-fellowships",
+          "quote": "There are nineteen different one to two month fellowships administered by AAS.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing's officialUrl (/short-term-fellowships) loads the AAS \"One to Two Month Residential Academic Research Fellowships\" page; the page's canonical URL is the one given as official_url. The title \"Short-Term Visiting Academic Research Fellowships\" does not appear on either sponsor page. The Jan 15, 2027 deadline is the AAS deadline for its one- to two-month fellowships, which the page states explicitly, so no year was added. The DGfA-side fellowship (Christoph Daniel Ebeling Fellowship, jointly run by DGfA and AAS) is applied for through DGfA, and its listed deadline on dgfa.de was April 2, 2026, which has passed; no next cycle is posted, so that deadline is not the one that closes after today. The Ebeling fellowship is open only to German citizens or permanent residents, and the listing's eligibility text does not reflect that. The listing says the award \"covers room and board\", but the AAS page says the stipend is $2,400 per month and room fees (about $600 to $1,000 per month) are deducted from it for those staying in scholars' housing, so the listing's wording is not supported. Amount on the Ebeling award per dgfa.de: \"a maximum amount of Euro 1,800\". The listing's deadline field is correct only for the AAS-administered fellowships.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 205,
+      "title": "Mass Media Science & Engineering Fellows Program",
+      "changes": {
+        "checked": "2026-10-15",
+        "checkedSource": "https://massmedia.secure-platform.com/a/"
+      },
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://massmedia.secure-platform.com/a/",
+          "source_url": "https://massmedia.secure-platform.com/a/",
+          "quote": "Begin or continue your application here",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-01-04",
+          "source_url": "https://massmedia.secure-platform.com/a/",
+          "quote": "Applications for Summer 2027 open October 1, 2026 and close January 4, 2027.",
+          "verdict": "verified",
+          "reason": "",
+          "year_inferred": false
+        },
+        "amount": {
+          "value": "$10,000 stipend for the summer, plus travel expenses to and from AAAS and their sites",
+          "source_url": "https://massmedia.secure-platform.com/a/page/About",
+          "quote": "Fellows are provided a stipend of $10,000 for the summer as well as travel expenses to and from AAAS and their sites.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Open to upper-level undergraduate or graduate students, postdoctoral trainees, or people who apply within one year of completing either, in life, physical, health, engineering, computer, behavioral/social sciences, or mathematics, who are US citizens or hold visas allowing paid summer work.",
+          "source_url": "https://massmedia.secure-platform.com/a/page/Eligibility",
+          "quote": "Applicants must a) be enrolled as students (upper level undergraduate or graduate), b) be a postdoctoral trainee, or c) apply within one year of the completion of a) or b).",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: applications for Summer 2027 are open",
+          "source_url": "https://massmedia.secure-platform.com/a/",
+          "quote": "Applications for Summer 2027 open October 1, 2026 and close January 4, 2027.",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listed official URL (aaas.org/programs/mass-media-fellowship) failed to load on two fetch attempts, so I could not read it. I used AAAS's own application site (massmedia.secure-platform.com), which is linked from the AAAS program page in search results, and I recommend the aaas.org page be checked once it is reachable. Deadline: the listing's Jan 04, 2027 matches the sponsor's stated close date for Summer 2027 applications (window opens October 1, 2026). Amount: the listing's 'Approximately $9,000' conflicts with the sponsor's stated $10,000 stipend; I used the sponsor figure. The listing's eligibility omits the citizenship/visa requirement and the one-year-after-completion window, which I included. Listing's 'Fall' season and 'Internship' type are not contradicted by the sponsor pages, but the sponsor describes a 10-week summer placement. Older third-party listings showed a Jan 1, 2025 deadline and an $8,000 limit; these are superseded by the sponsor's current figures.",
+      "before": {
+        "checked": "",
+        "checkedSource": ""
+      }
+    },
+    {
+      "id": 208,
+      "title": "Blakemore Freeman Fellowships",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "amount": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "",
+          "source_url": "",
+          "quote": "",
+          "verdict": "empty",
+          "reason": ""
+        }
+      },
+      "notes": "Could not verify this listing against the sponsor's own pages. The listed URL (https://www.blakemorefoundation.org/blakemorefreeman) returned \"You don't have permission to access this domain\" on two attempts, and the Blakemore Foundation application portal could not be fetched after the tool-call limit was reached. Per the rules, no field is filled from search snippets, so all values are left empty. The listed URL does appear in search results as a Blakemore Foundation page titled \"Blakemore & Blakemore Freeman Fellowships,\" so it is likely the correct sponsor page, but it is unverified. Deadline: search snippets from the sponsor's portal (blakemorefoundation.communityforce.com) and from third-party university pages (GWU, UChicago, Johns Hopkins, Harvard) all show December 30, 2026, which matches the listing's date, but the portal snippet gives 11:00 PM Pacific and other pages give 12:00 pm, so the time is inconsistent across sources. Please verify on the sponsor's page before relying on it. Season: the listing says \"Winter,\" but a Stanford page lists the deadline quarter as \"Autumn,\" and a UChicago page lists \"Fall Quarter (October-December).\" The listing's season may be wrong. Amount and eligibility: snippets from third-party pages describe full tuition plus a stipend for living, travel and study expenses, and eligibility as U.S. citizens or permanent residents with a bachelor's degree who have completed at least the third year of language study. These are consistent with the listing, but they were not confirmed on the sponsor's page. Program status: the sponsor's portal snippet says applications for the 2027/2028 year are open, which suggests the program is active, but this was not confirmed on a fetched page. Also note that the Blakemore Kingfisher Art History Language Fellowship is a separate program with its own eligibility and a similar December 30, 2026 deadline, so it should not be merged with this listing.",
+      "before": {}
+    },
+    {
+      "id": 209,
+      "title": "Fellows Program",
+      "changes": {},
+      "flags": [],
+      "checks": {
+        "official_url": {
+          "value": "https://usmex.ucsd.edu/fellows/index.html",
+          "source_url": "https://usmex.ucsd.edu/fellows/index.html",
+          "quote": "USMEX has one of the largest residential fellowship programs in the U.S. for research on Mexico.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "deadline": {
+          "value": "2027-04-09",
+          "source_url": "https://usmex.ucsd.edu/fellows/app-process.html",
+          "quote": "Application Deadline:",
+          "verdict": "rejected",
+          "reason": "quote does not contain this date"
+        },
+        "amount": {
+          "value": "Cost-of-living allowance not to exceed $15,200 USD",
+          "source_url": "https://usmex.ucsd.edu/fellows/app-process.html",
+          "quote": "will not exceed $15,200 USD",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "eligibility": {
+          "value": "Ph.D. candidates who are ABD (all but dissertation) and have completed a substantial portion of their dissertations, plus professors on sabbatical, may apply; applicants must be concurrently enrolled or employed at their home university to receive the cost-of-living allowance.",
+          "source_url": "https://usmex.ucsd.edu/fellows/app-process.html",
+          "quote": "Applications are accepted from Ph.D. candidates who are ABD (All But Dissertation) and have completed a substantial portion of their dissertations.",
+          "verdict": "verified",
+          "reason": ""
+        },
+        "program_status_evidence": {
+          "value": "Active: the application page is headed for the 2027-28 cycle",
+          "source_url": "https://usmex.ucsd.edu/fellows/app-process.html",
+          "quote": "## 2027-28 Call for Applications",
+          "verdict": "verified",
+          "reason": ""
+        }
+      },
+      "notes": "The listing is out of date in several ways. (1) Deadline: the listing's Jan 22, 2026 has passed. The sponsor's 2027-28 cycle full application deadline is April 9, 2027 (added year is from the page, which gives the full date). Before that, a one-page letter of intent is due Feb. 6, 2027, and applicants are notified by Feb. 17, 2027 if invited to submit a full application; the full-application deadline is the one listed as the value. (2) Amount: the listing says up to $22,500; the sponsor's page says the cost-of-living allowance will not exceed $15,200 USD, so the sponsor figure is used. (3) Sponsor naming: the page is hosted by UC San Diego's Center for U.S.-Mexican Studies (USMEX) at the School of Global Policy and Strategy, not the School of International Relations and Pacific Studies listed as agency2; the page does not mention IR/PS. (4) Eligibility: the sponsor also says postdocs are generally not accepted, and that residential periods run three to nine months with starts in October or January. Non-resident fellowships are by invitation only and get no cost-of-living allowance. The listing's 'Fall' season is consistent with an October start but the page does not use that label. Listing's officialUrl (fellows index) is valid.",
+      "before": {}
+    }
+  ]
+}
