@@ -1,0 +1,79 @@
+name: Agent Research
+
+# Checks listings against their sponsors' websites with a Claude research
+# agent and opens a pull request with the verified changes for DGE staff to
+# review. Nothing is published until that pull request is merged.
+#
+# Run it by hand from the Actions tab. It needs an ANTHROPIC_API_KEY
+# repository secret, and "Allow GitHub Actions to create and approve pull
+# requests" turned on under Settings → Actions → General.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'How many listings to check'
+        required: false
+        default: '20'
+      select:
+        description: 'Which listings: stale (deadline passed), missing (no amount or deadline), or all'
+        required: false
+        default: 'stale'
+        type: choice
+        options: [stale, missing, all]
+      ids:
+        description: 'Specific record numbers, comma-separated (overrides the two above)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic requests beautifulsoup4 python-dateutil pypdf
+
+      - name: Research listings
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          SELECT: ${{ github.event.inputs.select }}
+          IDS: ${{ github.event.inputs.ids }}
+        run: |
+          args=(--data data/fellowships_master.json --limit "$LIMIT" --select "$SELECT" --apply)
+          if [ -n "$IDS" ]; then args+=(--ids "$IDS"); fi
+          python scripts/02_agent_research.py "${args[@]}"
+
+      - name: Rebuild the site
+        run: |
+          python scripts/03_merge_and_rebuild.py \
+            --data data/fellowships_master.json \
+            --template grapes-fellowship-finder.html \
+            --output grapes-fellowship-finder.html
+
+      - name: Open a pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: agent-research/${{ github.run_id }}
+          commit-message: 'Agent research: proposed listing updates'
+          title: 'Agent research: proposed listing updates'
+          body-path: data/agent_report.md
+          add-paths: |
+            data/fellowships_master.json
+            grapes-fellowship-finder.html
+            data/agent_proposals.json
+            data/agent_report.md
