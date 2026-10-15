@@ -122,6 +122,7 @@ def build_catalog(records, today):
             f"[{r['id']}] {r['title']} ({sponsor})",
             r.get("awardType") or "",
             deadline_text(r, today),
+            "U.S. citizens and permanent residents only" if r.get("citizenship") == "us" else "",
             f"eligibility: {clip(r.get('eligibility'), 160)}" if r.get("eligibility") else "",
             f"about: {clip(r.get('description'), 130)}" if r.get("description") else "",
             "" if r.get("status") == "Published" else "unverified listing",
