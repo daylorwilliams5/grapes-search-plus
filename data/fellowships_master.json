@@ -73,10 +73,10 @@
     "agency1": "American Association of University Women (AAUW)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Sep 30, 2025",
-    "deadlineSort": "2025-09-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 18, 2027",
+    "deadlineSort": "2027-02-18",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.aauw.org/resources/programs/selected-professions-fellowship-program/",
     "description": "AAUW Selected Professions Fellowships are awarded to women pursuing full-time study in master's or professional degree programs in which women are underrepresented, including STEM, law, business, and medicine.",
@@ -87,7 +87,10 @@
     "citizenship": "us",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.aauw.org/resources/programs/selected-professions-fellowship-program/",
+    "researched": "2026-10-16"
   },
   {
     "id": 1119,
@@ -95,8 +98,8 @@
     "agency1": "Leonard A. Lauder Research Center for Modern Art",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 17, 2025",
-    "deadlineSort": "2025-10-17",
+    "deadline": "Oct 15, 2026",
+    "deadlineSort": "2026-10-15",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -110,7 +113,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1120,
@@ -118,10 +122,10 @@
     "agency1": "French Embassy in the United States",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Nov 30, 2025",
-    "deadlineSort": "2025-11-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 01, 2026",
+    "deadlineSort": "2026-12-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://lafayette.villa-albertine.org/",
     "description": "Fully funds American students for one year of master's-level study in France in STEM, humanities, and the arts. Open to both Francophone and non-Francophone candidates with full funding for tuition, living expenses, travel, and inclusion in the French-American Leadership Program.",
@@ -130,7 +134,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "open",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://lafayette.villa-albertine.org/faq/",
+    "researched": "2026-10-16"
   },
   {
     "id": 834,
@@ -242,7 +249,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 268,
@@ -266,7 +274,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 209,
@@ -297,10 +306,10 @@
     "agency1": "Parkinson's Disease Foundation (PDF)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Dec 04, 2025",
-    "deadlineSort": "2025-12-04",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 20, 2027",
+    "deadlineSort": "2027-01-20",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards",
     "description": "Ten-week summer research fellowships for advanced undergraduates and medical students conducting clinical or laboratory research on Parkinson's disease. Includes $4,000 award with optional $1,000 travel funding to present research at scientific conferences.",
@@ -311,7 +320,10 @@
     "citizenship": "open",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.parkinson.org/advancing-research/for-researchers/award-deadlines",
+    "researched": "2026-10-16"
   },
   {
     "id": 914,
@@ -319,10 +331,10 @@
     "agency1": "The Center for Engaged Scholarship",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Dec 01, 2025",
-    "deadlineSort": "2025-12-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 01, 2026",
+    "deadlineSort": "2026-12-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://cescholar.org/",
     "description": "Fellowships for PhD students in social sciences and humanities who have completed coursework and dissertation proposal, with only dissertation writing remaining. Awards support research on engaged scholarship addressing social justice, climate change, environmental sustainability, and inequality topics.",
@@ -333,7 +345,10 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://cescholar.org/eligibility/",
+    "researched": "2026-10-16"
   },
   {
     "id": 1083,
@@ -341,8 +356,8 @@
     "agency1": "La Kretz Center for California Conservation Science",
     "agency2": "UCLA",
     "season": "Fall",
-    "deadline": "Sep 15, 2025",
-    "deadlineSort": "2025-09-15",
+    "deadline": "Sep 28, 2026",
+    "deadlineSort": "2026-09-28",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -355,7 +370,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 372,
@@ -412,10 +428,10 @@
     "agency1": "Leukemia and Lymphoma Society (LLS)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Nov 15, 2025",
-    "deadlineSort": "2025-11-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Nov 15, 2026",
+    "deadlineSort": "2026-11-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.lls.org/research/career-development-program-cdp",
     "description": "Leukemia & Lymphoma Society program supporting researchers at early career stages in blood cancer research. Provides salary support, research allowance, and mentorship for researchers pursuing academic careers.",
@@ -427,7 +443,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://bloodcancerunited.org/research/grants/career-development-program-cdp",
+    "researched": "2026-10-16"
   },
   {
     "id": 75,
@@ -1435,7 +1454,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 903,
@@ -1443,10 +1463,10 @@
     "agency1": "The Library Company of Philadelphia (LCP)",
     "agency2": "National Endowment for the Humanities (NEH)",
     "season": "Fall",
-    "deadline": "Jan 25, 2026",
-    "deadlineSort": "2026-01-25",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 17, 2027",
+    "deadlineSort": "2027-01-17",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://librarycompany.org/academic-programs/fellowships/",
     "description": "The Library Company of Philadelphia offers postdoctoral and dissertation fellowships supporting research in American history and culture before 1900, using one of the nation's oldest and largest repositories of early American printed materials, manuscripts, and images. Fellows are in residence in Philadelphia and participate in a lively intellectual community.",
@@ -1458,7 +1478,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://librarycompany.org/postdoctoral-fellowships-application/",
+    "researched": "2026-10-16"
   },
   {
     "id": 388,
@@ -2017,7 +2040,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 919,
@@ -2037,7 +2061,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 920,
@@ -2057,7 +2082,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 396,
@@ -2520,22 +2546,25 @@
     "agency1": "American Geophysical Union (AGU)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Mar 27, 2026",
-    "deadlineSort": "2026-03-27",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 13, 2027",
+    "deadlineSort": "2027-03-13",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.agu.org/honors/horton-grant",
     "description": "American Geophysical Union grant supporting graduate student research in hydrology and water resources. Open to students pursuing research in hydrology or closely-related fields with opportunity for professional development and networking.",
     "eligibility": "Graduate students; hydrology, water resources, or closely related field of study",
-    "amount": "",
+    "amount": "Research grant not to exceed $10,000",
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.agu.org/honors/horton-grant",
+    "researched": "2026-10-16"
   },
   {
     "id": 367,
@@ -3302,7 +3331,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 238,
@@ -3754,13 +3784,14 @@
     "officialUrl": "https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/",
     "description": "Fellowship for UCLA doctoral students whose teaching and research center on working class studies and feminist issues. Honors Constance Coiner (1987 PhD, American Studies) and supports students demonstrating excellence in teaching as activism. Open to advanced doctoral candidates committed to teaching activism.",
     "eligibility": "UCLA PhD students advanced to candidacy; research/teaching on working class studies and feminist issues; demonstrated teaching excellence and activism commitment",
-    "amount": "",
+    "amount": "One $1,500 fellowship",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 26,
@@ -3805,7 +3836,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 945,
@@ -3827,7 +3859,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 12,
@@ -3985,7 +4018,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 262,
@@ -4304,7 +4338,8 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 794,
@@ -4326,7 +4361,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1050,
@@ -4348,7 +4384,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1051,
@@ -4370,7 +4407,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1052,
@@ -4645,7 +4683,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 257,
@@ -4691,7 +4730,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 484,
@@ -4797,7 +4837,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 425,
@@ -4862,7 +4903,8 @@
     "citizenship": "us",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 958,
@@ -4939,10 +4981,10 @@
     "agency1": "James Madison Memorial Fellowship Foundation",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Mar 08, 2025",
-    "deadlineSort": "2025-03-08",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 01, 2027",
+    "deadlineSort": "2027-03-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.jamesmadison.gov/",
     "description": "James Madison Foundation fellowships supporting Master's-level study of U.S. Constitution for current/future secondary school teachers. Award of $24,000 per fellowship with one per state per year.",
@@ -4953,7 +4995,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.jamesmadison.gov/index.php/fellowship-information/faq",
+    "researched": "2026-10-16"
   },
   {
     "id": 309,
@@ -4961,10 +5006,10 @@
     "agency1": "Society of Exploration Geophysicists (SEG)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Nov 01, 2025",
-    "deadlineSort": "2025-11-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 01, 2027",
+    "deadlineSort": "2027-03-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://seg.org/programs/student-programs/scholarships/",
     "description": "Portfolio of scholarships supporting high school through graduate students pursuing careers in applied geophysics and related geosciences. Merit-based awards with total $276,368 distributed across 96 recipients in 2025-2026, averaging $2,800 per award. Available worldwide.",
@@ -4976,7 +5021,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://seg.org/programs/student-programs/scholarships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 849,
@@ -5112,7 +5160,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 904,
@@ -5120,10 +5169,10 @@
     "agency1": "The Jacob Blaustein Center for Scientific Cooperation (BCSC)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Mar 17, 2026",
-    "deadlineSort": "2026-03-17",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 14, 2027",
+    "deadlineSort": "2027-03-14",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/",
     "description": "Postdoctoral fellowships through the Jacob Blaustein Center for Scientific Cooperation at Ben-Gurion University supporting research on drylands, desert ecology, solar energy, agriculture, and water treatment.",
@@ -5134,7 +5183,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 841,
@@ -5234,10 +5286,10 @@
     "agency1": "Knut and Alice Wallenberg Foundation",
     "agency2": "Nanyang Technological University Singapore",
     "season": "Winter",
-    "deadline": "Dec 31, 2025",
-    "deadlineSort": "2025-12-31",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 31, 2026",
+    "deadlineSort": "2026-12-31",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)",
     "description": "The Wallenberg-NTU Presidential Postdoctoral Fellowship, a joint initiative of the Knut and Alice Wallenberg Foundation and Nanyang Technological University (NTU Singapore), supports outstanding early-career researchers in science, engineering, and related fields. Fellows conduct independent research at NTU in a world-class Asian research environment.",
@@ -5248,7 +5300,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)",
+    "researched": "2026-10-16"
   },
   {
     "id": 324,
@@ -5291,7 +5346,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 568,
@@ -5480,10 +5536,10 @@
     "agency1": "Smithsonian Environmental Research Center (SERC)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Feb 15, 2026",
-    "deadlineSort": "2026-02-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 15, 2027",
+    "deadlineSort": "2027-02-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://serc.si.edu/internships/opportunities",
     "description": "Full-time 10-16 week internships (in-person/remote) for undergraduate and recent Master's graduates. Paid minimum $700/week; on-site dormitory housing available. Projects span environmental chemistry, ecology, molecular biology, and public engagement. NSF REU site since 2001.",
@@ -5494,7 +5550,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://serc.si.edu/internships/opportunities",
+    "researched": "2026-10-16"
   },
   {
     "id": 557,
@@ -5539,7 +5598,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 907,
@@ -5633,7 +5693,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 183,
@@ -5655,7 +5716,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 41,
@@ -5700,7 +5762,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 145,
@@ -5745,7 +5808,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 62,
@@ -5790,7 +5854,8 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 763,
@@ -5812,7 +5877,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 768,
@@ -5880,7 +5946,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 774,
@@ -5903,7 +5970,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 775,
@@ -5926,7 +5994,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1019,
@@ -5946,7 +6015,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 778,
@@ -5969,7 +6039,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 781,
@@ -6015,7 +6086,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1063,
@@ -6031,14 +6103,15 @@
     "officialUrl": "https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/",
     "description": "Fellowship from UCLA's Center for the Study of Women honoring Alisa Bierria's work in Black feminist philosophy. Supports graduate research centering Black feminist frameworks of analysis interrogating historical and ongoing regimes of violence, enclosure, and captivity, offering insights for freedom and abolition.",
     "eligibility": "UCLA graduate students; research using Black feminist frameworks; any topic with focus on violence, enclosure, captivity, freedom, or abolition",
-    "amount": "",
+    "amount": "$2,000",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1064,
@@ -6061,7 +6134,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 791,
@@ -6085,7 +6159,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 792,
@@ -6108,7 +6183,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 793,
@@ -6177,7 +6253,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 802,
@@ -6238,14 +6315,15 @@
     "officialUrl": "https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/",
     "description": "Fellowship from UCLA Center for the Study of Women supporting exceptional dissertation research using historical materials and methods pertaining to women or gender. Recipients benefit from faculty recommendations and CSW award community support.",
     "eligibility": "UCLA doctoral students; dissertation prospectus must pertain to women and/or gender; historical methods required",
-    "amount": "",
+    "amount": "$15,000",
     "awardType": "Dissertation Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 810,
@@ -6267,7 +6345,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 811,
@@ -6290,7 +6369,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 969,
@@ -6312,7 +6392,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 978,
@@ -6436,8 +6517,8 @@
     "agency1": "UCLA Health",
     "agency2": "",
     "season": "Spring",
-    "deadline": "May 29, 2025",
-    "deadlineSort": "2025-05-29",
+    "deadline": "May 26, 2026",
+    "deadlineSort": "2026-05-26",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -6452,7 +6533,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1095,
@@ -6609,7 +6691,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1105,
@@ -6676,7 +6759,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 1108,
@@ -6707,19 +6791,20 @@
     "agency1": "VOICE Initiative",
     "agency2": "",
     "season": "Summer",
-    "deadline": "Jun 02, 2025",
-    "deadlineSort": "2025-06-02",
+    "deadline": "Jun 09, 2026",
+    "deadlineSort": "2026-06-09",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.theopedproject.org/fellowships",
     "description": "Initiative supporting public voices and engagement in scholarship. Programs enable academics to contribute to public discourse through writing and speaking. Includes fellowship components for scholars to develop their public-facing work.",
     "eligibility": "Varies by specific program; generally scholars and academics interested in public engagement",
-    "amount": "",
+    "amount": "Up to $5,000",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 1110,
@@ -6742,7 +6827,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1111,
@@ -6788,7 +6874,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1114,
@@ -6877,7 +6964,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1126,
@@ -6900,7 +6988,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 511,
@@ -7012,7 +7101,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 721,
@@ -7020,10 +7110,10 @@
     "agency1": "Josephine De Karman Fellowship Trust",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Jan 29, 2026",
-    "deadlineSort": "2026-01-29",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 28, 2027",
+    "deadlineSort": "2027-01-28",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/",
     "description": "The Josephine de Karman Fellowship Trust recognizes and assists PhD candidates whose scholastic achievements reflect high standards. Special consideration given to applicants in the Humanities. Fellows must be completing their dissertation.",
@@ -7036,7 +7126,10 @@
       "masters",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/",
+    "researched": "2026-10-16"
   },
   {
     "id": 819,
@@ -7067,10 +7160,10 @@
     "agency1": "American Nuclear Society (ANS)",
     "agency2": "Nuclear Criticality Safety (NCS) Division, ANS Nuclear Installations Safety Division",
     "season": "Winter",
-    "deadline": "Feb 01, 2026",
-    "deadlineSort": "2026-02-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 01, 2027",
+    "deadlineSort": "2027-02-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.ans.org/scholarships/",
     "description": "The American Nuclear Society (ANS) Foundation offers scholarships to graduate students pursuing degrees in nuclear science, nuclear engineering, and related fields. Multiple named scholarships recognize academic achievement, research potential, and commitment to the nuclear field, supporting students across the country.",
@@ -7081,7 +7174,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.ans.org/scholarships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 163,
@@ -7149,7 +7245,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 276,
@@ -7221,7 +7318,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 299,
@@ -7290,7 +7388,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1069,
@@ -7312,7 +7411,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 189,
@@ -7769,10 +7869,10 @@
     "agency1": "Taiwan Ministry of Education / Taipei Economic and Cultural Office in Los Angeles",
     "agency2": "UCLA Asia Pacific Center",
     "season": "Winter",
-    "deadline": "Jan 30, 2026",
-    "deadlineSort": "2026-01-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 29, 2027",
+    "deadlineSort": "2027-01-29",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.international.ucla.edu/apc/funding",
     "description": "Provides travel and research support for UCLA graduate students to conduct research related to Taiwan, for up to six students annually across a range of humanities and social science fields.",
@@ -7784,7 +7884,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.international.ucla.edu/apc/article/207198",
+    "researched": "2026-10-16"
   },
   {
     "id": 663,
@@ -8099,8 +8202,8 @@
     "agency1": "Mandel Scholion Interdisciplinary Research Center in the Humanities and Jewish Studies",
     "agency2": "The Hebrew University of Jerusalem",
     "season": "Fall",
-    "deadline": "Sep 10, 2025",
-    "deadlineSort": "2025-09-10",
+    "deadline": "Sep 01, 2026",
+    "deadlineSort": "2026-09-01",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Pending",
@@ -8113,7 +8216,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 77,
@@ -8845,7 +8949,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 315,
@@ -9260,7 +9365,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 782,
@@ -9280,7 +9386,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 786,
@@ -9303,7 +9410,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 787,
@@ -9325,7 +9433,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 789,
@@ -9348,6 +9457,7 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   }
 ]

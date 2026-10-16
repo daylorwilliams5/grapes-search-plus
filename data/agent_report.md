@@ -1,1746 +1,1923 @@
 # Agent research report
 
-70 listings checked, 24 with changes to apply, 21 with a current deadline confirmed on the sponsor's page (these stop showing as unverified on the site). Estimated API cost: $0.82.
+80 listings checked, 23 with changes to apply, 15 with a current deadline confirmed on the sponsor's page (these stop showing as unverified on the site). Estimated API cost: $1.88.
 
 Each change below was found on the sponsor's page, and its quote was matched against that page automatically. Please open the source links for anything that looks off.
 
-## [56] Hench Post-Dissertation Fellowship
+## [480] Horton (Hydrology) Research Grant
 
 | Field | On file | Proposed |
 |---|---|---|
-| deadline | Oct 15, 2026 | Oct 18, 2026 |
+| deadline | Mar 27, 2026 | Mar 13, 2027 |
+| amount |  | Research grant not to exceed $10,000 |
 
 - ✅ Current deadline confirmed on the sponsor's page
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://www.americanantiquarian.org/4-12-month-residential/hench-post-dissertation-fellowship
-  > Hench Post-Dissertation Fellowship \| American Antiquarian Society
-  [source](https://www.americanantiquarian.org/4-12-month-residential/hench-post-dissertation-fellowship)
-- **deadline** ✅: 2026-10-18
-  > October 18, 2026 - 12:00am
-  [source](https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship)
-- **amount** ✅: $44,000 stipend (twelve-month term)
-  > The twelve-month stipend for this fellowship is $44,000.
-  [source](https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship)
-- **eligibility** ✅: Scholars no more than three years past receipt of the doctorate may apply for a year-long residential fellowship to revise a dissertation, in any field relevant to American history and culture through…
-  > Scholars who are no more than three years beyond receipt of the doctorate are eligible to apply for a special year-long residential fellowship
-  [source](https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship)
-- **program_status_evidence** ✅: Open for the current cycle
-  > Applications are due midnight, October 18.
-  [source](https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship)
-- Agent notes: The listing's deadline of Oct 15, 2026 is wrong. The AAS page gives October 18, 2026 (12:00am) as the application deadline, which is after today (2026-10-16), so that is the value submitted. The page also says applications are due "midnight, October 18" without a year; the year 2026 comes from the "October 18, 2026" line on the same page. The page's canonical URL is the 4-12-month-residential path; the listed URL (12-month-residential) was fetched and redirects to that content, so the canonical …
+- **official_url** ✅: https://www.agu.org/honors/horton-grant
+  > Horton Research Grant \| AGU
+  [source](https://www.agu.org/honors/horton-grant)
+- **deadline** ✅ (year added: the page gives this date without one): 2027-03-13
+  > 5 January - 13 March
+  [source](https://www.agu.org/honors/horton-grant)
+- **amount** ✅: Research grant not to exceed $10,000
+  > A research grant not to exceed $10,000
+  [source](https://www.agu.org/honors/horton-grant)
+- **eligibility** ✅: Open to doctoral (Ph.D.) students enrolled in hydrology, water resources, or a closely related field, who must also be active AGU student members.
+  > be enrolled in a doctoral program in hydrology, water resources, or a closely related field
+  [source](https://www.agu.org/honors/horton-grant)
+- **program_status_evidence** ✅: active
+  > The Horton Research Grant is awarded to up to three Ph.D. students
+  [source](https://www.agu.org/honors/horton-grant)
+- Agent notes: Deadline: the sponsor page gives the submission window as "5 January - 13 March" with no year. I added the year: 2027-03-13 is the next 13 March after today (2026-10-16). The listing's "Mar 27, 2026" does not match the sponsor's page, and that date has passed. The application package page (agu.org/Honors/horton-grant/Nomination-Package) gives no separate deadline; it says letters must be submitted by the application deadline in OpenWater. Amount: the listing was blank; the sponsor states the gra…
 
 </details>
 
-## [449] Dissertation Fellowships for Republic of China Students Abroad
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Oct 15, 2026 | Oct 15, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: http://www.cckf.org/en/programs/american/MDF
-  > Dissertation Fellowships for ROC Students Abroad — CCKF
-  [source](http://www.cckf.org/en/programs/american/MDF)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-10-15
-  > The deadline for Dissertation Fellowships for ROC Students Abroad applications is October 15.
-  [source](http://www.cckf.org/en/programs/american/MDF)
-- **amount** ✅: Maximum US$25,000 for a one-year award
-  > The maximum amount of each award is US$25,000, which is given for a period extending one year.
-  [source](http://www.cckf.org/en/programs/american/MDF)
-- **eligibility** ✅: ROC citizens with an ROC passport who graduated from an accredited ROC university, are in the last stage of a PhD at an accredited university in the US, Canada, Mexico, or Central or South America, an…
-  > Only students who have graduated from an accredited university or college in the Republic of China, and who do not have foreign permanent residence status or citizenship, are eligible to apply.
-  [source](http://www.cckf.org/en/programs/american/MDF)
-- **program_status_evidence** ✅: Applications may be submitted every year
-  > Applications may be submitted every year from August 1 to October 15
-  [source](http://www.cckf.org/en/programs/american/MDF)
-- Agent notes: The listed deadline "Oct 15, 2026" has already passed as of 2026-10-16. The sponsor page gives only "October 15" with no year; I added 2027 as the next cycle that closes after today. Applications open August 1 each year, so the 2027 cycle should open around August 2027. The sponsor's page states a maximum of US$25,000, which replaces the listing's "Varies; typically supports final dissertation phase." Sponsor also says funding begins in July and results are announced in early June. The listing's…
-
-</details>
-
-## [390] CfA Postdoctoral Fellowship
+## [1126] Arnold Rubin Award
 
 - ⚠️ Sponsor hasn't posted a deadline after today yet
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship
-  > Applications are now open for the 2027 CfA Prize Postdoctoral Fellowship.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship)
+- **official_url** ✅: https://fowler.ucla.edu/opportunities/
+  > Opportunities \| Fowler Museum at UCLA
+  [source](https://fowler.ucla.edu/opportunities/)
+- **deadline** ✅: 2026-03-25
+  > Wednesday, March 25, 2026, 6:00pm PST
+  [source](https://fowler.ucla.edu/opportunities/)
+- **amount** ✅: $3,000 stipend
+  > Each award carries a $3,000 stipend.
+  [source](https://fowler.ucla.edu/opportunities/)
+- **eligibility** ✅: Graduate or Ph.D. students registered at UCLA (or who received a UCLA degree) who are researching the arts and material culture of Africa, Oceania, or Native America and plan a career related to the a…
+  > It is given annually to a graduate or Ph.D. student researching the arts and material culture of Africa, Oceania, and Native America
+  [source](https://fowler.ucla.edu/opportunities/)
+- **program_status_evidence** ✅: active
+  > the following research and travel fellowships are offered for 2026
+  [source](https://fowler.ucla.edu/opportunities/)
+- Agent notes: The listing's deadline (Mar 26, 2026) differs from the sponsor page, which says applications must be received by Wednesday, March 25, 2026, 6:00pm PST; I used the page's date. That deadline has passed as of 2026-10-16, and the page shows no 2027 cycle yet, so this is the most recent deadline stated, not a future one. The listing's amount of $3,000-$4,000 is not supported: the page gives $3,000 for the Arnold Rubin Award, and the $4,000 figure belongs to the separate Ralph C. Altman Memorial Fund…
+
+</details>
+
+## [801] Sarah Elizabeth Gilfillan Award
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://fowler.ucla.edu/opportunities/
+  > 2026 AWARDS FOR UCLA GRADUATE and Ph.D. STUDENTS
+  [source](https://fowler.ucla.edu/opportunities/)
+- **deadline** ✅: 2026-03-25
+  > Wednesday, March 25, 2026, 6:00pm PST
+  [source](https://fowler.ucla.edu/opportunities/)
+- **amount** ✅: $3,000 travel stipend
+  > This award provides a travel stipend of $3,000 to assist with field research or study abroad.
+  [source](https://fowler.ucla.edu/opportunities/)
+- **eligibility** ✅: Only UCLA Ph.D. candidates in the field of Latin American arts may apply, for field research or study abroad.
+  > Only Ph.D. students in the field of Latin American arts may apply.
+  [source](https://fowler.ucla.edu/opportunities/)
+- **program_status_evidence** ✅: 2026 cycle offered; no 2027 cycle posted
+  > the following research and travel fellowships are offered for 2026:
+  [source](https://fowler.ucla.edu/opportunities/)
+- Agent notes: The official page (last modified 2026-09-29) lists only the 2026 cycle, whose deadline was Wednesday, March 25, 2026, 6:00pm PST. That date has passed as of 2026-10-16 and no 2027 cycle is posted, so I gave the most recent deadline per the rule for unposted cycles. Check with the Fowler before relying on it. Eligibility differs from the listing: the page says the award is restricted to UCLA Ph.D. candidates, and the listing omits the UCLA requirement. The page says 'Latin American arts' rather t…
+
+</details>
+
+## [969] Rozaire Research Award
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://fowler.ucla.edu/opportunities/
+  > Opportunities \| Fowler Museum at UCLA
+  [source](https://fowler.ucla.edu/opportunities/)
+- **deadline** ✅: 2026-03-25
+  > Wednesday, March 25, 2026, 6:00pm PST
+  [source](https://fowler.ucla.edu/opportunities/)
+- **amount** ✅: $2,500 stipend
+  > This award carries a $2,500 stipend.
+  [source](https://fowler.ucla.edu/opportunities/)
+- **eligibility** ✅: Undergraduate, graduate, and Ph.D. students may apply for this archaeological and material-culture research award, with priority to students using Fowler Museum collections.
+  > Undergraduate, graduate, and Ph.D. students may apply.
+  [source](https://fowler.ucla.edu/opportunities/)
+- **program_status_evidence** ✅: Unclear: the page lists the awards as offered for 2026, and no 2027 cycle is posted.
+  > the following research and travel fellowships are offered for 2026
+  [source](https://fowler.ucla.edu/opportunities/)
+- Agent notes: The deadline on file (Mar 25, 2026) matches the sponsor page, but it has passed as of 2026-10-16. The page is headed "2026 AWARDS" and I found no 2027 cycle, so I gave the most recent deadline, which is past. The listing should be treated as expired until the Fowler posts a new cycle. The page was modified 2026-09-29 and still shows 2026 information. The award is described in a paragraph on the page, not on a separate program page. The page does not state a season, so "Winter" on file is unverif…
+
+</details>
+
+## [702] Dannon Gut Microbiome, Yogurt and Probiotics Fellowship Program
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ❌ quote not found on the source page: https://fellowship-application.danonenorthamerica.com/
+  > 2024-2025 Danone North America Gut Microbiome, Yogurt and Probiotics Fellowship Grant
+  [source](https://fellowship-application.danonenorthamerica.com/)
+- **deadline** ❌ quote not found on the source page: 2025-03-21
+  > March 21, 2025. Includes:
+  [source](https://fellowship-application.danonenorthamerica.com/)
+- **amount** ❌ quote not found on the source page: $25,000 each to two graduate students
+  > Danone North America is awarding two graduate students a grant of $25,000 each.
+  [source](https://fellowship-application.danonenorthamerica.com/)
+- **eligibility** ❌ quote not found on the source page: Full-time enrolled graduate students (incoming or current), at least 18, at an accredited U.S. institution, who are U.S. citizens or permanent residents and study the gut microbiome, probiotics, or yo…
+  > Be a current U.S. citizen (proof of citizenship is required) or permanent U.S. resident (proof
+  [source](https://fellowship-application.danonenorthamerica.com/)
+- Agent notes: The listing is out of date and does not match the sponsor. The sponsor's application page (the link on file) covers the 2024-2025 cycle, with a deadline of March 21, 2025. It does not mention a 2026 cycle, and I found no sponsor statement that the program is discontinued, so status is unclear rather than discontinued. The listing's deadline of Mar 21, 2026 is not on the sponsor page; third-party sites (Scholarships.com) show it, but they are not the sponsor. Because no next cycle is posted and t…
+
+</details>
+
+## [904] Blaustein Center (BCSC) Postdoctoral Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Mar 17, 2026 | Mar 14, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/
+  > Application deadline: March 14, 2027
+  [source](https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/)
+- **deadline** ✅: 2027-03-14
+  > Application deadline: March 14, 2027
+  [source](https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/)
+- **amount** ✅: NIS 6170 monthly paid by the BCSC plus NIS 2571 monthly paid by the host (the sponsor page does not state a USD figure)
+  > NIS 6170 (paid by the BCSC) and NIS 2571 (paid by the host)
+  [source](https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/)
+- **eligibility** ✅: Postdoctoral scholars whose PhD was received within five years before the start of the postdoctoral position, excluding PhDs from Ben-Gurion University, with research in drylands-related fields at the…
+  > Candidates for the BCSC postdoctoral fellowship must have received their PhD degree within the preceding five years from the start date of the postdoctoral position
+  [source](https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/)
+- **program_status_evidence** ✅: Active: the sponsor page lists the 2026-2027 call and a March 14, 2027 deadline.
+  > [Official call](https://www.bgu.ac.il/media/iwmp4djq/call-for-postdoc-fellowships-2026-2027_62026.pdf)
+  [source](https://www.bgu.ac.il/en/u/sde-boker/bidr/centers/bcsc/postdoctoral-fellowships/)
+- Agent notes: The listing's deadline (Mar 17, 2026) is past. The sponsor's postdoctoral-fellowships page now gives March 14, 2027 for the next cycle, which is the value submitted. The listing's officialUrl (BCSC homepage) is outdated for this purpose; I used the fellowship page. The older in.bgu.ac.il BCSC page says "Deadline: TBA 2026" and is superseded by the newer BGU page. The listing's "$26,000 annually (standard) or ~$29,000 (Distinguished)" does not appear on the sponsor's current page, which gives mon…
+
+</details>
+
+## [919] Jeanne Marandon Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.spffa.org/bourses/
+  > Les bourses Jeanne Marandon
+  [source](https://www.spffa.org/bourses/)
+- **deadline** ✅: 2026-03-15
+  > Date-limite : 15 mars 2026
+  [source](https://docs.google.com/document/d/1C5IatXf3eViLQJylxSaHQGibw4Cz8A941PV_i-5_ufg/edit?usp=sharing)
+- **eligibility** ✅: U.S. nationals (the Google Doc summary also mentions resident aliens) who belong to an American university, must join SPFFA when applying, and have enough spoken and written French for study or resear…
+  > doivent être de nationalité américaine, appartenir à une université américaine, devenir membres de la SPFFA au moment de poser leur candidature
+  [source](https://www.spffa.org/bourses/)
+- Agent notes: The SPFFA Bourses page lists the Jeanne Marandon fellowship as awarded annually, but it gives no deadline or dollar amount itself; those are in a linked Google Doc (the only page I could read, since its body did not load). The Doc's summary says the 2026-2027 academic-year deadline was 15 March 2026, which has passed as of 2026-10-16. I put that past date in the deadline field because no next-cycle date has been posted; the year 2026 comes from the Doc text, not added by me. The listing's '$1,50…
+
+</details>
+
+## [340] Research Fellowship Program
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ❌ quote not found on the source page: https://www.cement.org/the-association/pca-education-foundation/
+  > The ACA Education Foundation funds a wide variety of educational activities that will increase public knowledge regarding appropriate uses of cement and concrete.
+  [source](https://www.cement.org/the-association/pca-education-foundation/)
+- **deadline** ✅: 2026-03-15
+  > March 15, 2026
+  [source](https://www.cement.org/education-research/pca-education-foundation)
+- **amount** ✅: $35,000 grant paid to the university
+  > Each fellowship includes a $35,000 grant paid to the university
+  [source](https://www.cement.org/education-research/pca-education-foundation)
+- **eligibility** ✅: Graduate students pursuing a master's or doctoral degree at a US or Canadian institution accredited by a regional or national agency, in an engineering, science, or architectural program; the professo…
+  > The applicant must pursue graduate study in an engineering, science, or architectural program.
+  [source](https://www.cement.org/education-research/pca-education-foundation)
+- Agent notes: Sponsor is now the American Cement Association (ACA), formerly PCA; the program is the ACA J.P. Gleason Research Fellowship Program. The listed URL redirects to the canonical page at https://www.cement.org/the-association/pca-education-foundation/ (page modified 2026-01-26). Deadline: the only date posted is March 15, 2026, which has passed as of 2026-10-16; no 2027 cycle or deadline was posted on the page, so I gave the most recent deadline per the rule. No year was added to a yearly date. Mism…
+
+</details>
+
+## [1122] W.E.B. Du Bois Scholar Program
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://ropercenter.cornell.edu/web-du-bois-scholars
+  > The W.E.B. Du Bois Scholar Program was launched in 2023
+  [source](https://ropercenter.cornell.edu/web-du-bois-scholars)
+- **program_status_evidence** ✅: Program page lists a 2026 scholar and a guide written in summer 2026, but does not state whether applications for a future cycle are open.
+  > In the summer of 2026, using the AAPOR Transparency Initiative and Roper Center Transparency Project Scoring as a framework
+  [source](https://ropercenter.cornell.edu/web-du-bois-scholars)
+- Agent notes: The sponsor's program page (ropercenter.cornell.edu/web-du-bois-scholars) and the Roper student opportunities page were both fetched. Neither states an application deadline, award amount, or eligibility criteria. The listed deadline "Mar 13, 2026" is not confirmed by any sponsor page and is in the past as of 2026-10-16; I left the deadline empty rather than guess a next-cycle date. The listed amount "$5,000 + AAPOR membership" and the eligibility text (enrolled graduate students, preference for …
+
+</details>
+
+## [479] California Science and Technology Policy Fellowships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://ccst.us/ccst-science-fellows-program/
+  > CCST Science & Technology Policy Fellowship
+  [source](https://ccst.us/ccst-science-fellows-program/)
+- **deadline** ✅: 2026-03-10
+  > March 10, 2026
+  [source](https://ccst.us/ccst-science-fellows-program/)
+- **amount** ❌ quote does not contain this amount: Base salary of $70,304 (as of January 1, 2026), plus paid time off, health, dental, and vision benefits, and up to $4,000 relocation reimbursement
+  > The base salary will be $70,304 (as of January 1, 2026)
+  [source](https://ccst.us/ccst-science-fellows-program/frequently-asked-questions/)
+- **eligibility** ✅: Applicants need a PhD or equivalent in science, social science, or engineering by September 15 of the application year, and must be a U.S. citizen or permanent resident eligible to work in the U.S. (C…
+  > PhD or equivalent in science, social science, or engineering field needed by Sept. 15 of application year
+  [source](https://ccst.us/ccst-science-fellows-program/)
+- **program_status_evidence** ❌ quote not found on the source page: active
+  > The CCST Science & Technology Policy Fellows program annually recruits and trains a cohort of PhD scientists and engineers
+  [source](https://ccst.us/ccst-science-fellows-program/)
+- Agent notes: The listing's deadline (Mar 10, 2026) has passed. The sponsor overview page (modified July 2026) says the application period is closed and reopens December 1st, and it does not yet post a 2027-cycle deadline, so I gave the most recent sponsor-stated deadline, 2026-03-10. Conflicts: the FAQ page (modified January 2026) gives March 2, 2026, which the overview's March 10 extension supersedes. A search snippet from the 2026 Fellows page says applications are open for the 2027 class, but I could not …
+
+</details>
+
+## [269] International Research Scientist Development Award (IRSDA)
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.fic.nih.gov/Programs/Pages/research-scientists.aspx
+  > International Research Scientist Development Award (IRSDA) (K01) - Fogarty International Center @ NIH
+  [source](https://www.fic.nih.gov/Programs/Pages/research-scientists.aspx)
+- **deadline** ❌ quote does not contain this date: 2026-03-09
+  > Upcoming application due dates:
+  [source](https://www.fic.nih.gov/Programs/Pages/research-scientists.aspx)
+- **amount** ❌ quote does not contain this amount: Salary up to $100,000 per year plus fringe benefits, plus up to $40,000 per year for research development costs; 3-5 year project period
+  > NIH will contribute salary support of up to $100,000 per year plus fringe benefits for the career award recipient.
+  [source](https://grants.nih.gov/grants/guide/pa-files/PAR-24-114.html)
+- **eligibility** ✅: U.S. citizens or permanent residents holding a research or health-professional doctorate who have at least two years of research experience beyond the doctorate, with both U.S. and LMIC primary mentor…
+  > Applicants must be U.S. citizens or permanent residents who hold a research or health-professional doctoral degree
+  [source](https://www.fic.nih.gov/Programs/Pages/research-scientists.aspx)
+- **program_status_evidence** ✅: Accepting applications (sponsor page) while its listed NOFOs are expired
+  > **Status:** Accepting applications
+  [source](https://www.fic.nih.gov/Programs/Pages/research-scientists.aspx)
+- Agent notes: The listing's March 9, 2026 deadline has passed (today is 2026-10-16). The FIC page still lists "March 9, 2026" as its only upcoming due date, and its status line says "Accepting applications," but the linked NOFO PAR-24-114 is marked EXPIRED with an expiration date of March 10, 2026. I found no posted 2027 cycle on the FIC or NIH Guide pages, so the deadline field gives the most recent date, not a future one; the 2027 date is unconfirmed, so check the NIH Guide before relying on it. The listing…
+
+</details>
+
+## [791] Summer Dissertation/Pre-Dissertation Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://international.ucla.edu/euro/funding/156750
+  > CERS Pre-Dissertation/Dissertation Research Fellowships
+  [source](https://international.ucla.edu/euro/funding/156750)
+- **deadline** ✅: 2026-03-08
+  > APPLICATION DEADLINE: Sunday, March 8, 2026, 11:59PM (PST).
+  [source](https://international.ucla.edu/euro/funding/156750)
+- **amount** ✅: Up to $5,000
+  > CERS awards summer pre-dissertation and dissertation fellowships of up to $5,000 to UCLA graduate students
+  [source](https://international.ucla.edu/euro/funding/156750)
+- **eligibility** ✅: UCLA graduate students who conduct at least four weeks of overseas summer research on European and/or Russian area studies for a dissertation or pre-dissertation project.
+  > to UCLA graduate students to conduct research abroad in European and/or Russian area studies
+  [source](https://international.ucla.edu/euro/funding/156750)
+- **program_status_evidence** ✅: Program still described on the sponsor page, which states the Summer 2026 application is closed
+  > The application for Summer 2026 is now closed.
+  [source](https://international.ucla.edu/euro/funding/156750)
+- Agent notes: The sponsor page (CERS) lists the March 8, 2026 deadline for the Summer 2026 cycle, which has already passed as of 2026-10-16. The page has not posted a deadline for the next cycle, so I gave the most recent deadline as the sponsor states it; the year 2027 was not added. The listing's deadline and amount match the page; the listing's eligibility summary is consistent with the page, which also requires a 4-week minimum overseas stay (priority for 6+ weeks) and a focus on 19th–21st century Europea…
+
+</details>
+
+## [792] Summer Language Study Grants
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.international.ucla.edu/euro/funding/159538
+  > CERS Language Study Grants
+  [source](https://www.international.ucla.edu/euro/funding/159538)
+- **deadline** ✅: 2026-03-08
+  > APPLICATION DEADLINE: Sunday, March 8, 2026, 11:59PM (PST)
+  [source](https://www.international.ucla.edu/euro/funding/159538)
+- **amount** ✅: Up to $4,000
+  > CERS awards summer language study grants of up to $4,000 to UCLA graduate students
+  [source](https://www.international.ucla.edu/euro/funding/159538)
+- **eligibility** ✅: UCLA graduate students may apply to study a modern European language or Russian as part of their research preparation, with the study connected to their research project.
+  > CERS awards summer language study grants of up to $4,000 to UCLA graduate students to study a modern European language or Russian as part of their research preparation.
+  [source](https://www.international.ucla.edu/euro/funding/159538)
+- **program_status_evidence** ✅: Language study grants (summer) remain listed among graduate student funding
+  > CERS offers a variety of funding opportunities to UCLA faculty and graduate students
+  [source](https://www.international.ucla.edu/Euro/funding)
+- Agent notes: The listing's deadline (Mar 08, 2026) is past. The sponsor page says "The application for Summer 2026 is now closed." and has not posted a Summer 2027 deadline, so the most recent deadline (2026-03-08) is given. The listing's "Winter" season does not match the sponsor's summer program. Amount conflict on the sponsor page: the intro says "up to $4,000", but the budget section says "the maximum award amount is $3000". The listed eligibility of "Modern European or Russian language" and "Research-co…
+
+</details>
+
+## [1041] Eudora Welty Research Fellowship
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.mdah.ms.gov/taxonomy/term/150
+  > # Eudora Welty Research Fellowship
+  [source](https://www.mdah.ms.gov/taxonomy/term/150)
+- **amount** ✅: $5,000 stipend
+  > She will use the $5,000 fellowship award to cover her travel, housing, and other expenses
+  [source](https://www.mdah.ms.gov/taxonomy/term/150)
+- **eligibility** ✅: Graduate or doctoral students who research the Eudora Welty Collection at MDAH (field: literary/Welty studies); the sponsor's page describes it as support for graduate students.
+  > Established in 2010 by MDAH and the Eudora Welty Foundation, the fellowship seeks to encourage and support research of the Eudora Welty Collection by graduate students.
+  [source](https://www.mdah.ms.gov/taxonomy/term/150)
+- Agent notes: The listed deadline of Mar 06, 2026 has already passed (today is 2026-10-16), so I did not carry it forward. I could not find a sponsor-page statement of the next cycle's (2027) deadline. The sponsor page I fetched (taxonomy/term/150) contains only 2023 and 2024 news items and no deadline. The MDAH fellowship opportunities page is stale (it lists a 2021 deadline), and the mdah.ms.gov/weltyfellowship application page was not reachable. Non-sponsor sources (a USC awards database entry and an Ameri…
+
+</details>
+
+## [884] Summer Student Research Assistantships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://science.nrao.edu/opportunities/student-programs/summerstudents
+  > The NRAO has conducted a summer student research program since 1959
+  [source](https://science.nrao.edu/opportunities/student-programs/summerstudents)
+- **deadline** ✅: 2026-02-01
+  > Fill in the application form by the deadline by February 1, 2026
+  [source](https://science.nrao.edu/opportunities/student-programs/summerstudents)
+- **eligibility** ✅: Undergraduate and graduate students who are US citizens or permanent residents, or otherwise eligible to work in the United States (REU is limited to US citizens or permanent residents), for research …
+  > The Graduate Summer Student Research program is for graduate students who are citizens or permanent residents of the United States, enrolled in an accredited U.S. Graduate Program, or otherwise eligible to work in the United States.
+  [source](https://science.nrao.edu/opportunities/student-programs/summerstudents)
+- **program_status_evidence** ✅: active
+  > The application deadline for the 2026 NRAO summer student program has now passed.
+  [source](https://science.nrao.edu/opportunities/student-programs/summerstudents)
+- Agent notes: The listing's deadline of Mar 02, 2026 is not the application deadline. The page gives February 1, 2026 as the application deadline and March 2, 2026 as the date first offers will be sent ("First offers will be sent on March 2, 2026 and the process will remain open until all positions are filled."). The 2026 application deadline has passed as of 2026-10-16, and the page has not posted a 2027 cycle, so the most recent deadline is given. Letters of reference were also due February 1, 2026. The amo…
+
+</details>
+
+## [263] The Bancroft Library Study Award
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.lib.berkeley.edu/visit/bancroft/fellowships-awards
+  > The Bancroft Library at UC Berkeley is pleased to offer fellowships for graduate students, undergraduates, and independent scholars conducting research in the collections.
+  [source](https://www.lib.berkeley.edu/visit/bancroft/fellowships-awards)
+- **deadline** ✅: 2026-03-02
+  > The application deadline for all Bancroft fellowships and awards is March 2, 2026, by 11:59 p.m.
+  [source](https://www.lib.berkeley.edu/visit/bancroft/fellowships-awards)
+- **eligibility** ✅: Graduate students from any University of California campus who are conducting research that would benefit from Bancroft Library source materials, and who must be registered at Berkeley or their home c…
+  > provides one year-long fellowship to graduate students from any campus of the University of California
+  [source](https://www.lib.berkeley.edu/visit/bancroft/fellowships-awards)
+- Agent notes: The sponsor page (fetched today) is the 2026 cycle, with deadline March 2, 2026 at 11:59 p.m. Today is 2026-10-16, so that date has passed. The sponsor has not posted a 2027 cycle, so per the rules I give the most recent deadline, 2026-03-02. The listing's title "Bancroft Library Study Award" matches the sponsor's "Hill study award" section, which is funded by the Kenneth E. and Dorothy V. Hill Fellowship Fund. The sponsor page's "This fellowship is not offered every year" line is not an explici…
+
+</details>
+
+## [918] Jean and Marie-Louise Dufrenoy Scholarship
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.spffa.org/bourses/
+  > La bourse Jean et Marie-Louise Dufrenoy
+  [source](https://www.spffa.org/bourses/)
+- **eligibility** ✅: Open to American (US) students in science, and to Bachelor of Arts holders aiming for teaching or diplomacy careers only if no science candidate applies.
+  > permet à un(e) étudiant(e) américain(e) en science de poursuivre
+  [source](https://www.spffa.org/bourses/)
+- **program_status_evidence** ✅: Awarded annually; the sponsor's Google Doc describes the 2026-2027 award
+  > LES BOURSES JEAN ET MARIE-LOUISE DUFRENOY (2026-2027)
+  [source](https://docs.google.com/document/d/1n2fdR9y1UeGkx9mPaCbiCCnQ1HnOw9TZiwGSBngatzo/)
+- Agent notes: Deadline and amount are left empty: the sponsor's detail document (linked from spffa.org/bourses/) did not render its body in my fetches, so I could only see its header metadata, which names the 2026-2027 cycle but gives no deadline or award amount. The listing's "Mar 01, 2026" deadline could not be confirmed and is not supported by anything I found. Aggregators (grantable.co) show $25,000 and "Rolling / Open", and older third-party pages cite a 15 January deadline; I did not use these because t…
+
+</details>
+
+## [199] Advanced Simulation & Training Fellowships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://linksim.org/apply/
+  > Applications must be received by March 1, 2026 11:59 PM EDT
+  [source](https://linksim.org/apply/)
+- **deadline** ✅: 2026-03-01
+  > Applications must be received by March 1, 2026 11:59 PM EDT
+  [source](https://linksim.org/apply/)
+- **amount** ❌ quote does not contain this amount: $35,000 one-year fellowship (sponsor says year 2 is possible but evaluated competitively)
+  > The award consists of a one-year fellowship of $35,000
+  [source](https://linksim.org/program-guidelines/)
+- **eligibility** ✅: PhD students in an established doctoral program at a U.S. or Canadian university, with no citizenship limits, whose research fits modeling, simulation, and training.
+  > Fellowships are only available to students enrolled at U.S. or Canadian Universities.
+  [source](https://linksim.org/program-guidelines/)
+- Agent notes: The listing's deadline (Mar 01, 2026) is past as of 2026-10-16. The sponsor's apply page still shows only the 2026 cycle (March 1, 2026), and I found no 2027 cycle posted on linksim.org, so I gave the most recent sponsor deadline per the rule for unposted cycles. Do not treat it as an open application. Aggregator Instrumentl lists a next deadline of 2027-03-02, but that is not from the sponsor and I did not use it. A separate Link Foundation site (linkoe.org/apply) shows a March 31, 2026 deadlin…
+
+</details>
+
+## [786] The George and Sakaye Aratani Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.international.ucla.edu/japan/internal/4676
+  > Click here for the application
+  [source](https://www.international.ucla.edu/japan/internal/4676)
+- **deadline** ✅: 2026-03-01
+  > deadline: 3/1/2026
+  [source](https://www.international.ucla.edu/japan/internal/4676)
+- **amount** ✅: Up to $8,000
+  > Fellowships of up to $8,000 each will be available
+  [source](https://www.international.ucla.edu/japan/internal/4676)
+- **eligibility** ✅: Open to beginning or continuing UCLA graduate students in any area of Japanese Studies, with students of Japanese American descent particularly encouraged to apply.
+  > Students of Japanese American descent who specialize in Japan-related graduate studies are particularly encouraged to apply.
+  [source](https://www.international.ucla.edu/japan/internal/4676)
+- Agent notes: The deadline on the sponsor's program page is 3/1/2026, which is before today (2026-10-16). No next-cycle deadline has been posted, so I entered the most recent stated deadline as the sponsor gives it; the year 2026 comes from the page itself, not added by me. Treat this as closed until the Center posts a new date. The sponsor page does not say the fellowship is discontinued or paused, but it also does not confirm a 2027 cycle, so status is marked unclear. The listing's officialUrl (the Internal…
+
+</details>
+
+## [787] The George and Sakaye Aratani Field Experience Scholarship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.international.ucla.edu/japan/internal/4678
+  > The George and Sakaye Aratani Field Experience Scholarship
+  [source](https://www.international.ucla.edu/japan/internal/4678)
+- **deadline** ✅: 2026-03-01
+  > deadline: 3/1/2026
+  [source](https://www.international.ucla.edu/japan/internal/4678)
+- **amount** ✅: $25,000
+  > amount: $25,000
+  [source](https://www.international.ucla.edu/japan/internal/4678)
+- **eligibility** ✅: UCLA students at the dissertation stage or at the professional advanced degree stage, for an extended period of research and study in Japan.
+  > dissertation stage or professional advanced degree stage UCLA student
+  [source](https://www.international.ucla.edu/japan/internal/4678)
+- Agent notes: The sponsor's page for this scholarship (internal/4678) lists a deadline of 3/1/2026 and amount of $25,000, both matching the listing. Today is 2026-10-16, so that deadline has passed. The page does not post a deadline for a later cycle, so I gave the most recent deadline as the sponsor states it; no year was added by me. The page does not say the program is discontinued, but it also does not confirm a 2027 cycle, so status is unclear. The sponsor's eligibility wording is "dissertation stage or …
+
+</details>
+
+## [789] The Hans H. Baerwald Graduate Student Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.international.ucla.edu/japan/internal/119566
+  > Hans H. Baerwald Graduate Student Fellowship
+  [source](https://www.international.ucla.edu/japan/internal/119566)
+- **deadline** ✅: 2026-03-01
+  > deadline: 3/1/2026
+  [source](https://www.international.ucla.edu/japan/internal/119566)
+- **amount** ✅: $10,000
+  > amount: $10,000
+  [source](https://www.international.ucla.edu/japan/internal/119566)
+- **eligibility** ✅: Open to a UCLA graduate student who is in a Japanese studies field.
+  > Up to $10,000 available for a UCLA graduate student who is in a Japanese studies field.
+  [source](https://www.international.ucla.edu/japan/internal/119566)
+- Agent notes: The deadline on the listing (Mar 01, 2026) is confirmed by the sponsor's page, but it has already passed as of 2026-10-16. The sponsor's program page and the Internal Funding index both still show 3/1/2026 and no 2027 cycle has been posted, so I've reported that most recent deadline rather than guessing a future date. The next cycle's deadline is unknown; applicants should check with the contact listed on the page (Noel Shimizu, shimizu@international.ucla.edu). The page does not say the fellowsh…
+
+</details>
+
+## [1102] John Ries Scholarship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/
+  > The Expanded Shale, Clay, and Slate Institute (ESCSI) is proud to announce the John Ries Scholarship for the 2025–26 academic year!
+  [source](https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/)
+- **deadline** ✅: 2026-02-28
+  > Deadline to apply: ~~December 1, 2025~~ February 28, 2026
+  [source](https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/)
+- **amount** ✅: $5,000
+  > This $5,000 scholarship is open to undergraduate and graduate students in civil engineering or closely related majors
+  [source](https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/)
+- **eligibility** ✅: Undergraduate and graduate students in civil engineering or closely related majors who are enrolled in the fall and returning for the spring term (the 2025-26 page specifies Fall 2025 enrollment and a…
+  > open to undergraduate and graduate students in civil engineering or closely related majors who are enrolled in Fall 2025 and returning for Spring 2026.
+  [source](https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/)
+- **program_status_evidence** ✅: unclear
+  > Deadline to apply: ~~December 1, 2025~~ February 28, 2026
+  [source](https://www.escsi.org/escsi-john-ries-scholarship-application-2025-26/)
+- Agent notes: The listing's deadline (Feb 28, 2026) is the most recent one stated, and it has passed (today is 2026-10-16). I found no 2026-27 cycle posted on the sponsor's site, so I gave the most recent stated deadline rather than a future one; the 2025-26 page is the only sponsor page I could confirm. The listing's official URL is the 2025-26 page, which is still live and is the only official page found; the pattern from prior years (2024-25 deadline December 1, 2024; 2023-24 deadline January 31, 2024) sug…
+
+</details>
+
+## [796] The Constance Coiner Graduate Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| amount |  | One $1,500 fellowship |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/
+  > This fellowship honors the life and continues the work of Constance Coiner
+  [source](https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/)
+- **amount** ✅: One $1,500 fellowship
+  > One $1,500 fellowship
+  [source](https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/)
+- **eligibility** ✅: Doctoral students registered at UCLA who have advanced to candidacy by the application date and whose teaching and research focus on working class studies and feminist issues.
+  > Applicant must be advanced to candidacy by the award application date
+  [source](https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/)
+- **program_status_evidence** ✅: Closed cycle notice
+  > The AY25-26 student funding cycle has closed. Applicants will be informed of their status in early April 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/constance-coiner-graduate-fellowship/)
+- Agent notes: The listing's deadline (Feb 27, 2026) is in the past. The page says the AY25-26 cycle has closed and does not yet post a 2026-27 deadline, so I reported the most recent deadline, 2026-02-27, as instructed. The page does not say the fellowship is discontinued, so status is unclear rather than discontinued. The listing's amount field was empty; the page states $1,500. The page also lists a faculty letter of recommendation due on the same date and a separate requirement for a personal essay, CV, tr…
+
+</details>
+
+## [790] Elizabeth Blackwell, M.D. Award
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/
+  > # Elizabeth Blackwell, MD, Graduate Award
+  [source](https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/)
+- **amount** ✅: $1,000 (one award)
+  > One $1000 award
+  [source](https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/)
+- **eligibility** ✅: Students registered in any UCLA graduate program (such as PhD or master's) during the application and payment quarters, applying with a research report, thesis, dissertation, or published article on w…
+  > Applicant must be registered in a graduate program (such as PhD, master’s, etc.) at UCLA during the quarters when the application is due and when award payment is made
+  [source](https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/)
+- **program_status_evidence** ✅: Cycle closed; next cycle not posted
+  > The AY25-26 student funding cycle has closed.
+  [source](https://csw.ucla.edu/funding/graduate-students/elizabeth-blackwell-award/)
+- Agent notes: The sponsor page (UCLA Center for the Study of Women) states the AY25-26 cycle has closed and does not yet post a 2026-27 deadline, so the most recent deadline (2026-02-27, which has passed) is given per the rule for unposted cycles. No year was added by me; the year appears on the page. The page title is "Elizabeth Blackwell, MD, Graduate Award" (the listing says "M.D. Award"). The listing's eligibility is broadly consistent but the page adds that the work must be a research report, master's th…
+
+</details>
+
+## [1063] Alisa Bierria Graduate Fellowship
+
+| Field | On file | Proposed |
+|---|---|---|
+| amount |  | $2,000 |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/
+  > # Black Feminism Initiative Graduate Fellowships
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **amount** ✅: $2,000
+  > Alisa Bierria Graduate Fellowship – $2,000 – One (1) award
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **eligibility** ✅: Currently registered UCLA PhD or Master's students may apply, with a focus on Black feminist scholarly research (the page does not list citizenship limits beyond a CA Dream Act note).
+  > Applicant must be a currently registered PhD or Master’s student at UCLA during the quarters when the application is due and when award payment is made
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **program_status_evidence** ✅: Cycle closed; no next cycle posted
+  > The AY25-26 student funding cycle has closed.
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- Agent notes: The listing's URL is correct and the page is live. The page says the AY25-26 cycle has closed, applicants were to be informed in early April 2026, and no AY26-27 deadline is posted yet, so the most recent deadline (2026-02-27) is given; it is already past as of 2026-10-16, so the next cycle's date is unknown. The page does not explicitly say the program is discontinued. Corrections to the listing: the page lists two Black Feminism Initiative fellowships (Alisa Bierria and Mariame Kaba), each $2,…
+
+</details>
+
+## [1064] Mariame Kaba Graduate Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/
+  > # Black Feminism Initiative Graduate Fellowships
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **amount** ✅: $2,000
+  > Mariame Kaba Graduate Fellowship – $2,000 – One (1) award
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **eligibility** ✅: Currently registered UCLA PhD or Master's students may apply for research that engages Black feminist frameworks, with the fellowship usable for advanced research such as a thesis or dissertation.
+  > Applicant must be a currently registered PhD or Master’s student at UCLA during the quarters when the application is due and when award payment is made
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- **program_status_evidence** ✅: Cycle closed; no discontinuation stated
+  > The AY25-26 student funding cycle has closed. Applicants will be informed of their status in early April 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/black-feminism-initiative-graduate-fellowships/)
+- Agent notes: The listing's deadline (Feb 27, 2026) and $2,000 amount match the sponsor page. The page is a combined page for two fellowships (Alisa Bierria and Mariame Kaba); the Mariame Kaba Graduate Fellowship is titled "Mariame Kaba Graduate Fellowship in Black Feminist Research" on the page. The page says the AY25-26 cycle has closed and no 2026-27 deadline has been posted, so the most recent deadline is given as the value; this date is in the past relative to today (2026-10-16), so the next cycle's date…
+
+</details>
+
+## [804] The Penny Kanner Dissertation Research Fellowship
+
+| Field | On file | Proposed |
+|---|---|---|
+| amount |  | $15,000 |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/
+  > Penny Kanner Dissertation Research Fellowship
+  [source](https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/)
+- **amount** ✅: $15,000
+  > One award, $15,000
+  [source](https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/)
+- **eligibility** ✅: Applicants must be registered in a UCLA doctoral program when the application is due and during fall 2026, with a dissertation prospectus on women and/or gender that uses historical materials; CA Drea…
+  > Applicant must be registered in a doctoral program at UCLA during the quarter when the application is due and during fall quarter 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/)
+- **program_status_evidence** ✅: The AY25-26 cycle has closed
+  > The AY25-26 student funding cycle has closed. Applicants will be informed of their status in early April 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/penny-kanner-dissertation-research-fellowship/)
+- Agent notes: The page is for the AY25-26 cycle and says it has closed; no AY26-27 deadline has been posted. The deadline given (2026-02-27) is the most recent one stated and is already past as of 2026-10-16, so the next cycle's date is unknown. The faculty recommendation letter was due the same day (Feb 27, 2026), per the page. The page's eligibility wording ("historical materials") differs slightly from the listing's "historical methods required"; the description says "historical materials and methods." The…
+
+</details>
+
+## [810] Jean Stone Dissertation Research Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/
+  > # Jean Stone Dissertation Research Fellowship
+  [source](https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/)
+- **amount** ✅: Four awards at $15,000 each
+  > Four awards at $15,000 each
+  [source](https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/)
+- **eligibility** ✅: Current UCLA doctoral students who are engaged in research on women and/or gender, registered in a UCLA doctoral program, and advanced to candidacy by the award application deadline.
+  > Applicant must be engaged in research on women and/or gender
+  [source](https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/)
+- **program_status_evidence** ✅: The AY25-26 cycle has closed; the page does not say whether the fellowship continues.
+  > The AY25-26 student funding cycle has closed. Applicants will be informed of their status in early April 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/jean-stone-fellowship/)
+- Agent notes: The official page (fetched today, 2026-10-16) shows the AY25-26 cycle has closed, with a deadline of Friday, February 27, 2026 and applicants to be informed in early April 2026. No AY26-27 deadline is posted, so the most recent deadline is given; it is already past, so the listing's date is stale and should not be used as an open deadline. The listing's "amount set annually" is contradicted by the page, which states four awards at $15,000 each. The page also says the applicant must be registered…
+
+</details>
+
+## [811] Paula Stone Legal Research Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/
+  > Paula Stone Legal Research Fellowship
+  [source](https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/)
+- **deadline** ✅: 2026-02-27
+  > Friday, February 27, 2026
+  [source](https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/)
+- **amount** ✅: $3,000
+  > One fellowship at $3,000
+  [source](https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/)
+- **eligibility** ✅: Graduate or law students registered at UCLA in a JD, LLM, SJD, PhD, or master's program who are pursuing independent research on women and the law that is suitable for publication.
+  > Applicant must be registered in a JD, LLM, SJD, PhD, or master’s program at UCLA
+  [source](https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/)
+- **program_status_evidence** ✅: Active cycle closed; the page describes an ongoing annual funding cycle
+  > The AY25-26 student funding cycle has closed. Applicants will be informed of their status in early April 2026.
+  [source](https://csw.ucla.edu/funding/graduate-students/paula-stone-legal-research-fellowship/)
+- Agent notes: The listing's deadline (Feb 27, 2026) is the one on the sponsor's page, but it has passed as of 2026-10-16. The page says the AY25-26 cycle has closed and does not post a date for the AY26-27 cycle, so per the rule for unposted cycles I entered the most recent deadline. Treat it as a past date, not a live deadline; check the CSW page again when the next cycle is announced. The faculty recommendation letter was due the same day (Friday, February 27, 2026), and the application requires an abstract…
+
+</details>
+
+## [920] Fellowships for Study in Quebec
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.spffa.org/bourses/
+  > Les bourses d’été au Québec
+  [source](https://www.spffa.org/bourses/)
+- **amount** ✅: US $4,000 per summer scholarship (sponsor's bourses page)
+  > Chaque bourse est de 4,000.00 dollars US
+  [source](https://www.spffa.org/bourses/)
+- **eligibility** ✅: U.S. nationals who are undergraduates, master's students in French or a French-intensive field, or French teachers at a U.S. primary or secondary school, and who first join SPFFA (the sponsor's page i…
+  > Ces bourses ne sont attribuées à des étudiants de nationalité américaine que pour participer à un programme d’études
+  [source](https://www.spffa.org/bourses/)
+- **program_status_evidence** ✅: Active (inferred, not explicit)
+  > Attribuées chaque année à des étudiants désireux de poursuivre leurs travaux en France ou au Québec.
+  [source](https://www.spffa.org/bourses/)
+- Agent notes: The listing's Feb 15, 2026 deadline has passed, and I could not confirm a next deadline from the sponsor. The sponsor's bourses page (https://www.spffa.org/bourses/) gives no closing date for the Quebec summer scholarships. The linked Google Doc for these scholarships has a header referring to 'ÉTÉ 2026', but its body did not load, so I could not read any date there. Deadline is left empty rather than guessed. An aggregator (Instrumentl) lists Feb 15, 2027, but that is not from the sponsor's sit…
+
+</details>
+
+## [412] Smithsonian Environmental Research Center (SERC) Internship Program
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Feb 15, 2026 | Feb 15, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://serc.si.edu/internships/opportunities
+  > Internship Opportunities
+  [source](https://serc.si.edu/internships/opportunities)
+- **deadline** ✅ (year added: the page gives this date without one): 2027-02-15
+  > For future summer internship cycles, the application window typically opens in November and closes February 15.
+  [source](https://serc.si.edu/internships/opportunities)
+- **amount** ✅: $700 per week
+  > Stipend: $700 per week
+  [source](https://serc.si.edu/internships/opportunities)
+- **eligibility** ✅: Currently enrolled undergraduate or Master's students, or recent graduates of those programs, in any field; US citizens, permanent residents and international students are all considered.
+  > currently enrolled undergraduate and Master's students, or students who have recently graduated from undergraduate or Master's programs
+  [source](https://serc.si.edu/internships/eligibility)
+- **program_status_evidence** ✅: active
+  > The Smithsonian Environmental Research Center (SERC) is seeking two science illustration interns for spring 2027.
+  [source](https://serc.si.edu/internships/opportunities)
+- Agent notes: The listing's "Winter, Feb 15, 2026" entry is out of date: that deadline has passed. The sponsor says the summer window closes February 15 each year; the page gives no year for the next cycle, so I added 2027 (the next Feb 15 after today). The sponsor's How To Apply page (https://serc.si.edu/internships/how-to-apply) confirms the same mid-November to February 15 window for summer internships, applied through SOLAA. The sponsor says fall, winter and spring internships are posted individually on t…
+
+</details>
+
+## [762] Graduate Summer Research Mentorship (GSRM) Program
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/
+  > The GSRM Program is designed to provide financial support to UCLA doctoral students
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/)
+- **deadline** ✅: 2026-02-13
+  > The deadline to apply is: February 13, 2026 at 4pm PST.
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/)
+- **amount** ✅: Maximum $6,000 in financial support (disbursed monthly)
+  > Program participants will receive a maximum $6,000 in financial support.
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/)
+- **eligibility** ✅: UCLA doctoral students in years one to three who have not advanced to candidacy, in eligible arts, humanities, social science, public health, nursing, or IoES fields, and who are US citizens, permanen…
+  > The program is open to UCLA doctoral students who:
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/)
+- **program_status_evidence** ✅: The 13-week program begins June 15, 2026, and ends September 12, 2026.
+  > The 13-week program begins June 15, 2026, and ends September 12, 2026.
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-summer-research-mentorship-program/)
+- Agent notes: The official page still shows the 2026 cycle (deadline February 13, 2026 at 4pm PST), which closed before today (2026-10-16). No 2027 cycle or deadline was posted on the page or its FAQ, so I gave the most recent stated deadline, as the instructions require. The listing's "Summer support (varies)" is replaced by the sponsor's stated maximum of $6,000. The listing's eligibility omits that the program covers public health, nursing, and IoES fields, and that students may receive the award only twic…
+
+</details>
+
+## [763] Graduate Research Mentorship (GRM) Program
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/
+  > canonical: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/)
+- **deadline** ✅: 2026-02-13
+  > February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/)
+- **amount** ✅: $30,000 in financial support plus standard tuition and fees
+  > Program participants will receive $30,000 in financial support plus standard tuition and fees
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/)
+- **eligibility** ✅: UCLA doctoral students in arts, humanities, social sciences, public health, nursing, or IoES who are in years one to three at application and have not advanced to candidacy, and who are U.S. citizens,…
+  > The program is open to UCLA doctoral students who:
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/)
+- **program_status_evidence** ✅: Active per the sponsor's current cycle page
+  > The application is for all continuing UCLA graduate students who wish to be considered for Division of Graduate Education merit-based awards in 2026-27.
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- Agent notes: The deadline in the listing (Feb 13, 2026) is in the past as of 2026-10-16. The sponsor has not posted a deadline for a later cycle; its 2026-27 application page still shows February 13, 2026 at 4pm PST, so I used that most recent date rather than guessing a new one. The GRM page and application page are internally inconsistent: the GRM page asks for a Fall 2025 transcript and the application is titled 2026-27, so the next cycle's date should be checked with the Division of Graduate Education (a…
+
+</details>
+
+## [772] Dr. Ursula Mandel Scholarship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/asis/stusup/gradsupport.pdf
+  > Dr. Ursula Mandel Scholarship
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **deadline** ✅: 2026-02-13
+  > Deadline February 13, 2026 4pm PST
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **amount** ✅: Several awards of up to $20,000 each, applied to standard tuition
+  > Several awards of up to $20,000 each, which are applied to standard tuition unless the awardee has another tuition-payment source.
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **eligibility** ✅: Graduate students (preference to entering students) in scientific fields related, allied, or of value to the medical field; DDS, JD and MD students are not eligible.
+  > For graduate students in scientific fields related, allied, or of value to the medical field.
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **program_status_evidence** ✅: active
+  > Dr. Ursula Mandel Scholarship
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- Agent notes: The listing's officialUrl (grad.ucla.edu/funding/#/view-record/772/0) is a JavaScript record viewer; the fetched content was only the generic Funding landing page, so I could not verify the record itself. I used the DGE's Graduate Student Financial Support booklet (cover "Updated September 2026") as the sponsor page for this program. Deadline: the booklet's award deadline table (labelled "Updated December 2025") and the privately endowed awards section give February 13, 2026, 4pm PST for the 202…
+
+</details>
+
+## [774] Paulson Scholarship Fund
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **deadline** ✅: 2026-02-13
+  > February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **eligibility** ✅: Per the sponsor's privately endowed award rules, applicants must be UCLA master's or doctoral students who are US citizens, permanent residents, AB540-eligible undocumented students, or international …
+  > Unless otherwise stated in the descriptions below, students can be master's or doctoral students enrolled in academic and state-supported master-level and doctoral programs.
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **program_status_evidence** ✅: unclear
+  > Privately Endowed Awards (for continuing students)
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- Agent notes: Deadline: the sponsor's 2026-27 continuing-student cycle closed February 13, 2026 at 4pm PST; no 2027 cycle is posted yet, so per the rules I gave the most recent deadline, which is now past (today is 2026-10-16). The year was not added by me; the page states it. Amount: left empty. The sponsor's pages (the listing's URL and the Sept 2026 Graduate Student Financial Support PDF) do not name the Paulson Scholarship Fund or state its $6,000 amount in the privately endowed section. The "up to $6,000…
+
+</details>
+
+## [775] Will Rogers Memorial Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **deadline** ✅: 2026-02-13
+  > February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- Agent notes: The listed deadline (Feb 13, 2026) is the 2026-27 cycle deadline on the listed page, and it has passed as of 2026-10-16. No 2027-28 cycle or deadline was posted in what I could fetch, so I report the most recent deadline, 2026-02-13, per the rule for unposted cycles; the year was not added by me. The listed page is the general Continuing Student Award Application for all Division of Graduate Education awards and does not name the Will Rogers Memorial Fellowship, so the official_url is the applic…
+
+</details>
+
+## [1019] Charles F. Scott Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/asis/stusup/gradsupport.pdf
+  > Charles F. Scott Award
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **deadline** ✅: 2026-02-13
+  > Deadline February 13, 2026 4pm PST
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **amount** ✅: Several awards of up to $20,000 each, applied to standard tuition
+  > Several awards of up to $20,000 each, which are applied to standard tuition
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **eligibility** ✅: Graduate students with a UCLA bachelor's degree who submit a statement showing their coursework prepares them for leadership in national, state or local governmental administration.
+  > Graduate students with baccalaureates from UCLA. Students must provide a statement that details the student’s course of study and how it prepares them for leadership in national, state or local governmental administration
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **program_status_evidence** ✅: Charles F. Scott Award listed in the Division of Graduate Education financial support guide
+  > Charles F. Scott Award
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- Agent notes: The listing is out of date in two places. (1) Amount: the listing says up to $15,000, but the UCLA Division of Graduate Education guide (updated September 2026) states up to $20,000 each, with amounts possibly higher in some years. (2) Deadline: the listing's Feb 13, 2026 date has passed. The sponsor has not posted a 2027 cycle date; the guide's Privately Endowed Awards section still shows February 13, 2026 4pm PST, so that is the most recent deadline reported, and it is in the past as of 2026-1…
+
+</details>
+
+## [778] Werner R. Scott Fund
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/
+  > Used to apply for:
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/)
+- **deadline** ✅: 2026-02-13
+  > Application deadline is February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/)
+- **eligibility** ✅: Current UCLA graduate students (master's or doctoral; US citizens, permanent residents, AB540 or international students) who are nominated by their department, IDP or school.
+  > Students must be nominated by their department, IDP or school.
+  [source](https://grad.ucla.edu/asis/stusup/gradsupport.pdf)
+- **program_status_evidence** ✅: Privately endowed awards are listed for the 2026-27 cycle
+  > 2026-27 Award Application for Continuing Graduate Students
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/)
+- Agent notes: The listing's $8,000 amount and the Hawaii/Caucasian residency preference come only from third-party sites (postgraduatefunding.com, a 2016-era news article) and a UCLA Slavic page listing the fund at $8,000; none of these is a sponsor page, so I left the amount empty and did not state the residency preference as eligibility. The sponsor's continuing-student pages list the Werner R. Scott Fund under Privately Endowed Awards with a February 13, 2026 deadline (4pm PST) for the 2026-27 cycle. No 20…
+
+</details>
+
+## [769] Gold Shield Alumnae of UCLA
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **deadline** ✅: 2026-02-13
+  > February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **eligibility** ✅: Continuing UCLA graduate students (not in self-supporting programs) who apply through the Division of Graduate Education's single award application.
+  > The application is for all continuing UCLA graduate students who wish to be considered for Division of Graduate Education merit-based awards in 2026-27.
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **program_status_evidence** ✅: Active for the 2026-27 cycle
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- Agent notes: The deadline in the listing (Feb 13, 2026) matches the page's 2026-27 cycle, but that date has passed as of 2026-10-16. The page does not show a 2027 deadline yet, so I gave the most recent deadline, 2026-02-13, per the rules. The page is the general Division of Graduate Education application and never names Gold Shield Alumnae of UCLA, so I could not confirm the Gold Shield fellowship's own amount or criteria from a sponsor page; amount is left empty. Other UCLA pages (Slavic, NELC, Comparative…
+
+</details>
+
+## [782] UCLA Faculty Women's Club (FWC) Scholarship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **deadline** ✅: 2026-02-13
+  > February 13, 2026 at 4pm PST
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **eligibility** ✅: Continuing UCLA graduate students (not in self-supporting programs) who apply yearly for Division of Graduate Education merit-based awards.
+  > The application is for all continuing UCLA graduate students who wish to be considered for Division of Graduate Education merit-based awards
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- **program_status_evidence** ✅: Active cycle shown
+  > Award Application for Continuing Graduate Students 2026-27
+  [source](https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/fellowship-application/)
+- Agent notes: The listed URL is the Division of Graduate Education's general application for continuing-student merit awards for 2026-27. It gives one deadline, February 13, 2026 at 4pm PST, which has passed; the 2027 cycle is not posted, so I gave the most recent deadline. The page does not name the UCLA Faculty Women's Club scholarship, so the link to this specific award is not confirmed by that page. The FWC's own page (uclafacultywomensclub.wordpress.com/239-2/) states no deadline and no amount for this a…
+
+</details>
+
+## [468] Alvin H Johnson 50 Dissertation Fellowships
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.amsmusicology.org/funding/ams-50/
+  > provide funding for the final year of PhD dissertation work
+  [source](https://www.amsmusicology.org/funding/ams-50/)
+- **amount** ✅: $25,000 stipend for a twelve-month fellowship year
+  > Fellows receive a twelve-month stipend, currently set at $25,000.
+  [source](https://www.amsmusicology.org/funding/ams-50/)
+- **eligibility** ✅: Students registered in good standing for a doctorate at a North American university who have completed all formal degree requirements except the dissertation (ABD) at the time of full application, in …
+  > Any student registered in good standing for a doctorate at a North American university
+  [source](https://www.amsmusicology.org/funding/ams-50/)
+- **program_status_evidence** ✅: active
+  > The AMS currently offers the following graduate fellowships.
+  [source](https://www.amsmusicology.org/funding/fellowships)
+- Agent notes: The listing's deadline (Feb 02, 2026) is already past as of 2026-10-16. Neither AMS page I fetched (the AMS 50 page and the Fellowships page) states an application deadline, so I left the deadline empty rather than guess. A search snippet from an AMS-hosted Submittable page showed "Application Deadline: 11:59pm ET, 2 February 2026" for the AMS 50 dissertation fellowship, but I could not fetch that AMS 50 listing; the Submittable page I did fetch lists other AMS programs, not this one. Aggregator…
+
+</details>
+
+## [1049] Clark Predoctoral Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.1718.ucla.edu/research/fellowships/
+  > # Clark Postdoctoral and Graduate Fellowships
+  [source](https://www.1718.ucla.edu/research/fellowships/)
+- **deadline** ✅: 2026-02-01
+  > Fellowship applications are due on February 1, 2026.
+  [source](https://www.1718.ucla.edu/research/fellowships/)
+- **amount** ✅: $4,000 fellowship per month, for one to three months
+  > $4,000 fellowship per month, for one to three months
+  [source](https://www.1718.ucla.edu/research/fellowships/)
+- **eligibility** ✅: Graduate students (including doctoral candidates) who are U.S. citizens or are matriculated at an American university, in any field covered by the Clark Library's collections.
+  > Graduate students who are U.S. citizens or individuals matriculated at an American university
+  [source](https://www.1718.ucla.edu/research/fellowships/)
+- **program_status_evidence** ✅: active
+  > One-to-three-month fellowships are available to doctoral candidates whose dissertation research involves the area of seventeenth- and eighteenth-century studies
+  [source](https://www.1718.ucla.edu/research/fellowships/)
+- Agent notes: The listed deadline (Feb 01, 2026) has passed. The page still shows the 2026-27 cycle with a deadline of February 1, 2026, and no 2027 cycle is posted yet, so I gave that most recent date. The next cycle is likely February 1, 2027, but the sponsor has not confirmed it, so verify before planning. The listed URL is the sponsor's combined fellowships page; the Clark Predoctoral section is on it, and the program's own page is not separately linked. The page also says that for 2026-27 all Clark fello…
+
+</details>
+
+## [794] Clark Dissertation Fellowships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://1718.ucla.edu/research/fellowships/
+  > Clark Dissertation Fellowship
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **deadline** ✅: 2026-02-01
+  > Fellowship applications are due on February 1, 2026.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **amount** ✅: $36,000 fellowship
+  > $36,000 fellowship.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **eligibility** ✅: Open to UCLA doctoral candidates whose dissertation involves extensive research in the Clark Library's holdings; the award is for nine months during the academic year.
+  > Open to UCLA doctoral candidates.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **program_status_evidence** ✅: active
+  > 2026–27 José Monge, University of California, Los Angeles
+  [source](https://1718.ucla.edu/research/clark-dissertation-fellows/)
+- Agent notes: The listing's deadline (Feb 01, 2026) is already past as of 2026-10-16. The sponsor's fellowships page states the 2026-27 cycle closed on February 1, 2026, and the page does not yet post a 2027 date, so the deadline value is that most recent date, not a confirmed future one. The page says applications are considered once each year, so the next cycle is likely around February 1, 2027, but this is not stated by the sponsor and I did not enter it. The listing's officialUrl (/research/clark-disserta…
+
+</details>
+
+## [1050] Clark Bibliographical Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://1718.ucla.edu/research/fellowships/
+  > # Clark Postdoctoral and Graduate Fellowships
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **deadline** ✅: 2026-02-01
+  > Fellowship applications are due on February 1, 2026.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **amount** ✅: $12,000
+  > Award Amount:** $12,000
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **eligibility** ✅: Open to U.S. applicants and international applicants eligible to pursue research in the US; applicants should hold a PhD or have appropriate research experience.
+  > Applicants should hold a Ph.D. degree or have appropriate research experience.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **program_status_evidence** ✅: active
+  > This three-month fellowship provides support for bibliographical research using the Clark’s collections.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- Agent notes: The listing's link and deadline are current in substance, but the deadline is stale. The sponsor page (last modified 2026-01-29) states the 2026-27 cycle closed February 1, 2026; no 2027 date is posted, so I kept the most recent stated deadline, 2026-02-01, which is now past. Verify with the Center before planning for the next cycle (likely around February 1, 2027, but unconfirmed). The page says the 2026-27 fellowships must be taken in person as residential fellowships. The sponsor lists the am…
+
+</details>
+
+## [1051] Clark Short-Term Fellowships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://1718.ucla.edu/research/fellowships/
+  > Clark Postdoctoral and Graduate Fellowships - The Center for 17th- & 18th-Century Studies
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **deadline** ✅: 2026-02-01
+  > Fellowship applications are due on February 1, 2026.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **amount** ✅: $4,000 fellowship per month, for one to three months
+  > $4,000 fellowship per month, for one to three months
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **eligibility** ✅: Scholars whose research needs work in the Clark Library's collections; applicants must hold a Ph.D. or have equivalent academic experience, and the page also says the fellowship is available to predoc…
+  > Applicants must hold a Ph.D. degree or have equivalent academic experience.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- **program_status_evidence** ✅: active
+  > For 2026-27, all fellowships at the Clark must be taken in-person as a residential fellowship.
+  [source](https://1718.ucla.edu/research/fellowships/)
+- Agent notes: The deadline in the listing (Feb 01, 2026) is the 2026 cycle, which has now passed (today is 2026-10-16). The sponsor page has not posted a 2027 deadline, so per the rules I report the most recent stated deadline, 2026-02-01. The page's own cycle label is 2026-27 and it says applications are considered once each year, so the next cycle is probably around February 1, 2027, but that is not confirmed by the sponsor. The sponsor page also lists the Clark Short-Term Fellowship as open with 'Eligibili…
+
+</details>
+
+## [708] American Nuclear Society Scholarships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Feb 01, 2026 | Feb 01, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.ans.org/scholarships/
+  > Scholarships & Grants
+  [source](https://www.ans.org/scholarships/)
+- **deadline** ✅ (year added: the page gives this date without one): 2027-02-01
+  > **February 1:** Undergraduate and Graduate Deadline
+  [source](https://www.ans.org/scholarships/)
+- **amount** ✅: $3,000 - $5,000 for graduate scholarships (up to $5,000 for financial need-based scholarships)
+  > $3,000 - $5,000 Graduate
+  [source](https://www.ans.org/scholarships/)
+- **eligibility** ✅: Graduate students must be ANS student members and U.S. citizens or permanent residents enrolled in an accredited university in the United States (or its territories).
+  > U.S. citizens or permanent residents who are enrolled in an accredited university in the United States (or its territories).
+  [source](https://www.ans.org/scholarships/)
+- **program_status_evidence** ✅: active
+  > Applications are available for incoming freshmen, undergraduate, graduate, community college, and nontraditional students.
+  [source](https://www.ans.org/scholarships/)
+- Agent notes: The sponsor page (last modified October 15, 2026) lists the Undergraduate and Graduate deadline as February 1; the year 2027 was added by me because the 2026 cycle has closed. Applications open November 1 per the page. Other deadlines: April 1 for incoming freshmen and community college/trade school. The listing's amount of $1,000–$5,000 is the page's overall range; the page gives $1,000 for incoming freshmen, $2,000–$2,500 for undergraduate and community college, and $3,000–$5,000 for graduate.…
+
+</details>
+
+## [1110] Applied Machine Learning Summer Research Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship
+  > Advancing Machine Learning for Scientific Discovery Fellowship
+  [source](https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship)
+- **deadline** ✅: 2026-01-16
+  > Applications for 2026 Fellowships are now live from now until January 16, 2026.
+  [source](https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship)
+- **amount** ❌ quote does not contain this amount: Paid fellowship with reimbursement of travel expenses (no dollar stipend amount stated on the page)
+  > This is a paid fellowship that includes reimbursement for travel expenses.
+  [source](https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship)
+- **eligibility** ✅: Applicants must be accepted to or enrolled in an undergraduate or graduate degree program, maintain a cumulative GPA of 3.2 or higher, and be available to live and work in the United States.
+  > Must be accepted to or enrolled in an undergraduate or graduate degree program
+  [source](https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship)
+- **program_status_evidence** ✅: Program described as recurring summer fellowship; no 2027 cycle posted and no discontinuation stated
+  > The Advancing Machine Learning for Scientific Discovery Fellowship is an intense 10-week program that begins around the beginning of June each summer.
+  [source](https://www.lanl.gov/engage/collaboration/internships/summer-schools/applied-machine-learning-fellowship)
+- Agent notes: The listing's deadline (Jan 31, 2026) does not match the sponsor page, which says applications for 2026 close January 16, 2026. That date has passed, and the fetched page shows no 2027 cycle, so I gave the most recent stated deadline per the rule for unposted cycles. The listing's title is outdated: the sponsor now calls it the "Advancing Machine Learning for Scientific Discovery Fellowship" (AML). The sponsor page gives no dollar stipend, only "paid fellowship" plus travel reimbursement; a thir…
+
+</details>
+
+## [895] Taiwan Studies Graduate Research Fellowship
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Jan 30, 2026 | Jan 29, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.international.ucla.edu/apc/article/207198
+  > Funding for research on Taiwan. Deadline: January 29, 2027
+  [source](https://www.international.ucla.edu/apc/article/207198)
+- **deadline** ✅: 2027-01-29
+  > Deadline for 2027-2028: January 29, 2027
+  [source](https://www.international.ucla.edu/apc/article/207198)
+- **amount** ❌ quote does not contain this amount: Up to $6,250 (Taiwan Studies Lectureship Graduate Fellowship); up to $3,750 (UCLA-NTNU Taiwan Studies Graduate Fieldwork Fellowship); up to $16,500 (J. Yang and Family Centennial Scholarship)
+  > Up to $6,250.
+  [source](https://www.international.ucla.edu/apc/article/207198)
+- **eligibility** ✅: UCLA graduate students from any discipline may apply for pre-dissertation or dissertation-level research on Taiwan studies, with a minimum UCLA GPA of 3.0 and a 2–3 page proposal.
+  > The Asia Pacific Center offers awards to UCLA graduate students for pre-dissertation or dissertation-level research on Taiwan studies:
+  [source](https://www.international.ucla.edu/apc/article/207198)
+- **program_status_evidence** ✅: active
+  > Published: Wednesday, August 19, 2026
+  [source](https://www.international.ucla.edu/apc/article/207198)
+- Agent notes: The listed deadline (Jan 30, 2026) has passed. The sponsor page now gives the 2027-2028 cycle deadline of January 29, 2027 (notification March 1, 2027), so that is the value submitted. Two corrections to the listing: (1) the deadline is updated; (2) the award amounts are maximums ("Up to") for three separate awards, and the page does not state a single award amount. The listing's agency1 (Taiwan Ministry of Education / TECO Los Angeles) is only partly supported: the page says the Taiwan Ministry…
+
+</details>
+
+## [721] Josephine de Karman Fellowship
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Jan 29, 2026 | Jan 28, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/
+  > PCF administers the Josephine de Karman Trust Fellowship, awarding $28,000 to final-year PhD students at select California universities.
+  [source](https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/)
+- **deadline** ✅: 2027-01-28
+  > Applications are due 11:59 PM Pacific Time, January 28, 2027.
+  [source](https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/)
+- **amount** ✅: $28,000 fellowship (one academic year)
+  > Four Fellowships will be awarded for the 2027-28 cycle at $28,000 each.
+  [source](https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/)
+- **eligibility** ✅: Final-year PhD students currently enrolled at one of the listed California universities (Caltech, Stanford, the UC campuses, or USC) in any discipline, including international students, who will defen…
+  > Only applications from final-year PhD students enrolled at one of the following universities will be accepted:
+  [source](https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/)
+- **program_status_evidence** ✅: active
+  > The 2027-2028 application is now available.
+  [source](https://pasadenacf.org/programs/scholarships/josephine-de-karman-trust-fellowship/)
+- Agent notes: The listing is out of date and was corrected to the sponsor's current cycle. The sponsor page (modified 2026-09-30) now covers the 2027-28 cycle, not the Jan 29, 2026 deadline on file. The page's deadline is January 28, 2027, and the defense date it requires is June 2028, not June 2027. The page also restricts eligibility to a named list of 11 California institutions, not any California university. Undergraduate, master's, JD, and postdoctoral scholars are excluded, which matches the listing. Th…
+
+</details>
+
+## [686] NASA Space Technology Graduate Research Opportunities (NSTGRO)
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.nasa.gov/directorates/spacetech/strg/nstgro
+  > Annual NSTGRO solicitations are planned; NSTGRO will be released via
+  [source](https://www.nasa.gov/directorates/spacetech/strg/nstgro)
+- **deadline** ✅: 2026-01-29
+  > are due by 6 PM E.T. on January 29, 2026
+  [source](https://simpler.grants.gov/opportunity/63365b72-6e30-493e-ab12-9e22aff4d17e)
+- **eligibility** ✅: U.S. citizens, U.S. nationals, and permanent residents pursuing master's or doctoral (Ph.D.) degrees in relevant space technology disciplines at accredited U.S. universities.
+  > sponsor U.S. citizen, U.S. national, and permanent resident graduate student research
+  [source](https://simpler.grants.gov/opportunity/63365b72-6e30-493e-ab12-9e22aff4d17e)
+- **program_status_evidence** ✅: active
+  > Annual NSTGRO solicitations are planned; NSTGRO will be released via
+  [source](https://www.nasa.gov/directorates/spacetech/strg/nstgro)
+- Agent notes: The listing's deadline (Jan 29, 2026) is the Fall 2026 cycle (NSTGRO26) and is now past. The Simpler.Grants.gov page is marked "Archived: February 28, 2026." I found no posted NSTGRO27/Fall 2027 solicitation on NASA's NSTGRO page (last updated Sep 29, 2026); it only says annual solicitations are planned, so the deadline is the most recent one stated, not a confirmed future date. The listing's own link is the Simpler.Grants.gov page, which is the one I used for the deadline and eligibility quotes…
+
+</details>
+
+## [242] ASOR Mesopotamian Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.asor.org/fellowships/mesopotamian-fellowship/
+  > 2026/2027 Application Guidelines
+  [source](https://www.asor.org/fellowships/mesopotamian-fellowship/)
+- **deadline** ✅: 2026-01-26
+  > The deadline for applications is January 26, 2026
+  [source](https://www.asor.org/fellowships/mesopotamian-fellowship/)
+- **amount** ✅: $9,000
+  > one for $9,000 and one for $4,000
+  [source](https://www.asor.org/fellowships/mesopotamian-fellowship/)
+- **eligibility** ✅: Pre-doctoral students and post-doctoral scholars from any country may apply, and applicants must be ASOR members or affiliated with an ASOR institutional member.
+  > Pre-doctoral students and post-doctoral scholars from any country are invited to apply.
+  [source](https://www.asor.org/fellowships/mesopotamian-fellowship/)
+- **program_status_evidence** ✅: active
+  > ASOR plans to award two Mesopotamian Fellowships for 2026-2027
+  [source](https://www.asor.org/fellowships/mesopotamian-fellowship/)
+- Agent notes: The sponsor's page (2026/2027 guidelines, modified May 2026) gives a deadline of January 26, 2026, which is before today (2026-10-16). No next-cycle deadline has been posted, so I report the most recent stated deadline; the listing's date matches it. The listing's "Fall" season is not stated on the page. The $9,000 award is for a research period of three months to a year, with $1,000 earmarked for Annual Meeting registration and travel; the page also says the fellowship must be used for at least…
+
+</details>
+
+## [903] Post-Doctoral Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Jan 25, 2026 | Jan 17, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://librarycompany.org/academic-programs/fellowships-2-2/postdoc-2/
+  > Each year the Library Company awards long-term postdoctoral fellowships that support advanced research in residence
+  [source](https://librarycompany.org/academic-programs/fellowships-2-2/postdoc-2/)
+- **deadline** ✅: 2027-01-17
+  > until the submission deadline of January 17, 2027
+  [source](https://librarycompany.org/postdoctoral-fellowships-application/)
+- **amount** ✅: $55,000 for the academic year (September 1 to May 31) or $27,500 per semester (postdoctoral, Library Company)
+  > The stipend is $55,000 for the academic year (September 1 through May 31) or $27,500 for the fall or spring semester.
+  [source](https://librarycompany.org/academic-programs/fellowships-2-2/postdoc-2/)
+- **eligibility** ✅: Scholars at any career stage may apply for the postdoctoral fellowships, citizens of any country, provided they hold a PhD by September 1 of the residency year; doctoral students can apply to the sepa…
+  > Applicants must hold a PhD by September 1 of the year of residency.
+  [source](https://librarycompany.org/academic-programs/fellowships-2-2/postdoc-2/)
+- **program_status_evidence** ✅: active
+  > Applications for the 2027-28 postdoctoral fellowships cycle will be accepted from September 1, 2026
+  [source](https://librarycompany.org/postdoctoral-fellowships-application/)
+- Agent notes: The listing's deadline of Jan 25, 2026 has passed. The sponsor's next cycle (2027-28) closes January 17, 2027; the sponsor states the year, so no year was added. Corrections to the listing: (1) The "within the last 5 years" PhD rule is not on the sponsor's pages; the sponsor requires a PhD by September 1 of the residency year. (2) The "$20,000 (dissertation)" figure does not match the sponsor's dissertation page, which lists $32,000 for the academic year or $16,000 per semester (PEAES/PAAH disse…
+
+</details>
+
+## [944] Andrew W. Mellon Foundation Postdoctoral Fellowship in Women's History
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.nyhistory.org/careers/fellowships
+  > The New York Historical offers several fellowship opportunities, such as the ones listed below, for scholars at all stages of their careers.
+  [source](https://www.nyhistory.org/careers/fellowships)
+- **program_status_evidence** ✅: active
+  > The New York Historical offers several fellowship opportunities, such as the ones listed below, for scholars at all stages of their careers.
+  [source](https://www.nyhistory.org/careers/fellowships)
+- Agent notes: The sponsor page (nyhistory.org/careers/fellowships) is live and lists 2026-2027 fellows, but it does not give a specific Mellon Women's History deadline, stipend, or PhD-recency rule. It only says "Application deadlines are in January for the following academic year" and that fellows receive research stipends. I left deadline, amount, and eligibility empty because the sponsor page does not state them. The listing's "Jan 11, 2026" date matches an aggregator (archivesgig.com) that describes the 2…
+
+</details>
+
+## [945] Andrew W. Mellon Foundation Predoctoral Fellowship in Women's History
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.nyhistory.org/careers/fellowships
+  > The New York Historical offers several fellowship opportunities, such as the ones listed below, for scholars at all stages of their careers.
+  [source](https://www.nyhistory.org/careers/fellowships)
+- **program_status_evidence** ✅: active
+  > The New York Historical offers several fellowship opportunities, such as the ones listed below, for scholars at all stages of their careers.
+  [source](https://www.nyhistory.org/careers/fellowships)
+- Agent notes: Could not verify most fields on the sponsor's own pages. The listed official URL is a general fellowships index on nyhistory.org; it lists fellow cohorts and says "Application deadlines are in January for the following academic year," but it does not name this Mellon Predoctoral Awards in Women's History program, give its deadline, stipend, or eligibility. A dedicated sponsor page for the program could not be reached (the URL I guessed was not fetchable, and no sponsor page for it appeared in se…
+
+</details>
+
+## [184] Grant Notley Memorial Postdoctoral Fellowship
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html
+  > The Grant Notley Memorial Postdoctoral Fellowship is provided by donations from friends of Grant Notley, matched by the Province of Alberta.
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html)
+- **deadline** ✅: 2026-01-07
+  > **January 7, 2026:** Deadline for Departments to submit complete nominations (including all references) to GPS.
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html)
+- **amount** ❌ quote does not contain this amount: $50,000 per year for up to two years, plus a one-time $4,000 research allowance
+  > valued at $50,000 per year for up to two years
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html)
+- **eligibility** ✅: Open to citizens of any country who completed a doctoral degree within three years of the nomination deadline (or will before starting), not holding a postdoc position or employment at the University …
+  > Open to citizens of any country
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html)
+- **program_status_evidence** ✅: active
+  > One Fellowship per year will be awarded for research in politics, history, economy, society, or related fields, of Canada
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/grant-notley-memorial-postdoctoral-fellowships.html)
+- Agent notes: The listing's URL (killam.html) now resolves to a general 'Funding for Postdoctoral Scholars' page, so I used the dedicated Grant Notley page instead. The deadline on that page is the 2026 cycle (nominations to GPS by January 7, 2026), which has already passed as of 2026-10-16. The sponsor has not posted a 2027 cycle, so I gave the most recent deadline per the rule and did not add a year. Applicants must be nominated by their proposed department; GPS does not accept direct applicant packages. De…
+
+</details>
+
+## [183] Izaak Walton Killam Memorial Postdoctoral Fellowships
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html
+  > Applicants must have completed a doctoral degree within three years from GPS's nomination submission deadline date of January 7, 2026
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html)
+- **deadline** ✅: 2026-01-07
+  > Applicants must have completed a doctoral degree within three years from GPS's nomination submission deadline date of January 7, 2026
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html)
+- **amount** ❌ quote does not contain this amount: $50,000 per year for up to two years, plus a one-time $4,000 research allowance
+  > valued at $50,000 per year for up to two years
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html)
+- **eligibility** ✅: Open to citizens of any country who completed a doctoral degree on or after January 7, 2023 (or will before taking up the fellowship) from a university other than the University of Alberta, and who do…
+  > Open to citizens of any country
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html)
+- **program_status_evidence** ✅: unclear
+  > The Izaak Walton Killam Memorial Postdoctoral Fellowship is provided annually from the Izaak Walton Killam Memorial Fund for Advanced Studies
+  [source](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/izaak-walton-killam-memorial-postdoctoral-fellowship.html)
+- Agent notes: The listed officialUrl (ualberta.ca/.../postdoctoral-fellow-funding/killam.html) could not be fetched, so I used the sponsor's Izaak Walton Killam Memorial Postdoctoral Fellowship page found via search. The deadline on that page is 7 January 2026 (nomination deadline for departments submitting to GPS; applicants cannot submit directly). Today is 16 October 2026, so this deadline has passed. The page does not yet show a 2027 cycle, so I kept the most recent stated date rather than guessing. The l…
+
+</details>
+
+## [1121] Dooley Distinguished Research Fellows
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.georgiahistory.com/learn-and-explore/vincent-j-dooley-distinguished-fellows-program/distinguished-research-fellows/
+  > # Dooley Distinguished Research Fellows
+  [source](https://www.georgiahistory.com/learn-and-explore/vincent-j-dooley-distinguished-fellows-program/distinguished-research-fellows/)
+- **amount** ✅: Up to $5,000 per cycle, with 1-5 Research Fellows per award cycle
+  > Up to $5,000 will be awarded each cycle with 1-5 Research Fellows in each award cycle.
+  [source](https://www.georgiahistory.com/learn-and-explore/vincent-j-dooley-distinguished-fellows-program/distinguished-research-fellows/)
+- **eligibility** ✅: Scholars from outside the Savannah area who are doctoral candidates, recent Ph.D.s, college or university professors, or independent researchers working in American history (preference to doctoral stu…
+  > Dooley Distinguished Research Fellowships are open to scholars from outside the Savannah area who are doctoral candidates, recent Ph.D.s, college and university professors, and independent researchers working in the field of American history.
+  [source](https://www.georgiahistory.com/learn-and-explore/vincent-j-dooley-distinguished-fellows-program/distinguished-research-fellows/)
+- **program_status_evidence** ✅: Active cycle evidence: the page reports a closed class-of-2026 application period, with no discontinued or paused notice.
+  > The application period for class of 2026 fellowships is now closed.
+  [source](https://www.georgiahistory.com/learn-and-explore/vincent-j-dooley-distinguished-fellows-program/distinguished-research-fellows/)
+- Agent notes: The listing's deadline of Jan 03, 2026 is not stated anywhere on the sponsor page, so I left it empty rather than confirm it. The page says "The application is currently closed." and gives no date for the next cycle. The page also says the class of 2026 period is closed and research was scheduled for May 11-22, 2026, so the listing's deadline appears stale. Applicants should check GHS for the next cycle's date. The listing's official URL is the correct page and was fetched successfully. The list…
+
+</details>
+
+## [992] Wallenberg - NTU Presidential Postdoctoral Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Dec 31, 2025 | Dec 31, 2026 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)
+  > Supported by the Knut and Alice Wallenberg Foundation, the Wallenberg - NTU Presidential Postdoctoral Fellowship provides the opportunity
+  [source](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf))
+- **deadline** ✅: 2026-12-31
+  > Application closes on 31 December 2026, Singapore Time UTC/GMT+8
+  [source](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf))
+- **amount** ❌ quote does not contain this amount: Annual salary of up to SGD 80,000, plus a one-year research grant of up to SGD 100,000
+  > An annual salary of up to SGD$80,000
+  [source](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf))
+- **eligibility** ✅: Early-career scientists, engineers and scholars from Singapore and around the world who are within 5 years of obtaining a PhD or equivalent degree and can start by 31 December 2027.
+  > Within 5 years of obtaining PhD or equivalent degree
+  [source](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf))
+- **program_status_evidence** ✅: active
+  > Call for the Wallenberg-NTU Presidential Postdoctoral Fellowship 2027
+  [source](https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf))
+- Agent notes: The listing's deadline (Dec 31, 2025) and link are out of date. The official page now shows the 2027 call closing 31 December 2026 (Singapore time), so I used that. The sponsor page lists referees' reports due 7-Jan-2027 as a later step; that is not the applicant deadline. Discrepancies with the listing: the page says 5 years from PhD, not 3 years; the page's salary is "up to" SGD 80,000 and the research grant is up to SGD 100,000, with no USD conversion given; the page says five fellows are sel…
+
+</details>
+
+## [1112] Roe L. Johns Student Travel Grant
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://aefpweb.org/funding-opportunities
+  > AEFP provides a range of funding opportunities to help individuals attend the annual conference.
+  [source](https://aefpweb.org/funding-opportunities)
+- **eligibility** ✅: Graduate students presenting at the AEFP Annual Conference, according to the sponsor's funding page, which says the Roe L. Johns Grants are travel grants to support graduate students in attending the …
+  > Travel grants to support graduate students in attending the conference
+  [source](https://aefpweb.org/funding-opportunities)
+- **program_status_evidence** ✅: Current-cycle details not yet posted
+  > More information about each opportunity, including the eligibility criteria and how to apply, will be shared in Fall 2026.
+  [source](https://aefpweb.org/funding-opportunities)
+- Agent notes: The sponsor's funding page (fetched) lists the Roe L. Johns Grants but gives no deadline or dollar amount. It says details for each opportunity, including eligibility and how to apply, will be shared in Fall 2026. The listing's deadline of Dec 31, 2025 is past and cannot be confirmed; I left the deadline empty rather than guess. The listing's $500 amount is also not on the fetched page, so it is left empty. A search snippet from aefpweb.org/student-travel (which I could not fetch: the page retur…
+
+</details>
+
+## [726] Davis Fellows for Peace
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace
+  > meta-og:url: https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace
+  [source](https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace)
+- **deadline** ❌ quote does not contain this date: 2026-12-15
+  > Applications are due by 11:59 PM EST
+  [source](https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace)
+- **amount** ❌ quote does not contain this amount: Full tuition, on-campus housing, and food for one summer
+  > The Fellows for Peace fellowship is a highly competitive, merit-based full tuition, on-campus housing and food award.
+  [source](https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace)
+- **eligibility** ✅: Applicants with a strong background in peace work or conflict resolution, broadly construed, who apply to a Middlebury Language Schools summer program; the page does not state a degree-stage or citize…
+  > Successful fellowship applications typically have a strong background in peace work or conflict resolution, broadly construed.
+  [source](https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace)
+- **program_status_evidence** ✅: active
+  > Students will be notified about the status of the fellowship by email on or around February 1.
+  [source](https://www.middlebury.edu/language-schools/funding/fellowships-scholarships/peace)
+- Agent notes: The listing's deadline (Dec 15, 2025) is past. The sponsor page gives "December 15" with no year, so I added 2026 as the next cycle after today (2026-10-16). The page's metadata shows it was last modified 2024-10-28, so the 2026 date is inferred from the yearly pattern, not stated on the page. Required components (language school application with $75 fee, two-letter/transcript items, online scholarship supplement with a 500-600 word essay and CV) are due by the same date; mailed items must also …
+
+</details>
+
+## [140] Energy Fellowship Program
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.linkenergy.org/
+  > Link Foundation Fellowships And Grants In The Energy Field
+  [source](https://www.linkenergy.org/)
+- **deadline** ✅: 2025-12-14
+  > Fellowship Applications were due December 14, 2025.
+  [source](https://www.linkenergy.org/apply.php)
+- **amount** ✅: $45,000 per year for two years (total of $90,000)
+  > $45,000 per year for two years (total of $90,000)
+  [source](https://www.linkenergy.org/guidelines.php)
+- **eligibility** ✅: Applicants must be working toward a Ph.D. at an academic institution (and be accepted into a Ph.D. program), with no citizenship limits, and fellowships are only tenable at U.S. and Canadian universit…
+  > The applicant must be working toward a Ph.D. in an academic institution.
+  [source](https://www.linkenergy.org/guidelines.php)
+- **program_status_evidence** ✅: active
+  > the Link Foundation invites applications for:
+  [source](https://www.linkenergy.org/)
+- Agent notes: The listing's details are out of date in three ways. (1) Deadline: the sponsor's pages state only the past deadline of December 14, 2025 (apply page and timetable, which also lists three recommendation letters due the same day). The sponsor has not posted a 2026 cycle, so I gave that most recent date per the rule; it is already past as of 2026-10-16. No year was added by me. Some third-party sites (Instrumentl) list a next deadline of 1 Dec 2026, and others list 1 December, but the sponsor's sit…
+
+</details>
+
+## [668] Summer Student Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Dec 04, 2025 | Jan 20, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards
+  > Summer Student Fellowships](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards#SummerFellowships
+  [source](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards)
+- **deadline** ✅: 2027-01-20
+  > Summer Student Fellowships](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards#SummerFellowships) - Opens: October 19, 2026 - Application Due: January 20, 2027
+  [source](https://www.parkinson.org/advancing-research/for-researchers/award-deadlines)
+- **amount** ❌ quote does not contain this amount: $4,000 award for 10 weeks, plus up to $1,000 in travel funds
+  > The SSF program offers a $4,000 award for 10 weeks of clinical or laboratory work.
+  [source](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards)
+- **eligibility** ✅: Advanced undergraduate and medical students who are active students during the award period, open to national and international applicants, who name a mentor for the project.
+  > Undergraduate students and medical students are eligible for summer fellowships. This program is open to national and international applicants
+  [source](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards)
+- **program_status_evidence** ✅: Active cycle listed for Summer 2027 start
+  > Summer Student Fellowships](https://www.parkinson.org/advancing-research/for-researchers/fellowships-early-career-awards#SummerFellowships) - Opens: October 19, 2026
+  [source](https://www.parkinson.org/advancing-research/for-researchers/award-deadlines)
+- Agent notes: The listing's deadline (Dec 04, 2025) is past. The Award Deadlines page lists the next cycle's application due date as January 20, 2027 (year is stated on the page, not added by me). The sponsor's page says applications are submitted through ProposalCentral and the cycle opens October 19, 2026. The $1,000 travel funds are for presenting research at a related scientific conference after the award, per the page. The listing's "Fall" season does not match the sponsor's timing (awards begin Summer 2…
+
+</details>
+
+## [914] Center for Engaged Scholarship Dissertation Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Dec 01, 2025 | Dec 01, 2026 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://cescholar.org/
+  > Scholarship Matters - Center for Engaged Scholarship - CES
+  [source](https://cescholar.org/)
+- **deadline** ✅ (year added: the page gives this date without one): 2026-12-01
+  > is open between September 1st and December 1st.
+  [source](https://cescholar.org/eligibility/)
+- **amount** ✅: $40,000 stipend paid over nine months
+  > Each successful applicant receives a $40,000 stipend paid over a nine-month fellowship period.
+  [source](https://cescholar.org/application-process/)
+- **eligibility** ✅: Ph.D. students in the social sciences and humanities who have completed all requirements except the dissertation writing and, where required, the defense, and who are enrolled in a U.S.-based Ph.D. pr…
+  > We are accepting applications from Ph.D. students in the social sciences and humanities
+  [source](https://cescholar.org/eligibility/)
+- **program_status_evidence** ✅: active
+  > The application portal is open between September 1st and December 1st.
+  [source](https://cescholar.org/eligibility/)
+- Agent notes: The listing's deadline (Dec 01, 2025) and amount ($25,000 over 9 months) are out of date. The sponsor's eligibility page gives the portal window as "September 1st and December 1st" with no year; I added 2026 because 2026-12-01 is the next such date after today (2026-10-16). The sponsor's pages do not state the year explicitly, so the year is my inference. The homepage and the application-process page both say the fellowship is $40,000 for the 2026-2027 cycle. The listing's field list (anthropolo…
+
+</details>
+
+## [1069] Postdoctoral Fellow in Conservation Science
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ❌ quote not found on the source page: https://www.getty.edu/projects/postdoctoral-fellowship-conservation-science/
+  > Two-year fellowship in conservation science for recent PhD recipients.
+  [source](https://www.getty.edu/projects/postdoctoral-fellowship-conservation-science/)
+- **eligibility** ✅: Recent PhD recipients in chemistry and other physical or material sciences may apply.
+  > designed to provide recent PhDs in chemistry and other physical or material sciences with experience in conservation science.
+  [source](https://www.getty.edu/projects/postdoctoral-fellowship-conservation-science/)
+- **program_status_evidence** ✅: active
+  > Status Active
+  [source](https://www.getty.edu/projects/postdoctoral-fellowship-conservation-science/)
+- Agent notes: The listed deadline of Dec 01, 2025 belongs to the 2026–2028 cycle, which the sponsor page now says is closed. The sponsor page gives no date for the next cycle; it says only that the 2028–2030 application will be available in fall 2027, so the deadline is left empty. The 2025 date came from third-party sites (e-rihs.eu, iiconservation.org), not the sponsor page, and I did not use them as sources. The sponsor page gives no dollar amount, and the listing's amount field has no sponsor-page support…
+
+</details>
+
+## [1120] Lafayette Fellowship
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Nov 30, 2025 | Dec 01, 2026 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://lafayette.villa-albertine.org/
+  > the French Embassy in the United States is proud to present the Lafayette Fellowship
+  [source](https://lafayette.villa-albertine.org/)
+- **deadline** ✅: 2026-12-01
+  > by no later than 11:59am EST on December 1, 2026
+  [source](https://lafayette.villa-albertine.org/faq/)
+- **amount** ✅: Full funding for one year of master's study: tuition plus an annual stipend of €18,000 for 2027–2028
+  > An annual stipend of €18,000 for 2027–2028
+  [source](https://lafayette.villa-albertine.org/faq/)
+- **eligibility** ✅: Open to US-institution bachelor's degree holders (completed between January 2024 and June 2027) who are 27 or younger as of July 1, 2027, with a minimum GPA of 3.70, in STEM, social sciences, humaniti…
+  > Be 27 years old or younger as of July 1, 2027.
+  [source](https://lafayette.villa-albertine.org/faq/)
+- **program_status_evidence** ✅: Active; the 2027–2028 cycle is open
+  > Applications are now open through December 1
+  [source](https://lafayette.villa-albertine.org/about-the-lafayette-fellowship/)
+- Agent notes: The listing is out of date. Its deadline (Nov 30, 2025) was for an earlier cycle. The next cycle closes December 1, 2026 at 11:59am EST, which is after today (2026-10-16); the year 2026 is stated on the sponsor's FAQ page. The listing's eligibility is also outdated: the sponsor now requires a bachelor's completed January 2024–June 2027, age 27 or younger as of July 1, 2027 (not "under 27" or "within last 3 years"), and a 3.70 minimum GPA. The sponsor's FAQ says that for applicants whose degree i…
+
+</details>
+
+## [1107] NISO Plus Scholarship Award
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.niso.org/awards
+  > NISO Plus scholarships are intended for anyone who feels that their voice and views
+  [source](https://www.niso.org/awards)
+- **deadline** ✅: 2025-11-24
+  > November 24, 2025
+  [source](https://www.niso.org/niso-io/2025/10/how-apply-niso-plus-scholarship-award)
+- **eligibility** ✅: Early- to mid-career professionals in the information ecosystem (librarians, publishers, service and tech providers, and similar) who feel their perspectives are underrepresented in libraries, vendors…
+  > Applicants should be early- to mid-career professionals who feel that their perspectives are underrepresented
+  [source](https://www.niso.org/niso-io/2025/10/how-apply-niso-plus-scholarship-award)
+- **program_status_evidence** ✅: active
+  > we also offer annual scholarships to support the next generation of information community leaders
+  [source](https://www.niso.org/awards)
+- Agent notes: The listing's deadline (Nov 24, 2025) is the 2026 cycle, which is now past. I found no posted 2027 cycle deadline, so I report the most recent deadline as the sponsor states it. The NISO Plus scholarships page says applications are invited each November for the following year's program, so a late-November 2026 cycle is likely, but no date has been published and I did not guess one. No dollar amount is stated: awardees get non-cash benefits (free virtual NISO Plus programming, free webinar regist…
+
+</details>
+
+## [34] Career Development Program (CDP)
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Nov 15, 2025 | Nov 15, 2026 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://bloodcancerunited.org/research/grants/career-development-program-cdp
+  > The Career Development Program (CDP) 2026-2027 cycle is now closed.
+  [source](https://bloodcancerunited.org/research/grants/career-development-program-cdp)
+- **deadline** ✅: 2026-11-15
+  > November 15, 2026, 3:00 PM (ET)
+  [source](https://bloodcancerunited.org/research/grants/career-development-program-cdp)
+- **amount** ❌ quote does not contain this amount: Fellow: up to $70,000/year (minimum $65,000/year to awardee); Special Fellow: up to $75,000/year (minimum $70,000/year to awardee)
+  > The minimum stipend/salary going directly to the awardee is $65,000/year.
+  [source](https://bloodcancerunited.org/research/grants/career-development-program-cdp)
+- **eligibility** ✅: Postdoctoral researchers in blood cancer-relevant research (Fellow: 3 years or less of postdoctoral training; Special Fellow: 3 to 5 years) and faculty-level investigators below full professor (Schola…
+  > You must have 3 years or less of postdoctoral-level research training by the award start date.
+  [source](https://bloodcancerunited.org/research/grants/career-development-program-cdp)
+- **program_status_evidence** ✅: Cycle closed, program not stated as discontinued or paused
+  > The Career Development Program (CDP) 2026-2027 cycle is now closed.
+  [source](https://bloodcancerunited.org/research/grants/career-development-program-cdp)
+- Agent notes: The listing's lls.org link is outdated: the Leukemia & Lymphoma Society now operates as Blood Cancer United, and the lls.org URL resolves to a Blood Cancer United research overview page, so I used the current CDP page on bloodcancerunited.org. The listed deadline (Nov 15, 2025) is past. The CDP page gives 2026-2027 dates: eligibility phase Oct 15, 2026 (already passed as of today), letter of intent Nov 1, 2026, blind reference letters and full application Nov 15, 2026 (3:00 PM ET). I entered Nov…
+
+</details>
+
+## [545] Institute of European Studies (IES) & Center for German and European Studies CGES (General) Predissertation & Dissertati…
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://ies.berkeley.edu/grants-graduate
+  > IES offers a range of grant and fellowship opportunities for UC Berkeley graduate students in all fields of study
+  [source](https://ies.berkeley.edu/grants-graduate)
+- Agent notes: The listing does not match the pages I checked, so I left deadline, amount and eligibility empty rather than carry over the listing's values. 1) The listed officialUrl (iis.berkeley.edu, "Pre-Dissertation Research Grant in International Studies") belongs to a different sponsor, the Institute of International Studies, not IES/CGES. Its page says "Up to $5000" and "Submit your application HERE by March 15, 2024", which is a past date. The listing's Nov 01, 2025 deadline is also past. I did not fin…
+
+</details>
+
+## [309] Society of Exploration Geophysicists (SEG) Foundation Scholarships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Nov 01, 2025 | Mar 01, 2027 |
+
+- ✅ Current deadline confirmed on the sponsor's page
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://seg.org/programs/student-programs/scholarships/
+  > Scholarships - SEG
+  [source](https://seg.org/programs/student-programs/scholarships/)
+- **deadline** ✅ (year added: the page gives this date without one): 2027-03-01
+  > Applications are accepted annually from 1 November to 1 March.
+  [source](https://seg.org/programs/student-programs/scholarships/)
+- **amount** ✅: $500 - $10,000 per academic year
+  > Awards range from US$500 to US$10,000 per academic year.
+  [source](https://seg.org/programs/student-programs/scholarships/)
+- **eligibility** ✅: High school seniors planning to attend college, and undergraduate or graduate students with above-average grades who are pursuing a college curriculum directed toward a career in applied geophysics; a…
+  > Pursue a college curriculum directed toward a career in applied geophysics
+  [source](https://seg.org/programs/student-programs/scholarships/)
+- **program_status_evidence** ✅: active
+  > The next round of scholarship applications will open on 1 November 2026
+  [source](https://seg.org/programs/student-programs/scholarships/)
+- Agent notes: The listing's deadline (Nov 01, 2025) is out of date. The sponsor page says applications run annually from 1 November to 1 March and that the next round opens 1 November 2026, so I gave the 2027-03-01 close date for the 2026-27 cycle; the year 2027 was added by me from the yearly cycle wording. The page does not state a 2026-27 closing date explicitly. The listing says "worldwide"; the page says awards went to students in 14 countries but does not state a worldwide eligibility rule, and it also …
+
+</details>
+
+## [1119] Leonard A. Lauder Fellowships in Modern Art
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Oct 17, 2025 | Oct 15, 2026 |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art
+  > Fellowships with The Leonard A. Lauder Research Center for Modern Art offer an exceptional opportunity to conduct focused research
+  [source](https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art)
 - **deadline** ✅: 2026-10-15
-  > Applications open on August 17, 2026, and are due by 5 pm (Boston, MA) on October 15, 2026.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship)
-- **amount** ❌ quote does not contain this amount: $84,600 stipend, with an annual cost-of-living adjustment, plus an $18,000 research budget for each year
-  > Stipend of $84,600 with an annual cost-of-living adjustment
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship)
-- **eligibility** ✅: Open to English-speaking citizens of any nation who are within 24 months of equivalent full-time post-PhD research experience at the fellowship start date.
-  > This opportunity is open to all qualified applicants who are English-speaking citizens from any nation.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship)
-- **program_status_evidence** ✅: active
-  > Applications are now open for the 2027 CfA Prize Postdoctoral Fellowship.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship)
-- Agent notes: The listing's deadline (Oct 15, 2026) matches the sponsor page, but it is the deadline for the 2027 cycle and it passed yesterday (today is 2026-10-16). The page has not posted a later cycle, so I gave the most recent deadline as the rules direct; the listing should be treated as closed. The page says the 2027 cycle is open via the AAS job register (https://aas.org/jobregister/ad/94bd2ef3), and the sponsor calls it the "CfA Prize Postdoctoral Fellowship" in the application system (AJO), which di…
+  > Application deadline: Thursday, October 15, 2026, 5 pm ET
+  [source](https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art)
+- **amount** ❌ quote does not contain this amount: Stipend of $50,000 (Pre-Doctoral), $60,000 (Post-Doctoral), or $70,000 (Mid-Career), plus a $6,000 travel stipend; fellows also receive a monthly health insurance payment
+  > $50,000 for Pre-Doctoral fellows
+  [source](https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art)
+- **eligibility** ✅: Doctoral students currently enrolled in a PhD program may apply for the Pre-Doctoral fellowship, and people who received a PhD within the past seven years may apply for the Post-Doctoral fellowship; p…
+  > students who have received a PhD within seven years should apply for the Post-Doctoral Fellowship
+  [source](https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art)
+- **program_status_evidence** ✅: Page lists the 2026 application cycle and fellowship periods starting September 1, 2027, with no statement that the program is discontinued or paused.
+  > Pre-Doctoral Fellowships are for 24 months and must take place between September 1, 2027, and August 31, 2029.
+  [source](https://www.metmuseum.org/opportunities/fellowships/leonard-a-lauder-fellowships-in-modern-art)
+- Agent notes: The listing's deadline of Oct 17, 2025 is outdated. The sponsor's page gives Thursday, October 15, 2026 at 5 pm ET, which is before today (2026-10-16), so this cycle has closed. The sponsor has not posted a later date, so I reported the most recent deadline as the page states it, per the instructions. The page also lists a Mid-Career fellowship and a Non-Residential Doctoral Dissertation Completion Fellowship (separate page), which the listing does not mention. The listing's "advanced to candida…
 
 </details>
 
-## [391] Clay Postdoctoral Fellowship
+## [712] Penn Postdoctoral Fellowships for Academic Diversity (Provost's Postdoctoral Fellowship)
 
-- ⚠️ Sponsor hasn't posted a deadline after today yet
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship
-  > Applications are now open for the 2027 SAO Clay Postdoctoral Fellowship.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship)
-- **deadline** ✅: 2026-10-15
-  > are due by 5 pm (Boston, MA) on October 15, 2026
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship)
-- **amount** ❌ quote does not contain this amount: $87,500 stipend per year, with an annual cost-of-living adjustment, plus an $18,000 annual research budget
-  > Stipend of $87,500 with an annual cost-of-living adjustment
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship)
-- **eligibility** ✅: Open to English-speaking citizens of any nation who are within 42 months of equivalent full-time post-PhD research experience at the fellowship start date (September 1, 2027).
-  > This opportunity is open to all qualified applicants who are English- speaking citizens from any nation.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship)
-- **program_status_evidence** ✅: active
-  > Applications are now open for the 2027 SAO Clay Postdoctoral Fellowship.
-  [source](https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship)
-- Agent notes: The deadline on file (Oct 15, 2026) matches the sponsor page, but it is the close of the 2027 cycle and passed yesterday (today is 2026-10-16). The page posts no later cycle, so I gave this most recent date as the deadline; it has closed for this cycle. The sponsor page also points to an AAS job-register posting for application instructions (https://aas.org/jobregister/ad/3d3c3757), which I did not fetch. The listing's amount field was blank; I filled it from the sponsor page. The sponsor page g…
+- **official_url** ✅: https://postdocs.upenn.edu/provosts-fellowship/provosts-postdoctoral-fellowship/
+  > The Provost’s Postdoctoral Fellowship is part of Penn’s ongoing efforts to support and strengthen the academic research community.
+  [source](https://postdocs.upenn.edu/provosts-fellowship/provosts-postdoctoral-fellowship/)
+- **amount** ❌ quote does not contain this amount: $67,000 stipend in year one (increasing $2,000 in years two and three), plus a $7,000 annual research and travel allowance
+  > The current 2026-2027 stipend rate begins at $67,000 in year one, with $2,000 increases in years two & three.
+  [source](https://postdocs.upenn.edu/provosts-fellowship/provosts-postdoctoral-fellowship/)
+- **eligibility** ✅: Open to all fields at Penn; applicants must be US citizens, permanent residents, or DACA recipients, with a PhD completed or expected by the start (or, for external applicants, earned within the prece…
+  > Eligibility for the fellowship program mandates that candidates possess US citizenship, permanent residency, or DACA recipient status.
+  [source](https://postdocs.upenn.edu/provosts-fellowship/provosts-postdoctoral-fellowship/)
+- **program_status_evidence** ✅: Page says the fellowship is not accepting applications for the 2027-2028 cycle, but it is not described as discontinued or paused.
+  > The Provost’s Postdoctoral Fellowship is not accepting applications for the 2027-2028 application cycle.
+  [source](https://postdocs.upenn.edu/provosts-fellowship/provosts-postdoctoral-fellowship/)
+- Agent notes: The listing's deadline (Oct 13, 2025) is past, and I found no application deadline on the sponsor's pages, so the deadline is left empty. The sponsor page (last modified 2026-08-18) says the program is not accepting applications for the 2027-2028 cycle, and it does not give a closing date for any cycle; the FAQ page checked has no deadline either. The listing's amount ($68,300 stipend, $5,000 relocation) does not match the page: the page gives $67,000 for 2026-2027 and no relocation allowance, s…
 
 </details>
 
-## [185] Mellon Postdoctoral Fellowships
+## [1059] Selected Professions Fellowships
 
 | Field | On file | Proposed |
 |---|---|---|
-| deadline | Oct 15, 2026 | Nov 01, 2026 |
+| deadline | Sep 30, 2025 | Feb 18, 2027 |
 
 - ✅ Current deadline confirmed on the sponsor's page
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships
-  > Mellon Postdoctoral Fellowships 2027-29
-  [source](https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships)
-- **deadline** ✅: 2026-11-01
-  > Applications for the Mellon Postdoctoral Fellowship in Linguistics are due November 1, 2026.
-  [source](https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships)
-- **amount** ✅: $68,000/year stipend
-  > Each fellowship offers a stipend of $68,000/year.
-  [source](https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships)
-- **eligibility** ✅: Applicants must have received the PhD after August 1, 2023 and no later than June 30, 2027 (or have a letter confirming the PhD will be conferred before the fellowship begins), with specializations in…
-  > Applicants eligible for the Mellon Postdoctoral Fellowship in Linguistics for the 2027-28 and 2028-29 academic years include those who have received the Ph.D. degree after August 1, 2023 and no later than June 30, 2027.
-  [source](https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships)
-- **program_status_evidence** ✅: Active 2027-29 cycle posted
-  > The Society for the Humanities will sponsor three postdoctoral teaching-research fellowships in the humanities, each awarded for the two-year period beginning August 2027.
-  [source](https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships)
-- Agent notes: The listing is out of date. The sponsor page now covers the 2027-29 cycle, not 2026-28. Changes to the record: (1) Amount: the page states $68,000/year, not $64,000. (2) Specializations: the page lists Classics, Linguistics, and Performing and Media Arts for 2027-29; History of Art, English Literature, and STS do not appear. Classics details are "forthcoming". (3) Eligibility: the page does not say "PhD in humanities"; it gives the PhD date window above (stated for Linguistics; the Performing an…
+- **official_url** ❌ source page could not be read (HTTP 403): https://www.aauw.org/resources/programs/fellowships-grants/selected-professions-fellowship-program/
+  > https://www.aauw.org/resources/programs/fellowships-grants/selected-professions-fellowship-program/
+  [source](https://www.aauw.org/resources/programs/fellowships-grants/selected-professions-fellowship-program/)
+- **deadline** ✅: 2027-02-18
+  > February 18, 2027, at 5:00pm ET
+  [source](https://www.aauw.org/resources/programs/selected-professions-fellowship-program/)
+- **amount** ✅: $20,000 stipend, paid in two equal payments
+  > carry a stipend of $20,000
+  [source](https://www.aauw.org/resources/programs/selected-professions-fellowship-program/)
+- **eligibility** ✅: Women who are U.S. citizens, nationals, or permanent residents and are starting their first full-time master's or professional degree at an accredited institution in a listed STEM or medicine field, a…
+  > Applicants must identify as a woman.
+  [source](https://www.aauw.org/resources/programs/selected-professions-fellowship-program/)
+- **program_status_evidence** ✅: Active; the page lists the next cycle with applications opening January 5, 2027
+  > January 5, 2027, at 9:00am ET
+  [source](https://www.aauw.org/resources/programs/selected-professions-fellowship-program/)
+- Agent notes: The listing's deadline (Sep 30, 2025) is past. The sponsor page (modified 2026-09-02) gives the next cycle: applications open January 5, 2027 and close February 18, 2027 at 5:00pm ET; the year was taken from the page, not added by me. The listing's eligibility is out of date: the page restricts awards to women in listed STEM and medicine fields, requires full-time enrollment from September 2027 through April 30, 2028, and bars applicants who already hold a master's or professional degree. It doe…
 
 </details>
 
-## [530] Members in the School of Social Science
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.ias.edu/sss/sss-fellowships
-  > SSS Fellowships \| School of Social Science \| Institute for Advanced Study
-  [source](https://www.ias.edu/sss/sss-fellowships)
-- **deadline** ✅: 2026-10-15
-  > October 15, 2026 at 11:59pm ET
-  [source](https://www.ias.edu/sss/sss-fellowships)
-- **amount** ✅: Institute stipend for the academic year, capped at $80,000 and reduced by home-institution support
-  > The Institute stipend is capped at $80,000
-  [source](https://www.ias.edu/sss/sss-fellowships-frequently-asked-questions)
-- **eligibility** ✅: Scholars holding a Ph.D. or equivalent credentials in a social science or related field at the time of application, with no citizenship requirement, who take up a residential membership for the full a…
-  > you must hold the Ph.D. or equivalent scholarly credentials in a social science or related field
-  [source](https://www.ias.edu/sss/sss-fellowships)
-- **program_status_evidence** ✅: active
-  > We are currently accepting application for the 2027-28 academic year.
-  [source](https://www.ias.edu/sss/sss-fellowships)
-- Agent notes: The deadline on file (Oct 15, 2026) matches the sponsor's stated deadline, but it is one day before today (2026-10-16), so it has already passed. The sponsor's page is still open for the 2027-28 year and posts no later deadline, so I gave the most recent stated date; the next cycle's date has not been published. Amount: the sponsor gives no fixed award; the value above is the stipend cap from the FAQ, and the actual stipend depends on the member's salary and home-institution support. Housing is …
-
-</details>
-
-## [749] Smithsonian Institution Research Fellowships (SIFP) Postdoctoral Fellowships at the Smithsonian Marine Station
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp
-  > smithsonian-institution-fellowship-program-sifp
-  [source](https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp)
-- **deadline** ✅: 2026-10-15
-  > October 15, 2026 11:59 PM ET
-  [source](https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp)
-- **amount** ❌ quote does not contain this amount: $60,000 per year stipend for postdoctoral fellows (plus up to $5,000 research allowance; $65,000 per year for Earth and Planetary Sciences)
-  > $60,000 per year
-  [source](https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp)
-- **eligibility** ✅: Postdoctoral applicants up to 5 years beyond the PhD may apply to the Smithsonian Institution Fellowship Program for in-residence research related to Smithsonian collections and research interests, ac…
-  > for scholars up to 5 years beyond the Ph.D.
-  [source](https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp)
-- **program_status_evidence** ✅: Active
-  > All applications must be submitted by
-  [source](https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp)
-- Agent notes: The listing's deadline (Oct 15, 2026) matches the sponsor page, but that date is before today (2026-10-16), so this cycle has closed. The sponsor has not posted a later SIFP cycle, so I give the most recent deadline, as the rules require. The listing's amount ($10,000-$57,000) does not match the sponsor page: $10,000 is the ten-week graduate student stipend, and $57,000 appears nowhere on the page. The page states $60,000 per year for postdoctoral fellows. The listing's title says "at the Smiths…
-
-</details>
-
-## [1095] Miller Research Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ❌ quote not found on the source page: https://miller.berkeley.edu/nominate-apply/miller-research-fellowship
-  > canonical: https://miller.berkeley.edu/nominate-apply/miller-research-fellowship
-  [source](https://miller.berkeley.edu/nominate-apply/miller-research-fellowship)
-- **deadline** ✅: 2026-10-09
-  > The DEADLINE FOR RECEIPT OF ALL APPLICATION MATERIALS, INCLUDING LETTERS OF REFERENCE, is: OCTOBER 9, 2026.
-  [source](https://miller.berkeley.edu/fellowship)
-- **amount** ❌ quote does not contain this amount: $95,000 stipend with 3% annual increases (approx. $95,000-$106,000 over three years) plus $10,000 per year research fund
-  > The Institute provides a stipend of $95,000 with 3% annual increases; the full salary range during this three-year award is approximately $95,000 - $106,000.
-  [source](https://miller.berkeley.edu/fellowship)
-- **eligibility** ✅: Recent or soon-to-be PhDs in the basic sciences, nominated online by a faculty member or research scientist; the PhD must not be received before January 1, 2025 and must be received by August 31, 2027…
-  > Candidates cannot have been employed as an assistant professor, associate professor or professor to be eligible.
-  [source](https://miller.berkeley.edu/fellowship)
-- **program_status_evidence** ✅: Active: 2027-2030 cycle posted
-  > Nominations for Miller Research Postdoctoral Fellowship 2027-2030 Now Open
-  [source](https://miller.berkeley.edu/fellowship)
-- Agent notes: The listing's deadline (Oct 09, 2026) is correct for the application deadline but has already passed as of 2026-10-16. The page posts only the 2027-2030 cycle, so no later deadline is stated; I gave the most recent stated deadline. The earlier nomination deadline was September 10, 2026 (quote: "Nominations due September 10, 2026, 11:59pm (-7 GMT)"), also past. The listing's eligibility is outdated: the page says PhD not before January 1, 2025 and by August 31, 2027 (not Jan 2024 / Aug 31, 2026).…
-
-</details>
-
-## [134] National Academy of Education/Spencer Postdoctoral Fellowship
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.spencer.org/grant_types/post-doctoral-fellowship
-  > Funded by Spencer, but administered through the National Academy of Education, the $70,000 fellowships support early career scholars
-  [source](https://www.spencer.org/grant_types/post-doctoral-fellowship)
-- **amount** ❌ quote does not contain this amount: $70,000 (Spencer page); NAEd page states $80,000
-  > Funded by Spencer, but administered through the National Academy of Education, the $70,000 fellowships support early career scholars
-  [source](https://www.spencer.org/grant_types/post-doctoral-fellowship)
-- **eligibility** ✅: Applicants must have received a PhD, EdD, or equivalent research degree in a window stated on the NAEd page (January 1, 2021 to December 31, 2025 for the 2027 cycle), must not hold tenure at the deadl…
-  > Have received their PhD, EdD, or equivalent research degree between January 1, 2021, and December 31, 2025.
-  [source](https://naeducation.org/naed-spencer-postdoctoral-fellowship/)
-- **program_status_evidence** ✅: Active for the 2027 cycle per NAEd page; the page currently shows 'Not accepting applications'.
-  > These dates are accurate for the 2027 application cycle.
-  [source](https://naeducation.org/naed-spencer-postdoctoral-fellowship/)
-- Agent notes: The listing's deadline of Oct 08, 2026 could not be confirmed and is not stated on either sponsor page. The Spencer page says only "The deadline for this competitive program is in the fall of each year." The NAEd page (administering body, modified 2026-10-12) lists the application deadline as "Closed" and funding status as "Not accepting applications," with no date given. Spencer's Application Deadlines page does not list this fellowship. So I left the deadline empty; the listing's Oct 08, 2026 …
-
-</details>
-
-## [713] Fulbright U.S. Student Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://us.fulbrightonline.org/
-  > The application for the 2027-2028 Competition is now closed.
-  [source](https://us.fulbrightonline.org/)
-- **deadline** ✅: 2026-10-06
-  > Closed October 6, 2026
-  [source](https://us.fulbrightonline.org/)
-- **amount** ❌ quote does not contain this amount: Stipend broadly based on the cost of living in the host country; amount varies by country. Round-trip transportation is included only for Post-country grants.
-  > A stipend broadly based on the cost of living in the host country.
-  [source](https://us.fulbrightonline.org/about/award-benefits)
-- **eligibility** ✅: U.S. citizens currently enrolled in an undergraduate or graduate degree program (applying through their U.S. institution), or U.S. citizens who will hold a bachelor's degree by the award start date, h…
-  > United States citizens who are currently enrolled in undergraduate or graduate degree programs are eligible to apply.
-  [source](https://us.fulbrightonline.org/about/award-benefits)
-- **program_status_evidence** ✅: Active; the 2028-2029 cycle is scheduled to launch in spring 2027
-  > Launching Spring 2027
-  [source](https://us.fulbrightonline.org/)
-- Agent notes: The listing's deadline of Oct 06, 2026 has already passed (today is 2026-10-16), and the sponsor page says the 2027-2028 application is closed. The sponsor has not posted a date for the 2028-2029 cycle, so per the rule for unposted cycles I entered the most recent sponsor deadline, 2026-10-06 (already past); the year was given on the page. The homepage says the 2028-2029 application is 'Launching Spring 2027', so no future deadline is confirmed. Campus deadlines are set by each institution's Ful…
-
-</details>
-
-## [656] World Politics and Statecraft Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.srf.org/programs/international-security-foreign-policy/world-politics-statecraft-fellowship/
-  > The Smith Richardson Foundation sponsors an annual “World Politics and Statecraft Fellowship” program
-  [source](https://www.srf.org/programs/international-security-foreign-policy/world-politics-statecraft-fellowship/)
-- **deadline** ✅: 2026-10-05
-  > October 5, 2026
-  [source](https://www.srf.org/programs/international-security-foreign-policy/world-politics-statecraft-fellowship/)
-- **amount** ✅: $10,000 per grant (up to twenty grants)
-  > The Foundation will award up to twenty grants of $10,000 each.
-  [source](https://www.srf.org/programs/international-security-foreign-policy/world-politics-statecraft-fellowship/)
-- **eligibility** ✅: Ph.D. students seeking funding for dissertation research on American foreign policy, international relations, security, strategic studies, area studies, or diplomatic and military history.
-  > support Ph.D. dissertation research on American foreign policy, international relations
-  [source](https://www.srf.org/programs/international-security-foreign-policy/world-politics-statecraft-fellowship/)
-- Agent notes: The sponsor's page (SRF) lists an October 5, 2026 submission deadline, which is before today (2026-10-16). The page does not show a next cycle, so this past date is the most recent stated deadline and should be treated as closed unless SRF posts a new date. Proposals go by email to worldpolitics@srf.org, and the page says notification is by March 8, 2027. The listing's claim that the award is run with the University of Wisconsin-Madison Department of History does not appear on the SRF page; I di…
-
-</details>
-
-## [64] Residential Fellowships
+## [1083] Postdoctoral Fellowship in California Conservation Science
 
 | Field | On file | Proposed |
 |---|---|---|
-| deadline | Oct 03, 2026 | Oct 01, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://nationalhumanitiescenter.org/residential-fellowships/
-  > The National Humanities Center's Residential Fellowship is one of the most prestigious humanities fellowship programs in the world.
-  [source](https://nationalhumanitiescenter.org/residential-fellowships/)
-- **deadline** ✅: 2027-10-01
-  > with a deadline of **October 1, 2027**
-  [source](https://nationalhumanitiescenter.org/residential-fellowships/)
-- **eligibility** ✅: Scholars holding a PhD or relevant terminal degree received at least five years before the October 1 deadline, who have published a monograph or equivalent peer-reviewed work, are working on a project…
-  > Please note that we have no citizenship requirements.
-  [source](https://nationalhumanitiescenter.org/residential-fellowships/)
-- **program_status_evidence** ✅: active
-  > The Center will begin accepting applications for the 2028–29 academic year on **July 1, 2027**
-  [source](https://nationalhumanitiescenter.org/residential-fellowships/)
-- Agent notes: The listing's deadline of Oct 03, 2026 does not match the sponsor. The sponsor's page gives the 2027–28 cycle's deadline as October 1, 2026 (already passed as of 2026-10-16), and the next cycle (2028–29) closes October 1, 2027, with letters of recommendation due October 8, 2027. Other sites (ArtHist, RSA, Historians.org) also list October 1, 2026 for the 2027–28 cycle; none show October 3. The sponsor's Residential Fellowships page is the official program page; the listing's /scholarly-programs/…
-
-</details>
-
-## [628] K. Patricia Cross Future Leaders Award
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.aacu.org/about/awards/the-k-patricia-cross-future-leaders-award
-  > The K. Patricia Cross Future Leaders Award recognizes graduate students who show exemplary promise as future leaders of higher education
-  [source](https://www.aacu.org/about/awards/the-k-patricia-cross-future-leaders-award)
-- **amount** ✅: Complimentary registration for the 2027 AAC&U Annual Meeting, a one-year AAC&U individual membership, and a one-year subscription to Liberal Education magazine
-  > complimentary registration for the 2027 AAC&U Annual Meeting;
-  [source](https://www.aacu.org/about/awards/the-k-patricia-cross-future-leaders-award)
-- **eligibility** ✅: Graduate students who show exemplary promise as future leaders of higher education and are committed to academic innovation in equity, community engagement, and teaching and learning.
-  > The K. Patricia Cross Future Leaders Award recognizes graduate students who show exemplary promise as future leaders of higher education
-  [source](https://www.aacu.org/about/awards/the-k-patricia-cross-future-leaders-award)
-- **program_status_evidence** ✅: active
-  > Nominations for the 2027 Cross Awards are currently being reviewed.
-  [source](https://www.aacu.org/about/awards/the-k-patricia-cross-future-leaders-award)
-- Agent notes: The listed deadline of Oct 02, 2026 is not supported by the sponsor's page, so the deadline field is left empty. The page gives no application or nomination deadline; it says nominations for the 2027 Cross Awards are currently being reviewed and winners will be announced later this year. Questions go to Alina Grant at agrant@aacu.org. The listing's eligibility wording (doctoral candidates and master's-level students in terminal degree programs, nominated by faculty or administrators) does not ap…
-
-</details>
-
-## [44] LSRF Fellowship
-
-- ⚠️ Citizenship rules on the sponsor's page differ from the listing (sponsor: open to non-U.S. applicants)
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://lsrf.org/apply/
-  > Dates related to eligibility have been updated below and are valid for the 2026 – 2027 application cycle.
-  [source](https://lsrf.org/apply/)
-- **deadline** ✅: 2026-10-01
-  > A complete application means that an applicant has completed and finalized their submission before 8:00 PM ET on October 1, 2026
-  [source](https://lsrf.org/apply/)
-- **amount** ❌ quote does not contain this amount: $255,000 total ($85,000/year), with a $79,000/year salary and a $6,000/year research allowance
-  > the total award amount is $255,000 ($85,000/year)
-  [source](https://lsrf.org/apply/award-details/)
-- **eligibility** ✅: Postdocs who received their PhD (or MD/DVM) within 5 years before October 1, 2026, in any basic life sciences field; U.S. and non-U.S. citizens may apply, but non-U.S. citizens must work in a U.S. lab…
-  > Applicants must apply within 5 years of receiving their PhD (or MD/DVM whichever was awarded later) as of October 1, 2026.
-  [source](https://lsrf.org/apply/)
-- **program_status_evidence** ✅: Active 2026–2027 competition on the sponsor's application page
-  > Dates related to eligibility have been updated below and are valid for the 2026 – 2027 application cycle.
-  [source](https://lsrf.org/apply/)
-- Agent notes: The listing's deadline of Oct 01, 2026 matches the sponsor's page, but that date is now past (today is 2026-10-16), so the listing is out of date. The sponsor's apply page still shows the 2026–2027 cycle with an October 1, 2026 deadline; I found no posted 2027 cycle, so I gave the most recent sponsor deadline rather than a future date. Per the sponsor's timeline, the next cycle's application portal would open around August 15 and close October 1 of the following year, but this is unconfirmed. Ot…
-
-</details>
-
-## [96] Lawrence Fellowship
+| deadline | Sep 15, 2025 | Sep 28, 2026 |
 
 - ⚠️ Sponsor hasn't posted a deadline after today yet
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship
-  > The Lawrence Fellowship is a highly competitive postdoctoral program at LLNL, open to all technical disciplines.
-  [source](https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship)
-- **deadline** ✅ (year added: the page gives this date without one): 2026-10-01
-  > Required materials, due by October 1st, include:
-  [source](https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship/learn-more-and-apply)
-- **amount** ✅: $12,663 per month starting salary
-  > Fellows receive a starting salary of $12,663 per month.
-  [source](https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship)
-- **eligibility** ✅: Applicants must be completing a PhD (within one year) or already hold one before hire, in any technical discipline; U.S. citizenship is not required to apply.
-  > Although U.S. citizenship is not required for application
-  [source](https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship/learn-more-and-apply)
+- **official_url** ✅: https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/
+  > The UCLA La Kretz Center for California Conservation Science invites applications for its 2027 Postdoctoral Fellowship in California Conservation Science.
+  [source](https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/)
+- **deadline** ✅: 2026-09-28
+  > September 28th, 2026 at 5pm (PST)
+  [source](https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/)
+- **amount** ✅: Competitive salary, full benefits, and $7500 research/travel allowance
+  > a research/travel allowance of $7500
+  [source](https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/)
+- **eligibility** ✅: Recent or soon-to-finish PhD holders from any discipline doing California conservation research, with a UCLA La Kretz-affiliated mentor and an off-campus agency or NGO mentor.
+  > Candidates who have recently completed their Ph.D. or will have completed it before their start date are encouraged to apply.
+  [source](https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/)
 - **program_status_evidence** ✅: active
-  > Selected Fellows for this call will begin employment between August and October 2026.
-  [source](https://st.llnl.gov/opportunities/postdocs/postdoc-program/lawrence-fellowship/learn-more-and-apply)
-- Agent notes: The deadline on file (Oct 01, 2026) is correct for the 2026 call, but it closed on 2026-10-01, before today (2026-10-16). The sponsor has not posted a 2027 cycle yet, so I gave the most recent stated deadline, 2026-10-01, rather than adding a year to a future date. The page says the 2026 call's applications were due October 1 and the page's 2027 timeline is not posted; the sponsor's pages note registration typically opens in late July, so check back then. Amount: the listing's $12,235/month does…
+  > The UCLA La Kretz Center for California Conservation Science invites applications for its 2027 Postdoctoral Fellowship in California Conservation Science.
+  [source](https://www.ioes.ucla.edu/jobs/the-2027-ucla-la-kretz-center-postdoctoral-fellowship-in-california-conservation-science/)
+- Agent notes: The listing's deadline (Sep 15, 2025) and its link are out of date. The sponsor page I fetched is for the 2027 fellowship and gives a deadline of September 28, 2026 at 5pm PST. Today is 2026-10-16, so that deadline has already passed. The sponsor has not posted a later cycle, so I reported that most recent deadline per the rules, and the value should be read as closed. The page also says the fellowship is two years, with a target start of September 2027. Applicants must send a single PDF with a …
 
 </details>
 
-## [59] Society of Fellows in Critical Bibliography
+## [747] Mandel Postdoctoral Fellowships in the Humanities and Jewish Studies
 
 | Field | On file | Proposed |
 |---|---|---|
-| deadline | Oct 01, 2026 | Nov 20, 2026 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://rarebookschool.org/scholarships-fellowships/sofcb-junior-fellows/
-  > Each year, ten Junior Fellows are selected to join the Andrew W. Mellon Society of Fellows in Critical Bibliography (SoFCB) through an open application process.
-  [source](https://rarebookschool.org/scholarships-fellowships/sofcb-junior-fellows/)
-- **deadline** ✅: 2026-11-20
-  > Please submit your application by 11:59 p.m. ET on 20 November 2026
-  [source](https://rarebookschool.org/sofcb-junior-fellows)
-- **eligibility** ✅: Open to early-career scholars in any field who hold a Ph.D. or equivalent terminal degree, or are Ph.D. candidates who have advanced to candidacy, and who are based at U.S. institutions; tenured facul…
-  > The following individuals may not apply for the Junior Fellows Program:
-  [source](https://rarebookschool.org/sofcb-junior-fellows)
-- **program_status_evidence** ✅: Currently accepting applications
-  > We are currently accepting applications for the 2027–2029 cohort of the Junior Fellows Program.
-  [source](https://rarebookschool.org/sofcb-junior-fellows)
-- Agent notes: The listing's deadline of Oct 01, 2026 has passed; the sponsor's next cycle closes 20 November 2026 at 11:59 p.m. ET (the year was stated on the page, so nothing was inferred). The sponsor's separate 1 November 2026 deadline applies only to RBS-awarded scholarships, not this fellowship; the announcement also says fellowship applications are separate. The page does not state a stipend or single award amount. It lists benefits instead: tuition waived for two RBS courses, up to $500 travel/lodging …
-
-</details>
-
-## [65] Grants-in-Aid of Research Program
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.sigmaxi.org/programs/grants-in-aid-of-research
-  > canonical: https://www.sigmaxi.org/programs/grants-in-aid-of-research
-  [source](https://www.sigmaxi.org/programs/grants-in-aid-of-research)
-- Agent notes: Could not verify the listing against the sponsor's own text. The sponsor's program page (sigmaxi.org/programs/grants-in-aid-of-research) and its "Application and Resources" page (/apply) were fetched, but the tool returned only site navigation, with no body text for deadlines, amounts or eligibility. The "100 Years of GIAR" page returned the same. Search-result snippets attributed to the sponsor's page state "Spring cycle: March 15, Fall cycle: October 1", but snippets are not valid sources here…
-
-</details>
-
-## [41] Franklin Research Grants
-
-- ⚠️ Citizenship rules on the sponsor's page differ from the listing (sponsor: open to non-U.S. applicants)
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.amphilsoc.org/grants/franklin-research-grants
-  > Franklin Research Grants \| American Philosophical Society
-  [source](https://www.amphilsoc.org/grants/franklin-research-grants)
-- **deadline** ✅: 2026-10-01
-  > October 1, 2026, for a January 2027 decision for work beginning February 2027 through January 2028
-  [source](https://www.amphilsoc.org/grants/franklin-research-grants)
-- **amount** ✅: Up to $7,000
-  > Funding is offered up to a maximum of $7,000.
-  [source](https://www.amphilsoc.org/grants/franklin-research-grants)
-- **eligibility** ✅: Applicants must hold a doctorate or have published work of doctoral character and quality (PhD candidates cannot apply); independent scholars and faculty at any institution may apply in any field, and…
-  > Applicants are expected to have a doctorate or to have published work of doctoral character and quality.
-  [source](https://www.amphilsoc.org/grants/franklin-research-grants)
-- **program_status_evidence** ✅: active
-  > the Society expects to make a similar number of awards in this year’s competition.
-  [source](https://www.amphilsoc.org/grants/franklin-research-grants)
-- Agent notes: Listing discrepancies: the listing says "Up to $6,500", but the APS page states a maximum of $7,000, so I used the page figure. The official URL in the listing is correct. The listed deadline (Oct 1, 2026) matches the page's first Franklin deadline; the second is December 1, 2026 (for a March 2027 decision), which applies to the same application; choose one, not both. The IASH item is a separate APS/IASH Edinburgh fellowship: the page says its deadline is February 26, 2027, while the FAQ on the …
-
-</details>
-
-## [42] Career Awards for Medical Scientists
+| deadline | Sep 10, 2025 | Sep 01, 2026 |
 
 - ⚠️ Sponsor hasn't posted a deadline after today yet
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/
-  > Career Awards for Medical Scientists - Burroughs Wellcome Fund
-  [source](https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/)
-- **deadline** ✅: 2026-09-30
-  > Sep 30, 2026
-  [source](https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/)
-- **amount** ✅: $700,000 over five years
-  > provides $700,000 awards over five years
-  [source](https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/)
-- **eligibility** ✅: Physicians who hold an M.D., D.O., D.D.S., D.V.M. or V.M.D. degree, have finished clinical training or are board-eligible by the start date, and are legally able to work in the US or Canada (citizens,…
-  > Candidates must hold an M.D., D.D.S., D.V.M., V.M.D., or D.O. degree.
-  [source](https://www.bwfund.org/wp-content/uploads/2026/06/BWF_CAMS_RFP_2027_6.25.26.pdf)
-- **program_status_evidence** ✅: Now Accepting Applications
-  > Now Accepting Applications
-  [source](https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/)
-- Agent notes: The listing's deadline (Sep 30, 2026) and amount ($700,000 over five years) match the sponsor's page and the 2027 RFP, which confirms a 3:00 PM EDT deadline on September 30, 2026. The sponsor's eligibility rules differ from the listing. The listing says "US citizens and permanent residents", but the RFP also allows non-citizen temporary residents who hold a valid visa (J-1, H1B, F-1 or O-1) and Canadian residents. The listing's "2+ years postdoctoral research" is not a hard rule: the RFP says co…
-
-</details>
-
-## [541] John F. Kennedy Library Foundation Fellowships and Grants
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Sep 30, 2026 | Sep 30, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ❌ source page could not be read (HTTP 403): https://www.jfklibrary.org/archives/research-opportunities
-  > Research Opportunities
-  [source](https://www.jfklibrary.org/archives/research-opportunities)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-09-30
-  > Application Deadline: September 30
-  [source](https://www.jfklibrary.org/archives/research-opportunities/kovler-fellowship)
-- **amount** ❌ quote does not contain this amount: Up to $5,000 stipend (Kovler and Schlesinger fellowships); up to $3,600 (Sorensen fellowship)
-  > Stipend Amount: up to $5,000.
-  [source](https://www.jfklibrary.org/archives/research-opportunities/kovler-fellowship)
-- **eligibility** ❌ source page could not be read (HTTP 403): Scholars and students who need to use the JFK Library's archival holdings, with each fellowship restricted to its own research subject area.
-  > to support scholars who need to use the archival holdings of the JFK Library
-  [source](https://www.jfklibrary.org/archives/research-opportunities)
-- **program_status_evidence** ❌ source page could not be read (HTTP 403): Active: the Foundation offers these fellowships yearly, and a 2026 History Scholars Workshop is listed.
-  > offers research fellowships and grants every year
-  [source](https://www.jfklibrary.org/archives/research-opportunities)
-- Agent notes: The listing is an umbrella entry. Its URL resolves to the 'Research Opportunities' hub, which lists six separate fellowships, each with its own deadline and stipend. I only read four of them in full: Kovler, Schlesinger, Sorensen (all 'Application Deadline: September 30') and Hemingway Grants (November 1). The Schwartz Fellowship and History Scholars Workshop pages were not checked. The Sep 30 deadline on file was 2026, which has passed as of 2026-10-16, so I gave the next cycle, 2027-09-30. The…
-
-</details>
-
-## [47] Fellowships at the Wilson Center
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.wilsoncenter.org/research-fellowship
-  > The 2028-2029 Research Fellowship competition will begin in summer 2027.
-  [source](https://www.wilsoncenter.org/research-fellowship)
-- **deadline** ✅: 2026-09-30
-  > by 11:59 pm ET on September 30, 2026
-  [source](https://www.wilsoncenter.org/fellowship-application-guidelines)
-- **amount** ❌ quote does not contain this amount: $10,000 per month for a twelve-month fellowship (the sponsor's stated stipend, about $120,000 total)
-  > The Center offers a stipend of $10,000 per month for a twelve-month fellowship.
-  [source](https://www.wilsoncenter.org/fellowship-application-guidelines)
-- **eligibility** ✅: Applicants need a PhD in hand plus a published book or substantial peer-reviewed research, or equivalent professional distinction (typically 10+ years), and must be proficient in English; the sponsor'…
-  > Applicants must be proficient in English, as the Center is designed to encourage the exchange of ideas among its fellows
-  [source](https://www.wilsoncenter.org/fellowship-application-guidelines)
-- **program_status_evidence** ✅: Active, with the next competition planned
-  > The 2028-2029 Research Fellowship competition will begin in summer 2027.
-  [source](https://www.wilsoncenter.org/research-fellowship)
-- Agent notes: The listed deadline of Sep 30, 2026 is correct for the 2027–2028 cycle, but that cycle closed (the sponsor says it stopped accepting applications as of October 1, 2026). The sponsor has not posted a deadline for the 2028–2029 cycle, which it says will open in summer 2027, so I gave the most recent deadline as the sponsor's page instructs. The listed $90,000 does not match the sponsor's stated stipend of $10,000 per month for twelve months (about $120,000); the stipend figure is from the 2027–202…
-
-</details>
-
-## [1105] SurveyCTO Data Collection Research Grant
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.surveycto.com/data-collection-research-grant/
-  > The 2026 SurveyCTO Primary Data Collection Research Grant application cycle is now closed.
-  [source](https://www.surveycto.com/data-collection-research-grant/)
-- **deadline** ✅: 2026-09-30
-  > You can apply from August 1, 2026 to September 30, 2026.
-  [source](https://www.surveycto.com/data-collection-research-grant/)
-- **amount** ✅: Free one-year SurveyCTO subscription plus a one-time cash grant of up to $3,000 USD
-  > a one-time cash grant of up to $3,000 USD
-  [source](https://www.surveycto.com/data-collection-research-grant/)
-- **eligibility** ✅: Open to anyone currently pursuing a terminal degree with a heavy data collection or research component, such as PhD or MD students.
-  > open to anyone currently pursuing a terminal degree with a heavy data collection or research component, such as PhD or MD students.
-  [source](https://www.surveycto.com/data-collection-research-grant/)
-- **program_status_evidence** ✅: Annual grant with a 2026 cycle that has closed and a review underway
-  > Our grant review team is now assessing applications.
-  [source](https://www.surveycto.com/data-collection-research-grant/)
-- Agent notes: The 2026 cycle closed on 2026-09-30, which is before today (2026-10-16). The page does not yet post a 2027 cycle, so per the rule for past-only deadlines I gave the most recent deadline. The 2026 review is in progress and applicants are to be notified in December. The listing's eligibility says PhD students only, but the sponsor's page also accepts other terminal degrees such as MD students. The listing's amount omits the free one-year subscription, which the sponsor describes as the main part o…
-
-</details>
-
-## [644] American Australian Association Graduate Education Scholarship (USA to Australia)
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Sep 30, 2026 | Sep 30, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://americanaustralian.org/scholarships/education-fund/
-  > There are two scholarship application rounds offered each year (one in each direction):
-  [source](https://americanaustralian.org/scholarships/education-fund/)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-09-30
-  > Open for applications from August 1 to September 30.
-  [source](https://americanaustralian.org/scholarships/education-fund/)
-- **amount** ✅: Up to USD $40,000
-  > The Graduate Education Fund provides support of up to USD $40,000
-  [source](https://americanaustralian.org/scholarships/education-fund/)
-- **eligibility** ✅: American and Indigenous American individuals planning or undertaking full-time graduate study (Masters, PhD or postdoctoral research) at an accredited institution in the USA-to-Australia direction.
-  > American and Indigenous American individuals undertaking or planning to undertake full-time Graduate level study
-  [source](https://americanaustralian.org/scholarships/education-fund/)
-- **program_status_evidence** ✅: Active: the page describes ongoing application rounds
-  > There are two scholarship application rounds offered each year (one in each direction):
-  [source](https://americanaustralian.org/scholarships/education-fund/)
-- Agent notes: The fetched page gives the USA-to-Australia window as August 1 to September 30 with no year, so I added 2027 as the next close date after today (2026-10-16); the 2026 round has already closed. The page does not state a year, so confirm the 2027 date once the sponsor posts it. Eligibility differs from the listing: the page says "American" individuals, not "U.S. citizens," and it does not mention citizenship. The page also does not say the award covers tuition and living expenses, and it does not …
-
-</details>
-
-## [51] Marshall Scholarship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.marshallscholarship.org/
-  > Marshall Scholarship Programme: Recognising the generosity of the past, supporting the promise of the future.
-  [source](https://www.marshallscholarship.org/)
-- **deadline** ✅: 2026-09-29
-  > The deadlines for the 2027 Marshall Competition are: 29th of September 2026 for applicants and recommenders at 5:00pm in the time zone of your endorsing institution
-  [source](https://www.marshallscholarship.org/apply/)
-- **eligibility** ✅: Open to U.S. citizens who hold, or will hold by September 2027, a first undergraduate degree from an accredited four-year U.S. college or university, with a GPA of at least 3.7 on a 4.0 scale and grad…
-  > Be citizens of the United States of America (at the time they apply for a scholarship);
-  [source](https://www.marshallscholarship.org/apply/eligibility/)
-- **program_status_evidence** ✅: active
-  > Applications for 2027 are now closed. Applications for 2028 will open in summer 2027.
-  [source](https://www.marshallscholarship.org/apply/eligibility/)
-- Agent notes: The listed deadline (Sep 29, 2026) is the 2027-cycle applicant deadline, and it has passed as of 2026-10-16. The sponsor's apply page says the applicant deadline is closed and the university endorsement deadline was 1 October 2026 at 5pm, also past. The next cycle (2028) is not yet posted beyond saying applications open in summer 2027, so I gave the most recent stated deadline, 2026-09-29, with no year added. Applicants must be nominated/endorsed by a US undergraduate institution; they cannot ap…
-
-</details>
-
-## [241] Postdoctoral Fellowship for North American and European Researchers (Short-term)
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Sep 25, 2026 | Jan 08, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html
-  > The program provides PhD students or PhD researchers in the Europe and North America with opportunities to conduct collaborative research
-  [source](https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html)
-- **deadline** ✅: 2027-01-08
-  > January 8, 2027 (by 5 p.m. (JST))
-  [source](https://www.jsps.go.jp/english/e-fellow/e-oubei-s/appliguidelines.html)
-- **amount** ❌ quote does not contain this amount: JPY 362,000 per month maintenance allowance for PhD holders, plus round-trip airfare and a JPY 200,000 settling-in allowance (3+ month tenure)
-  > For PhD holders: JPY362,000 per month
-  [source](https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html)
-- **eligibility** ✅: Citizens or permanent residents of the US, Canada, EU countries, UK, Switzerland, Norway or Russia who have a foreign doctorate (within six years, or expected within two years of the fellowship start)…
-  > have obtained a doctoral degree from a foreign graduate school and, As of April 1 of the fiscal year, are within six years of having obtained that degree
-  [source](https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html)
-- **program_status_evidence** ❌ quote too short to check: active
-  > ### FY2027
-  [source](https://www.jsps.go.jp/english/e-fellow/e-oubei-s/appliguidelines.html)
-- Agent notes: The listed deadline of Sep 25, 2026 is the FY2027 1st recruitment deadline on the sponsor's Application Schedule page; it has passed as of 2026-10-16. The next cycle closing after today is the 2nd recruitment, January 8, 2027 (by 5 p.m. JST), which already includes its year on the page, so no year was added. Other deadlines on the same schedule: June 4, 2027 (3rd recruitment). Important: the deadline is for the host institution in Japan to submit to JSPS, not the candidate; the candidate applies…
-
-</details>
-
-## [60] Academy Scholars Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://academy.wcfia.harvard.edu/programs/academy_scholar
-  > https://academy.wcfia.harvard.edu/programs/academy_scholar
-  [source](https://academy.wcfia.harvard.edu/programs/academy_scholar)
-- **deadline** ✅: 2026-09-18
-  > The deadline was **September 18, 2026** at 11:59 PM EDT.
-  [source](https://academy.wcfia.harvard.edu/programs/academy_scholar)
-- **amount** ✅: $80,000 annual stipend plus $6,000 annual research support
-  > annual stipend of $80,000 (annual research support of $6,000 is also provided)
-  [source](https://academy.wcfia.harvard.edu/programs/academy_scholar)
-- **eligibility** ✅: Recipients of a PhD or equivalent granted within two years of the August 1 start date, or advanced doctoral candidates in the social sciences, who have not held another postdoctoral fellowship.
-  > Individuals who hold or have completed another postdoctoral fellowship are not eligible to apply.
-  [source](https://academy.wcfia.harvard.edu/programs/academy_scholar)
-- **program_status_evidence** ✅: active
-  > The Academy Scholars Program identifies and supports outstanding researchers at the start of their academic careers
-  [source](https://academy.wcfia.harvard.edu/programs/academy_scholar)
-- Agent notes: The official page's announcement says the 2027-2028 season is closed and its deadline was September 18, 2026 at 11:59 PM EDT, so that deadline has already passed as of 2026-10-16. The sponsor has not posted a later cycle, so I gave the most recent deadline, per the rule for this case. The listing's deadline matches the page. Amount conflict: the listing says "$80,000/year + $5,000 annual research support", but the page says $6,000 research support, so I used the page's figure. Eligibility on the…
-
-</details>
-
-## [690] GloCal Health Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/
-  > A career development fellowship sponsored by the National Institutes of Health (NIH) Fogarty International Center (FIC)
-  [source](https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/)
-- **deadline** ✅: 2026-09-15
-  > are due on September 15, 2026.
-  [source](https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/application-process/index.html)
-- **amount** ❌ quote does not contain this amount: $15,000 research funding (plus 12 consecutive months of stipend support; the stipend amount is not stated)
-  > Research funding ($15,000)
-  [source](https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/application-process/index.html)
-- **eligibility** ✅: U.S. doctoral students, professional students and postdoctoral fellows (including UC-affiliated and non-UC U.S. postdocs) who are U.S. citizens or lawful permanent residents may apply; undergraduate a…
-  > You are NOT eligible to apply for this fellowship.
-  [source](https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/application-process/index.html)
-- **program_status_evidence** ✅: active
-  > are due on September 15, 2026.
-  [source](https://ucghi.universityofcalifornia.edu/fellowships/glocal-health-fellowship/application-process/index.html)
-- Agent notes: The deadline in the listing (Sep 15, 2026) matches the sponsor's application page, but that date has already passed as of 2026-10-16. The page gives it for the 2027-2028 fellowship cycle and does not yet post a later date, so I've reported the most recent stated deadline; the cycle is closed. The page says fellowships begin annually in July, and awardees are usually notified by March. The sponsor's eligibility is broader and more detailed than the listing: it also covers foreign LMIC postdocs wi…
-
-</details>
-
-## [663] NIH Director's Early Independence Award (DP5)
-
-| Field | On file | Proposed |
-|---|---|---|
-| amount |  | Up to $350,000 per year in direct costs, plus allowed indirect costs, for up to five years |
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://commonfund.nih.gov/earlyindependence
-  > Recipient of terminal research degree or completed postgraduate clinical training within previous 16 months
-  [source](https://commonfund.nih.gov/earlyindependence)
-- **deadline** ✅: 2026-09-10
-  > September 10, 2026
-  [source](https://files.simpler.grants.gov/opportunities/8518b002-2452-44e3-8b00-78fcaa5c7edb/attachments/7ad160c4-0399-4f47-adff-189bd6b25542/RFA-RM-27-004-Full-Announcement.html)
-- **amount** ✅: Up to $350,000 per year in direct costs, plus allowed indirect costs, for up to five years
-  > $350,000 direct costs per year for up to 5 years
-  [source](https://commonfund.nih.gov/earlyindependence)
-- **eligibility** ✅: Early-career researchers (sole PD/PI, not yet independent) who complete a terminal doctoral degree or clinical training (residency/fellowship included) between May 1, 2025 and September 30, 2027; U.S.…
-  > U.S. citizenship is not required.
-  [source](https://files.simpler.grants.gov/opportunities/8518b002-2452-44e3-8b00-78fcaa5c7edb/attachments/7ad160c4-0399-4f47-adff-189bd6b25542/RFA-RM-27-004-Full-Announcement.html)
-- **program_status_evidence** ✅: Active FY2027 NOFO, posted June 26, 2026, with a September 10, 2026 due date
-  > Reissue of RFA-RM-24-005
-  [source](https://files.simpler.grants.gov/opportunities/8518b002-2452-44e3-8b00-78fcaa5c7edb/attachments/7ad160c4-0399-4f47-adff-189bd6b25542/RFA-RM-27-004-Full-Announcement.html)
-- Agent notes: The listing's deadline (Sep 10, 2026) matches the sponsor's FY2027 NOFO RFA-RM-27-004, but that date is before today (2026-10-16), so the listing is stale. The Common Fund page says "No open funding announcements" and I found no FY2028 cycle posted, so per the rule I give the most recent sponsor deadline, 2026-09-10, and it has passed. The NOFO says no late applications are accepted. The listing's amount field was empty; I filled it from the sponsor page. The NOFO's expiration date is September …
-
-</details>
-
-## [75] Luce Scholars Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://lucescholars.org/
-  > Established in 1974, the Luce Scholars Program is a competitive leadership development fellowship
-  [source](https://lucescholars.org/)
-- **deadline** ✅: 2026-09-08
-  > All application materials must be submitted by September 8, 2026, at 5:00 p.m. Eastern.
-  [source](https://lucescholars.org/selection/)
-- **eligibility** ✅: U.S. citizens or permanent residents who are graduating seniors, recent graduates, or young professionals under 33 when they depart for Asia, with at least a bachelor's degree before the program start…
-  > Applicants must be U.S. citizens or permanent residents.
-  [source](https://lucescholars.org/selection/)
-- **program_status_evidence** ✅: active
-  > The 2027-2028 Luce Scholars application is now open.
-  [source](https://lucescholars.org/selection/)
-- Agent notes: The listed deadline (Sep 08, 2026) matches the sponsor's page, but it is already past as of today (2026-10-16). The sponsor's selection page and application portal describe the 2027-2028 competition closing September 8, 2026, and I found no next-cycle deadline on the sponsor's site, so I gave that most recent date. A University of Pennsylvania page lists "September 08, 2027 (Tentative)", but that is not the sponsor's page, so I did not use it. Sponsor pages I fetched do not state a dollar stipen…
-
-</details>
-
-## [964] UCLA Y&S Nazarian Center for Israel Studies Postdoctoral Fellowship
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Sep 07, 2026 | Dec 06, 2026 |
-| amount |  | Salary estimate of $71,491-$82,836 annually (sponsor calls it a reasonable salary estimate, not a stated award amount) |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.international.ucla.edu/israel/article/167091
-  > The Nazarian Center offers a two-year postdoctoral fellowship in Israel Studies.
-  [source](https://www.international.ucla.edu/israel/article/167091)
-- **deadline** ✅: 2026-12-06
-  > December 6, 2026
-  [source](https://www.international.ucla.edu/israel/article/167091)
-- **amount** ✅: Salary estimate of $71,491-$82,836 annually (sponsor calls it a reasonable salary estimate, not a stated award amount)
-  > A reasonable salary estimate for this position is $71,491-$82,836 annually, commensurate with experience.
-  [source](https://www.international.ucla.edu/israel/article/167091)
-- **eligibility** ✅: Applicants must hold a PhD conferred by the start of the fellowship, may be citizens of any country, and must not be permanently employed in full-time tenure-track positions.
-  > Applicants must have a PhD degree conferred by the start of the fellowship.
-  [source](https://www.international.ucla.edu/israel/article/167091)
-- **program_status_evidence** ✅: active
-  > 2027–29 Postdoctoral Fellowship Application Dates:
-  [source](https://www.international.ucla.edu/israel/article/167091)
-- Agent notes: The listing's deadline of Sep 07, 2026 is wrong for the due date: the sponsor's page says applications are accepted beginning Monday, September 7, 2026, and due Sunday, December 6, 2026, for the 2027–29 fellowship. I used December 6, 2026. Notification is January 15, 2027. The fellowship runs Sept 1, 2027 to Aug 31, 2029, so this is a Fall 2027 start, and the page describes two years, not a single cycle. The listing's amount field was blank; the page gives only a salary estimate, which I reporte…
-
-</details>
-
-## [1006] Arnold O. Beckman Postdoctoral Fellowship in Chemical Sciences or Chemical Instrumentation
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Sep 04, 2026 | Dec 14, 2026 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/
-  > Arnold O. Beckman Postdoctoral Fellowship
-  [source](https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/)
-- **deadline** ✅: 2026-12-14
-  > 14 Dec 2026, 8 a.m.
-  [source](https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/)
-- **amount** ✅: $224,000 over 2 years for salary, fringe benefits, and research expenditures; instrumentation fellowships receive an additional one-time payment of up to $200,000
-  > The Fellowship award provides $224,000 over 2 years for salary, fringe benefits, and research expenditures; instrumentation fellowships receive an additional one-time payment of up to $200,000 for material/development costs.
-  [source](https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/)
-- **eligibility** ✅: U.S. citizens, permanent residents, or DACA recipients who are either PhD candidates expected to finish by May 1, 2027, or holders of a chemical sciences PhD with no more than 18 months of postdoctora…
-  > U.S. Citizen or permanent resident of the United States or its possessions, or hold Deferred Action for Childhood Arrivals (DACA) recipient status; and
-  [source](https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/)
-- **program_status_evidence** ✅: active
-  > 2027 Arnold O. Beckman Postdoctoral Fellowship Application Webinar
-  [source](https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/)
-- Agent notes: The listing's deadline (Sep 04, 2026) is outdated and is the Letter of Intent deadline for the 2027 program year; the sponsor's page says "4 Sep 2026, 5 p.m." for Letters of Intent due, and that date has passed as of 2026-10-16, so a new applicant cannot currently submit an LOI. The only later date on the page is "14 Dec 2026, 8 a.m." for Full Applications Due, but per the page full proposals are submitted only by applicants the Foundation invites after LOI review, so I entered 2026-12-14 as the…
-
-</details>
-
-## [69] Society for the Humanities Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://societyhumanities.as.cornell.edu/society-fellowships
-  > Society Fellowships 2027-28
-  [source](https://societyhumanities.as.cornell.edu/society-fellowships)
+- **official_url** ❌ source page could not be read (HTTP no response): https://en.scholion.huji.ac.il/mandel-postdoctoral-fellowship
+  > More information:** [here](https://en.scholion.huji.ac.il/mandel-postdoctoral-fellowship
+  [source](https://en.scholion.huji.ac.il/mandel-postdoctoral-fellowship)
 - **deadline** ✅: 2026-09-01
-  > The deadline to apply is September 1, 2026.
-  [source](https://societyhumanities.as.cornell.edu/society-fellowships)
-- **amount** ✅: $68,000 stipend
-  > One-year residential fellowships at Cornell University with a $68,000 stipend.
-  [source](https://societyhumanities.as.cornell.edu/fellowships)
-- **eligibility** ✅: Scholars and artists (not current graduate students) who received the Ph.D. before January 1, 2026, have at least one year of teaching experience, and work on the 2027-28 theme of PLAY; international …
-  > Applicants must have received the Ph.D. degree before January 1, 2026.
-  [source](https://societyhumanities.as.cornell.edu/society-fellowships)
-- **program_status_evidence** ✅: active
-  > Society Fellowships 2027-28
-  [source](https://societyhumanities.as.cornell.edu/society-fellowships)
-- Agent notes: The listing does not match the sponsor's pages in several ways, so please review before publishing. (1) Theme: the listing says 2026-27 theme "Survival"; the sponsor pages describe the 2027-28 theme "PLAY" and no Survival theme appears. (2) Amount: the listing's "$35,661 - $64,000" range does not appear on any page. The Society Fellowship is $68,000; the Mellon Graduate Fellowship (a separate program, Cornell grad students only) states a $35,661 stipend. (3) Eligibility: the listing says graduat…
+  > September 1, 2026
+  [source](https://international.huji.ac.il/funding-opportunities/)
+- **amount** ✅: Approximately 138,000 NIS per year plus a research budget
+  > Mandel Scholars receive approximately **138,000 NIS per year** in addition to a research budget.
+  [source](https://international.huji.ac.il/funding-opportunities/)
+- **program_status_evidence** ✅: Mandel Postdoctoral Fellowships in the Humanities and Jewish Studies (2027–2030) are listed as an open call
+  > Mandel Postdoctoral Fellowshipsin the Humanities and Jewish Studies (2027–2030)
+  [source](https://international.huji.ac.il/funding-opportunities/)
+- Agent notes: The listed scholion.huji.ac.il page and the Mandel School pages returned "permission" errors when fetched, so I could not read the sponsor's own page. The deadline and funding come from the Hebrew University International funding page, which I fetched and which links to the Scholion page. That page lists the 2027–2030 call with a deadline of September 1, 2026 and says the Scholion call is for 2027–2030, not the 2026–2029 cycle in the listing. A search snippet from the Mandel School site showed t…
 
 </details>
 
-## [583] CRI Irvington Postdoctoral Fellowships
+## [268] Los Angeles Area Health Services Research Training Program
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.ahrq.gov/funding/training-grants/grants/active/t32/T32-ucla.html
+  > The primary goal of this collaboration, called the Los Angeles Area Health Services Research Training Program, is to provide comprehensive training and experience to highly-qualified pre- and postdoctoral trainees
+  [source](https://www.ahrq.gov/funding/training-grants/grants/active/t32/T32-ucla.html)
+- **eligibility** ❌ quote not found on the source page: Pre- and postdoctoral trainees (PhD students and postdoctoral researchers) in health services research, per the AHRQ page's description of the program.
+  > to provide comprehensive training and experience to highly-qualified pre- and postdoctoral trainees so that they may effectively engage in, and eventually lead, research and implementation activities
+  [source](https://www.ahrq.gov/funding/training-grants/grants/active/t32/T32-ucla.html)
+- Agent notes: The listing does not match the sponsor's page. The AHRQ page describes an institutional T32-style training program (Los Angeles Area Health Services Research Training Program, Fielding School of Public Health, UCLA) for pre- and postdoctoral trainees. It does not describe a dissertation fellowship, a Fall application cycle, or any application deadline, so the deadline and amount were left empty rather than guessed; the listed 'Aug 01, 2025' date is also already past and is not on the page. The a…
+
+</details>
+
+## [1109] VOICE Initiative
 
 | Field | On file | Proposed |
 |---|---|---|
-| deadline | Sep 01, 2026 | Mar 01, 2027 |
+| deadline | Jun 02, 2025 | Jun 09, 2026 |
+| amount |  | Up to $5,000 |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://freespeechcenter.universityofcalifornia.edu/programs-and-resources/voice-initiative/
+  > VOICE provides funding for UC students, staff and faculty
+  [source](https://freespeechcenter.universityofcalifornia.edu/programs-and-resources/voice-initiative/)
+- **deadline** ✅ (year added: the page gives this date without one): 2026-06-09
+  > Applications are due by 11:59 p.m. (PT) on Tuesday, June 9.
+  [source](https://ucnet.universityofcalifornia.edu/employee-news/apply-for-funding-to-support-open-dialogue-civic-engagement-and-free-speech/)
+- **amount** ✅: Up to $5,000
+  > Selected projects may receive awards of up to $5,000.
+  [source](https://ucnet.universityofcalifornia.edu/employee-news/apply-for-funding-to-support-open-dialogue-civic-engagement-and-free-speech/)
+- **eligibility** ✅: All current UC students, staff and faculty may apply, individually or as part of a group, team, office or department.
+  > All current UC students, staff and faculty are eligible to apply as individuals or as part of a group, team, office or department.
+  [source](https://ucnet.universityofcalifornia.edu/employee-news/apply-for-funding-to-support-open-dialogue-civic-engagement-and-free-speech/)
+- **program_status_evidence** ✅: Accepting applications for 2026-27 cycle
+  > is now accepting applications for the 2026-27
+  [source](https://ucnet.universityofcalifornia.edu/employee-news/apply-for-funding-to-support-open-dialogue-civic-engagement-and-free-speech/)
+- Agent notes: The listing is wrong on several points. (1) Its officialUrl (theopedproject.org/fellowships) is for The OpEd Project's Public Voices Fellowship, an unrelated program; that page states no deadline or award amount, so I did not use it. The actual VOICE Initiative is run by the UC National Center for Free Speech and Civic Engagement, and that is the official page I used. (2) It is a small project-funding award, not a fellowship, and it is not a summer program in the listing's sense. (3) The listing…
+
+</details>
+
+## [1096] UCLA Health Jonsson Comprehensive Cancer Center (UCLA Health JCCC)
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | May 29, 2025 | May 26, 2026 |
+
+- ⚠️ Sponsor hasn't posted a deadline after today yet
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.uclahealth.org/cancer/office-cancer-training-education/our-programs/fellowship-awards
+  > Fellowship Awards Programacademic year 2026 is now open and accepting applications
+  [source](https://www.uclahealth.org/cancer/office-cancer-training-education/our-programs/fellowship-awards)
+- **deadline** ✅: 2026-05-26
+  > Full application due: **May 26, 2026 by 6:00pm PST**
+  [source](https://www.uclahealth.org/cancer/office-cancer-training-education/our-programs/fellowship-awards)
+- **eligibility** ✅: Open to post-docs, clinical fellows, residents and graduate students working on cancer research (basic, translational, clinical or population sciences) at UCLA JCCC.
+  > from **Post-Docs,** **Clinical Fellows,** **Residents** and **Graduate Students** working on various areas of cancer research
+  [source](https://www.uclahealth.org/cancer/office-cancer-training-education/our-programs/fellowship-awards)
+- Agent notes: The listing is out of date. Its deadline (May 29, 2025, Spring) has passed, and the sponsor page now shows the 2026 cycle with a May 26, 2026 deadline, which has also passed as of 2026-10-16. The next cycle (2027) has not been posted, so I gave the most recent deadline per the instructions. The 2026 cycle was not dated by year on the page, so the year 2026 comes from the page itself. The page is internally inconsistent: one line says the deadline is Monday, May 25, 2026, while the bolded line sa…
+
+</details>
+
+## [535] Dan Bradley Fellowship
+
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://www.laaconline.org/award/dan-bradley-fellowship/
+  > canonical: https://www.laaconline.org/award/dan-bradley-fellowship/
+  [source](https://www.laaconline.org/award/dan-bradley-fellowship/)
+- **amount** ✅: Up to $12,075
+  > working at a LAAC member legal aid organization up to $12,075
+  [source](https://www.laaconline.org/award/dan-bradley-fellowship/)
+- **eligibility** ✅: Law students who will spend the summer interning at a 2026 LAAC member organization, working at a rural organization or on rural issues, or on consumer rights, and who have a strong interest in public…
+  > Law students who will spend the summer interning at a 2026 LAAC member organization
+  [source](https://www.laaconline.org/award/dan-bradley-fellowship/)
+- **program_status_evidence** ✅: Active; the 2026 cycle is closed and the sponsor says it will hold a 2027 cycle
+  > Check back early next year for information on our 2027 cycle.
+  [source](https://www.laaconline.org/award/dan-bradley-fellowship/)
+- Agent notes: The listing's deadline of Mar 31, 2025 is out of date and I could not verify any date. The sponsor page says applications for 2026 are closed and to check back early next year for the 2027 cycle, but it gives no 2027 deadline and no 2026 closing date, so I left the deadline empty rather than guess. The listing's "Winter" season is not stated on the page. The amount quote is from the page's meta description, since the body text wraps the figure in markup. Contact for questions: Reann at RPacheco@…
+
+</details>
+
+## [561] Lilly Graduate Fellows Program (LGFP)
+
+- ⚠️ Sponsor page says the program is paused
+
+<details><summary>Evidence</summary>
+
+- **official_url** ✅: https://thelillynetwork.org/graduate-fellowship
+  > GRADUATE FELLOWSHIP
+  [source](https://thelillynetwork.org/graduate-fellowship)
+- **amount** ✅: Three annual $3,000 fellowship awards
+  > Lilly Graduate Fellows will receive three annual $3,000 fellowship awards for use at the Fellows’ discretion.
+  [source](https://thelillynetwork.org/graduate-fellowship)
+- **eligibility** ✅: U.S. citizens who hold or are earning a bachelor's degree from a Lilly Network school and are accepted into a North American PhD, MFA, ThD or equivalent program in an eligible humanities, arts or theo…
+  > Nominees must be U.S. Citizens.
+  [source](https://thelillynetwork.org/graduate-fellowship)
+- **program_status_evidence** ✅: paused
+  > The Lilly Network has paused the Lilly Graduate Fellows Program selection process and currently is not recruiting Lilly Graduate Fellows.
+  [source](https://thelillynetwork.org/graduate-fellowship)
+- Agent notes: The listing's deadline of Mar 15, 2025 does not appear on the sponsor's page, and the page gives no deadline for any cycle, so the deadline is left empty. The sponsor (The Lilly Network, formerly the Lilly Fellows Program, based at Valparaiso University) says the program is paused and not recruiting, so the listing should not be presented as open. The sponsor's page states the award as three $3,000 awards, not "varies". The listing's "Christian faith focus" is not stated as an eligibility requir…
+
+</details>
+
+## [306] James Madison Fellowships
+
+| Field | On file | Proposed |
+|---|---|---|
+| deadline | Mar 08, 2025 | Mar 01, 2027 |
 
 - ✅ Current deadline confirmed on the sponsor's page
 
 <details><summary>Evidence</summary>
 
-- **official_url** ✅: https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship
-  > meta-og:url: https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship
-  [source](https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship)
-- **deadline** ✅: 2027-03-01
-  > March 1, 2027
-  [source](https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship)
-- **amount** ❌ quote does not contain this amount: $74,000-$78,000 per year (stipend of $74,000, $76,000, and $78,000 in years 1-3)
-  > stipend of $74,000, $76,000, and $78,000
-  [source](https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship)
-- **eligibility** ✅: Applicants must hold a doctoral degree by award activation, work under a sponsor with at least assistant professor rank at a non-profit host institution, have fewer than 5 years of mentored research e…
-  > Applicants who will have 5 or more years of mentored research experience at the time of award activation are not eligible
-  [source](https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship)
-- **program_status_evidence** ✅: Active (no discontinuation or pause stated)
-  > The application deadlines are March 1 and September 1 annually
-  [source](https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship)
-- Agent notes: The listing's deadline of Sep 01, 2026 has already passed as of 2026-10-16. The sponsor page lists the next submission deadline as March 1, 2027 (the page's deadlines section says March 1 and September 1 annually; the year 2027 comes from the page's listed date). Applications close 11:59 p.m. Eastern Time; weekend/holiday dates roll to the next workday. Listing says season "Summer", but the sponsor page describes March and September cycles and does not use the term "Summer". Listing eligibility …
-
-</details>
-
-## [979] Gulf Research Program Science Policy Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/application-process
-  > December 4, 2025 – February 26, 2026 4:00 PM
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/application-process)
-- **deadline** ✅: 2026-02-26
-  > December 4, 2025 – February 26, 2026 4:00 PM
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/application-process)
-- **amount** ❌ quote does not contain this amount: $63,800 or $69,300 annual stipend, depending on degree
-  > receive an annual stipend of $63,800
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/review-process)
-- **eligibility** ✅: Open to U.S. citizens who are enrolled in a doctoral program or hold an eligible master's or doctoral-level degree (MA/MS, MPH/MSPH, PhD, ScD, EngD, MD, DrPH, or DVM), in a field of research relevant …
-  > Be currently enrolled in a doctoral program or hold an eligible degree, including an MA/MS, MPH/MSPH, PhD, ScD, EngD, MD, DrPH, or DVM.
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/review-process)
-- **program_status_evidence** ✅: active
-  > We award up to 12 Science Policy Fellowships annually
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-01/review-process)
-- Agent notes: The listing's "Sep 01, 2026" is the recipient announcement / fellowship start date, not the application deadline. The 2026 application cycle closed February 26, 2026 (4:00 PM PT / 5:00 PM ET per the sponsor's review-process page). The sponsor has not posted a 2027 cycle, so per the rule for unposted cycles I gave the most recent deadline, which is already past; the page shows "Applications Closed." An aggregator (Instrumentl) lists a next deadline of 26 Feb 2027, but I did not use it because it …
-
-</details>
-
-## [463] Damon Runyon Postdoctoral Research Fellowships
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship
-  > For Scientists
-  [source](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-- **deadline** ✅: 2026-08-14
-  > Applications are due by 4:00 pm Eastern Time on August 14, 2026
-  [source](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-- **amount** ❌ quote does not contain this amount: $70,000 to $76,000 annual stipend, plus a $2,000 annual expense allowance, over a four-year term
-  > \| Year 4 \| $76,000 \| $2,000 \|
-  [source](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-- **eligibility** ✅: Applicants must hold an MD, PhD, MD/PhD, DDS, DVM, DO or equivalent, with basic scientists' degrees received no more than 18 months before the deadline; non-US citizens must conduct the research at a …
-  > one or more of the following degrees or its equivalent: MD, PhD, MD/PhD, DDS, DVM, DO.
-  [source](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-- **program_status_evidence** ✅: Current 2026 cycle posted
-  > Applications are due by 4:00 pm Eastern Time on August 14, 2026
-  [source](https://www.damonrunyon.org/for-scientists/application-guidelines/fellowship)
-- Agent notes: The deadline of 2026-08-14 is the most recent one stated on the sponsor page (4:00 pm Eastern); it has already passed as of 2026-10-16, and the page does not yet post a next-cycle date, so the listing's deadline is past and the next cycle is unconfirmed. Only one application deadline is listed; the Wetchler and Frey award deadlines (July 15, 2026) are separate programs and not applicable here. The listing's "$300,000 total" is not stated on the page; it equals the sum of the table's stipends ($2…
-
-</details>
-
-## [281] Geophysical Fluid Dynamics (GFD) Fellowships
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Aug 14, 2026 | Feb 05, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://gfd.whoi.edu/gfd-fellowships/
-  > The Geophysical Fluid Dynamics (GFD) Summer Program is an intensive eight-week research and training program hosted by the Woods Hole Oceanographic Institution.
-  [source](https://gfd.whoi.edu/gfd-fellowships/)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-02-05
-  > Completed applications will be accepted until February 5.
-  [source](https://gfd.whoi.edu/gfd-fellowships/application-materials/)
-- **eligibility** ✅: Graduate students in any field sharing a common interest in the nonlinear dynamics of rotating, stratified fluids (such as fluid dynamics, physical oceanography, meteorology, astrophysics, physics and…
-  > applicants must be graduate students in any field sharing a common interest in the nonlinear dynamics of rotating, stratified fluids
-  [source](https://gfd.whoi.edu/gfd-fellowships/application-materials/)
-- **program_status_evidence** ✅: Program is ongoing; the application page says only that the summer 2026 application is closed, and nothing says it is discontinued or paused.
-  > The application for summer 2026 is now closed.
-  [source](https://gfd.whoi.edu/gfd-fellowships/application-materials/)
-- Agent notes: The listing is wrong in several places. (1) Deadline: the sponsor's application page gives "February 5" with no year and says the summer 2026 application is closed; the listing's "Aug 14, 2026" appears nowhere on the sponsor's pages. I added the year 2027 as the next February 5 after today, following the yearly-date rule; the 2027 cycle has not been posted, so this is inferred. The most recent stated cycle closed February 5, 2026. (2) Season: the listing says "Winter", but the program is an eigh…
-
-</details>
-
-## [25] Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Aug 08, 2026 | Dec 08, 2026 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ❌ quote too short to check: https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html
-  > PA-25-423
-  [source](https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html)
-- **deadline** ✅: 2026-12-08
-  > December 08, 2026
-  [source](https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html)
-- **amount** ❌ quote does not contain this amount: Up to three years of support for postdoctoral research training; the stipend is set annually by NIH and no dollar figure appears on this page
-  > The Kirschstein-NRSA F32 award may provide up to three years of support for postdoctoral research training.
-  [source](https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html)
-- **eligibility** ✅: Open to candidates who are U.S. citizens, non-citizen nationals, or lawful permanent residents and who hold a doctoral degree (PhD, MD, or equivalent) and will work with a sponsor at an eligible insti…
-  > must be a citizen or a non-citizen national of the United States
-  [source](https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html)
-- **program_status_evidence** ✅: Active NOFO with an expiration date of May 08, 2028
-  > May 08, 2028
-  [source](https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html)
-- Agent notes: The listed deadline of Aug 08, 2026 has already passed as of 2026-10-16. The NOFO's due-date table lists the next standard NIH due date after today as December 08, 2026 (marked with an asterisk for NIH standard due dates); this is the value given. The next cycle after that is April 08, 2027, and the table also lists August 08, 2027. The listing's $56,000 starting stipend is not on this page; the page says stipend levels are announced annually and posted at researchtraining.nih.gov, so I left the…
-
-</details>
-
-## [1106] Edward Guiliano Global Fellowships
-
-
-<details><summary>Evidence</summary>
-
-- Agent notes: I could not verify this listing against the sponsor's page. Both fetch attempts on https://www.mla.org/Resources/Career/MLA-Grants-and-Awards/Edward-Guiliano-Global-Fellowships (and the mla.org variant without www) returned "You don't have permission to access this domain," so no sponsor-page quote is available and all fields are left empty. Search results (not used as sources) show the mla.org program page exists and reference a 2026 cycle with a deadline of 9 July 2026 for projects between Oct…
-
-</details>
-
-## [669] Stanford Molecular Imaging Scholars (SMIS) Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://med.stanford.edu/smisprogram.html
-  > Stanford Molecular Imaging Scholars (SMIS) Program Program Director: Craig S. Levin, Ph.D.
-  [source](https://med.stanford.edu/smisprogram.html)
-- **deadline** ✅: 2026-07-01
-  > July 1, 2026
-  [source](https://med.stanford.edu/smisprogram.html)
-- **eligibility** ✅: Postdoctoral applicants who already hold a PhD and/or MD from a nationally accredited university and are U.S. citizens or permanent residents (exceptional non-U.S.-university applicants may also be co…
-  > Applicants must be either a U.S. citizen or permanent resident to apply.
-  [source](https://med.stanford.edu/smisprogram/about/qualifications.html)
-- **program_status_evidence** ✅: active
-  > To apply for an SMIS fellowship, please [CLICK HERE.]
-  [source](https://med.stanford.edu/smisprogram/apply.html)
-- Agent notes: The listed deadline of July 1, 2026 is correct per the sponsor's main page, but it has already passed (today is 2026-10-16). The sponsor has not posted a later cycle, so I gave the most recent deadline as instructed; the listing should be treated as expired until a new date is published. The listing's amount ("full tuition and health insurance") does not appear on the sponsor pages I read; the qualifications page says only that funding covers a postdoctoral stipend, supplies, and travel for up t…
-
-</details>
-
-## [730] Glenn/AFAR (American Federation for Aging Research) Postdoctoral Fellowship Program for Translational Research on Aging
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.afar.org/grants/glenn-postdoc
-  > Glenn Foundation for Medical Research Postdoctoral Fellowships in Aging Research
-  [source](https://www.afar.org/grants/glenn-postdoc)
-- **deadline** ✅: 2026-01-27
-  > LOI deadline: January 27, 2026
-  [source](https://www.afar.org/grants/glenn-postdoc)
-- **amount** ✅: $80,000 for one year
-  > The grant is $80,000, of which a minimum of $62,652
-  [source](https://www.afar.org/grants/glenn-postdoc)
-- **eligibility** ✅: Postdoctoral fellows with an MD, MD/PhD or PhD at any training level may apply, provided the research is done at a US not-for-profit setting; NIH Intramural employees and fellows in labs supported by …
-  > Postdoctoral fellows at all levels of training are eligible.
-  [source](https://www.afar.org/grants/glenn-postdoc)
-- **program_status_evidence** ✅: Program is described as awarding fellowships in 2026
-  > Up to twelve one-year fellowships of $80,000 will be awarded in 2026.
-  [source](https://www.afar.org/grants/glenn-postdoc)
-- Agent notes: The listing's deadline of Jul 01, 2026 is incorrect: the sponsor page lists July 1, 2026 as the award start date, not an application deadline. The page's timeline is for the 2026 cycle and no 2027 cycle is posted, so the most recent stated deadline is the Letter of Intent deadline, which is the first step for applicants (and has passed as of 2026-10-16). Other dates on the page: full application deadline "Late June 2026" (no exact day given), results mid-May 2026, awards late July 2026. The amou…
-
-</details>
-
-## [921] Helen Hay Whitney Foundation Postdoctoral Research Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://hhwf.org/research-fellowship/
-  > The Helen Hay Whitney Foundation supports early postdoctoral research training in all basic biomedical sciences.
-  [source](https://hhwf.org/research-fellowship/)
-- **deadline** ✅: 2026-06-15
-  > no later than 5:00pm EST, June 15, 2026
-  [source](https://hhwf.org/research-fellowship/)
-- **eligibility** ✅: Applicants must have a PhD (or equivalent) no more than two years before the deadline, or an MD (or MD-PhD) no more than four years before it, and no more than one year in their postdoctoral laborator…
-  > they have received a Ph.D. (or D.Phil. or equivalent) degree no more than two years before the application deadline
-  [source](https://hhwf.org/research-fellowship/)
-- **program_status_evidence** ✅: active
-  > You may activate your fellowship anytime from April 1, through September 1, 2027.
-  [source](https://hhwf.org/research-fellowship/)
-- Agent notes: The deadline on file (Jun 15, 2026) is the most recent one the sponsor states, and it has already passed as of 2026-10-16. The sponsor's Important Dates page lists no 2027 application deadline yet; it shows the 2026 cycle's notification and SAC dates (November 13, 2026 meeting) and an April 1, 2027 earliest start, so the next cycle's deadline is unposted. The listing's amount of "$229,500 over 3 years" does not appear on the sponsor's pages, so I left the amount empty. The page instead gives a y…
-
-</details>
-
-## [364] Congressional Fellowships on Women and Public Policy
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Jun 13, 2026 | Jul 10, 2026 |
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.wcpinst.org/our-work/congressional-fellows/
-  > The Women’s Congressional Policy Institute has been the home of the Congressional Fellowships on Women and Public Policy (formerly the WREI Fellowships) since 2014.
-  [source](https://www.wcpinst.org/our-work/congressional-fellows/)
-- **deadline** ✅: 2026-07-10
-  > Friday, July 10, 2026, via our online application portal
-  [source](https://www.wcpinst.org/our-work/congressional-fellows/application-and-faq/)
-- **amount** ❌ quote does not contain this amount: Stipend of approximately $4,400 gross per month for seven months (January-July), plus $1,000 for health insurance
-  > Fellows will receive a stipend of approximately $4,400 gross per month for seven months (January-July).
-  [source](https://www.wcpinst.org/our-work/congressional-fellows/application-and-faq/)
-- **eligibility** ✅: Students currently enrolled in a graduate program, or who finished one within two years of the fellowship start date, who have completed at least nine graduate coursework hours, are interested in wome…
-  > Applicants must have completed at least nine hours of graduate coursework before applying
-  [source](https://www.wcpinst.org/our-work/congressional-fellows/application-and-faq/)
-- **program_status_evidence** ✅: active
-  > The application period for the 2027 WCPI Congressional Fellowships is closed.
-  [source](https://www.wcpinst.org/our-work/congressional-fellows/application-and-faq/)
-- Agent notes: The sponsor is now the Women's Congressional Policy Institute (WCPI), formerly WREI; the listing's "Women's Policy, Inc." name is not on the pages I fetched, so I used WCPI's name. The 2027 cycle has closed and the page does not yet post a 2028 deadline, so I gave the most recent stated deadline (July 10, 2026), which is past as of today. Deadline is stated with year, so no year was added. The listing's "9+ graduate hours preferred" is wrong: the sponsor requires at least nine hours before apply…
-
-</details>
-
-## [278] CISAC Fellowships
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Jun 08, 2026 | Dec 02, 2026 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://cisac.fsi.stanford.edu/cisac-fellowships
-  > CISAC Fellowships
-  [source](https://cisac.fsi.stanford.edu/cisac-fellowships)
-- **deadline** ✅: 2026-12-02
-  > The application will close December 2, 2026.
-  [source](https://cisac.fsi.stanford.edu/cisac-fellowships)
-- **eligibility** ✅: Open to people currently enrolled in a PhD program (pre-docs are rarely accepted unless in their final year), plus postdocs, junior faculty and professionals; U.S. citizenship is not required.
-  > The fellowship is open to anyone who is currently enrolled in a Ph.D.* program
-  [source](https://cisac.fsi.stanford.edu/content/frequently-asked-questions-4)
-- **program_status_evidence** ✅: active
-  > The Fellowship application for the 2027-2028 academic year is now open.
-  [source](https://cisac.fsi.stanford.edu/cisac-fellowships)
-- Agent notes: The listing's June 8, 2026 deadline is out of date. The sponsor page shows the 2027-2028 cycle open, closing December 2, 2026, which is the deadline reported here (the year was stated on the page, not added). The sponsor page gives no fixed stipend figure: the FAQ says predoctoral stipends are "comparable to that awarded by the Stanford Graduate Fellowships program" and postdoc and professional stipends are "commensurate with experience", and fellowships run nine to twelve months. So the amount …
-
-</details>
-
-## [978] Gulf Research Program Early-Career Research Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.nationalacademies.org/programs/GULF-GULFEO-14-03
-  > The Gulf Research Program’s Early-Career Research Fellowship supports emerging scientific leaders
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-03)
-- **deadline** ✅: 2026-06-02
-  > June 2, 2026, 5:00 pm ET: Application deadline
-  [source](https://www.nationalacademies.org/programs/GULF-BGEE-25-P-688/application-process)
-- **amount** ❌ quote does not contain this amount: $76,000 (two-year grant paid to the fellow's institution; $75,000 research funds plus $1,000 mentor honorarium)
-  > An award of $76,000 is paid to each fellow’s institution in the form of a two-year grant.
-  [source](https://www.nationalacademies.org/programs/GULF-BGEE-25-P-688/application-process)
-- **eligibility** ✅: Early-career scientists who received an eligible doctoral or medical degree within the past 10 years and hold a permanent, fully independent position (not a postdoc), and are not currently U.S. federa…
-  > Hold a permanent, fully independent position as an investigator, faculty member, clinician scientist, or scientific team lead
-  [source](https://www.nationalacademies.org/programs/GULF-BGEE-25-P-688/application-process)
-- **program_status_evidence** ✅: Active; the program announced new fellows on Oct 5, 2026 and runs cycles by track
-  > Track offerings may vary by year.
-  [source](https://www.nationalacademies.org/programs/GULF-GULFEO-14-03)
-- Agent notes: The listing's Jun 02, 2026 deadline is the Environment Track deadline (applications open April 14 – June 2, 2026), and it has passed as of 2026-10-16. The umbrella page does not state a 2027 deadline, so I gave the most recent stated deadline per the rule for unposted cycles. Other 2026 track deadlines on sponsor pages: Community Track March 25, 2026 (5:00 PM ET) and Energy Track May 5, 2026 (5:00 PM ET), both also past. The Education Research Track is not offered for 2026; a sponsor track page …
-
-</details>
-
-## [1116] APA Outstanding Student Awards
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.planning.org/students/awards/outstandingstudents/
-  > The Outstanding Student Awards recognized outstanding achievement in the study of planning
-  [source](https://www.planning.org/students/awards/outstandingstudents/)
-- **deadline** ✅: 2026-06-01
-  > Spring window: May 1 – June 1, 2026, until 11:59 p.m. CT.
-  [source](https://www.planning.org/students/awards/outstandingstudents/)
-- **eligibility** ✅: Students graduating from a Planning Accreditation Board (PAB)-accredited planning program, at the undergraduate or graduate level, during the academic year of the award.
-  > students graduating from Planning Accreditation Board (PAB)--accredited planning programs
-  [source](https://www.planning.org/students/awards/outstandingstudents/)
-- **program_status_evidence** ✅: Every year, APA honors outstanding student projects
-  > Every year, APA honors outstanding student projects via the following awards program.
-  [source](https://www.planning.org/students/awards/)
-- Agent notes: The listing's link (planning.org/students/awards/) is the general student awards hub; the Outstanding Student Awards have their own page, which I used as official_url. The deadline is taken from the 2025–2026 cycle: the page lists a Fall window of Nov 17–Dec 19, 2025 and a Spring window of May 1–June 1, 2026. Both have passed, and no 2026–2027 dates are posted yet, so 2026-06-01 is the most recent deadline. The listing's season "Fall" does not match the page, where the deadline is in the spring …
-
-</details>
-
-## [378] Scholarships for Graduate Students
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | May 31, 2026 | May 31, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.indian-affairs.org/nativescholarship.html
-  > Oldest Native American Scholarship Program in the U.S.
-  [source](https://www.indian-affairs.org/nativescholarship.html)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-05-31
-  > The application period is February 1 through May 31 each year.
-  [source](https://www.indian-affairs.org/scholarshipfaq.html)
-- **amount** ✅: $1,000 per semester, provided twice per year until graduation
-  > The Association's scholarships are $1,000 provided to students twice per year until they graduate
-  [source](https://www.indian-affairs.org/nativescholarship.html)
-- **eligibility** ✅: Graduate and undergraduate students who are citizens of a federally or non-federally recognized Native Nation (continental US or Alaska), enrolled full-time with at least a 2.5 GPA at an accredited in…
-  > Be enrolled with your respective Native Nation, either federally recognized or non-federally recognized Native Nation, from the continental US or Alaska.
-  [source](https://www.indian-affairs.org/nativescholarship.html)
-- **program_status_evidence** ✅: Applications open in early 2027 for the Fall 2027 and Spring 2028 semesters
-  > Applications will open in early 2027 for the Fall 2027 and Spring 2028 semesters.
-  [source](https://www.indian-affairs.org/nativescholarship.html)
-- Agent notes: The listing's deadline of May 31, 2026 has passed. The sponsor's FAQ gives the application window as February 1 through May 31 each year, so I added the year and set the next closing date to 2027-05-31. The main page says the period is closed and applications open in early 2027, which matches. The listing's "$76,000 total scholarships available annually" does not appear on either sponsor page; the sponsor states $1,000 per student per semester instead, so I used that. The listing's "Spring" seas…
-
-</details>
-
-## [366] David C. Lizarraga Fellowship
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://telacu.com/telacu-education-foundation/graduate-school-support/david-c-lizarraga-fellowship/
-  > Through The David C. Lizárraga Fellowship, TELACU recognizes graduate students who demonstrate the potential and commitment
-  [source](https://telacu.com/telacu-education-foundation/graduate-school-support/david-c-lizarraga-fellowship/)
-- **eligibility** ✅: Graduate students who are first-generation college students, pursuing an advanced degree (priority to Business or Engineering), enrolled full-time, and permanent residents of CA, IL, NY, or TX with fi…
-  > Be a permanent resident within CA, IL, NY, or TX
-  [source](https://telacu.com/telacu-education-foundation/graduate-school-support/david-c-lizarraga-fellowship/eligibility-requirements/)
-- **program_status_evidence** ✅: Active-looking but not stated
-  > Apply to the David C. Lizárraga Fellowship, *Sponsored by Toyota*, by clicking the application link below.
-  [source](https://telacu.com/telacu-education-foundation/graduate-school-support/david-c-lizarraga-fellowship/apply/)
-- Agent notes: The listed deadline "May 31, 2026" does not appear on any sponsor page I fetched (main fellowship page, Apply page, Eligibility Requirements page), and it is already past as of 2026-10-16, so I left the deadline empty. The Apply page links only to a Google Form with no closing date, and no "Winter" cycle is mentioned. The sponsor gives no award amount, so the amount is empty; the listing's "Varies; financial support + mentorship" is not confirmed. Eligibility differs from the listing: the sponso…
-
-</details>
-
-## [349] NBI Law Student Fellowship Program
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://members.nationalbar.org/NBAR/NBAR/content/national_bar_institute.aspx
-  > The NBI awards its Law Student Fellowship to academically promising second-year law students
-  [source](https://members.nationalbar.org/NBAR/NBAR/content/national_bar_institute.aspx)
-- **amount** ✅: $1,000 to $10,000
-  > The fellowships range from $1,000 to $10,000.
-  [source](https://members.nationalbar.org/NBAR/NBAR/content/national_bar_institute.aspx)
-- **eligibility** ✅: Second-year law students with a commitment to social justice who intend to practice in a historically under-served community (citizenship and full-time status are not stated on the fetched page).
-  > The NBI awards its Law Student Fellowship to academically promising second-year law students
-  [source](https://members.nationalbar.org/NBAR/NBAR/content/national_bar_institute.aspx)
-- Agent notes: The listing's officialUrl (nationalbarinstitute.org/programs/) does not describe a "Law Student Fellowship"; it lists the "NBI Law Scholars Program" for rising second-year law students, with no deadline or amount, so I did not use it as the source. The fellowship details I could verify are on the NBA-hosted NBI page above, which I fetched. That fetched page gives the $1,000 to $10,000 range and the second-year eligibility but no application deadline, so I left the deadline empty. A search snippe…
-
-</details>
-
-## [732] Graduate Research Program on Public-Sector Aviation Issues
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | May 15, 2026 | May 15, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ❌ quote not found on the source page: https://www.trb.org/ACRP/GraduateResearchAwards.aspx
-  > The National Academies of Sciences, Engineering, and Medicine, acting through its Transportation Research Board (TRB), administers this program on behalf of the Federal Aviation Administration (FAA).
-  [source](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
-- **deadline** ✅: 2027-05-15
-  > May 15, 2027
-  [source](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
-- **amount** ✅: $12,000 stipend
-  > Awardees receive a $12,000 stipend
-  [source](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
-- **eligibility** ✅: Graduate students doing applied research on airport and related aviation system issues; the fetched TRB page does not spell out full-time enrollment or U.S.-institution rules.
-  > The focus of this graduate student research program is on applied research on airport and related aviation system issues
-  [source](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
-- **program_status_evidence** ✅: Active; the TRB page lists a deadline for the next cycle (May 15, 2027)
-  > Electronic submission deadline.
-  [source](https://www.trb.org/ACRP/GraduateResearchAwards.aspx)
-- Agent notes: The listing's deadline of May 15, 2026 has passed. The TRB program page (which says TRB administers the program on behalf of the FAA) lists the next electronic submission deadline as May 15, 2027, so I used that; the year was taken from the page, not added by me. The listed URL, acrpacademic.org (the submission portal), could not be fetched (access denied), so I could not verify its content directly. That portal's text, as seen in search results, says the GRA is currently closed and the next dea…
-
-</details>
-
-## [637] World Wide Studies Grant
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | May 15, 2026 | May 15, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.worldwidestudies.org/en
-  > WorldWideStudies is an education programme of the Victor Pinchuk Foundation aimed at fostering a new generation of Ukrainian professional elite.
-  [source](https://www.worldwidestudies.org/en)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-05-15
-  > Grant application should be submitted within a term from February 1 till May 15 each year.
-  [source](https://www.worldwidestudies.org/en/regulations)
-- **amount** ✅: Up to USD 50,000 (grant covers up to 60% of total cost of education)
-  > Grant of the program will cover up to 60% of the total cost of education (but not more than USD 50,000 or equivalent)
-  [source](https://www.worldwidestudies.org/en/about)
-- **eligibility** ✅: Ukrainian citizens under 35 at university enrollment, holding a bachelor's or higher degree, admitted to a Master's programme at a top-200 university (THE or QS) in a priority field, and committed to …
-  > Be citizen of Ukraine under the age of 35 at the moment of enrollment to a foreign;
-  [source](https://www.worldwidestudies.org/en/regulations)
-- **program_status_evidence** ✅: Annual competition open
-  > Grant application should be submitted within a term from February 1 till May 15 each year.
-  [source](https://www.worldwidestudies.org/en/regulations)
-- Agent notes: The listing's May 15, 2026 deadline has passed. The sponsor's Regulations page (section 8.1) sets applications from February 1 to May 15 each year, with no year stated; I added the year 2027 to give the next cycle that closes after today (2026-10-16). The sponsor has not posted a 2027 cycle yet, so confirm the date when it is published. The listing's season "Spring" is consistent with the application window. Eligibility is stated at enrollment: the candidate must begin the Master's in the fall o…
-
-</details>
-
-## [370] Mexican American Legal Defense and Educational Fund (MALDEF) Law School Scholarship Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.maldef.org/resources/scholarship-resources/
-  > MALDEF’s Law School Scholarship Program is open to all law students currently enrolled full time at an accredited United States law school.
-  [source](https://www.maldef.org/resources/scholarship-resources/)
-- **deadline** ✅: 2026-05-15
-  > The deadline to apply is May 15, 2026.
-  [source](https://www.maldef.org/2026/04/maldef-announces-2025-2026-law-school-scholarship-recipients-and-releases-2026-2027-scholarship-application/)
-- **amount** ✅: $2,000 to $10,000 each
-  > In recent years MALDEF has awarded five to 15 scholarships of $2,000 to $10,000 each to deserving law students from throughout the nation.
-  [source](https://www.maldef.org/resources/scholarship-resources/)
-- **eligibility** ✅: Law students who are enrolled full time at an accredited U.S. law school may apply, and applicants are judged partly on their commitment to advancing Latino civil rights.
-  > MALDEF’s Law School Scholarship Program is open to all law students currently enrolled full time at an accredited United States law school.
-  [source](https://www.maldef.org/resources/scholarship-resources/)
-- **program_status_evidence** ✅: Applications for the 2026-2027 program
-  > Applications for MALDEF’s 2026-2027 MALDEF Law School Scholarship Program are available for download at our website
-  [source](https://www.maldef.org/2026/04/maldef-announces-2025-2026-law-school-scholarship-recipients-and-releases-2026-2027-scholarship-application/)
-- Agent notes: The listed deadline (May 15, 2026) is past as of 2026-10-16. The sponsor's scholarship page does not state a deadline for the 2027-2028 cycle, so the value given is the most recent sponsor-stated deadline, from MALDEF's April 3, 2026 press release for the 2026-2027 application. The scholarship page itself, which I fetched, states no deadline; the deadline quote comes from the press release on maldef.org. Aggregators disagree and were not used: Unigo lists July 31, 2026, CollegeScholarships lists…
-
-</details>
-
-## [1101] Pivot Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.simonsfoundation.org/grant/pivot-fellowship/
-  > # Pivot Fellowship – 2026 Request for Applications
-  [source](https://www.simonsfoundation.org/grant/pivot-fellowship/)
-- **deadline** ✅: 2026-05-14
-  > The deadline to apply is 12:00 p.m. Eastern Time (ET), May 14, 2026.
-  [source](https://www.simonsfoundation.org/grant/pivot-fellowship/)
-- **amount** ✅: One year of salary support for the fellow's academic-year salary, plus a $10,000 research, travel and professional development allowance
-  > a $10,000 research, travel and professional development allowance during the fellowship training year
-  [source](https://www.simonsfoundation.org/grant/pivot-fellowship/)
-- **eligibility** ✅: Faculty-level researchers holding a PhD, MD or equivalent in a listed natural science, engineering, mathematics, data science or computer science field, who will move into a new discipline and whose i…
-  > be faculty at an academic institution or hold an equivalent position
-  [source](https://www.simonsfoundation.org/grant/pivot-fellowship/)
-- Agent notes: The listed link resolves to the 2026 Request for Applications, which states a deadline of May 14, 2026, 12:00 p.m. ET. That date has passed (today is 2026-10-16), so the listing's deadline is stale. I found no 2027 Pivot Fellowship cycle or deadline on the sponsor's site or in my search; the Simons Foundation's current 2027 openings I found are for other programs (Fellows-to-Faculty, Simons Graduate Fellowships in Ecology and Evolution, Simons Society of Fellows), so I left the past deadline as …
-
-</details>
-
-## [441] New Century Scholars Doctoral Scholarship
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.ashfoundation.org/apply/new-century-scholars-doctoral-scholarship/
-  > # New Century Scholars Doctoral Scholarship
-  [source](https://www.ashfoundation.org/apply/new-century-scholars-doctoral-scholarship/)
-- **amount** ✅: $10,000 per scholarship, up to 15 scholarships for 2026
-  > For 2026, the ASHFoundation will award up to 15 scholarships of $10,000 each.
-  [source](https://www.ashfoundation.org/apply/new-century-scholars-doctoral-scholarship/)
-- **eligibility** ✅: Students accepted to or enrolled in a research doctoral (PhD or equivalent) program in communication sciences and disorders, who are NSSLHA or ASHA members at application and committed to a teacher-in…
-  > Students must be accepted to, or currently enrolled in, a research doctoral program (PhD or equivalent) in communication sciences and disorders.
-  [source](https://www.ashfoundation.org/apply/new-century-scholars-doctoral-scholarship/)
-- **program_status_evidence** ✅: active
-  > Next program will be offered in 2027
-  [source](https://www.ashfoundation.org/apply/)
-- Agent notes: The listed deadline of May 13, 2026 does not appear on the sponsor's pages, so I left the deadline empty rather than use it. The program page header says "Deadline: Next program opens in 2027" and the Apply page lists the same 2027 wording, with no calendar date. The program page also refers to a "November 2026 funding cycle" and says winners are announced in November, but it gives no application close date for that cycle. The listing's May 13, 2026 date is therefore unverified and has passed as…
-
-</details>
-
-## [1099] Diana Jacobs Kalman/AFAR Scholarships for Research in the Biology of Aging
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.afar.org/grants/afar-scholarships
-  > Diana Jacobs Kalman/AFAR Graduate Student Awards in Geroscience
-  [source](https://www.afar.org/grants/afar-scholarships)
-- **deadline** ✅ (year added: the page gives this date without one): 2026-05-08
-  > Friday, May 8 at 5:00 p.m. Eastern Time
-  [source](https://www.afar.org/grants/afar-scholarships)
-- **amount** ✅: $5,000 award
-  > Each award is $5,000 and should be used towards research and/or academic advancement
-  [source](https://www.afar.org/grants/afar-scholarships)
-- **eligibility** ✅: Graduate students who have completed at least two years of an MD, DO, PhD, or combined-degree program in the US, working in a geroscience or aging-biology lab at a not-for-profit US institution, and n…
-  > Have completed at least two years of an MD, DO, PhD, or combined degree program by October 1, 2026.
-  [source](https://www.afar.org/grants/afar-scholarships)
-- **program_status_evidence** ✅: Active for the 2026 cycle
-  > Up to ten awards will be awarded in 2026.
-  [source](https://www.afar.org/grants/afar-scholarships)
-- Agent notes: The listing's deadline of May 8, 2026 is the 2026 cycle's nomination deadline and has already passed as of 2026-10-16. The page does not yet post a 2027 deadline, so I kept the most recent date rather than guessing. Nominees are notified by late July 2026. Applications are nominations: the student's mentor or senior professional submits them, via an online form, and only one nomination is allowed per mentor/lab. The page also says the program changed in 2026 (nominations are now reviewed on lead…
-
-</details>
-
-## [705] GMiS STEM Scholarship Program (formerly HENAAC Scholars Program)
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://greatmindsinstem.org/gmis-scholarship-application/gmis-scholarships/
-  > 2026 – 2027 GMiS Scholarship Programs
-  [source](https://greatmindsinstem.org/gmis-scholarship-application/gmis-scholarships/)
-- **deadline** ✅: 2026-05-08
-  > The online application closes at 11:59 PM PST, on May 8th, 2026.
-  [source](https://greatmindsinstem.org/gmis-faq/)
-- **amount** ❌ quote does not contain this amount: $500 to $5,000 (merit-based); $500 to $1,000 (non-merit-based)
-  > A merit-based scholarship ranging in amounts from $500 to $5,000
-  [source](https://greatmindsinstem.org/gmis-scholarship-application/gmis-scholarships/gmis-scholarship-guidelines/)
-- **eligibility** ✅: Undergraduate or graduate students enrolled in a STEM or health-related degree program at an accredited 2-year or 4-year college or university in the U.S. or its territories, with a 3.0 GPA for merit …
-  > Applicants must be enrolled in a STEM or health-related undergraduate or graduate program
-  [source](https://greatmindsinstem.org/gmis-scholarship-application/gmis-scholarships/gmis-scholarship-guidelines/)
-- **program_status_evidence** ✅: Active for the 2026–2027 cycle; applications opened March 9, 2026
-  > Applications for STEM scholarships open Monday, March 9th, 2026
-  [source](https://greatmindsinstem.org/gmis-scholarship-application/gmis-scholarships/)
-- Agent notes: The listing's deadline (May 08, 2026) is already past as of 2026-10-16. The sponsor's FAQ and guidelines pages both give May 8th, 2026 as the close (11:59 PM PST), and I found no sponsor-page date for a 2027 cycle, so I kept the most recent sponsor-stated deadline. A Scholarships.com page lists May 8, 2027, but that is an aggregator and not confirmed by the sponsor, so I did not use it. The listing's "$500-$10,000" is not supported by the sponsor: its pages say $500–$5,000 merit-based and $500–$…
-
-</details>
-
-## [891] Graduate Certificate in Early Modern Studies
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ❌ quote not found on the source page: https://1718.ucla.edu/research/ucla-graduate/graduate-certificate/
-  > canonical: https://1718.ucla.edu/research/ucla-graduate/graduate-certificate/
-  [source](https://1718.ucla.edu/research/ucla-graduate/graduate-certificate/)
-- **deadline** ✅: 2026-05-06
-  > The next application deadline is May 6, 2026.
-  [source](https://www.1718.ucla.edu/research/ucla-graduate/graduate-certificate/)
-- **amount** ❌ quote does not contain this amount: $6,000 summer mentorship award (competitive; for completing the 25-page paper requirement, not a certificate scholarship)
-  > in the form of a $6,000 award to participating Certificate program students
-  [source](https://www.1718.ucla.edu/research/ucla-graduate/graduate-certificate/)
-- **eligibility** ✅: Incoming and current UCLA students pursuing an M.A. or Ph.D. may apply; admission is competitive and the program is interdisciplinary.
-  > All incoming and current UCLA graduate students who are pursuing an M.A. or Ph.D. are eligible to apply
-  [source](https://www.1718.ucla.edu/research/ucla-graduate/graduate-certificate/)
-- **program_status_evidence** ✅: Applications are reviewed once a year and the certificate is administered by the Center
-  > This interdisciplinary certificate is administered by the UCLA Center for 17th- & 18th-Century Studies.
-  [source](https://www.1718.ucla.edu/research/ucla-graduate/graduate-certificate/)
-- Agent notes: The deadline of 2026-05-06 is already past (today is 2026-10-16). The sponsor page has not posted a 2026-27 cycle, so I gave the most recent stated deadline per the rule; the page's own text is "The next application deadline is May 6, 2026." The page is marked as modified 2026-04-20, and it links a 2026-27 summer mentorship guideline PDF, so a new cycle may be announced later; check the page before applying. The listing's amount field was empty; the only dollar figure on the page is the $6,000 s…
-
-</details>
-
-## [813] Hiroshi Wagatsuma Memorial Fellowship
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | May 01, 2026 | Apr 30, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.international.ucla.edu/apc/article/63814
-  > Hiroshi Wagatsuma Memorial Fellowships
-  [source](https://www.international.ucla.edu/apc/article/63814)
-- **deadline** ✅: 2027-04-30
-  > Application deadline: April 30, 2027
-  [source](https://www.international.ucla.edu/apc/article/63814)
-- **amount** ✅: Up to $7,000 (graduate fellowship)
-  > Awards of up to $7000 will be made to students
-  [source](https://www.international.ucla.edu/apc/article/63814)
-- **eligibility** ✅: Current UCLA graduate students in good standing with a minimum 3.0 GPA, working on a dissertation or comparable project with a substantial cross-cultural or comparative dimension (preferably concernin…
-  > Graduate student applicants must be current UCLA students in good standing with a minimum GPA of 3.0.
-  [source](https://www.international.ucla.edu/apc/article/63814)
-- **program_status_evidence** ✅: active
-  > Notification of results: May 31, 2027
-  [source](https://www.international.ucla.edu/apc/article/63814)
-- Agent notes: The listing's details were out of date. The listed URL (apc/article/252107) is a 2021-2022 "Fellowship Recipients" announcement, not a program page, so I replaced it with the program page at apc/article/63814. That page (published August 19, 2026) lists the application deadline as April 30, 2027, which is the next cycle after today; the listed May 1, 2026 deadline has passed. The sponsor page gives the year, so no year was added by me. The page covers both the graduate fellowship (up to $7,000) …
-
-</details>
-
-## [367] New Investigators Research Grant
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.ashfoundation.org/apply/new-investigators-research-grant/
-  > The American Speech-Language-Hearing Foundation (ASHFoundation) invites new researchers to submit proposals in competition for up to 10 research grants of $10,000 each.
-  [source](https://www.ashfoundation.org/apply/new-investigators-research-grant/)
-- **amount** ✅: $10,000 per grant (up to 10 grants)
-  > invites new researchers to submit proposals in competition for up to 10 research grants of $10,000 each.
-  [source](https://www.ashfoundation.org/apply/new-investigators-research-grant/)
-- **eligibility** ✅: Researchers who completed a PhD or equivalent research doctorate in communication sciences and disorders within the past five years, are not currently enrolled in a degree program, and have not yet re…
-  > The investigator must have completed a PhD or equivalent research doctorate in communication sciences and disorders within the past five years (since 2021).
-  [source](https://www.ashfoundation.org/apply/new-investigators-research-grant/)
-- **program_status_evidence** ✅: Next program opens in 2027
-  > Deadline: Next program opens in 2027
-  [source](https://www.ashfoundation.org/apply/new-investigators-research-grant/)
-- Agent notes: The listing's deadline of Apr 22, 2026 does not appear on the sponsor's page, so I left the deadline empty. The page header says "Deadline: Next program opens in 2027" and the apply index says the same ("Next program will be offered in 2027"). The only 2026 date on the page is an Intent to Submit Form due March 4 (2026), which is already past, and the page sets a required IRB determination date of August 31, 2026 for the 2026 competition. The listing's "Spring" season is not stated on the page. …
-
-</details>
-
-## [439] National Endowment for the Humanities NEH Fellowships
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Apr 22, 2026 | Apr 14, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.neh.gov/grants/research/fellowships
-  > NEH Fellowships are competitive awards granted to individual scholars
-  [source](https://www.neh.gov/grants/research/fellowships)
-- **deadline** ✅: 2027-04-14
-  > April 14, 2027
-  [source](https://www.neh.gov/grants/research/fellowships)
-- **amount** ✅: $60,000 ($5,000 per month), for a period of six to twelve months
-  > $60,000 ($5,000 per month)
-  [source](https://www.neh.gov/grants/research/fellowships)
-- **eligibility** ✅: Individual scholars (independent and junior scholars are encouraged) whose projects fall within American history and culture or Western civilization, as the page's current topic restriction states.
-  > The 2026 Fellowships competition will only accept projects for research in American history and culture and Western civilization.
-  [source](https://www.neh.gov/grants/research/fellowships)
-- **program_status_evidence** ✅: Active; the page lists a next cycle with a deadline of April 14, 2027
-  > Updated guidelines will be posted in advance of the next deadline.
-  [source](https://www.neh.gov/grants/research/fellowships)
-- Agent notes: The listing's deadline of Apr 22, 2026 has passed. The NEH page says "The deadline for this cycle has passed" and gives the next deadline as April 14, 2027 (expected notification January 31, 2028; application available January 15, 2027). The listing's amount and topic eligibility match the page's 2026 rules, but the page notes that the 2026 competition restricted topics to American history/culture and Western civilization, and the 2027 guidelines are not yet posted, so the topic restriction may …
-
-</details>
-
-## [262] White House Fellowship Program
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://whff.org/the-program/
-  > the White House Fellows program is one of America’s most prestigious programs for leadership and public service
-  [source](https://whff.org/the-program/)
-- **amount** ✅: GS-14 Step 3 federal salary (historically paid at this rate, per the sponsor's FAQ)
-  > Fellows have historically been paid at the rate of GS-14 Step 3
-  [source](https://whff.org/faqs/)
-- **eligibility** ✅: U.S. citizens who have completed their undergraduate education and are not Federal government employees (career military personnel are excepted).
-  > Employees of the Federal government are not eligible unless they are career military personnel.
-  [source](https://whff.org/apply/)
-- **program_status_evidence** ✅: The 2026-27 application deadline has passed; the program is still running its annual cycle.
-  > The President’s Commission on White House Fellowships application deadline for the 2026-27 class of White House Fellows has passed.
-  [source](https://whff.org/apply/)
-- Agent notes: The listing's deadline (Apr 22, 2026) is the closed 2026-27 cycle, so it is no longer open as of 2026-10-16. The sponsor's apply page confirms that cycle has passed but does not print a date, so I left the deadline empty rather than use an unverified date. Third-party reports (MeriTalk, Federal News Network, and an OPM press release on opm.gov) give April 22 for the 2026-27 class; I did not fetch those pages, so treat that date as unconfirmed on the sponsor's site. The sponsor's FAQ says the nex…
-
-</details>
-
-## [890] Lynn and Maude White Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: http://cmrs.ucla.edu/awards-fellowships/white/
-  > The Lynn and Maude White Fellowship, which provides $30,000
-  [source](http://cmrs.ucla.edu/awards-fellowships/white/)
-- **deadline** ✅: 2026-04-17
-  > Application deadline: April 17, 2026
-  [source](http://cmrs.ucla.edu/awards-fellowships/white/)
-- **amount** ✅: $30,000
-  > The Lynn and Maude White Fellowship, which provides $30,000
-  [source](http://cmrs.ucla.edu/awards-fellowships/white/)
-- **eligibility** ✅: Outstanding UCLA graduate students who have advanced to PhD candidacy, for dissertation research in any aspect of medieval or Renaissance studies.
-  > awarded to an outstanding UCLA graduate student who has advanced to PhD candidacy
-  [source](http://cmrs.ucla.edu/awards-fellowships/white/)
-- **program_status_evidence** ✅: Active
-  > Applications are open for the 2026–27 fellowship.
-  [source](http://cmrs.ucla.edu/awards-fellowships/white/)
-- Agent notes: The sponsor page is internally inconsistent. It says "Applications are open for the 2026–27 fellowship," but the only deadline it states is April 17, 2026, which is already past as of 2026-10-16. I did not find a posted deadline for the next cycle, so I entered the most recent stated deadline (2026-04-17) per the rule for unposted cycles. The listing's deadline of "Apr 17, 2026" matches the page. The 2026-04-17 date is not the next deadline after today, so it should be verified with the CMRS off…
-
-</details>
-
-## [1094] Lee Schipper Memorial Scholarship for Sustainable Transport and Energy Efficiency
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://vref.se/future-urban-transport/2026/lee-schipper-2026-applications-are-open/
-  > Applications are Open for Lee Schipper Memorial Scholarship 2026
-  [source](https://vref.se/future-urban-transport/2026/lee-schipper-2026-applications-are-open/)
-- **deadline** ✅: 2026-04-17
-  > Applications are due by April 17, 2026.
-  [source](https://www.wri.org/update/2026-lee-schipper-memorial-scholarship-now-open-submissions)
-- **amount** ❌ quote does not contain this amount: Up to US$12,500 per award (five awards in the 2026 cycle)
-  > will award five extraordinary candidates up to US$12,500 each
-  [source](https://www.wri.org/update/2026-lee-schipper-memorial-scholarship-now-open-submissions)
-- **eligibility** ✅: Young researchers with five or fewer years since their last master's or Ph.D. who are under 36 at the expression-of-interest deadline, from any country and field, with no geographic restrictions (two …
-  > There are no geographic restrictions on scholarship applicants
-  [source](https://www.wri.org/update/2026-lee-schipper-memorial-scholarship-now-open-submissions)
-- **program_status_evidence** ✅: Program is running; the sponsor's VREF news list names 2026 awardees
-  > Meet the 2026 Lee Schipper Memorial Scholarship Awardees!
-  [source](https://vref.se/future-urban-transport/2026/lee-schipper-2026-applications-are-open/)
-- Agent notes: The listed deadline (Apr 17, 2026) has already passed as of 2026-10-16. The sponsor pages I checked show only the 2026 cycle, and I found no 2027 call posted, so I kept the most recent deadline per the rules; the listing should be marked closed. The 2026 expression-of-interest deadline is confirmed on both WRI and VREF pages. Corrections to the listing: (1) eligibility is not limited to graduate students; the sponsor's criteria are young researchers (master's or Ph.D. stage or recent degree, und…
-
-</details>
-
-## [1022] The Harry C. Sigman Graduate Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.international.ucla.edu/israel/article/236257
-  > The Harry C. Sigman Graduate Fellowship is awarded to an outstanding UCLA graduate student with a scholarly interest in the field of Israel Studies.
-  [source](https://www.international.ucla.edu/israel/article/236257)
-- **deadline** ✅: 2026-04-05
-  > Sunday, April 5, 2026
-  [source](https://www.international.ucla.edu/israel/article/236257)
-- **amount** ✅: $8,000 per academic year
-  > $8,000 per academic year
-  [source](https://www.international.ucla.edu/israel/article/236257)
-- **eligibility** ✅: Applicants must be enrolled in a graduate program at UCLA, with preference given to first or second year Ph.D. students, from a wide range of disciplines.
-  > Applicants must be enrolled in a graduate program at UCLA, with preference given to first or second year Ph.D. students.
-  [source](https://www.international.ucla.edu/israel/article/236257)
-- **program_status_evidence** ✅: unclear
-  > Applications are invited for this one-year fellowship for an outstanding UCLA graduate student
-  [source](https://www.international.ucla.edu/israel/article/260420)
-- Agent notes: The sponsor page (UCLA Y&S Nazarian Center for Israel Studies) is the official page and matches the listed URL. The 2026 deadline is past as of 2026-10-16, and the page has not posted a 2027 cycle, so I gave the most recent stated deadline (2026-04-05) per the rule for past-only deadlines; the applicant should not rely on it as an open date. The page's section heading reads "2026–27 Fellowship Application Dates" but the dates beneath it are 2026 (applications open Feb 2, 2026; notification May 1…
-
-</details>
-
-## [433] Postdoctoral Fellowship Program for Foreign Researchers
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Apr 02, 2026 | Aug 28, 2026 |
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.jsps.go.jp/english/e-fellow/
-  > To provide opportunities for postdoctoral researchers from other countries
-  [source](https://www.jsps.go.jp/english/e-fellow/)
-- **deadline** ✅: 2026-08-28
-  > August 28, 2026 (by 5 p.m. (JST))
-  [source](https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html)
-- **eligibility** ✅: Postdoctoral researchers from countries other than Japan who will conduct research under a Japanese host; the listing's PhD-within-six-years and no-Japanese-citizenship/permanent-residence rules were …
-  > To provide opportunities for postdoctoral researchers from other countries
-  [source](https://www.jsps.go.jp/english/e-fellow/)
-- **program_status_evidence** ❌ quote not found on the source page: active
-  > Call for proposals for FY2027 Postdoctoral Fellowships for Research in Japan (Short-term(PE)(1st)) is open now.
-  [source](https://www.jsps.go.jp/english/e-fellow/application.html)
-- Agent notes: The listing's deadline (Apr 02, 2026) has passed. The next Standard-program deadline on the JSPS application schedule is 1st recruitment, August 28, 2026 (by 5 p.m. JST); the 2nd recruitment is April 23, 2027 per the same schedule. The schedule page confirms these dates but I did not add a year to a yearly date; the year is stated. The listing's JPY 362,000/month stipend, JPY 200,000 settling-in allowance and travel insurance could not be verified on a JSPS page I could fetch, so amount is left …
-
-</details>
-
-## [488] Graduate Fellowship for Alternatives to the Use of Animals in Science
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://ifer.org/graduate-fellowships
-  > Graduate Student Fellowships for Alternatives to the Use of Animals in Science
-  [source](https://ifer.org/graduate-fellowships)
-- **deadline** ✅: 2026-04-01
-  > 11:59 PM CST on Wednesday, April 1, 2026.
-  [source](https://ifer.org/graduate-fellowships)
-- **amount** ❌ quote does not contain this amount: $15,000 per year, renewable for up to three years, plus a $1,000 travel award
-  > $15,000 per year
-  [source](https://ifer.org/graduate-fellowships)
-- **eligibility** ✅: Graduate students enrolled in a degree program with at least one year remaining at the start of the fellowship, working on non-animal methods such as human cell lines, stem cells, or computational mod…
-  > enrolled in a degree program
-  [source](https://ifer.org/graduate-fellowships)
-- **program_status_evidence** ✅: active
-  > The 2028 Fellowship cycle will open January 2027
-  [source](https://ifer.org/graduate-fellowships)
-- Agent notes: The fetched page (ifer.org/graduate-fellowships) says IFER is no longer accepting applications for its 2027 cycle and that the 2028 cycle will open January 2027. It does not state a deadline for the 2028 cycle, so the deadline field gives the most recent stated deadline, the 2026 pre-proposal deadline of April 1, 2026, which has passed. Under the workflow, the 2026 date is the most recent stated deadline and not a future one; check the page again when the 2028 cycle opens. The page also lists a …
-
-</details>
-
-## [218] Center of Military History (CMH) Dissertation Fellowships
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Mar 31, 2026 | Jan 15, 2027 |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://history.army.mil/html/about/df-geninfo.html
-  > To support scholarly research and writing among qualified civilian graduate students preparing dissertations
-  [source](https://history.army.mil/html/about/df-geninfo.html)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-01-15
-  > must be postmarked no later than 15 January each year
-  [source](https://history.army.mil/html/about/df-geninfo.html)
-- **amount** ✅: $10,000 stipend
-  > These fellowships carry a $10,000 stipend
-  [source](https://history.army.mil/html/about/df-geninfo.html)
-- **eligibility** ✅: Civilian U.S. citizens who are not military personnel, federal civilian employees, or government contractors, and who have completed all Ph.D. requirements except the dissertation by September; the fe…
-  > must be civilian citizens of the United States unaffiliated with the U.S. government
-  [source](https://history.army.mil/html/about/df-geninfo.html)
-- Agent notes: The listing's deadline (Mar 31, 2026) and amount ($15,000–$80,000) do not match the sponsor page. The page says applications must be postmarked by 15 January each year; I added the year 2027 because the next cycle after 2026-10-16 closes 2027-01-15. The page gives the stipend as $10,000 and does not mention $15,000 or $80,000 tiers. The Army museum-funded fellowship is one of three CMH dissertation fellowships each year (two general, one Museum-funded for dissertations on Army material culture);…
-
-</details>
-
-## [750] Deep Time Peter Buck Fellowship Peter Buck Deep Time Postdoctoral Fellowship
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://fellowships.si.edu/opportunity/deep-time-peter-buck-postdoctoral-fellowship-program
-  > ## Deep Time Peter Buck Postdoctoral Fellowship Program
-  [source](https://fellowships.si.edu/opportunity/deep-time-peter-buck-postdoctoral-fellowship-program)
-- **deadline** ✅: 2026-03-31
-  > Closing Date: **March 31, 2026**
-  [source](https://fellowships.si.edu/opportunity/deep-time-peter-buck-postdoctoral-fellowship-program)
-- **amount** ✅: $62,000/yr stipend, $5K/yr research/travel allowance, $5K/yr health insurance, and up to $1K one-time relocation allowance
-  > The appointment provides stipend ($62,000/yr), research/travel allowance ($5K/yr), health insurance ($5K/yr), and one-time relocation allowance (up to $1K).
-  [source](https://fellowships.si.edu/deep-time-peter-buck-postdoctoral-fellowship)
-- **eligibility** ✅: Two-year postdoctoral research fellowship in paleobiology, open to applicants who must complete all formal PhD requirements before the fellowship begins.
-  > All formal requirements for a Ph.D. must be completed before the beginning of the fellowship.
-  [source](https://fellowships.si.edu/deep-time-peter-buck-postdoctoral-fellowship)
-- **program_status_evidence** ✅: unclear
-  > The Deep Time Peter Buck Fellowship will be accepting applications in early 2026.
-  [source](https://fellowships.si.edu/deep-time-peter-buck-postdoctoral-fellowship)
-- Agent notes: The listing's deadline (Mar 31, 2026) matches the sponsor's page, but that date has passed as of 2026-10-16. Neither sponsor page posts a 2027 cycle, so I gave the most recent deadline per the rule for closed cycles. The applicant should check with the Smithsonian before planning around it. The sponsor page says the preferred start is December 2026 and the notification is expected in late April 2026. The listing's "All nationalities" is not stated on the sponsor's pages, so I left that out. The …
-
-</details>
-
-## [928] Islamic Scholarship Fund (ISF)
-
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://www.islamicscholarshipfund.org/fellowship
-  > The application for ISF's Congressional Policy Fellowship is now closed.
-  [source](https://www.islamicscholarshipfund.org/fellowship)
-- **amount** ❌ quote does not contain this amount: $40,000 salary (9-month fellowship)
-  > highly competitive $40,000 salary
-  [source](https://www.islamicscholarshipfund.org/fellowship)
-- **eligibility** ✅: American Muslims holding an undergraduate or graduate degree from an accredited university, who are U.S. citizens, permanent residents, or DACA recipients, with at least one year of full-time policy e…
-  > A U.S. citizen, permanent resident of the United States or a DACA recipient
-  [source](https://www.islamicscholarshipfund.org/fellowship)
-- **program_status_evidence** ✅: active
-  > ISF will start accepting online applications in October.
-  [source](https://www.islamicscholarshipfund.org/fellowship)
-- Agent notes: The listing's deadline (Mar 31, 2026) is not on the sponsor's page, and that date has passed. The Congressional Policy Fellowship page says the deadline "is in February" with no day or year, and says applications open in October. I left the deadline empty rather than guess a day; the next cycle appears to close in February 2027, so the exact date should be confirmed with ISF (Contact@IslamicScholarshipFund.org). The listing's eligibility (Master's/Doctoral students, policy/legal/journalism exper…
-
-</details>
-
-## [324] Scholarship Program
-
-- ⚠️ Sponsor hasn't posted a deadline after today yet
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://scholarships.nfb.org/
-  > This annual program is the largest of its kind in the country
-  [source](https://scholarships.nfb.org/)
-- **deadline** ✅ (year added: the page gives this date without one): 2026-03-31
-  > Deadline to Submit Complete Application: March 31
-  [source](https://scholarships.nfb.org/)
-- **eligibility** ✅: Applicants must be legally blind in both eyes, live in the U.S., D.C., or Puerto Rico, be 18 by July 3 of the application year, and plan to pursue a full-time degree program at a U.S. institution in t…
-  > Must be legally blind in both eyes.
-  [source](https://scholarships.nfb.org/)
-- **program_status_evidence** ❌ quote not found on the source page: active
-  > The 2027 scholarship application will open in December.
-  [source](https://nfb.org/programs-services/scholarships-and-awards/scholarship-program)
-- Agent notes: The listing's deadline (Mar 31, 2026) has passed. The sponsor's application site still shows the 2026 cycle, and the sponsor's program page says the 2027 application opens in December. No 2027 deadline has been posted, so I gave the most recent stated deadline, 2026-03-31, and no year was added to a yearless date. The 2026 cycle also required an affiliate-president interview to be requested by March 31. The $10,000 amount is left empty: a search snippet from nfb.org's Scholarship Program page sa…
-
-</details>
-
-## [1111] Cobell Scholarship
-
-| Field | On file | Proposed |
-|---|---|---|
-| deadline | Mar 31, 2026 | Mar 31, 2027 |
-| amount |  | Up to $5,000 for new students; up to $8,000 for returning students |
-
-- ✅ Current deadline confirmed on the sponsor's page
-
-<details><summary>Evidence</summary>
-
-- **official_url** ✅: https://cobellscholar.org/scholarships/undergraduate/
-  > Undergraduate Scholarship · Cobell Scholarship
-  [source](https://cobellscholar.org/scholarships/undergraduate/)
-- **deadline** ✅ (year added: the page gives this date without one): 2027-03-31
-  > Wed, Mar 31 11:59 PM MT
-  [source](https://cobellscholar.org/scholarships/undergraduate/)
-- **amount** ✅: Up to $5,000 for new students; up to $8,000 for returning students
-  > Up to $5,000 new / up to $8,000 returning
-  [source](https://cobellscholar.org/scholarships/undergraduate/)
-- **eligibility** ✅: Enrolled members of a U.S. federally recognized American Indian tribe or Alaska Native Corporation who are full-time, degree-seeking students pursuing an associate or bachelor's degree at an accredite…
-  > Enrolled member of a U.S. Federally-recognized American Indian Tribe or Alaska Native Corporation
-  [source](https://cobellscholar.org/scholarships/undergraduate/)
-- **program_status_evidence** ✅: Active; the 2026–2027 cycle is open
-  > Opens Dec 15, 2026 · 2026–2027
-  [source](https://cobellscholar.org/scholarships/undergraduate/)
-- Agent notes: The listing's March 31, 2026 deadline is past. The sponsor's undergraduate page shows the 2026–2027 cycle opening December 15, 2026 and closing Wed, Mar 31 11:59 PM MT; I added the year 2027 from that cycle label and the weekday (March 31, 2027 is a Wednesday). The page says the annual cycle is "Reference due April 7" and that applications close at 11:59 PM MDT; the scholarships overview page gives the same March 31 deadline. The listing's season "Spring" is not stated on the sponsor's page; the…
+- **official_url** ✅: https://www.jamesmadison.gov/
+  > The 2027 application is now live.
+  [source](https://www.jamesmadison.gov/)
+- **deadline** ✅ (year added: the page gives this date without one): 2027-03-01
+  > Completed applications must be submitted online no later than March 1.
+  [source](https://www.jamesmadison.gov/index.php/fellowship-information/faq)
+- **amount** ✅: $24,000
+  > offers $24,000 James Madison Graduate Fellowships
+  [source](https://www.jamesmadison.gov/)
+- **eligibility** ✅: U.S. citizens with a bachelor's degree (or one expected by August 31 of the application year) who are, or plan to become, secondary teachers (grades 7-12) of American history, American government, soc…
+  > Be a teacher, or plan to become a teacher, of American history
+  [source](https://www.jamesmadison.gov/index.php/fellowship-information/fellowship-eligibility)
+- **program_status_evidence** ✅: Active; the 2027 cycle is open
+  > The 2027 application is now live.
+  [source](https://www.jamesmadison.gov/)
+- Agent notes: The listing's deadline (Mar 08, 2025) is out of date. The next cycle closing after today (2026-10-16) is the 2027 cycle. The sponsor FAQ gives "March 1" without a year; I added the year 2027. Conflict: the sponsor's Kaleidoscope application portal (not renderable via fetch; seen only in a search snippet) reads "Submit by Tue. March 02, 2027, 8:00 AM", and Gilder Lehrman and Scholarships.com list March 2, 2027. Confirm the exact cutoff with the Foundation (571-858-4200, info@jamesmadison.gov) bef…
 
 </details>
