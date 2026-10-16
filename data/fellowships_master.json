@@ -378,7 +378,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.indiastudies.org/research-fellowship-programs/",
+    "researched": "2026-10-16"
   },
   {
     "id": 42,
@@ -749,8 +752,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship",
     "description": "One-year residential fellowship at American Antiquarian Society for early-career scholars to revise dissertations for publication. Includes manuscript review by leading scholars and $44,000 stipend.",
@@ -850,7 +853,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.acifoundation.org/scholarships.aspx",
+    "researched": "2026-10-16"
   },
   {
     "id": 296,
@@ -904,8 +910,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "http://www.cckf.org/en/programs/american/MDF",
     "description": "Supports doctoral candidates who are Republic of China citizens completing dissertation research at accredited universities in the Americas. Focuses on topics related to Chinese culture, society, development of the ROC, or Taiwan Studies in humanities and social sciences.",
@@ -958,7 +964,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 656,
@@ -1101,8 +1108,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/cfa-fellowship",
     "description": "The CfA Postdoctoral Fellowship supports innovative astrophysics research by offering early-career researchers full access to the unique facilities and resources of the Center for Astrophysics | Harvard & Smithsonian, including observing time on MMT, Magellan Telescopes, and the Submillimeter Array.",
@@ -1123,8 +1130,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.cfa.harvard.edu/opportunities/fellowships-visiting-scientist-positions/clay-fellowship",
     "description": "The Clay Postdoctoral Fellowship supports innovative astrophysics research offering complete research independence at the Center for Astrophysics | Harvard & Smithsonian, one of the world's leading astrophysics institutions.",
@@ -1169,21 +1176,24 @@
     "agency1": "United States Geological Survey (USGS)",
     "agency2": "",
     "season": "Open/Rolling",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Nov 01, 2026",
+    "deadlineSort": "2026-11-01",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.usgs.gov/centers/mendenhall-research-fellowship-program",
     "description": "The USGS Mendenhall Research Fellowship Program provides postdoctoral fellows opportunities to conduct concentrated research with USGS scientists, advancing scientific careers and USGS science missions across a wide variety of research topics.",
     "eligibility": "U.S. citizens and nationals who completed a PhD no earlier than 5 years before the application opening date. PhD must be completed before employment starts. Two-year appointment at GS-12 level.",
-    "amount": "",
+    "amount": "No dollar figure stated; appointees receive full salary and benefits at GS-12 step 1",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.usgs.gov/youth-and-education-in-science/postdoc-opportunities",
+    "researched": "2026-10-16"
   },
   {
     "id": 580,
@@ -1301,8 +1311,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships",
     "description": "Two-year postdoctoral fellowships in humanities with 65% independent research and 35% teaching responsibilities. Fellows hold department affiliations and joint appointments at Cornell's Society for the Humanities with limited teaching duties.",
@@ -1436,13 +1446,14 @@
     "officialUrl": "https://www.aip.org/aip/awards/state-department-science-policy-fellowships",
     "description": "The AIP State Department Science Fellowship enables physicists and related scientists to spend one year working at the U.S. Department of State, contributing scientific expertise to foreign policy and international development processes.",
     "eligibility": "AIP Member Society members with a PhD in physics or a closely related field, U.S. citizens eligible for a security clearance. Qualified scientists at any career stage may apply.",
-    "amount": "",
+    "amount": "$91,000 per year stipend",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 530,
@@ -1452,8 +1463,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.ias.edu/sss/sss-fellowships",
     "description": "Annual invitations to approximately 20 scholars working on diverse topics to pursue individual research within rich context of intellectual discussion and exchange. Multidisciplinary perspectives in social science and occasionally humanities.",
@@ -1506,7 +1517,10 @@
     "awardType": "Travel Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.asianculturalcouncil.org/grant-opportunities",
+    "researched": "2026-10-16"
   },
   {
     "id": 94,
@@ -1720,8 +1734,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://www.whoi.edu/what-we-do/educate/postdoctoral/postdocs-scholar-fellowship-appointments/apo-postdoctoral-scholar/",
     "description": "Woods Hole Oceanographic Institution offers 18-month postdoctoral scholarships to recent doctorates in oceanography, chemistry, engineering, geology, mathematics, meteorology, physics, biology, and related fields.",
@@ -1732,7 +1746,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 190,
@@ -1851,7 +1866,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 304,
@@ -1859,10 +1875,10 @@
     "agency1": "Harvard University, Program on U.S.- Japan Relations",
     "agency2": "Weatherhead Center for International Affairs, Harvard University",
     "season": "Fall",
-    "deadline": "Dec 30, 2025",
-    "deadlineSort": "2025-12-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 18, 2026",
+    "deadlineSort": "2026-12-18",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://us-japan.wcfia.harvard.edu/apply-become-postdoctoral-fellow",
     "description": "Harvard's Program on US-Japan Relations offers one-year postdoctoral fellowships for scholars with recent PhDs in social sciences and humanities.",
@@ -1873,7 +1889,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://us-japan.wcfia.harvard.edu/apply-become-postdoctoral-fellow",
+    "researched": "2026-10-16"
   },
   {
     "id": 1067,
@@ -1912,11 +1931,14 @@
     "officialUrl": "https://www.pbk.org/awards/jensen",
     "description": "Phi Beta Kappa Society awards a fellowship for study in France focused on French language, literature, and culture.",
     "eligibility": "Scholars and students studying French language, literature, and culture.",
-    "amount": "",
+    "amount": "$17,000 stipend, plus a single round-trip economy ticket to France",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.pbk.org/awards/jensen",
+    "researched": "2026-10-16"
   },
   {
     "id": 537,
@@ -1938,7 +1960,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.ncaa.org/student-athletes/scholarships-and-grants/walter-byers-graduate-scholarship/",
+    "researched": "2026-10-16"
   },
   {
     "id": 918,
@@ -2020,7 +2045,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 224,
@@ -2042,7 +2068,10 @@
     "citizenship": "us",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.krellinst.org/csgf/how-apply",
+    "researched": "2026-10-16"
   },
   {
     "id": 565,
@@ -2066,7 +2095,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 195,
@@ -2338,8 +2368,8 @@
     "agency1": "National Research Council (NRC)",
     "agency2": "National Academy of Sciences (NAS)",
     "season": "Open/Rolling",
-    "deadline": "Nov 01, 2026",
-    "deadlineSort": "2026-11-01",
+    "deadline": "Nov 02, 2026",
+    "deadlineSort": "2026-11-02",
     "deadlinePassed": false,
     "sortTier": 0,
     "status": "Pending",
@@ -2352,7 +2382,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.nationalacademies.org/programs/PGA-FP-18-P-23",
+    "researched": "2026-10-16"
   },
   {
     "id": 922,
@@ -2396,7 +2429,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1022,
@@ -2686,7 +2720,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 873,
@@ -2821,7 +2856,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 623,
@@ -2878,8 +2914,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp",
     "description": "In-residence research opportunities for postdoctoral and senior researchers to conduct independent research utilizing Smithsonian collections, facilities, and expertise. Supports research and study across diverse fields including anthropology, earth sciences, history, and more.",
@@ -2953,7 +2989,10 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.leifureirikssonfoundation.org/scholarship/",
+    "researched": "2026-10-16"
   },
   {
     "id": 25,
@@ -3022,7 +3061,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://rijs.fas.harvard.edu/postdoctoral/rijs",
+    "researched": "2026-10-16"
   },
   {
     "id": 223,
@@ -3458,10 +3500,10 @@
     "agency1": "Kyoto University",
     "agency2": "Graduate School of Energy Science, Japanese Government (Monbukagakusho, MEXT).",
     "season": "Summer",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Dec 24, 2026",
+    "deadlineSort": "2026-12-24",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.energy.kyoto-u.ac.jp/en/admission/iesc-doctoral-program/",
     "description": "International doctoral program at Kyoto University's Graduate School of Energy Science with two annual admission cycles (April and October) for international students.",
@@ -3472,7 +3514,10 @@
     "citizenship": "open",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.energy.kyoto-u.ac.jp/en/admission/admission-information/",
+    "researched": "2026-10-16"
   },
   {
     "id": 22,
@@ -3759,7 +3804,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 874,
@@ -4365,7 +4411,10 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.hfg.org/emerging-scholars/",
+    "researched": "2026-10-16"
   },
   {
     "id": 270,
@@ -5225,7 +5274,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 455,
@@ -5248,7 +5298,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 642,
@@ -7196,10 +7247,10 @@
     "agency1": "Medieval Academy of America (MAA)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Nov 15, 2026",
+    "deadlineSort": "2026-11-15",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.medievalacademy.org/page/Baldwin_Fellowship",
     "description": "Provides $20,000 per year for up to two years to a North American graduate student writing a PhD dissertation on French medieval history that requires sustained archival research in France.",
@@ -7212,7 +7263,10 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.medievalacademy.org/page/BaldwinFellowshipApp",
+    "researched": "2026-10-16"
   },
   {
     "id": 176,
@@ -7257,7 +7311,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 705,
@@ -7289,10 +7344,10 @@
     "agency1": "Coordinating Council for Women in History (CCWH)",
     "agency2": "",
     "season": "Summer",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Jun 30, 2026",
+    "deadlineSort": "2026-06-30",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://theccwh.org/ccwh-awards/catherine-prelinger-award/",
     "description": "A $20,000 award supporting a scholar in history whose academic career has not followed a traditional, uninterrupted path to the PhD.",
@@ -7303,7 +7358,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 362,
@@ -7326,7 +7382,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 429,
@@ -7346,7 +7403,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 359,
@@ -7369,7 +7427,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 921,
@@ -7414,7 +7473,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 444,
@@ -7422,21 +7482,22 @@
     "agency1": "American Educational Research Association (AERA)",
     "agency2": "National Science Foundation (NSF)",
     "season": "Spring",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "May 20, 2026",
+    "deadlineSort": "2026-05-20",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://www.aera.net/Professional-Opportunities-Funding/AERA-Funding-Opportunities/AERA-NSF-Grants-Program/Dissertation-Grants",
     "description": "Funds doctoral students conducting dissertation research using national or international education-related datasets, with an emphasis on quantitative, policy-relevant education research.",
     "eligibility": "Doctoral students who have advanced to candidacy and are analyzing large-scale, education-related datasets.",
-    "amount": "",
+    "amount": "Up to $27,500 stipend",
     "awardType": "Dissertation Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 522,
@@ -7446,8 +7507,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://americanart.si.edu/research/fellowships/apply",
     "description": "Supports predoctoral, postdoctoral, senior, and 10-week graduate-student fellows conducting research on American art, craft, and visual culture, in residence at SAAM in Washington, D.C. between June 2027 and August 2028.",
@@ -7461,7 +7522,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 719,
@@ -7507,7 +7569,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 395,
@@ -7529,7 +7592,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 225,
@@ -7537,22 +7601,23 @@
     "agency1": "Dolores Zohrab Liebmann Fund",
     "agency2": "J.P. Morgan Chase Bank (trustee)",
     "season": "Winter",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Nov 14, 2025",
+    "deadlineSort": "2025-11-14",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://grad.uci.edu/fellowships/dolores-zohrab-liebmann-fellowship-e/",
     "description": "Fellowship for graduate study in architecture, music composition/theory, or the humanities and social sciences, awarded via a limited number of designated universities that internally nominate candidates.",
     "eligibility": "Doctoral (or MFA/professional) students at one of the designated nominating institutions, nominated internally rather than applying directly to the Fund.",
-    "amount": "",
+    "amount": "Tuition (no fees) plus an $18,000 annual stipend",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 630,
@@ -7710,7 +7775,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 540,
@@ -7732,7 +7798,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1006,
@@ -7770,14 +7837,15 @@
     "officialUrl": "https://mirzayanfellow.nas.edu/",
     "description": "A 12-week, cohort-based fellowship placing graduate students and recent graduates at the National Academies in Washington, DC to gain firsthand experience in science and technology policy.",
     "eligibility": "Current graduate students or those who completed a graduate degree within the last 5 years, in any field.",
-    "amount": "",
+    "amount": "$11,000 stipend",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 502,
@@ -7799,7 +7867,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 84,
@@ -8125,7 +8194,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.udall.gov/OurPrograms/Internship/ImportantDates.aspx",
+    "researched": "2026-10-16"
   },
   {
     "id": 905,
@@ -8164,14 +8236,15 @@
     "officialUrl": "https://native-american.dartmouth.edu/research/charles-eastman-fellowship",
     "description": "Supports completion of the doctorate by scholars in Native American and Indigenous Studies through a Dartmouth-based dissertation/postdoctoral fellowship promoting diversity in the field.",
     "eligibility": "Doctoral candidates (ABD) or recent PhDs in Native American and Indigenous Studies or related fields.",
-    "amount": "",
+    "amount": "Annual stipend of approximately $49,860 in the first (predoctoral) year and $67,580 in the second (postdoctoral) year, plus benefits and a research allocation",
     "awardType": "Dissertation Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 475,
@@ -8193,7 +8266,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 249,
@@ -8216,7 +8290,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 264,
@@ -8238,7 +8313,8 @@
     "citizenship": "us",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 162,
@@ -8284,7 +8360,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 275,
@@ -8307,7 +8384,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 329,
@@ -8315,8 +8393,8 @@
     "agency1": "National Oceanic and Atmospheric Administration (NOAA), National Sea Grant College Program",
     "agency2": "Oceanic and Atmospheric Research (OAR), Department of Commerce",
     "season": "Summer",
-    "deadline": "Jun 03, 2026",
-    "deadlineSort": "2026-06-03",
+    "deadline": "Jul 01, 2026",
+    "deadlineSort": "2026-07-01",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Pending",
@@ -8330,7 +8408,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 258,
@@ -8353,7 +8432,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 524,
@@ -8376,7 +8456,8 @@
     "levels": [
       "masters",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 964,
@@ -8420,7 +8501,8 @@
     "citizenship": "other",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 251,
@@ -8442,7 +8524,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 868,
@@ -8578,7 +8661,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 125,
@@ -8611,8 +8695,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://www.metmuseum.org/opportunities/fellowships/fellowship-in-history-of-art-and-visual-culture",
     "description": "Supports fellows conducting independent research on art history or visual culture in residence at the Met, with access to its collections and curatorial staff.",
@@ -8671,7 +8755,10 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "http://www.grahamfoundation.org/grant_programs/?mode=award",
+    "researched": "2026-10-16"
   },
   {
     "id": 182,
@@ -8719,7 +8806,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.newberry.org/research/fellowships/long-term-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 880,
@@ -8763,7 +8853,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://afsp.org/research-grant-information/",
+    "researched": "2026-10-16"
   },
   {
     "id": 116,
@@ -8773,8 +8866,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://shc.stanford.edu/stanford-humanities-center/fellowships/mellon-fellowship-scholars-humanities",
     "description": "Two-year postdoctoral fellowship in the humanities at Stanford, with eligible fields rotating each year (2026 cycle: German Studies, Iberian and Latin American Studies, Music, Philosophy).",
@@ -8833,7 +8926,10 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.kressfoundation.org/Programs/Fellowships/History-of-Art-Institutional-Fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 908,
@@ -8987,8 +9083,8 @@
     "season": "Fall",
     "deadline": "Oct 15, 2026",
     "deadlineSort": "2026-10-15",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://fellowships.si.edu/fellowship-programs",
     "description": "Independent research fellowships across Smithsonian museums and research centers, available at graduate, predoctoral, and postdoctoral/senior levels, working with SI research staff as advisors.",
@@ -9002,7 +9098,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 405,
@@ -9010,8 +9107,8 @@
     "agency1": "Lemelson Center for the Study of Invention & Innovation",
     "agency2": "National Museum of American History (NMAH), Smithsonian Institution (SI)",
     "season": "Spring",
-    "deadline": "Apr 13, 2026",
-    "deadlineSort": "2026-04-13",
+    "deadline": "Oct 15, 2026",
+    "deadlineSort": "2026-10-15",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Pending",
@@ -9027,7 +9124,8 @@
       "phd",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 769,
