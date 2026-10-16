@@ -376,3 +376,12 @@ def test_recent_past_deadline_still_fills_an_empty_one(no_network):
     f = findings(deadline=field("2026-09-15", "Application Deadline: September 15, 2026"))
     _, changes, _ = ar.check_findings(record(deadline="", deadlineSort="9999-12-31"), f, docs, TODAY)
     assert changes == {"deadline": "Sep 15, 2026"}
+
+
+def test_every_selection_skips_recent_attempts():
+    recs = [record(id=1, deadlinePassed=True, deadlineSort="2026-01-01"),
+            record(id=2, deadlinePassed=True, deadlineSort="2026-02-01", researched="2099-01-01"),
+            record(id=3, deadlinePassed=False, checked="2099-01-01")]
+    assert [r["id"] for r in ar.select_records(recs, "stale", limit=10)] == [1]
+    assert [r["id"] for r in ar.select_records(recs, "all", limit=10)] == [1]
+    assert [r["id"] for r in ar.select_records(recs, "all", ids=[2, 3])] == [2, 3]
