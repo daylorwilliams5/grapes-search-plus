@@ -20,7 +20,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.daad.org/en/find-funding/phd-postdocs/leo-baeck-institute-daad-fellowship/",
+    "researched": "2026-10-16"
   },
   {
     "id": 1078,
@@ -42,7 +45,10 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://eit.org/education-and-scholarships/graduate/",
+    "researched": "2026-10-16"
   },
   {
     "id": 159,
@@ -157,7 +163,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 226,
@@ -181,7 +188,10 @@
       "masters",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.newberry.org/research/fellowships/short-term-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 1079,
@@ -203,7 +213,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://atkinson.cornell.edu/grants/postdocs/postdoctoral-fellowships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 404,
@@ -226,7 +239,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://airandspace.si.edu/get-involved/fellowships/guggenheim",
+    "researched": "2026-10-16"
   },
   {
     "id": 726,
@@ -607,7 +623,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 59,
@@ -750,7 +767,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 87,
@@ -773,7 +791,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.daad.org/en/find-funding/graduate-opportunities/research-grants/german-studies-research-grants/",
+    "researched": "2026-10-16"
   },
   {
     "id": 56,
@@ -916,7 +937,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 385,
@@ -938,7 +960,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.nsf.gov/funding/opportunities/msprf-mathematical-sciences-postdoctoral-research-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 449,
@@ -985,7 +1010,10 @@
     "citizenship": "open",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.ets.org/toefl/grants/doctoral-research-grant-language-assessment.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 547,
@@ -1053,7 +1081,10 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.acls.org/competitions/luce-acls-dissertation-fellowships-in-american-art/",
+    "researched": "2026-10-16"
   },
   {
     "id": 50,
@@ -1073,7 +1104,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://apsanet.org/diversity/diversity-fellowship-program/fall-dfp-application/",
+    "researched": "2026-10-16"
   },
   {
     "id": 123,
@@ -1095,7 +1129,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.postdocs.ubc.ca/award/killam-postdoctoral-research-fellowship",
+    "researched": "2026-10-16"
   },
   {
     "id": 578,
@@ -1117,7 +1154,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 112,
@@ -1140,7 +1178,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
+    "researched": "2026-10-16"
   },
   {
     "id": 390,
@@ -1259,7 +1300,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.climate.columbia.edu/postdoctoral-research-program",
+    "researched": "2026-10-16"
   },
   {
     "id": 933,
@@ -1281,7 +1325,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 83,
@@ -1303,7 +1348,10 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.amscan.org/fellowships-grants/grants-and-awards-for-americans/",
+    "researched": "2026-10-16"
   },
   {
     "id": 86,
@@ -1325,7 +1373,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.doaks.org/research/fellowships-and-awards/research-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 117,
@@ -1345,7 +1396,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.aarome.org/apply/rome-prize",
+    "researched": "2026-10-16"
   },
   {
     "id": 185,
@@ -1390,7 +1444,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://pdsoros.org/eligibility/",
+    "researched": "2026-10-16"
   },
   {
     "id": 155,
@@ -1412,7 +1469,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://ei.berkeley.edu/programs-services/postdoctoral/how-apply",
+    "researched": "2026-10-16"
   },
   {
     "id": 194,
@@ -1432,7 +1492,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://fellowshipapp.aaas.org/",
+    "researched": "2026-10-16"
   },
   {
     "id": 242,
@@ -1549,7 +1612,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://ppfp.ucop.edu/info/how-to-apply/index.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 472,
@@ -1620,7 +1686,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://dowjonesnewsfund.org/djnfinternships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 134,
@@ -1665,7 +1734,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 157,
@@ -1685,7 +1755,8 @@
     "awardType": "Internship",
     "enriched": true,
     "citizenship": "open",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 965,
@@ -1693,10 +1764,10 @@
     "agency1": "UCLA Y&S Nazarian Center for Israel Studies",
     "agency2": "",
     "season": "Fall",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Nov 16, 2025",
+    "deadlineSort": "2025-11-16",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://international.ucla.edu/israel/funding",
     "description": "UCLA graduate student research grants supporting Israel Studies research during academic year or summer. Awards range from $2,500-$7,500 for graduate students in any discipline with Israel Studies interest.",
@@ -1708,7 +1779,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1062,
@@ -1730,7 +1802,10 @@
     "citizenship": "open",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.zonta.org/Web/Web/Programs/Education/Amelia_Earhart_Fellowship.aspx",
+    "researched": "2026-10-16"
   },
   {
     "id": 690,
@@ -1778,7 +1853,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.onr.navy.mil/education-outreach/undergraduate-graduate/nreip-naval-internship",
+    "researched": "2026-10-16"
   },
   {
     "id": 402,
@@ -1972,7 +2050,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.pbk.org/awards/sibley-fellowship",
+    "researched": "2026-10-16"
   },
   {
     "id": 450,
@@ -2203,7 +2284,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1,
@@ -2225,7 +2307,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 7,
@@ -2247,7 +2330,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 9,
@@ -2269,7 +2353,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 10,
@@ -2292,7 +2377,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 11,
@@ -2314,7 +2400,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 387,
@@ -2334,7 +2421,8 @@
     "awardType": "Travel Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 411,
@@ -2354,7 +2442,8 @@
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 489,
@@ -2377,7 +2466,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 667,
@@ -2397,7 +2487,8 @@
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 542,
@@ -2420,7 +2511,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 348,
@@ -2467,7 +2559,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 256,
@@ -2656,7 +2749,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://wennergren.org/program/post-phd-research-grant/",
+    "researched": "2026-10-16"
   },
   {
     "id": 433,
@@ -2822,7 +2918,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www2.whoi.edu/site/nosams/opportunities/graduate-student-internship-program/",
+    "researched": "2026-10-16"
   },
   {
     "id": 364,
@@ -2868,7 +2967,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 378,
@@ -2963,7 +3063,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 682,
@@ -2987,7 +3088,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 749,
@@ -3176,7 +3278,10 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://ndseg.sysplus.com/",
+    "researched": "2026-10-16"
   },
   {
     "id": 124,
@@ -3199,7 +3304,10 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://grants.nih.gov/grants/guide/pa-files/PA-25-422.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 82,
@@ -3219,7 +3327,10 @@
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.lung.org/research/awards-and-grants-opportunities",
+    "researched": "2026-10-16"
   },
   {
     "id": 166,
@@ -3242,7 +3353,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program",
+    "researched": "2026-10-16"
   },
   {
     "id": 232,
@@ -3265,7 +3379,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 35,
@@ -3273,8 +3388,8 @@
     "agency1": "National Institute of Justice (NIJ)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Nov 19, 2024",
-    "deadlineSort": "2024-11-19",
+    "deadline": "May 27, 2026",
+    "deadlineSort": "2026-05-27",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -3287,7 +3402,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 976,
@@ -3295,8 +3411,8 @@
     "agency1": "National Institute of Justice (NIJ)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Nov 19, 2024",
-    "deadlineSort": "2024-11-19",
+    "deadline": "May 27, 2026",
+    "deadlineSort": "2026-05-27",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -3309,7 +3425,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 468,
@@ -3348,13 +3465,14 @@
     "officialUrl": "https://www.sas.rochester.edu/aas/fellowships/postdoctoral.html",
     "description": "One-year postdoctoral fellowships for scholars with PhDs in Black Studies or related disciplines. Successful fellows may renew for additional year. Recipients conduct independent research, teach one course annually, receive office space, and access to University resources.",
     "eligibility": "PhD in Black Studies or closely related field; within 5 years post-PhD; not holding tenure-track/tenured position",
-    "amount": "",
+    "amount": "$60,000 salary and $3,500 research funds per year",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 496,
@@ -3377,7 +3495,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 462,
@@ -3399,7 +3518,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 465,
@@ -3419,7 +3539,10 @@
     "awardType": "Travel Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://cushwa.nd.edu/grant-opportunities/research-travel-grants/",
+    "researched": "2026-10-16"
   },
   {
     "id": 684,
@@ -3442,7 +3565,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.mountvernon.org/library/fellowships/fellows-program",
+    "researched": "2026-10-16"
   },
   {
     "id": 1008,
@@ -3464,7 +3590,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.cc.nih.gov/bioethics/education",
+    "researched": "2026-10-16"
   },
   {
     "id": 795,
@@ -3487,7 +3616,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://csw.ucla.edu/funding/travel-grants/",
+    "researched": "2026-10-16"
   },
   {
     "id": 813,
@@ -3586,7 +3718,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 399,
@@ -3699,7 +3832,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://science.osti.gov/wdts/scgsr",
+    "researched": "2026-10-16"
   },
   {
     "id": 584,
@@ -3707,8 +3843,8 @@
     "agency1": "American Brain Tumor Association (ABTA)",
     "agency2": "",
     "season": "Summer",
-    "deadline": "Dec 13, 2024",
-    "deadlineSort": "2024-12-13",
+    "deadline": "Dec 10, 2025",
+    "deadlineSort": "2025-12-10",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -3721,7 +3857,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 583,
@@ -3768,7 +3905,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.acls.org/competitions/luce-acls-early-career-fellowships-in-china-studies-flexible/",
+    "researched": "2026-10-16"
   },
   {
     "id": 796,
@@ -3814,7 +3954,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://leakeyfoundation.org/grant/research/",
+    "researched": "2026-10-16"
   },
   {
     "id": 944,
@@ -3915,21 +4058,24 @@
     "agency1": "International Institute for Applied Systems Analysis (IIASA)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Jan 12, 2023",
-    "deadlineSort": "2023-01-12",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 10, 2027",
+    "deadlineSort": "2027-01-10",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://iiasa.ac.at/early-career/yssp",
     "description": "The IIASA Young Scientists Summer Program (YSSP) brings together advanced PhD students from around the world for three months at IIASA in Laxenburg, Austria, to conduct interdisciplinary research aligned with IIASA's focus areas including climate, energy, biodiversity, and sustainability.",
     "eligibility": "Advanced PhD students approximately two years from completing their PhD, working on topics compatible with IIASA research. Must demonstrate ability to work independently and fluency in English. Funding available for students from IIASA National Member Organization countries.",
-    "amount": "",
+    "amount": "Usually \u20ac1700 per month plus airfare, from Member Organization fellowships (varies by MO; limited slots)",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://iiasa.ac.at/capacity-development/application-information",
+    "researched": "2026-10-16"
   },
   {
     "id": 621,
@@ -3949,7 +4095,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 658,
@@ -3957,10 +4104,10 @@
     "agency1": "Department of Energy National Nuclear Security Administration (DOE NNSA)",
     "agency2": "Krell Institute",
     "season": "Winter",
-    "deadline": "Jan 14, 2025",
-    "deadlineSort": "2025-01-14",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 05, 2027",
+    "deadlineSort": "2027-01-05",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.krellinst.org/ssgf/",
     "description": "The DOE NNSA Stewardship Science Graduate Fellowship supports students pursuing degrees in stewardship science \u2014 materials under extreme conditions, nuclear science, or high energy density physics \u2014 including a 12-week practicum at a national defense laboratory.",
@@ -3972,7 +4119,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.krellinst.org/ssgf/how-apply",
+    "researched": "2026-10-16"
   },
   {
     "id": 635,
@@ -3980,10 +4130,10 @@
     "agency1": "Museum of Fine Arts, Houston (MFAH)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Jan 15, 2025",
-    "deadlineSort": "2025-01-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 01, 2027",
+    "deadlineSort": "2027-03-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.mfah.org/fellowships/",
     "description": "Annual grants for two doctoral candidates conducting dissertation research on photography history. $5,500 each to support dissertation completion; funds may be used for travel, research materials, or writing time. Recipients have pursued careers in academic positions and museums.",
@@ -3995,7 +4145,10 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://emuseum.mfah.org/groups/photography",
+    "researched": "2026-10-16"
   },
   {
     "id": 1121,
@@ -4048,10 +4201,10 @@
     "agency1": "American Physiological Society 12/4/2024(APS)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Jan 15, 2025",
-    "deadlineSort": "2025-01-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 13, 2027",
+    "deadlineSort": "2027-02-13",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.physiology.org/professional-development/awards/trainees/porter_fellowship",
     "description": "The American Physiological Society (APS) Porter Physiology Development Program provides graduate fellowships to support underrepresented minorities pursuing doctoral training in physiology. Named for scientist William Townsend Porter, the program aims to increase diversity in the physiological sciences through mentored research training and a national network of support.",
@@ -4062,7 +4215,10 @@
     "citizenship": "us",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.physiology.org/professional-development/awards/trainees/porter_fellowship?SSO=Y",
+    "researched": "2026-10-16"
   },
   {
     "id": 814,
@@ -4084,7 +4240,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://business.edf.org/climate-corps/fellows/us/",
+    "researched": "2026-10-16"
   },
   {
     "id": 278,
@@ -4118,10 +4277,10 @@
     "agency1": "Point Foundation",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Dec 05, 2024",
-    "deadlineSort": "2024-12-05",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Nov 19, 2026",
+    "deadlineSort": "2026-11-19",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://pointfoundation.org/scholarships",
     "description": "Point Foundation empowers LGBTQ+ and ally students by providing financial support, community resources, and professional development. The Flagship Scholarship supports undergraduate, graduate, and professional degree students at accredited U.S. colleges.",
@@ -4132,7 +4291,10 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://pointfoundation.org/scholarships/flagship",
+    "researched": "2026-10-16"
   },
   {
     "id": 887,
@@ -4155,7 +4317,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 241,
@@ -4202,7 +4365,8 @@
     "citizenship": "us",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 487,
@@ -4225,7 +4389,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 259,
@@ -4247,7 +4412,10 @@
     "citizenship": "us",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.borenawards.org/",
+    "researched": "2026-10-16"
   },
   {
     "id": 370,
@@ -4293,7 +4461,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 178,
@@ -4316,7 +4485,8 @@
     "levels": [
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1049,
@@ -4432,7 +4602,10 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.1718.ucla.edu/research/wilde-holland-fellowship/",
+    "researched": "2026-10-16"
   },
   {
     "id": 939,
@@ -4454,7 +4627,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://acorjordan.org/caorc-fellowships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 139,
@@ -4537,8 +4713,8 @@
     "agency1": "Dartmouth College",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Feb 01, 2025",
-    "deadlineSort": "2025-02-01",
+    "deadline": "Feb 01, 2026",
+    "deadlineSort": "2026-02-01",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -4551,7 +4727,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 482,
@@ -4571,7 +4748,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 581,
@@ -4593,7 +4771,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellowships/drug-discovery/",
+    "researched": "2026-10-16"
   },
   {
     "id": 967,
@@ -4616,7 +4797,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 968,
@@ -4638,7 +4820,8 @@
     "citizenship": "open",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 255,
@@ -4660,7 +4843,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.jccfund.org/eligibilty-criteria/important-dates-and-documents/",
+    "researched": "2026-10-16"
   },
   {
     "id": 884,
@@ -4706,7 +4892,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 263,
@@ -4753,7 +4940,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 286,
@@ -4769,11 +4957,12 @@
     "officialUrl": "https://www.assembly.ca.gov/california-state-assembly-fellowship-program",
     "description": "The Jesse M. Unruh Assembly Fellowship is an 11-month program providing an introduction to California's legislative process through full-time work as professional staff in Assembly Members' offices, with weekly seminars and six graduate units from CSU Sacramento.",
     "eligibility": "At least 20 years of age by September 1, bachelor's degree with 2.5+ GPA, demonstrated interest in state government and public policy, and authorization to work in the United States.",
-    "amount": "",
+    "amount": "$3,253 monthly stipend",
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 287,
@@ -4793,7 +4982,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://ccsapply.smapply.io/prog/executive_fellowship_program/",
+    "researched": "2026-10-16"
   },
   {
     "id": 288,
@@ -4813,7 +5005,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://ccsapply.smapply.io/prog/judicial_fellowship_program/",
+    "researched": "2026-10-16"
   },
   {
     "id": 545,
@@ -4858,7 +5053,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 536,
@@ -4881,7 +5077,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 479,
@@ -4926,7 +5123,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 307,
@@ -4949,7 +5147,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://librarycompany.org/academic-programs/fellowships-2-2/short-term/",
+    "researched": "2026-10-16"
   },
   {
     "id": 305,
@@ -4973,7 +5174,10 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://hooverpresidentialfoundation.org/research-travel-grant/",
+    "researched": "2026-10-16"
   },
   {
     "id": 306,
