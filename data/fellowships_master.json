@@ -403,7 +403,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 34,
@@ -446,7 +447,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 541,
@@ -454,10 +456,10 @@
     "agency1": "John F. Kennedy Library Foundation",
     "agency2": "John F. Kennedy Presidential Library and Museum",
     "season": "Fall",
-    "deadline": "Sep 30, 2026",
-    "deadlineSort": "2026-09-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Sep 30, 2027",
+    "deadlineSort": "2027-09-30",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.jfklibrary.org/archives/research-fellowships-grants",
     "description": "Multiple named research fellowships and grants for scholars using the JFK Library archives. Opportunities include fellowships for research on foreign policy, domestic policy, immigration policy, and natural resources conservation, with awards ranging from $3,100-$5,000.",
@@ -466,7 +468,10 @@
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.jfklibrary.org/archives/research-opportunities/kovler-fellowship",
+    "researched": "2026-10-16"
   },
   {
     "id": 44,
@@ -488,7 +493,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 47,
@@ -510,7 +516,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 69,
@@ -534,7 +541,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 96,
@@ -556,7 +564,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 451,
@@ -587,10 +596,10 @@
     "agency1": "Rare Book School, University of Virginia",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 01, 2026",
-    "deadlineSort": "2026-10-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Nov 20, 2026",
+    "deadlineSort": "2026-11-20",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://rarebookschool.org/sofcb/",
     "description": "Community of scholars working to advance the study of texts, images, and artifacts as material objects across disciplines. Fellows work collaboratively with Rare Book School staff to develop scholarly expertise in bibliography and material culture studies.",
@@ -602,7 +611,10 @@
     "levels": [
       "phd",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://rarebookschool.org/sofcb-junior-fellows",
+    "researched": "2026-10-16"
   },
   {
     "id": 66,
@@ -750,10 +762,10 @@
     "agency1": "American Antiquarian Society (AAS)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 15, 2026",
-    "deadlineSort": "2026-10-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Oct 18, 2026",
+    "deadlineSort": "2026-10-18",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship",
     "description": "One-year residential fellowship at American Antiquarian Society for early-career scholars to revise dissertations for publication. Includes manuscript review by leading scholars and $44,000 stipend.",
@@ -765,7 +777,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship",
+    "researched": "2026-10-16"
   },
   {
     "id": 64,
@@ -773,10 +788,10 @@
     "agency1": "National Humanities Center",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 03, 2026",
-    "deadlineSort": "2026-10-03",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Oct 01, 2027",
+    "deadlineSort": "2027-10-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://nationalhumanitiescenter.org/scholarly-programs/",
     "description": "Prestigious fellowships for advanced study in art history, classics, history, languages and literature, musicology, philosophy, and humanities at Research Triangle Park in North Carolina. Provides environment for individual research with intellectual discussion among scholars.",
@@ -787,7 +802,10 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://nationalhumanitiescenter.org/residential-fellowships/",
+    "researched": "2026-10-16"
   },
   {
     "id": 65,
@@ -810,7 +828,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 110,
@@ -908,10 +927,10 @@
     "agency1": "Chiang Ching-kuo Foundation for International Scholarly Exchange",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 15, 2026",
-    "deadlineSort": "2026-10-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Oct 15, 2027",
+    "deadlineSort": "2027-10-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "http://www.cckf.org/en/programs/american/MDF",
     "description": "Supports doctoral candidates who are Republic of China citizens completing dissertation research at accredited universities in the Americas. Focuses on topics related to Chinese culture, society, development of the ROC, or Taiwan Studies in humanities and social sciences.",
@@ -922,7 +941,10 @@
     "citizenship": "other",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "http://www.cckf.org/en/programs/american/MDF",
+    "researched": "2026-10-16"
   },
   {
     "id": 466,
@@ -988,7 +1010,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 120,
@@ -1120,7 +1143,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 391,
@@ -1142,7 +1166,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 108,
@@ -1309,10 +1334,10 @@
     "agency1": "Society for the Humanities at Cornell University",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Oct 15, 2026",
-    "deadlineSort": "2026-10-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Nov 01, 2026",
+    "deadlineSort": "2026-11-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships",
     "description": "Two-year postdoctoral fellowships in humanities with 65% independent research and 35% teaching responsibilities. Fellows hold department affiliations and joint appointments at Cornell's Society for the Humanities with limited teaching duties.",
@@ -1323,7 +1348,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://societyhumanities.as.cornell.edu/mellon-postdoctoral-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 138,
@@ -1475,7 +1503,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 680,
@@ -1590,7 +1619,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 673,
@@ -1701,7 +1731,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 828,
@@ -1829,10 +1860,10 @@
     "agency1": "National Museum of the United States Army",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Mar 31, 2026",
-    "deadlineSort": "2026-03-31",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 15, 2027",
+    "deadlineSort": "2027-01-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://history.army.mil/html/about/df-geninfo.html",
     "description": "The U.S. Army Center of Military History (CMH) Dissertation Fellowship supports advanced doctoral candidates writing dissertations on topics in American military history. Fellows conduct research using Army and National Archives holdings and may interact with professional historians at the CMH in Washington, D.C.",
@@ -1843,7 +1874,10 @@
     "citizenship": "us",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://history.army.mil/html/about/df-geninfo.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 221,
@@ -2453,7 +2487,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 161,
@@ -2522,7 +2557,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 488,
@@ -2545,7 +2581,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 439,
@@ -2553,10 +2590,10 @@
     "agency1": "National Endowment for the Humanities (NEH)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Apr 22, 2026",
-    "deadlineSort": "2026-04-22",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Apr 14, 2027",
+    "deadlineSort": "2027-04-14",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.neh.gov/grants/research/fellowships",
     "description": "NEH research fellowships supporting scholars to conduct full-time research and produce publications in American history and culture or Western civilization.",
@@ -2565,7 +2602,10 @@
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.neh.gov/grants/research/fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 106,
@@ -2595,8 +2635,8 @@
     "agency1": "Japanese Society for the Promotion of Science (JSPS)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Apr 02, 2026",
-    "deadlineSort": "2026-04-02",
+    "deadline": "Aug 28, 2026",
+    "deadlineSort": "2026-08-28",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -2609,7 +2649,8 @@
     "citizenship": "other",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 441,
@@ -2631,7 +2672,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 349,
@@ -2653,7 +2695,8 @@
     "citizenship": "us",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 732,
@@ -2661,10 +2704,10 @@
     "agency1": "Federal Aviation Administration (FAA)",
     "agency2": "U.S. Department of Transportation, Air Cooperative Research Program, Transportation Research Board",
     "season": "Spring",
-    "deadline": "May 15, 2026",
-    "deadlineSort": "2026-05-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "May 15, 2027",
+    "deadlineSort": "2027-05-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.acrpacademic.org",
     "description": "Encourages applied research on airport-related aviation system issues and fosters next generation of aviation community leaders. Provides funding for graduate student research papers on public-sector airport-related aviation issues.",
@@ -2676,7 +2719,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.trb.org/ACRP/GraduateResearchAwards.aspx",
+    "researched": "2026-10-16"
   },
   {
     "id": 637,
@@ -2684,10 +2730,10 @@
     "agency1": "Victor Pinchuk Foundation",
     "agency2": "",
     "season": "Spring",
-    "deadline": "May 15, 2026",
-    "deadlineSort": "2026-05-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "May 15, 2027",
+    "deadlineSort": "2027-05-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.worldwidestudies.org/en",
     "description": "Supports Ukrainian citizens aged 35 or under pursuing Master's degrees in world-class universities in priority fields including agriculture, environment, engineering, and technology. Covers tuition fees, books, insurance, and housing costs.",
@@ -2698,7 +2744,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.worldwidestudies.org/en/regulations",
+    "researched": "2026-10-16"
   },
   {
     "id": 417,
@@ -2752,8 +2801,8 @@
     "agency1": "Women's Research and Education Institute",
     "agency2": "Women's Policy, Inc. (WPI)",
     "season": "Spring",
-    "deadline": "Jun 13, 2026",
-    "deadlineSort": "2026-06-13",
+    "deadline": "Jul 10, 2026",
+    "deadlineSort": "2026-07-10",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -2766,7 +2815,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 361,
@@ -2797,10 +2847,10 @@
     "agency1": "Association on American Indian Affairs (AAIA)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "May 31, 2026",
-    "deadlineSort": "2026-05-31",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "May 31, 2027",
+    "deadlineSort": "2027-05-31",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.indian-affairs.org/nativescholarship.html",
     "description": "The oldest Native American scholarship program in the U.S. (since 1947), providing scholarships to graduate and undergraduate Native American students who are citizens/members of their Tribal Nation. Multiple scholarship programs available for diverse needs.",
@@ -2811,7 +2861,10 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.indian-affairs.org/scholarshipfaq.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 669,
@@ -2833,7 +2886,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 510,
@@ -2926,7 +2980,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 750,
@@ -2948,7 +3003,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 111,
@@ -3000,10 +3056,10 @@
     "agency1": "National Institutes of Health (NIH)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Aug 08, 2026",
-    "deadlineSort": "2026-08-08",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 08, 2026",
+    "deadlineSort": "2026-12-08",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html",
     "description": "The NIH Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (F32) supports postdoctoral research training in biomedical, behavioral, and clinical research. Fellows are mentored at NIH-funded research institutions nationwide and develop independent research skills in preparation for a career in biomedical science.",
@@ -3014,7 +3070,10 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 188,
@@ -3406,10 +3465,10 @@
     "agency1": "UCLA Asia Institute",
     "agency2": "",
     "season": "Spring",
-    "deadline": "May 01, 2026",
-    "deadlineSort": "2026-05-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Apr 30, 2027",
+    "deadlineSort": "2027-04-30",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.international.ucla.edu/apc/article/252107",
     "description": "UCLA fellowship honoring the legacy of UCLA Anthropology Professor Hiroshi Wagatsuma, supporting graduate research with substantial cross-cultural dimensions, preferably involving Japan or Asian countries. Awards up to $7,000.",
@@ -3421,7 +3480,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.international.ucla.edu/apc/article/63814",
+    "researched": "2026-10-16"
   },
   {
     "id": 890,
@@ -3445,7 +3507,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 891,
@@ -3468,7 +3531,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 604,
@@ -3560,7 +3624,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 51,
@@ -3580,7 +3645,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 660,
@@ -3633,10 +3699,10 @@
     "agency1": "Cancer Research Institute (CRI)",
     "agency2": "",
     "season": "Summer",
-    "deadline": "Sep 01, 2026",
-    "deadlineSort": "2026-09-01",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 01, 2027",
+    "deadlineSort": "2027-03-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship",
     "description": "Cancer Research Institute prestigious three-year postdoctoral fellowship in immunology and cancer immunology. Provides $74,000-$78,000 annual stipend plus $5,000 host institution allowance.",
@@ -3647,7 +3713,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship",
+    "researched": "2026-10-16"
   },
   {
     "id": 742,
@@ -3936,7 +4005,8 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 303,
@@ -3988,10 +4058,10 @@
     "agency1": "Center for International Security and Cooperation (CISAC)",
     "agency2": "Stanford University",
     "season": "Winter",
-    "deadline": "Jun 08, 2026",
-    "deadlineSort": "2026-06-08",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 02, 2026",
+    "deadlineSort": "2026-12-02",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://cisac.fsi.stanford.edu/cisac-fellowships",
     "description": "The Center for International Security and Cooperation (CISAC) at Stanford University offers residential fellowships for scholars, policy practitioners, and advanced doctoral students working on issues of international security, arms control, nuclear policy, and conflict resolution. Fellows participate in seminars, workshops, and a vibrant interdisciplinary community at Stanford.",
@@ -4003,7 +4073,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://cisac.fsi.stanford.edu/cisac-fellowships",
+    "researched": "2026-10-16"
   },
   {
     "id": 652,
@@ -4056,10 +4129,10 @@
     "agency1": "Japan Society for the Promotion of Science (JSPS)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Sep 25, 2026",
-    "deadlineSort": "2026-09-25",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 08, 2027",
+    "deadlineSort": "2027-01-08",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.jsps.go.jp/english/e-fellow/e-oubei-s/index.html",
     "description": "JSPS program supporting overseas researchers conducting postdoctoral research in Japan. 15 days to 12 months duration for North American and European researchers. Funds research progress and promotes academic exchange between Japan and U.S./European countries across all humanities, social sciences, and natural sciences.",
@@ -4070,7 +4143,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.jsps.go.jp/english/e-fellow/e-oubei-s/appliguidelines.html",
+    "researched": "2026-10-16"
   },
   {
     "id": 727,
@@ -4159,7 +4235,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 177,
@@ -5012,7 +5089,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 269,
@@ -5123,7 +5201,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 928,
@@ -5146,7 +5225,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 992,
@@ -5188,7 +5268,8 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 535,
@@ -5596,7 +5677,8 @@
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 140,
@@ -6252,7 +6334,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 979,
@@ -6275,7 +6358,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1071,
@@ -6390,7 +6474,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1097,
@@ -6454,7 +6539,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1100,
@@ -6499,7 +6585,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1102,
@@ -6544,7 +6631,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1106,
@@ -6567,7 +6655,8 @@
     "levels": [
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 1107,
@@ -6661,19 +6750,22 @@
     "agency1": "Indigenous Education, Inc. (IEI)",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Mar 31, 2026",
-    "deadlineSort": "2026-03-31",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Mar 31, 2027",
+    "deadlineSort": "2027-03-31",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://cobellscholar.org/",
     "description": "Scholarship program for Native American and Alaska Native students pursuing undergraduate, graduate, and vocational education.",
     "eligibility": "Native American or Alaska Native students enrolled or eligible to be enrolled in a federally recognized tribe.",
-    "amount": "",
+    "amount": "Up to $5,000 for new students; up to $8,000 for returning students",
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-16",
+    "checkedSource": "https://cobellscholar.org/scholarships/undergraduate/",
+    "researched": "2026-10-16"
   },
   {
     "id": 1112,
@@ -6740,7 +6832,8 @@
     "awardType": "Award",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "researched": "2026-10-16"
   },
   {
     "id": 1117,
@@ -6872,7 +6965,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 60,
@@ -6895,7 +6989,8 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 199,
@@ -7085,10 +7180,10 @@
     "agency1": "Woods Hole Oceanographic Institution (WHOI)",
     "agency2": "National Science Foundation (NSF), Office of Naval Research (ONR)",
     "season": "Winter",
-    "deadline": "Aug 14, 2026",
-    "deadlineSort": "2026-08-14",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 05, 2027",
+    "deadlineSort": "2027-02-05",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://gfd.whoi.edu/gfd-fellowships/",
     "description": "The WHOI Geophysical Fluid Dynamics Summer Fellowship is an intensive 8-week program where graduate students conduct original research under GFD Staff mentorship, focusing on the nonlinear dynamics of rotating, stratified fluids.",
@@ -7100,7 +7195,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://gfd.whoi.edu/gfd-fellowships/application-materials/",
+    "researched": "2026-10-16"
   },
   {
     "id": 340,
@@ -7168,7 +7266,8 @@
     "citizenship": "",
     "levels": [
       "masters"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 686,
@@ -7336,7 +7435,8 @@
       "masters",
       "phd",
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 438,
@@ -7450,7 +7550,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 379,
@@ -7699,13 +7800,14 @@
     "officialUrl": "https://commonfund.nih.gov/earlyindependence",
     "description": "Provides independent NIH research funding directly to recent doctoral or clinical-training graduates, allowing them to skip traditional postdoctoral training and launch their own lab/research program immediately.",
     "eligibility": "Individuals who completed a terminal doctoral degree or post-graduate clinical training between May 1, 2025 and September 30, 2027 (no postdoctoral training required).",
-    "amount": "",
+    "amount": "Up to $350,000 per year in direct costs, plus allowed indirect costs, for up to five years",
     "awardType": "Research Grant",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 569,
@@ -7807,10 +7909,10 @@
     "agency1": "Arnold and Mabel Beckman Foundation",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Sep 04, 2026",
-    "deadlineSort": "2026-09-04",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 14, 2026",
+    "deadlineSort": "2026-12-14",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/",
     "description": "Supports postdoctoral research in fundamental chemistry or the development of chemical instrumentation, via two application tracks.",
@@ -7821,7 +7923,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.beckman-foundation.org/programs/beckman-postdoctoral-fellows/",
+    "researched": "2026-10-16"
   },
   {
     "id": 360,
@@ -7985,7 +8090,8 @@
       "masters",
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-16"
   },
   {
     "id": 747,
@@ -8039,10 +8145,10 @@
     "agency1": "American Australian Association",
     "agency2": "University of Queensland (and other partner Australian universities)",
     "season": "Fall",
-    "deadline": "Sep 30, 2026",
-    "deadlineSort": "2026-09-30",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Sep 30, 2027",
+    "deadlineSort": "2027-09-30",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://americanaustralian.org/scholarships/education-fund/",
     "description": "Supports American students undertaking master's, PhD, or postdoctoral study/research at Australian institutions in fields such as AI/cyber, biology/medicine/health, critical minerals, defense technology, and engineering/math/space.",
@@ -8053,7 +8159,10 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://americanaustralian.org/scholarships/education-fund/",
+    "researched": "2026-10-16"
   },
   {
     "id": 85,
@@ -8465,21 +8574,24 @@
     "agency1": "UCLA Y&S Nazarian Center for Israel Studies",
     "agency2": "",
     "season": "Fall",
-    "deadline": "Sep 07, 2026",
-    "deadlineSort": "2026-09-07",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Dec 06, 2026",
+    "deadlineSort": "2026-12-06",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Pending",
     "officialUrl": "https://www.international.ucla.edu/israel/funding",
     "description": "Two-year postdoctoral position for scholars conducting original research on modern Israel; fellows teach one undergraduate course and give one public lecture per year.",
     "eligibility": "Recent PhD from an accredited university, any nationality; not open to those already in permanent full-time tenure-track positions.",
-    "amount": "",
+    "amount": "Salary estimate of $71,491-$82,836 annually (sponsor calls it a reasonable salary estimate, not a stated award amount)",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "open",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-16",
+    "checkedSource": "https://www.international.ucla.edu/israel/article/167091",
+    "researched": "2026-10-16"
   },
   {
     "id": 406,
