@@ -42,6 +42,19 @@ jobs:
     timeout-minutes: 120
 
     steps:
+      # A batch started before the last one is merged can't see its results,
+      # so it would research the same listings again
+      - name: Stop if an earlier batch's pull request is still open
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --repo "${{ github.repository }}" --state open --json number,headRefName \
+            --jq '[.[] | select(.headRefName | startswith("agent-research/")) | "#\(.number)"] | join(", ")')
+          if [ -n "$open" ]; then
+            echo "::error::Merge or close the open Agent Research pull request ($open) first, then run this again."
+            exit 1
+          fi
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
