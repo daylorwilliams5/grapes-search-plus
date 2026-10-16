@@ -151,25 +151,26 @@ Leave a field empty rather than guess."""
 # ----------------------------------------------------------------------------
 
 def select_records(records, mode, ids=None, limit=20):
-    """Pick which listings to check. Passed deadlines come first, soonest
-    passed first, since those are the ones students see as estimates."""
+    """Pick which listings to check. Listings checked or tried in the last 30
+    days are skipped, so repeated batches move through the list; --ids
+    always checks exactly the listings given."""
     if ids:
         wanted = set(ids)
         return [r for r in records if r["id"] in wanted]
+    cutoff = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
+    fresh = [r for r in records if max(r.get("checked", ""), r.get("researched", "")) < cutoff]
     if mode == "stale":
-        pool = [r for r in records if r.get("deadlinePassed")]
+        # Passed deadlines, most recently passed first: students see these as estimates
+        pool = [r for r in fresh if r.get("deadlinePassed")]
         pool.sort(key=lambda r: r.get("deadlineSort") or "", reverse=True)
     elif mode == "pending":
-        # Listings DGE hasn't published, not already checked or tried in the
-        # last 30 days, so repeated batches move through the list
-        cutoff = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
-        pool = [r for r in records if r.get("status") != "Published"
-                and max(r.get("checked", ""), r.get("researched", "")) < cutoff]
+        # Listings DGE hasn't published
+        pool = [r for r in fresh if r.get("status") != "Published"]
         pool.sort(key=lambda r: r["id"])
     elif mode == "missing":
-        pool = [r for r in records if not r.get("amount") or not r.get("deadline")]
+        pool = [r for r in fresh if not r.get("amount") or not r.get("deadline")]
     else:
-        pool = list(records)
+        pool = fresh
     return pool[:limit]
 
 
