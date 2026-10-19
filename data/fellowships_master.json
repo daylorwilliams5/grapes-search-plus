@@ -804,8 +804,8 @@
     "season": "Fall",
     "deadline": "Oct 18, 2026",
     "deadlineSort": "2026-10-18",
-    "deadlinePassed": false,
-    "sortTier": 0,
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://www.americanantiquarian.org/12-month-residential/hench-post-dissertation-fellowship",
     "description": "One-year residential fellowship at American Antiquarian Society for early-career scholars to revise dissertations for publication. Includes manuscript review by leading scholars and $44,000 stipend.",
@@ -5250,7 +5250,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://npp.orau.org/",
+    "researched": "2026-10-19"
   },
   {
     "id": 564,
@@ -5272,7 +5275,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 297,
@@ -5295,7 +5299,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.amphilsoc.org/grants/short-term-resident-research-fellowships",
+    "researched": "2026-10-19"
   },
   {
     "id": 298,
@@ -5319,7 +5326,10 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.amphilsoc.org/grants/phillips-fund-native-american-research",
+    "researched": "2026-10-19"
   },
   {
     "id": 730,
@@ -5412,7 +5422,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 486,
@@ -5435,7 +5446,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://capitolhistory.org/engage/capitol-fellowship/",
+    "researched": "2026-10-19"
   },
   {
     "id": 463,
@@ -5571,7 +5585,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "us",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.apaics.org/congressional-fellowship",
+    "researched": "2026-10-19"
   },
   {
     "id": 231,
@@ -5579,10 +5596,10 @@
     "agency1": "U.S. Department of Energy (DOE)",
     "agency2": "Oak Ridge Institute for Science and Education (ORISE)",
     "season": "Winter",
-    "deadline": "Jan 15, 2025",
-    "deadlineSort": "2025-01-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Jan 15, 2027",
+    "deadlineSort": "2027-01-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://orise.orau.gov/doe-fes-postdoc/index.html",
     "description": "DOE-administered postdoctoral fellowship providing training in fusion energy research at DOE national laboratories. Open annually with support for research and living expenses.",
@@ -5593,7 +5610,10 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://orise.orau.gov/doe-fes-postdoc/current-research-opportunities.html",
+    "researched": "2026-10-19"
   },
   {
     "id": 219,
@@ -5662,7 +5682,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://apgianninifoundation.org/apply-for-a-fellowship/",
+    "researched": "2026-10-19"
   },
   {
     "id": 718,
@@ -5684,7 +5707,10 @@
     "citizenship": "open",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.acls.org/competitions/the-robert-h-n-ho-family-foundation-dissertation-fellowships-in-buddhist-studies/",
+    "researched": "2026-10-19"
   },
   {
     "id": 942,
@@ -5707,7 +5733,10 @@
     "levels": [
       "dissertation",
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://khmerstudies.org/programs/us-scholar-research-fellowships/",
+    "researched": "2026-10-19"
   },
   {
     "id": 150,
@@ -5765,8 +5794,8 @@
     "agency1": "Stanford School of Medicine",
     "agency2": "National Institutes of Health (NIH) National Heart, Lung, and Blood Institute (NHLBI)",
     "season": "Winter",
-    "deadline": "Dec 18, 2024",
-    "deadlineSort": "2024-12-18",
+    "deadline": "Dec 12, 2025",
+    "deadlineSort": "2025-12-12",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -5779,7 +5808,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 561,
@@ -5827,7 +5857,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 54,
@@ -5875,7 +5906,10 @@
     "citizenship": "open",
     "levels": [
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.hhmi.org/programs/gilliam-fellows",
+    "researched": "2026-10-19"
   },
   {
     "id": 184,
@@ -5989,7 +6023,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1122,
@@ -6090,8 +6125,8 @@
     "agency1": "UCLA Graduate Division",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Feb 14, 2025",
-    "deadlineSort": "2025-02-14",
+    "deadline": "Feb 13, 2026",
+    "deadlineSort": "2026-02-13",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -6105,7 +6140,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 771,
@@ -6113,8 +6149,8 @@
     "agency1": "UCLA Graduate Division",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Feb 14, 2025",
-    "deadlineSort": "2025-02-14",
+    "deadline": "Feb 13, 2026",
+    "deadlineSort": "2026-02-13",
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
@@ -6128,7 +6164,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 772,
@@ -6267,7 +6304,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 790,
@@ -6412,7 +6450,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 799,
@@ -6425,7 +6464,7 @@
     "deadlinePassed": true,
     "sortTier": 2,
     "status": "Published",
-    "officialUrl": "https://www.international.ucla.edu/institute/article/8201",
+    "officialUrl": "https://www.international.ucla.edu/institute/funding/122720",
     "description": "U.S. Department of Education fellowships for undergraduate and graduate students pursuing modern foreign language and area studies. Academic-year awards: $20,000 stipend + $18,000 tuition/fees for graduates. Available for Africa, East Asia, Europe/Eurasia, Latin America, Middle East, Southeast Asia.",
     "eligibility": "U.S. citizens/permanent residents; all discipline graduate students; intermediate+ language level; area studies coursework",
     "amount": "$20,000 stipend + $18,000 tuition/fees",
@@ -6435,7 +6474,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 801,
@@ -6480,7 +6520,10 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://iac.ucla.edu/funding/graduate",
+    "researched": "2026-10-19"
   },
   {
     "id": 803,
@@ -6503,7 +6546,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://iac.ucla.edu/funding/grants",
+    "researched": "2026-10-19"
   },
   {
     "id": 804,
@@ -6652,10 +6698,10 @@
     "agency1": "Stavros Niarchos Foundation",
     "agency2": "Center for the Study of Hellenic Culture",
     "season": "Winter",
-    "deadline": "Nov 15, 2024",
-    "deadlineSort": "2024-11-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Nov 15, 2026",
+    "deadlineSort": "2026-11-15",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://hellenic.ucla.edu/",
     "description": "Fellowships from Stavros Niarchos Foundation supporting graduate students in Hellenic studies. Programs offer various funding supports for students studying Greece's history, language, and culture at partner institutions. Includes tuition, fees, and living expenses.",
@@ -6667,7 +6713,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://hellenic.ucla.edu/studentsupport/",
+    "researched": "2026-10-19"
   },
   {
     "id": 892,
@@ -6690,7 +6739,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 893,
@@ -6698,10 +6748,10 @@
     "agency1": "UCLA Center for 17th & 18th Century Studies",
     "agency2": "",
     "season": "Open/Rolling",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Nov 15, 2026",
+    "deadlineSort": "2026-11-15",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.1718.ucla.edu/research/ucla-graduate/",
     "description": "Travel grants from UCLA's Center for 17th & 18th Century Studies supporting conference participation related to seventeenth-, eighteenth-century, and Oscar Wilde studies.",
@@ -6713,7 +6763,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.1718.ucla.edu/research/ucla-graduate/",
+    "researched": "2026-10-19"
   },
   {
     "id": 1096,
@@ -6783,7 +6836,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1098,
@@ -6791,8 +6845,8 @@
     "agency1": "Northwest Trustee & Management Services",
     "agency2": "",
     "season": "Spring",
-    "deadline": "Feb 01, 2027",
-    "deadlineSort": "2027-02-01",
+    "deadline": "Mar 31, 2027",
+    "deadlineSort": "2027-03-31",
     "deadlinePassed": false,
     "sortTier": 0,
     "status": "Pending",
@@ -6803,7 +6857,10 @@
     "awardType": "Scholarship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-19",
+    "checkedSource": "https://nwtrustee.com/alfred-g-and-elma-m-milotte-scholarship/",
+    "researched": "2026-10-19"
   },
   {
     "id": 1099,
@@ -6849,7 +6906,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.doaks.org/research/fellowships-and-awards/bliss-symposium-awards",
+    "researched": "2026-10-19"
   },
   {
     "id": 1101,
@@ -6987,7 +7047,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1109,
@@ -7087,10 +7148,10 @@
     "agency1": "Diverse Intelligences Summer Institute (DISI)",
     "agency2": "Templeton World Charity Foundation",
     "season": "Spring",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Mar 23, 2026",
+    "deadlineSort": "2026-03-23",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Pending",
     "officialUrl": "https://disi.org/",
     "description": "Multi-week residential program for early-career scholars engaged in transdisciplinary inquiry into intelligences across cognitive science, biology, anthropology, and related fields.",
@@ -7103,7 +7164,8 @@
       "masters",
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1116,
@@ -7146,7 +7208,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1041,
@@ -7201,10 +7264,10 @@
     "agency1": "Knowles Science Teaching Foundation (KSTF)",
     "agency2": "",
     "season": "Fall",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Feb 16, 2027",
+    "deadlineSort": "2027-02-16",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://knowlesteachers.org/teaching-fellowship",
     "description": "The Knowles Teaching Fellowship is a five-year program supporting early-career high school mathematics and science teachers, providing professional development, a collaborative community, and resources to develop teaching expertise and lead from the classroom.",
@@ -7213,7 +7276,10 @@
     "awardType": "Fellowship",
     "enriched": true,
     "citizenship": "",
-    "levels": []
+    "levels": [],
+    "checked": "2026-10-19",
+    "checkedSource": "https://knowlesteachers.org/apply-for-a-fellowship",
+    "researched": "2026-10-19"
   },
   {
     "id": 776,
@@ -7235,7 +7301,8 @@
     "citizenship": "",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 1094,
@@ -7341,10 +7408,10 @@
     "agency1": "St. Gallen Symposium",
     "agency2": "",
     "season": "Winter",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
+    "deadline": "Feb 01, 2027",
+    "deadlineSort": "2027-02-01",
     "deadlinePassed": false,
-    "sortTier": 1,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://www.symposium.org/competition",
     "description": "The St. Gallen Wings of Excellence Award (now called the Global Essay Competition) is one of the largest student essay competitions, inviting graduate and postgraduate students to submit essays on global economic topics, with winners presenting at the St. Gallen Symposium in Switzerland.",
@@ -7356,7 +7423,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.symposium.org/competition",
+    "researched": "2026-10-19"
   },
   {
     "id": 708,
@@ -7389,10 +7459,10 @@
     "agency1": "American Heart Association (AHA)",
     "agency2": "",
     "season": "Winter",
-    "deadline": "",
-    "deadlineSort": "9999-12-31",
-    "deadlinePassed": false,
-    "sortTier": 1,
+    "deadline": "Aug 05, 2026",
+    "deadlineSort": "2026-08-05",
+    "deadlinePassed": true,
+    "sortTier": 2,
     "status": "Published",
     "officialUrl": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/postdoctoral-fellowship",
     "description": "The AHA Postdoctoral Fellowship enhances the training of postdoctoral applicants working on research related to cardiovascular disease and stroke. Awards include stipend, health insurance, and conference travel support for one to two years.",
@@ -7403,7 +7473,8 @@
     "citizenship": "us",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 424,
@@ -7426,7 +7497,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.mbari.org/about/careers/internships/how-to-apply/",
+    "researched": "2026-10-19"
   },
   {
     "id": 702,
@@ -7458,10 +7532,10 @@
     "agency1": "The Leakey Foundation",
     "agency2": "",
     "season": "Winter",
-    "deadline": "Feb 15, 2025",
-    "deadlineSort": "2025-02-15",
-    "deadlinePassed": true,
-    "sortTier": 2,
+    "deadline": "Feb 01, 2027",
+    "deadlineSort": "2027-02-01",
+    "deadlinePassed": false,
+    "sortTier": 0,
     "status": "Published",
     "officialUrl": "https://leakeyfoundation.org/grant/baldwin/",
     "description": "The Leakey Foundation's Franklin Mosher Baldwin Fellowship provides scholars from developing countries opportunities to receive training abroad in paleoanthropology and primatology, supporting graduate students in countries with limited advanced training options.",
@@ -7473,7 +7547,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://leakeyfoundation.org/grant/baldwin/",
+    "researched": "2026-10-19"
   },
   {
     "id": 281,
@@ -7546,7 +7623,8 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 366,
@@ -7950,7 +8028,10 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://grassfoundation.org/apply-for-the-2027-grass-fellowship/",
+    "researched": "2026-10-19"
   },
   {
     "id": 534,
@@ -8044,7 +8125,8 @@
     "citizenship": "us",
     "levels": [
       "phd"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 208,
@@ -8136,7 +8218,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 67,
@@ -8637,7 +8720,8 @@
     "levels": [
       "phd",
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 314,
@@ -8967,7 +9051,8 @@
     "citizenship": "",
     "levels": [
       "dissertation"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 38,
@@ -9059,7 +9144,8 @@
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "researched": "2026-10-19"
   },
   {
     "id": 456,
@@ -9246,13 +9332,16 @@
     "officialUrl": "https://www.amnh.org/research/richard-gilder-graduate-school/fellowships",
     "description": "Postdoctoral research fellowships in the natural sciences hosted through AMNH's Richard Gilder Graduate School, working with museum curators in fields such as comparative biology, earth/planetary science, and paleontology.",
     "eligibility": "Recent PhD recipients (postdoctoral); review of applications begins mid-November.",
-    "amount": "",
+    "amount": "Expected salary of $73,316 (the page says salaries may vary by funding source; no fixed stipend stated)",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://www.amnh.org/research/richard-gilder-graduate-school/fellowships",
+    "researched": "2026-10-19"
   },
   {
     "id": 459,
@@ -9315,7 +9404,7 @@
     "deadlinePassed": false,
     "sortTier": 0,
     "status": "Pending",
-    "officialUrl": "https://clscholarship.org/apply",
+    "officialUrl": "https://clscholarship.org/",
     "description": "Fully-funded 8-10 week summer intensive language and cultural immersion program abroad in one of several critical languages, covering travel, visa fees, instruction, room, and board.",
     "eligibility": "U.S. citizen undergraduate, master's, or PhD students; prior study requirements vary by language.",
     "amount": "Fully funded (travel, tuition, room/board covered)",
@@ -9325,7 +9414,10 @@
     "levels": [
       "masters",
       "phd"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://clscholarship.org/",
+    "researched": "2026-10-19"
   },
   {
     "id": 493,
@@ -9366,13 +9458,16 @@
     "officialUrl": "https://mahindrahumanities.harvard.edu/postdoctoral-fellowships",
     "description": "One-year postdoctoral fellowships on a rotating annual theme (2026-27 theme: environmental humanities) drawn from any humanistic discipline.",
     "eligibility": "PhD received on or after May 2023, or all degree requirements completed by Aug 1, 2026.",
-    "amount": "",
+    "amount": "$70,000 stipend",
     "awardType": "Postdoctoral Fellowship",
     "enriched": true,
     "citizenship": "",
     "levels": [
       "postdoc"
-    ]
+    ],
+    "checked": "2026-10-19",
+    "checkedSource": "https://mahindrahumanities.harvard.edu/postdoctoral-fellowships",
+    "researched": "2026-10-19"
   },
   {
     "id": 151,
