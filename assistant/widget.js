@@ -115,3 +115,78 @@
     input.focus();
   });
 })();
+
+// "Check the sponsor's page now": a button in each listing's details that runs
+// the research agent on that listing and shows what the sponsor's page says today.
+(function(){
+  const results = {};   // per listing, for this visit
+  const MON_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  function longDate(iso){
+    const [y, m, d] = iso.split('-').map(Number);
+    return `${MON_FULL[m - 1]} ${d}, ${y}`;
+  }
+  function quote(f){
+    if (!f || !f.quote) return '';
+    const src = f.source ? ` <a href="${esc(f.source)}" target="_blank" rel="noopener">Source</a>` : '';
+    return `<blockquote>“${esc(f.quote)}”${src}</blockquote>`;
+  }
+  function render(box, r){
+    let head, cls = 'asst-check-res';
+    const dl = r.deadline;
+    if (r.status === 'confirmed'){
+      cls += ' ok';
+      head = `Confirmed today: the deadline is <b>${longDate(dl.value)}</b>.`;
+      const listed = DATA.find(x => x.id === box._id);
+      if (listed && listed.deadlineSort !== dl.value) head += ` This listing says ${esc(r.listing_deadline || 'no date')}.`;
+    } else if (r.status === 'not_posted'){
+      cls += ' warn';
+      head = `The sponsor hasn't posted the next deadline yet. The last one was ${longDate(dl.value)}.`;
+    } else if (r.status === 'stopped'){
+      cls += ' bad';
+      head = 'The sponsor’s page says this program has ended or is paused.';
+    } else {
+      cls += ' warn';
+      head = 'Couldn’t confirm a deadline on the sponsor’s page.';
+    }
+    let html = `<p class="asst-check-head">${head}</p>${quote(dl)}`;
+    if (dl && dl.year_added) html += '<p class="asst-check-small">The page gives this date without a year; the next one is shown.</p>';
+    if (r.amount) html += `<p>Amount: <b>${esc(r.amount.value)}</b></p>${quote(r.amount)}`;
+    if (r.status !== 'confirmed' && r.notes) html += `<p class="asst-check-small">${esc(r.notes)}</p>`;
+    html += `<p class="asst-check-small">Checked by the research agent just now. Cost: $${r.cost.toFixed(3)}.</p>`;
+    box.className = cls;
+    box.innerHTML = html;
+  }
+  function addCheck(id){
+    const body = document.getElementById('dBody');
+    if (!body || body.querySelector('.asst-check')) return;
+    const wrap = document.createElement('section');
+    wrap.className = 'asst-check';
+    wrap.innerHTML = `<button type="button" class="asst-check-btn">Check the sponsor’s page now</button>
+      <div class="asst-check-res" aria-live="polite"></div>`;
+    body.prepend(wrap);
+    const btn = wrap.querySelector('button'), box = wrap.querySelector('.asst-check-res');
+    box._id = id;
+    if (results[id]){ btn.hidden = true; render(box, results[id]); return; }
+    btn.addEventListener('click', async () => {
+      btn.disabled = true;
+      btn.textContent = 'Reading the sponsor’s page… (about 20–40 seconds)';
+      try {
+        const res = await fetch('/api/check', {method: 'POST', headers: {'Content-Type': 'application/json'},
+                                               body: JSON.stringify({id})});
+        if (res.status === 404) throw new Error('Live checks are off. Install requests, beautifulsoup4 and python-dateutil, then restart the assistant.');
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'The check failed.');
+        results[id] = data;
+        btn.hidden = true;
+        render(box, data);
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = 'Try again';
+        box.className = 'asst-check-res bad';
+        box.textContent = err.message || 'The check failed.';
+      }
+    });
+  }
+  const open = window.openDetail;
+  window.openDetail = function(id){ open(id); addCheck(id); };
+})();

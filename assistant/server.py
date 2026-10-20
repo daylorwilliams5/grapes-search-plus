@@ -31,7 +31,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 HERE = Path(__file__).resolve().parent
 
-MODEL = "claude-haiku-5-5"
+MODEL = "claude-sonnet-5-5"
+# Models that support server-side fallbacks: if the model declines a request,
+# the API retries it on another model instead of returning the refusal
+FALLBACK_MODELS = {"claude-sonnet-5-5", "claude-opus-5-5"}
+CHECK_MODEL = "haiku"  # the research agent's model for "Check the sponsor's page now"
 MAX_MATCHES = 6
 MAX_TURNS = 8          # earlier turns of the conversation sent with each question
 MAX_QUESTION_CHARS = 1500
@@ -180,7 +184,12 @@ class Assistant:
 
     def ask(self, history):
         """Returns {"reply": str, "matches": [{"id", "why"}]}, matches limited to real listings."""
-        response = self.client.messages.create(
+        api, extra = self.client.messages, {}
+        if self.model in FALLBACK_MODELS:
+            api = self.client.beta.messages
+            extra = {"betas": ["server-side-fallback-2026-07-01"], "fallbacks": "default"}
+        response = api.create(
+            **extra,
             model=self.model,
             max_tokens=8000,
             system=[
@@ -189,7 +198,7 @@ class Assistant:
                  "cache_control": {"type": "ephemeral"}},
             ],
             messages=self.messages(history),
-            output_config={"effort": "low",
+            output_config={"effort": "medium",
                            "format": {"type": "json_schema", "schema": RESPONSE_SCHEMA}},
         )
         if response.stop_reason == "refusal":
@@ -216,6 +225,66 @@ class Assistant:
 
 
 # ----------------------------------------------------------------------------
+# Checking one listing against its sponsor's page, live
+# ----------------------------------------------------------------------------
+
+def load_research_agent():
+    """scripts/02_agent_research.py, the research agent the update workflow uses."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("agent_research", ROOT / "scripts" / "02_agent_research.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+class Checker:
+    """Runs the research agent on one listing and reports what the sponsor's
+    page says today. Results are kept for the session, so a second click on
+    the same listing doesn't pay for another check."""
+
+    def __init__(self, client, records, agent=None, model=CHECK_MODEL):
+        self.client, self.model = client, model
+        self.records = {r["id"]: r for r in records}
+        self.agent = agent
+        self.cache = {}
+
+    def check(self, rid):
+        if rid not in self.records:
+            raise ValueError("No such listing")
+        if rid in self.cache:
+            return self.cache[rid]
+        if self.agent is None:
+            self.agent = load_research_agent()
+        record = self.records[rid]
+        today = datetime.date.today().isoformat()
+        findings, docs, usage = self.agent.research(self.client, record, today, self.model)
+        result = {"status": "unconfirmed", "deadline": None, "amount": None, "notes": "",
+                  "listing_deadline": record.get("deadline", ""),
+                  "cost": round(self.agent.estimate_cost(usage), 3)}
+        if findings is None:
+            result["notes"] = "The check didn't finish. Try again in a moment."
+            return result
+        checks, _, flags = self.agent.check_findings(record, findings, docs, today)
+        for name in ("deadline", "amount"):
+            c = checks.get(name, {})
+            if c.get("verdict") == "verified":
+                result[name] = {"value": c["value"], "quote": c.get("quote", ""),
+                                "source": c.get("source_url", ""),
+                                "year_added": bool(c.get("year_inferred"))}
+        dl = result["deadline"]
+        if dl and dl["value"] >= today:
+            result["status"] = "confirmed"
+        elif dl:
+            result["status"] = "not_posted"  # only a past deadline is on the page
+        stopped = [f for f in flags if "discontinued" in f or "paused" in f]
+        if stopped:
+            result["status"] = "stopped"
+        result["notes"] = clip(findings.get("notes", ""), 500)
+        self.cache[rid] = result
+        return result
+
+
+# ----------------------------------------------------------------------------
 # Local web server
 # ----------------------------------------------------------------------------
 
@@ -233,7 +302,7 @@ def page_with_widget():
     return html[:i] + tags + html[i:]
 
 
-def make_handler(assistant):
+def make_handler(assistant, checker=None):
     class Handler(BaseHTTPRequestHandler):
         def send(self, code, body, ctype):
             data = body.encode("utf-8") if isinstance(body, str) else body
@@ -254,12 +323,15 @@ def make_handler(assistant):
             self.send(404, "Not found", "text/plain")
 
         def do_POST(self):
-            if self.path != "/api/ask":
+            if self.path not in ("/api/ask", "/api/check") or (self.path == "/api/check" and not checker):
                 return self.send(404, "Not found", "text/plain")
             try:
                 length = min(int(self.headers.get("Content-Length", 0)), 64_000)
                 body = json.loads(self.rfile.read(length) or b"{}")
-                answer = assistant.ask(body.get("messages", []))
+                if self.path == "/api/check":
+                    answer = checker.check(int(body.get("id", 0)))
+                else:
+                    answer = assistant.ask(body.get("messages", []))
                 self.send(200, json.dumps(answer), "application/json")
             except ValueError as e:
                 self.send(400, json.dumps({"error": str(e)}), "application/json")
@@ -283,8 +355,15 @@ def main():
 
     import anthropic
     records = json.loads(Path(args.data).read_text(encoding="utf-8"))
-    assistant = Assistant(anthropic.Anthropic(), records, model=args.model)
-    server = ThreadingHTTPServer(("127.0.0.1", args.port), make_handler(assistant))
+    client = anthropic.Anthropic()
+    assistant = Assistant(client, records, model=args.model)
+    try:
+        checker = Checker(client, records, agent=load_research_agent())
+    except ImportError as e:
+        checker = None
+        print(f"\"Check the sponsor's page\" is off: {e}. To turn it on:")
+        print("    python -m pip install requests beautifulsoup4 python-dateutil")
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), make_handler(assistant, checker))
     print(f"GRAPES Search+ with the assistant: http://localhost:{args.port}  ({len(records)} listings, {args.model})")
     print("Press Ctrl+C to stop.")
     try:

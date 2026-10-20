@@ -379,6 +379,10 @@ def citizenship(text):
     return None
 
 
+# A note saying there's no amount ("No dollar figure stated; ...") isn't an amount
+NO_AMOUNT = re.compile(r"\b(no|not|none)\b[^.;]{0,30}\b(stated|listed|specified|given|figure|amount|published)\b", re.I)
+
+
 def amount_in_quote(value, quote):
     """Every number in the amount (e.g. 30,000) must appear in the quote."""
     nums = [n.replace(",", "") for n in re.findall(r"\d[\d,]*", value)]
@@ -425,6 +429,8 @@ def check_field(name, field, pages):
         return "rejected", "quote not found on the source page"
     if name == "deadline" and not deadline_in_quote(value, quote):
         return "rejected", "quote does not contain this date"
+    if name == "amount" and NO_AMOUNT.search(value):
+        return "rejected", "not an amount"
     if name == "amount" and not amount_in_quote(value, quote):
         return "rejected", "quote does not contain this amount"
     return "verified", ""

@@ -385,3 +385,11 @@ def test_every_selection_skips_recent_attempts():
     assert [r["id"] for r in ar.select_records(recs, "stale", limit=10)] == [1]
     assert [r["id"] for r in ar.select_records(recs, "all", limit=10)] == [1]
     assert [r["id"] for r in ar.select_records(recs, "all", ids=[2, 3])] == [2, 3]
+
+
+def test_a_note_about_no_amount_is_not_an_amount(no_network):
+    docs = {URL: "Appointees receive full salary and benefits at GS-12 step 1."}
+    f = findings(amount=field("No dollar figure stated; appointees receive full salary and benefits at GS-12 step 1",
+                              "Appointees receive full salary and benefits at GS-12 step 1"))
+    checks, changes, _ = ar.check_findings(record(), f, docs, TODAY)
+    assert checks["amount"]["reason"] == "not an amount" and changes == {}
