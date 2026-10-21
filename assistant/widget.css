@@ -1,16 +1,39 @@
-/* "Best fits": the assistant's picks above the full list. Uses the page's own colors. */
-.bf{margin-bottom:28px;padding:18px 18px 8px;background:var(--tint);border:1px solid var(--line);border-radius:8px;font-family:var(--sans)}
-.bf[hidden]{display:none}
-.bf-hd{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-.bf-hd h2{margin:0;font:600 20px var(--sans);color:var(--navy)}
-.bf-reset{margin-left:auto}
-.asst-tag{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--gold);color:var(--navy);font-weight:700}
-.bf-reply{margin:0 0 14px;font-size:16px;line-height:1.5;color:var(--ink)}
-.bf-wait{margin:0 0 12px;color:var(--ink-3);font-style:italic}
-.bf-small{margin:10px 0;font-size:13px;color:var(--ink-2)}
-.asst-card{margin-bottom:10px;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
-.asst-why{margin:0;padding:9px 22px;font-size:14px;color:var(--navy);background:var(--surface);border-bottom:1px solid var(--line-2);font-weight:600}
+/* Tabs under the header, and the full-page chat. Uses the page's own colors. */
+.tabs{background:var(--surface);border-bottom:1px solid var(--line)}
+.tabs .wrap{display:flex;gap:4px}
+.tabs button{padding:14px 16px 12px;border:0;border-bottom:3px solid transparent;background:none;
+  font:600 16px var(--sans);color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.tabs button:hover{color:var(--navy)}
+.tabs button[aria-current=page]{color:var(--navy);border-bottom-color:var(--gold)}
+.tabs .ct{font-size:12px;min-width:20px;height:20px;padding:0 6px;border-radius:10px;background:var(--tint);color:var(--navy);display:inline-grid;place-items:center}
+.tabs button:focus-visible,.chatpage button:focus-visible,.chatpage textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.chatpage{max-width:860px;padding-top:36px;padding-bottom:48px;font-family:var(--sans);color:var(--ink)}
+.chatpage[hidden],.hero[hidden],.browse[hidden],.main[hidden]{display:none}
+.chat-intro h1{font-family:var(--serif);font-weight:500;font-size:36px;line-height:1.15;color:var(--navy);margin:0 0 10px}
+.chat-intro p{margin:0 0 18px;font-size:17px;line-height:1.5;color:var(--ink-2)}
+.chat-try{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:24px}
+.chat-try span{font-size:14px;color:var(--ink-3)}
+.chat-try button{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);
+  font:14px var(--sans);color:var(--navy);cursor:pointer;text-align:left}
+.chat-try button:hover{background:var(--tint)}
+.chat-log{display:flex;flex-direction:column;gap:12px;margin-bottom:16px}
+.chat-log:empty{display:none}
+.chat-msg{max-width:80%;padding:10px 14px;border-radius:14px;font-size:16px;line-height:1.5;white-space:pre-wrap;scroll-margin-top:16px}
+.chat-msg.me{align-self:flex-end;background:var(--navy);color:#fff;border-bottom-right-radius:4px}
+.chat-msg.bot{align-self:flex-start;background:var(--surface);border:1px solid var(--line);border-bottom-left-radius:4px}
+.chat-msg.wait{color:var(--ink-3);font-style:italic}
+.chat-msg.err{background:#FBEAEA;border-color:#EBC1C1;color:#8A1F1F}
+.chat-cards{display:flex;flex-direction:column;gap:10px}
+.asst-card{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.asst-why{margin:0;padding:9px 22px;font-size:14px;color:var(--navy);border-bottom:1px solid var(--line-2);font-weight:600}
 .asst-card .row{border-top:0}
+.chat-form{position:sticky;bottom:12px;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 6px 24px rgba(0,30,60,.12)}
+.chat-form textarea{width:100%;box-sizing:border-box;resize:none;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:16px var(--sans);color:var(--ink)}
+.chat-acts{display:flex;justify-content:flex-end;align-items:center;gap:14px;margin-top:8px}
+.chat-note{margin:10px 0 0;font-size:13px;color:var(--ink-3)}
+.chat-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:600px){.chatpage{padding-top:24px}.chat-intro h1{font-size:28px}.chat-msg{max-width:92%}.tabs button{padding:12px 10px 10px;font-size:15px}}
 /* "Check the sponsor's page now" in the detail panel */
 .asst-check{margin:0 0 18px}
 .asst-check-btn{width:100%;padding:11px 14px;border:1px solid var(--navy);border-radius:8px;background:var(--surface);

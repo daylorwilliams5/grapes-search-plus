@@ -3,12 +3,12 @@ assistant/server.py
 ===================
 A local prototype of a student-facing assistant for GRAPES Search+.
 
-Runs the search page with the search box answered by an assistant. Students
-describe themselves ("3rd-year sociology PhD, international, need summer
-funding") and the assistant recommends listings, shown as "Best fits" above
-the full list. The model may only pick record numbers from the listings; the
-page then shows those listings with its own cards, so every deadline, amount, and link a student sees comes from the
-data, not from the model's wording.
+Runs the search page with an "Ask the assistant" tab added beside the full
+list. Students describe themselves ("3rd-year sociology PhD, international,
+need summer funding") and the assistant recommends listings. The model may
+only pick record numbers from the listings; the page then shows those
+listings with its own cards, so every deadline, amount, and link a student
+sees comes from the data, not from the model's wording.
 
 This is a demo for staff. It sends questions to the Claude API, so don't let
 real students use it until IT has approved where it runs.

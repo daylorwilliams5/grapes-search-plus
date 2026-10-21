@@ -92,7 +92,7 @@ The report is written to `data/agent_report.md`. Tests for the evidence checks r
 
 `assistant/server.py` runs the search page with two changes:
 
-- **The search box asks the assistant.** Students describe their degree, field, citizenship, and what the funding is for, and the assistant's picks appear as **Best fits** above the full list, each with a line on why it fits. Follow-up questions build on the earlier ones until **Start over**. The full list stays below with every filter, and the filters selected on the page are sent with each question. The assistant can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. It uses Claude Sonnet 5.5, with the list of listings (about 60,000 tokens) cached between questions.
+- **An "Ask the assistant" tab**, the first thing visitors see. Students describe their degree, field, citizenship, and what the funding is for, in a chat, and the assistant recommends listings with a line on why each fits. Follow-up questions build on the earlier ones until **Start over**. The **All opportunities** tab is the page as it always was, with keyword search and filters. The assistant can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. It uses Claude Sonnet 5.5, with the list of listings (about 60,000 tokens) cached between questions.
 - **"Check the sponsor's page now"** in every listing's details. It runs the research agent on that one listing (Claude Haiku 5.5, about 1 cent and 20-40 seconds) and shows what the sponsor's page says today, with quotes and links.
 
 ```bash
@@ -142,7 +142,7 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 | `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
-| `assistant/` | Prototype of the student assistant (server, search box and Best fits) |
+| `assistant/` | Prototype of the student assistant (server, chat tab) |
 | `render.yaml`, `requirements.txt` | Render setup for the online staff demo |
 | `tests/` | Tests for the research agent and the assistant prototype |
 | `grapes-system-design.md`, `chat-system-design.md` | Design notes |
