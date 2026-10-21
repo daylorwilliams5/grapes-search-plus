@@ -1,0 +1,18 @@
+# Render blueprint for the online staff demo of the assistant (assistant/server.py).
+# In Render: New > Blueprint, pick this repository, then fill in the two secrets.
+services:
+  - type: web
+    name: grapes-search-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python assistant/server.py
+    healthCheckPath: /api/status
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: ANTHROPIC_API_KEY
+        sync: false   # entered in Render, never stored in the repository
+      - key: DEMO_PASSCODE
+        sync: false   # the passcode staff type to use the chat and live checks

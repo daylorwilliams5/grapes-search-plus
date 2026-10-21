@@ -4,6 +4,7 @@ import datetime
 import importlib.util
 import json
 import threading
+import urllib.error
 import urllib.request
 from http.server import ThreadingHTTPServer
 from pathlib import Path
@@ -224,3 +225,57 @@ def test_server_check_endpoint():
 def test_real_research_agent_loads():
     agent = srv.load_research_agent()
     assert callable(agent.research) and callable(agent.check_findings)
+
+
+def test_gate_open_without_a_passcode():
+    g = srv.Gate("")
+    assert not g.locked and g.unlocks(None) and all(g.allow("a", "ask") for _ in range(100))
+
+
+def test_gate_passcode_and_limits():
+    g = srv.Gate("grapes")
+    assert g.locked and g.unlocks("grapes") and not g.unlocks("nope") and not g.unlocks(None)
+    t = 1_000_000.0
+    assert all(g.allow("a", "check", now=t) for _ in range(srv.Gate.LIMITS["check"]))
+    assert not g.allow("a", "check", now=t)            # this visitor's hourly limit
+    assert g.allow("b", "check", now=t)                # another visitor is fine
+    assert g.allow("a", "check", now=t + 3601)         # an hour later it resets
+
+
+def test_gate_daily_limit():
+    g = srv.Gate("grapes")
+    g.DAILY = 3
+    t = 1_000_000.0
+    assert [g.allow(str(i), "ask", now=t) for i in range(4)] == [True, True, True, False]
+
+
+def post(base, path, body, headers=None):
+    req = urllib.request.Request(base + path, method="POST", data=json.dumps(body).encode(),
+                                 headers={"Content-Type": "application/json", **(headers or {})})
+    try:
+        r = urllib.request.urlopen(req)
+        return r.status, json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raw = e.read()
+        try:
+            return e.code, json.loads(raw)
+        except ValueError:
+            return e.code, raw.decode()
+
+
+def test_server_with_passcode():
+    import urllib.error  # noqa: F401  (used by post)
+    a = assistant({"reply": "Hi.", "matches": []})
+    server = ThreadingHTTPServer(("127.0.0.1", 0), srv.make_handler(a, None, srv.Gate("grapes")))
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    base = f"http://127.0.0.1:{server.server_address[1]}"
+    try:
+        assert json.loads(urllib.request.urlopen(base + "/api/status").read()) == {"locked": True, "check": False}
+        ask = {"messages": [{"role": "user", "text": "hi"}]}
+        assert post(base, "/api/ask", ask)[0] == 403
+        assert post(base, "/api/ask", ask, {"X-Demo-Passcode": "wrong"})[0] == 403
+        assert post(base, "/api/unlock", {"passcode": "grapes"}) == (200, {"ok": True})
+        assert post(base, "/api/ask", ask, {"X-Demo-Passcode": "grapes"}) == (200, {"reply": "Hi.", "matches": []})
+        assert post(base, "/api/check", {"id": 12}, {"X-Demo-Passcode": "grapes"})[0] == 404  # checks off here
+    finally:
+        server.shutdown()

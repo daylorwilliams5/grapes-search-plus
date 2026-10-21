@@ -22,9 +22,14 @@ Nothing is logged: questions are sent to the API and not stored here.
 """
 
 import argparse
+import collections
 import datetime
+import hmac
 import json
+import os
 import re
+import threading
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -302,7 +307,49 @@ def page_with_widget():
     return html[:i] + tags + html[i:]
 
 
-def make_handler(assistant, checker=None):
+class Gate:
+    """Passcode and usage limits for a copy that's online, so only staff can
+    use it and nobody can run up the API bill. With no passcode set (running
+    on your own computer), everything is open."""
+
+    LIMITS = {"ask": 40, "check": 15}  # per visitor per hour
+    DAILY = 400                         # all visitors, per day
+
+    def __init__(self, passcode=""):
+        self.passcode = passcode
+        self.recent = collections.defaultdict(collections.deque)
+        self.day, self.today_count = None, 0
+        self.lock = threading.Lock()
+
+    @property
+    def locked(self):
+        return bool(self.passcode)
+
+    def unlocks(self, given):
+        return not self.passcode or hmac.compare_digest(str(given or ""), self.passcode)
+
+    def allow(self, visitor, kind, now=None):
+        """True if this visitor may make another request of this kind."""
+        if not self.passcode:
+            return True
+        now = now or time.time()
+        with self.lock:
+            today = time.strftime("%Y-%m-%d", time.gmtime(now))
+            if today != self.day:
+                self.day, self.today_count = today, 0
+            q = self.recent[(visitor, kind)]
+            while q and q[0] < now - 3600:
+                q.popleft()
+            if len(q) >= self.LIMITS[kind] or self.today_count >= self.DAILY:
+                return False
+            q.append(now)
+            self.today_count += 1
+            return True
+
+
+def make_handler(assistant, checker=None, gate=None):
+    gate = gate or Gate()
+
     class Handler(BaseHTTPRequestHandler):
         def send(self, code, body, ctype):
             data = body.encode("utf-8") if isinstance(body, str) else body
@@ -313,8 +360,16 @@ def make_handler(assistant, checker=None):
             self.end_headers()
             self.wfile.write(data)
 
+        def visitor(self):
+            # Behind a host like Render, the visitor's address is in X-Forwarded-For
+            fwd = self.headers.get("X-Forwarded-For", "")
+            return fwd.split(",")[0].strip() or self.client_address[0]
+
         def do_GET(self):
             path = self.path.split("?")[0]
+            if path == "/api/status":
+                return self.send(200, json.dumps({"locked": gate.locked, "check": bool(checker)}),
+                                 "application/json")
             if path in ("/", "/index.html", "/grapes-fellowship-finder.html"):
                 return self.send(200, page_with_widget(), "text/html; charset=utf-8")
             if path in STATIC:
@@ -323,11 +378,24 @@ def make_handler(assistant, checker=None):
             self.send(404, "Not found", "text/plain")
 
         def do_POST(self):
-            if self.path not in ("/api/ask", "/api/check") or (self.path == "/api/check" and not checker):
+            if self.path not in ("/api/ask", "/api/check", "/api/unlock") or \
+                    (self.path == "/api/check" and not checker):
                 return self.send(404, "Not found", "text/plain")
             try:
                 length = min(int(self.headers.get("Content-Length", 0)), 64_000)
                 body = json.loads(self.rfile.read(length) or b"{}")
+                if self.path == "/api/unlock":
+                    ok = gate.unlocks(body.get("passcode"))
+                    if not ok:
+                        time.sleep(1)  # slow down guessing
+                    return self.send(200 if ok else 403, json.dumps({"ok": ok}), "application/json")
+                if not gate.unlocks(self.headers.get("X-Demo-Passcode")):
+                    return self.send(403, json.dumps({"error": "Enter the demo passcode first."}),
+                                     "application/json")
+                kind = "check" if self.path == "/api/check" else "ask"
+                if not gate.allow(self.visitor(), kind):
+                    return self.send(429, json.dumps({"error": "That's the limit for now. Try again in an hour."}),
+                                     "application/json")
                 if self.path == "/api/check":
                     answer = checker.check(int(body.get("id", 0)))
                 else:
@@ -349,9 +417,19 @@ def make_handler(assistant, checker=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=8000)
+    parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--model", default=MODEL)
     parser.add_argument("--data", default=str(ROOT / "data" / "fellowships_master.json"))
     args = parser.parse_args()
+
+    # On a host like Render, PORT is set and the server must listen publicly
+    port, host = args.port, args.host
+    if os.environ.get("PORT"):
+        port, host = int(os.environ["PORT"]), "0.0.0.0"
+    passcode = os.environ.get("DEMO_PASSCODE", "").strip()
+    if host != "127.0.0.1" and not passcode and os.environ.get("PUBLIC") != "1":
+        raise SystemExit("Refusing to go online without a passcode: set DEMO_PASSCODE "
+                         "(or PUBLIC=1 once IT has approved opening it to students).")
 
     import anthropic
     records = json.loads(Path(args.data).read_text(encoding="utf-8"))
@@ -363,8 +441,9 @@ def main():
         checker = None
         print(f"\"Check the sponsor's page\" is off: {e}. To turn it on:")
         print("    python -m pip install requests beautifulsoup4 python-dateutil")
-    server = ThreadingHTTPServer(("127.0.0.1", args.port), make_handler(assistant, checker))
-    print(f"GRAPES Search+ with the assistant: http://localhost:{args.port}  ({len(records)} listings, {args.model})")
+    server = ThreadingHTTPServer((host, port), make_handler(assistant, checker, Gate(passcode)))
+    print(f"GRAPES Search+ with the assistant: http://localhost:{port}  ({len(records)} listings, {args.model})"
+          + ("  [passcode required]" if passcode else ""))
     print("Press Ctrl+C to stop.")
     try:
         server.serve_forever()
