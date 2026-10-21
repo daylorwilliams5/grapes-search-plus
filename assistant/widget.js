@@ -1,121 +1,116 @@
-// Chat panel for the assistant prototype (assistant/server.py).
-// When the server is online with a passcode, nothing appears until a staff
+// The assistant for GRAPES Search+ (assistant/server.py).
+// When the server is online with a passcode, nothing changes until a staff
 // member opens the page with ?demo and enters it (kept for the browser tab).
-// Loaded after the page's own script, so it uses the page's DATA, rowHTML,
-// openDetail and toggleSave to show recommendations as ordinary result cards.
-function startChat(){
+// Loaded after the page's own script, so it uses the page's DATA, state,
+// render, passes, rowHTML, openDetail and toggleSave.
+
+// The search box asks the assistant instead of matching keywords. Its picks
+// appear as "Best fits" above the full list, which keeps every filter.
+function startSearch(){
   const history = [];
-  let busy = false;
+  let picks = null, reply = '', busy = false;
 
-  const btn = document.createElement('button');
-  btn.className = 'asst-open';
-  btn.type = 'button';
-  btn.textContent = 'Ask the assistant';
-  btn.setAttribute('aria-controls', 'asstPanel');
-  btn.setAttribute('aria-expanded', 'false');
+  // A fresh copy of the box drops the page's search-as-you-type
+  const old = document.getElementById('qi');
+  const input = old.cloneNode(true);
+  old.replaceWith(input);
+  input.value = state.q;
+  input.placeholder = 'e.g. 3rd-year sociology PhD, international student, need summer research funding';
+  input.maxLength = 1500;
+  document.querySelector('label[for=qi]').textContent = 'Describe what you need';
+  document.getElementById('qclr').setAttribute('aria-label', 'Clear and start over');
+  input.addEventListener('input', () => document.getElementById('qclr').classList.toggle('show', !!input.value));
+  state.q = '';
+  if (state.sort === 'rel') state.sort = 'deadline';
+  document.getElementById('sortSel').value = state.sort;
 
-  const panel = document.createElement('section');
-  panel.id = 'asstPanel';
-  panel.className = 'asst';
-  panel.hidden = true;
-  panel.setAttribute('aria-label', 'Funding assistant');
-  panel.innerHTML = `
-    <header class="asst-head">
-      <div><h2>Funding assistant</h2><span class="asst-tag">Prototype</span></div>
-      <button type="button" class="asst-x" aria-label="Close assistant">×</button>
-    </header>
-    <p class="asst-note">Describe your degree, field, citizenship, and what the funding is for.
-      Suggestions only: confirm eligibility on the sponsor's page. Don't include your name or ID.</p>
-    <div class="asst-log" aria-live="polite"></div>
-    <form class="asst-form">
-      <label for="asstQ" class="asst-sr">Your question</label>
-      <textarea id="asstQ" rows="2" maxlength="1500"
-        placeholder="e.g. 3rd-year sociology PhD, international student, need summer research funding"></textarea>
-      <button type="submit">Ask</button>
-    </form>`;
-  document.body.append(btn, panel);
+  const box = document.createElement('div');
+  box.className = 'bf';
+  box.hidden = true;
+  box.setAttribute('aria-live', 'polite');
+  document.querySelector('#results > section').prepend(box);
 
-  const log = panel.querySelector('.asst-log');
-  const form = panel.querySelector('form');
-  const input = panel.querySelector('textarea');
-
-  function show(open){
-    panel.hidden = !open;
-    btn.hidden = open;
-    btn.setAttribute('aria-expanded', String(open));
-    if (open) input.focus(); else btn.focus();
-  }
-  btn.addEventListener('click', () => show(true));
-  panel.querySelector('.asst-x').addEventListener('click', () => show(false));
-
-  function bubble(cls, text){
-    const p = document.createElement('div');
-    p.className = 'asst-msg ' + cls;
-    p.textContent = text;
-    log.append(p);
-    log.scrollTop = log.scrollHeight;
-    return p;
-  }
-
-  function cards(matches){
-    const wrap = document.createElement('div');
-    wrap.className = 'asst-cards';
-    matches.forEach(m => {
-      const r = DATA.find(x => x.id === m.id);
-      if (!r) return;
-      const item = document.createElement('div');
-      item.className = 'asst-card';
-      item.innerHTML = (m.why ? `<p class="asst-why">${esc(m.why)}</p>` : '') + rowHTML(r);
-      wrap.append(item);
+  // What's selected on the page goes with the question
+  function filterText(){
+    const parts = [];
+    GROUPS.forEach(g => {
+      if (!state[g.key].size) return;
+      const labels = g.opts.filter(([v]) => state[g.key].has(v)).map(([, l]) => l);
+      parts.push(`${g.title}: ${labels.join(', ')}`);
     });
-    log.append(wrap);
+    if (state.verified) parts.push('verified listings only');
+    return parts.length ? `\n\n(Filters selected on the page: ${parts.join('; ')}.)` : '';
   }
 
-  // The cards are the page's own result rows: open details, or save, as in the list
-  log.addEventListener('click', e => {
+  function paint(){
+    if (!busy && !picks){ box.hidden = true; return; }
+    box.hidden = false;
+    const head = `<div class="bf-hd"><h2>Best fits</h2>
+      <span class="asst-tag">AI assistant</span>
+      <button type="button" class="linkbtn bf-reset">Start over</button></div>`;
+    if (busy){
+      box.innerHTML = head + '<p class="bf-wait">Reading through the GRAPES listings…</p>';
+      return;
+    }
+    // Picks that the current filters rule out are left out here, as in the list
+    const fit = picks.filter(m => { const r = DATA.find(x => x.id === m.id); return r && passes(r); });
+    const hidden = picks.length - fit.length;
+    box.innerHTML = head +
+      (reply ? `<p class="bf-reply">${esc(reply)}</p>` : '') +
+      fit.map(m => `<div class="asst-card">${m.why ? `<p class="asst-why">${esc(m.why)}</p>` : ''}${rowHTML(DATA.find(x => x.id === m.id))}</div>`).join('') +
+      (hidden ? `<p class="bf-small">${hidden} more ${hidden === 1 ? 'pick is' : 'picks are'} hidden by your filters.</p>` : '') +
+      '<p class="bf-small">Suggestions from an AI assistant: confirm eligibility on the sponsor’s page. Add details or ask a follow-up in the search box. Every listing is below.</p>';
+  }
+
+  async function ask(q){
+    if (!q || busy) return;
+    busy = true;
+    history.push({role: 'user', text: q + filterText()});
+    paint();
+    box.scrollIntoView({behavior: 'smooth', block: 'start'});
+    try {
+      const res = await fetch('/api/ask', {method: 'POST', headers: apiHeaders(),
+                                           body: JSON.stringify({messages: history})});
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+      reply = data.reply || '';
+      picks = data.matches;
+      history.push({role: 'assistant', text: reply, ids: picks.map(m => m.id)});
+    } catch (err) {
+      history.pop();
+      reply = err.message || 'The assistant is unavailable right now.';
+      picks = [];
+    }
+    busy = false;
+    paint();
+  }
+  function startOver(){
+    history.length = 0; picks = null; reply = '';
+    input.value = '';
+    document.getElementById('qclr').classList.remove('show');
+    paint();
+    input.focus();
+  }
+
+  window.runSearch = () => ask(input.value.trim());
+  window.quick = s => { input.value = s; document.getElementById('qclr').classList.add('show'); ask(s); };
+  window.clearQ = startOver;
+  const pageRender = window.render;
+  window.render = function(){ pageRender(); paint(); };
+
+  box.addEventListener('click', e => {
+    if (e.target.closest('.bf-reset')) return startOver();
     const sv = e.target.closest('[data-save]');
-    if (sv){ e.stopPropagation(); toggleSave(+sv.dataset.save); sv.classList.toggle('on'); return; }
+    if (sv){ e.stopPropagation(); toggleSave(+sv.dataset.save); return; }
     const row = e.target.closest('.row');
     if (row) openDetail(+row.dataset.id);
   });
-  log.addEventListener('keydown', e => {
+  box.addEventListener('keydown', e => {
     if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('row')){
       e.preventDefault(); openDetail(+e.target.dataset.id);
     }
   });
-  input.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); form.requestSubmit(); }
-  });
-
-  form.addEventListener('submit', async e => {
-    e.preventDefault();
-    const q = input.value.trim();
-    if (!q || busy) return;
-    busy = true;
-    input.value = '';
-    bubble('me', q);
-    history.push({role: 'user', text: q});
-    const wait = bubble('bot wait', 'Looking through GRAPES…');
-    try {
-      const res = await fetch('/api/ask', {
-        method: 'POST',
-        headers: apiHeaders(),
-        body: JSON.stringify({messages: history}),
-      });
-      const data = await res.json();
-      wait.remove();
-      if (!res.ok) throw new Error(data.error || 'Something went wrong.');
-      bubble('bot', data.reply || 'Here is what I found.');
-      if (data.matches.length) cards(data.matches);
-      history.push({role: 'assistant', text: data.reply, ids: data.matches.map(m => m.id)});
-    } catch (err) {
-      wait.remove();
-      bubble('bot err', err.message || 'The assistant is unavailable right now.');
-      history.pop();
-    }
-    busy = false;
-    input.focus();
-  });
+  render();
 }
 
 // "Check the sponsor's page now": a button in each listing's details that runs
@@ -209,7 +204,7 @@ async function tryUnlock(code){
   return res.ok;
 }
 function start(check){
-  startChat();
+  startSearch();
   if (check) startCheck();
 }
 function askForPasscode(check){
