@@ -96,12 +96,22 @@ The report is written to `data/agent_report.md`. Tests for the evidence checks r
 - **"Check the sponsor's page now"** in every listing's details. It runs the research agent on that one listing (Claude Haiku 5.5, about 1 cent and 20-40 seconds) and shows what the sponsor's page says today, with quotes and links.
 
 ```bash
-python -m pip install anthropic requests beautifulsoup4 python-dateutil
+python -m pip install -r requirements.txt
 export ANTHROPIC_API_KEY=...
 python assistant/server.py      # then open http://localhost:8000
 ```
 
 Questions aren't stored. It's a demo for staff: it sends questions to the Claude API, so don't open it to students until IT has approved where it runs. Tests: `python -m pytest tests/`.
+
+### Online staff demo (Render)
+
+`render.yaml` sets up the assistant as a free [Render](https://render.com) web service, so staff can try it from a link instead of running it on their own computer.
+
+1. In Render, choose **New → Blueprint** and pick this repository.
+2. Enter the two secrets it asks for: `ANTHROPIC_API_KEY`, and `DEMO_PASSCODE` (any passcode to share with staff).
+3. When it's deployed, open `https://<service>.onrender.com/?demo` and enter the passcode. The browser tab remembers it until it's closed.
+
+Without `?demo` and the passcode, the page is the ordinary search with no assistant, and the API refuses questions. Each visitor can ask 40 questions and run 15 sponsor checks an hour, with 400 requests a day in all, to cap the cost. The free plan sleeps after 15 minutes without visits, so the first visit after that takes about 30 seconds. The server won't start online without `DEMO_PASSCODE`; setting `PUBLIC=1` instead opens it to everyone, which should wait until IT has approved it.
 
 ## Citizenship and degree-stage tags
 
@@ -132,7 +142,8 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/03_merge_and_rebuild.py` | Merges spreadsheet records into the data and rebuilds the HTML |
 | `.github/workflows/update-fellowships.yml` | Scheduled update that runs the steps above |
 | `.github/workflows/agent-research.yml` | Runs the research agent and opens a pull request with its changes |
-| `assistant/` | Local prototype of the student assistant (server, chat panel) |
+| `assistant/` | Prototype of the student assistant (server, chat panel) |
+| `render.yaml`, `requirements.txt` | Render setup for the online staff demo |
 | `tests/` | Tests for the research agent and the assistant prototype |
 | `grapes-system-design.md`, `chat-system-design.md` | Design notes |
 

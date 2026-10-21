@@ -44,3 +44,10 @@
 .asst-check-res blockquote{margin:4px 0 8px;padding:6px 10px;border-left:3px solid currentColor;background:rgba(255,255,255,.55);color:var(--ink);font-size:13px}
 .asst-check-res blockquote a{margin-left:6px;font-size:12px}
 .asst-check-small{font-size:12px;opacity:.85}
+/* Passcode prompt for the online demo (shown with ?demo) */
+.asst-lock{position:fixed;right:24px;bottom:24px;z-index:30;display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+  padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 28px rgba(0,30,60,.2);font:14px var(--sans)}
+.asst-lock label{font-weight:600;color:var(--navy);width:100%}
+.asst-lock input{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:15px var(--sans)}
+.asst-lock button{padding:8px 14px;border:0;border-radius:8px;background:var(--navy);color:#fff;font:600 14px var(--sans);cursor:pointer}
+.asst-lock-err{margin:0;width:100%;color:#8A1F1F;font-size:13px}

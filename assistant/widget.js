@@ -1,7 +1,9 @@
-// Chat panel for the local assistant prototype (assistant/server.py).
+// Chat panel for the assistant prototype (assistant/server.py).
+// When the server is online with a passcode, nothing appears until a staff
+// member opens the page with ?demo and enters it (kept for the browser tab).
 // Loaded after the page's own script, so it uses the page's DATA, rowHTML,
 // openDetail and toggleSave to show recommendations as ordinary result cards.
-(function(){
+function startChat(){
   const history = [];
   let busy = false;
 
@@ -97,7 +99,7 @@
     try {
       const res = await fetch('/api/ask', {
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
+        headers: apiHeaders(),
         body: JSON.stringify({messages: history}),
       });
       const data = await res.json();
@@ -114,11 +116,11 @@
     busy = false;
     input.focus();
   });
-})();
+}
 
 // "Check the sponsor's page now": a button in each listing's details that runs
 // the research agent on that listing and shows what the sponsor's page says today.
-(function(){
+function startCheck(){
   const results = {};   // per listing, for this visit
   const MON_FULL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
   function longDate(iso){
@@ -171,7 +173,7 @@
       btn.disabled = true;
       btn.textContent = 'Reading the sponsor’s page… (about 20–40 seconds)';
       try {
-        const res = await fetch('/api/check', {method: 'POST', headers: {'Content-Type': 'application/json'},
+        const res = await fetch('/api/check', {method: 'POST', headers: apiHeaders(),
                                                body: JSON.stringify({id})});
         if (res.status === 404) throw new Error('Live checks are off. Install requests, beautifulsoup4 and python-dateutil, then restart the assistant.');
         const data = await res.json();
@@ -189,4 +191,50 @@
   }
   const open = window.openDetail;
   window.openDetail = function(id){ open(id); addCheck(id); };
+}
+
+
+// ── Passcode for the online demo ──
+let demoPasscode = '';
+function apiHeaders(){
+  const h = {'Content-Type': 'application/json'};
+  if (demoPasscode) h['X-Demo-Passcode'] = demoPasscode;
+  return h;
+}
+function remember(code){ try { sessionStorage.setItem('grapes-demo', code); } catch (e) {} }
+function recalled(){ try { return sessionStorage.getItem('grapes-demo') || ''; } catch (e) { return ''; } }
+async function tryUnlock(code){
+  const res = await fetch('/api/unlock', {method: 'POST', headers: {'Content-Type': 'application/json'},
+                                          body: JSON.stringify({passcode: code})});
+  return res.ok;
+}
+function start(check){
+  startChat();
+  if (check) startCheck();
+}
+function askForPasscode(check){
+  const box = document.createElement('form');
+  box.className = 'asst-lock';
+  box.innerHTML = `<label for="asstCode">Staff demo passcode</label>
+    <input id="asstCode" type="password" autocomplete="off"/>
+    <button type="submit">Unlock</button><p class="asst-lock-err" hidden>That passcode didn’t work.</p>`;
+  document.body.append(box);
+  box.querySelector('input').focus();
+  box.addEventListener('submit', async e => {
+    e.preventDefault();
+    const code = box.querySelector('input').value.trim();
+    if (code && await tryUnlock(code)){
+      demoPasscode = code; remember(code); box.remove(); start(check);
+    } else {
+      box.querySelector('.asst-lock-err').hidden = false;
+    }
+  });
+}
+(async function boot(){
+  let status = {locked: false, check: true};
+  try { status = await (await fetch('/api/status')).json(); } catch (e) {}
+  if (!status.locked) return start(status.check);
+  const saved = recalled();
+  if (saved && await tryUnlock(saved)){ demoPasscode = saved; return start(status.check); }
+  if (new URLSearchParams(location.search).has('demo')) askForPasscode(status.check);
 })();

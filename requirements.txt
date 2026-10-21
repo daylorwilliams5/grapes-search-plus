@@ -1,0 +1,6 @@
+# For the assistant server (assistant/server.py) and the research agent
+anthropic
+requests
+beautifulsoup4
+python-dateutil
+pypdf
