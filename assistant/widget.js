@@ -1,116 +1,145 @@
 // The assistant for GRAPES Search+ (assistant/server.py).
 // When the server is online with a passcode, nothing changes until a staff
 // member opens the page with ?demo and enters it (kept for the browser tab).
-// Loaded after the page's own script, so it uses the page's DATA, state,
-// render, passes, rowHTML, openDetail and toggleSave.
+// Loaded after the page's own script, so it uses the page's DATA, rowHTML,
+// openDetail and toggleSave to show recommendations as ordinary result cards.
 
-// The search box asks the assistant instead of matching keywords. Its picks
-// appear as "Best fits" above the full list, which keeps every filter.
-function startSearch(){
+// Two tabs under the header: a full-page chat with the assistant, and the
+// page as it was ("All opportunities", with its keyword search and filters).
+function startChat(){
   const history = [];
-  let picks = null, reply = '', busy = false;
+  let busy = false;
 
-  // A fresh copy of the box drops the page's search-as-you-type
-  const old = document.getElementById('qi');
-  const input = old.cloneNode(true);
-  old.replaceWith(input);
-  input.value = state.q;
-  input.placeholder = 'e.g. 3rd-year sociology PhD, international student, need summer research funding';
-  input.maxLength = 1500;
-  document.querySelector('label[for=qi]').textContent = 'Describe what you need';
-  document.getElementById('qclr').setAttribute('aria-label', 'Clear and start over');
-  input.addEventListener('input', () => document.getElementById('qclr').classList.toggle('show', !!input.value));
-  state.q = '';
-  if (state.sort === 'rel') state.sort = 'deadline';
-  document.getElementById('sortSel').value = state.sort;
+  const tabs = document.createElement('nav');
+  tabs.className = 'tabs';
+  tabs.setAttribute('aria-label', 'Views');
+  tabs.innerHTML = `<div class="wrap">
+      <button type="button" data-tab="chat">Ask the assistant</button>
+      <button type="button" data-tab="all">All opportunities <span class="ct">${DATA.length}</span></button>
+    </div>`;
+  document.querySelector('header.mast').after(tabs);
 
-  const box = document.createElement('div');
-  box.className = 'bf';
-  box.hidden = true;
-  box.setAttribute('aria-live', 'polite');
-  document.querySelector('#results > section').prepend(box);
+  const page = document.createElement('main');
+  page.className = 'chatpage wrap';
+  page.innerHTML = `
+    <div class="chat-intro">
+      <h1>Find funding that fits you.</h1>
+      <p>Tell the assistant your degree and year, your field, your citizenship, and what the funding is for.
+        It suggests awards from GRAPES and says why each one fits. Don't include your name or student ID.</p>
+      <div class="chat-try"><span>Try:</span>
+        <button type="button">3rd-year sociology PhD, international student, need summer research funding</button>
+        <button type="button">Master's student in public health looking for conference travel grants</button>
+        <button type="button">Dissertation-year fellowships in the humanities, U.S. citizen</button>
+      </div>
+    </div>
+    <div class="chat-log" aria-live="polite"></div>
+    <form class="chat-form">
+      <label for="chatQ" class="chat-sr">Your question</label>
+      <textarea id="chatQ" rows="2" maxlength="1500" placeholder="Describe what you're looking for…"></textarea>
+      <div class="chat-acts">
+        <button type="button" class="linkbtn chat-reset" hidden>Start over</button>
+        <button type="submit" class="btn solid">Ask</button>
+      </div>
+    </form>
+    <p class="chat-note">Suggestions from an AI assistant. Always confirm deadlines and eligibility on the sponsor's page.</p>`;
+  tabs.after(page);
 
-  // What's selected on the page goes with the question
-  function filterText(){
-    const parts = [];
-    GROUPS.forEach(g => {
-      if (!state[g.key].size) return;
-      const labels = g.opts.filter(([v]) => state[g.key].has(v)).map(([, l]) => l);
-      parts.push(`${g.title}: ${labels.join(', ')}`);
+  const views = {all: [document.querySelector('.hero'), document.querySelector('.browse'), document.getElementById('results')],
+                 chat: [page]};
+  function show(tab){
+    for (const [k, els] of Object.entries(views)) els.forEach(el => { el.hidden = k !== tab; });
+    tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
+    try { sessionStorage.setItem('grapes-tab', tab); } catch (e) {}
+  }
+  tabs.addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b){ show(b.dataset.tab); window.scrollTo(0, 0); } });
+  // The header's Saved and logo buttons belong to the full list
+  const pageToggleSaved = window.toggleSaved, pageResetAll = window.resetAll;
+  window.toggleSaved = () => { show('all'); pageToggleSaved(); };
+  window.resetAll = () => { show('all'); pageResetAll(); };
+  let first = 'chat';
+  try { first = sessionStorage.getItem('grapes-tab') || (location.hash.length > 1 ? 'all' : 'chat'); } catch (e) {}
+  show(first);
+
+  const log = page.querySelector('.chat-log');
+  const form = page.querySelector('form');
+  const input = page.querySelector('textarea');
+  const reset = page.querySelector('.chat-reset');
+  const intro = page.querySelector('.chat-intro');
+
+  function bubble(cls, text){
+    const p = document.createElement('div');
+    p.className = 'chat-msg ' + cls;
+    p.textContent = text;
+    log.append(p);
+    return p;
+  }
+  function cards(matches){
+    const wrap = document.createElement('div');
+    wrap.className = 'chat-cards';
+    matches.forEach(m => {
+      const r = DATA.find(x => x.id === m.id);
+      if (!r) return;
+      const item = document.createElement('div');
+      item.className = 'asst-card';
+      item.innerHTML = (m.why ? `<p class="asst-why">${esc(m.why)}</p>` : '') + rowHTML(r);
+      wrap.append(item);
     });
-    if (state.verified) parts.push('verified listings only');
-    return parts.length ? `\n\n(Filters selected on the page: ${parts.join('; ')}.)` : '';
+    log.append(wrap);
   }
 
-  function paint(){
-    if (!busy && !picks){ box.hidden = true; return; }
-    box.hidden = false;
-    const head = `<div class="bf-hd"><h2>Best fits</h2>
-      <span class="asst-tag">AI assistant</span>
-      <button type="button" class="linkbtn bf-reset">Start over</button></div>`;
-    if (busy){
-      box.innerHTML = head + '<p class="bf-wait">Reading through the GRAPES listings…</p>';
-      return;
-    }
-    // Picks that the current filters rule out are left out here, as in the list
-    const fit = picks.filter(m => { const r = DATA.find(x => x.id === m.id); return r && passes(r); });
-    const hidden = picks.length - fit.length;
-    box.innerHTML = head +
-      (reply ? `<p class="bf-reply">${esc(reply)}</p>` : '') +
-      fit.map(m => `<div class="asst-card">${m.why ? `<p class="asst-why">${esc(m.why)}</p>` : ''}${rowHTML(DATA.find(x => x.id === m.id))}</div>`).join('') +
-      (hidden ? `<p class="bf-small">${hidden} more ${hidden === 1 ? 'pick is' : 'picks are'} hidden by your filters.</p>` : '') +
-      '<p class="bf-small">Suggestions from an AI assistant: confirm eligibility on the sponsor’s page. Add details or ask a follow-up in the search box. Every listing is below.</p>';
-  }
-
-  async function ask(q){
-    if (!q || busy) return;
-    busy = true;
-    history.push({role: 'user', text: q + filterText()});
-    paint();
-    box.scrollIntoView({behavior: 'smooth', block: 'start'});
-    try {
-      const res = await fetch('/api/ask', {method: 'POST', headers: apiHeaders(),
-                                           body: JSON.stringify({messages: history})});
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Something went wrong.');
-      reply = data.reply || '';
-      picks = data.matches;
-      history.push({role: 'assistant', text: reply, ids: picks.map(m => m.id)});
-    } catch (err) {
-      history.pop();
-      reply = err.message || 'The assistant is unavailable right now.';
-      picks = [];
-    }
-    busy = false;
-    paint();
-  }
-  function startOver(){
-    history.length = 0; picks = null; reply = '';
-    input.value = '';
-    document.getElementById('qclr').classList.remove('show');
-    paint();
-    input.focus();
-  }
-
-  window.runSearch = () => ask(input.value.trim());
-  window.quick = s => { input.value = s; document.getElementById('qclr').classList.add('show'); ask(s); };
-  window.clearQ = startOver;
-  const pageRender = window.render;
-  window.render = function(){ pageRender(); paint(); };
-
-  box.addEventListener('click', e => {
-    if (e.target.closest('.bf-reset')) return startOver();
+  // The cards are the page's own result rows: open details, or save, as in the list
+  log.addEventListener('click', e => {
     const sv = e.target.closest('[data-save]');
-    if (sv){ e.stopPropagation(); toggleSave(+sv.dataset.save); return; }
+    if (sv){ e.stopPropagation(); toggleSave(+sv.dataset.save); sv.classList.toggle('on'); return; }
     const row = e.target.closest('.row');
     if (row) openDetail(+row.dataset.id);
   });
-  box.addEventListener('keydown', e => {
+  log.addEventListener('keydown', e => {
     if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('row')){
       e.preventDefault(); openDetail(+e.target.dataset.id);
     }
   });
-  render();
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); form.requestSubmit(); }
+  });
+  page.querySelectorAll('.chat-try button').forEach(b => b.addEventListener('click', () => {
+    input.value = b.textContent; form.requestSubmit();
+  }));
+  reset.addEventListener('click', () => {
+    history.length = 0; log.innerHTML = '';
+    intro.hidden = false; reset.hidden = true;
+    input.focus();
+  });
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (!q || busy) return;
+    busy = true;
+    input.value = '';
+    intro.hidden = true; reset.hidden = false;
+    bubble('me', q);
+    history.push({role: 'user', text: q});
+    const wait = bubble('bot wait', 'Looking through GRAPES…');
+    wait.scrollIntoView({behavior: 'smooth', block: 'end'});
+    try {
+      const res = await fetch('/api/ask', {method: 'POST', headers: apiHeaders(),
+                                           body: JSON.stringify({messages: history})});
+      const data = await res.json();
+      wait.remove();
+      if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+      const reply = bubble('bot', data.reply || 'Here is what I found.');
+      if (data.matches.length) cards(data.matches);
+      history.push({role: 'assistant', text: data.reply, ids: data.matches.map(m => m.id)});
+      reply.scrollIntoView({behavior: 'smooth', block: 'start'});
+    } catch (err) {
+      wait.remove();
+      bubble('bot err', err.message || 'The assistant is unavailable right now.');
+      history.pop();
+    }
+    busy = false;
+    input.focus({preventScroll: true});
+  });
 }
 
 // "Check the sponsor's page now": a button in each listing's details that runs
@@ -204,7 +233,7 @@ async function tryUnlock(code){
   return res.ok;
 }
 function start(check){
-  startSearch();
+  startChat();
   if (check) startCheck();
 }
 function askForPasscode(check){
