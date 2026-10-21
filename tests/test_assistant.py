@@ -51,6 +51,10 @@ class FakeClient:
                 return Response(outer.data, outer.stop_reason)
         self.messages = Messages()
 
+        class Beta:
+            messages = self.messages
+        self.beta = Beta()
+
 
 def assistant(data, **kw):
     return srv.Assistant(FakeClient(data, **kw), RECORDS, today=TODAY)
@@ -92,7 +96,8 @@ def test_request_caches_the_catalog_and_asks_for_json():
     a = assistant({"reply": "", "matches": []})
     a.ask([{"role": "user", "text": "hi"}])
     call = a.client.calls[0]
-    assert call["model"] == "claude-haiku-5-5"
+    assert call["model"] == "claude-sonnet-5-5"
+    assert call["fallbacks"] == "default" and call["betas"] == ["server-side-fallback-2026-07-01"]
     assert call["system"][1]["cache_control"] == {"type": "ephemeral"}
     assert "[12] Newkirk Fellowship" in call["system"][1]["text"]
     assert call["output_config"]["format"]["type"] == "json_schema"
@@ -156,3 +161,66 @@ def test_recently_checked_listings_count_as_verified():
     a = srv.Assistant(FakeClient({}), [checked, stale], today=TODAY)
     assert a.verified == {99}
     assert "unverified listing" not in a.catalog.splitlines()[1]
+
+
+
+class FakeAgent:
+    """Stands in for scripts/02_agent_research.py."""
+
+    def __init__(self, deadline=None, flags=(), findings=True):
+        self.deadline, self.flags, self.findings, self.calls = deadline, list(flags), findings, 0
+
+    def research(self, client, record, today, model):
+        self.calls += 1
+        return ({"notes": "Checked the sponsor's page."} if self.findings else None), {}, {}
+
+    def estimate_cost(self, usage):
+        return 0.012
+
+    def check_findings(self, record, findings, docs, today):
+        checks = {"deadline": {"verdict": "empty"}, "amount": {"verdict": "empty"}}
+        if self.deadline:
+            checks["deadline"] = {"verdict": "verified", "value": self.deadline, "quote": "Due " + self.deadline,
+                                  "source_url": "https://example.org", "year_inferred": False}
+        return checks, {}, self.flags
+
+
+def test_check_confirms_a_current_deadline_and_caches_it():
+    agent = FakeAgent(deadline="2099-01-10")
+    c = srv.Checker(None, RECORDS, agent=agent)
+    r = c.check(12)
+    assert r["status"] == "confirmed" and r["deadline"]["quote"] == "Due 2099-01-10"
+    assert r["listing_deadline"] == "" and r["cost"] == 0.012
+    c.check(12)
+    assert agent.calls == 1
+
+
+def test_check_reports_unposted_and_stopped_programs():
+    assert srv.Checker(None, RECORDS, agent=FakeAgent(deadline="2020-01-10")).check(12)["status"] == "not_posted"
+    stopped = srv.Checker(None, RECORDS, agent=FakeAgent(flags=["Sponsor page says the program is paused"]))
+    assert stopped.check(12)["status"] == "stopped"
+    assert srv.Checker(None, RECORDS, agent=FakeAgent()).check(12)["status"] == "unconfirmed"
+
+
+def test_check_rejects_unknown_listings():
+    with pytest.raises(ValueError):
+        srv.Checker(None, RECORDS, agent=FakeAgent()).check(4242)
+
+
+def test_server_check_endpoint():
+    a = assistant({"reply": "", "matches": []})
+    checker = srv.Checker(None, RECORDS, agent=FakeAgent(deadline="2099-01-10"))
+    server = ThreadingHTTPServer(("127.0.0.1", 0), srv.make_handler(a, checker))
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    base = f"http://127.0.0.1:{server.server_address[1]}"
+    try:
+        req = urllib.request.Request(base + "/api/check", method="POST", data=json.dumps({"id": 12}).encode(),
+                                     headers={"Content-Type": "application/json"})
+        assert json.loads(urllib.request.urlopen(req).read())["status"] == "confirmed"
+    finally:
+        server.shutdown()
+
+
+def test_real_research_agent_loads():
+    agent = srv.load_research_agent()
+    assert callable(agent.research) and callable(agent.check_findings)

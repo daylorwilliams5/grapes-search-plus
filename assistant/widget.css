@@ -28,3 +28,19 @@
 .asst-form button{padding:0 16px;border:0;border-radius:8px;background:var(--navy);color:#fff;font:600 15px var(--sans);cursor:pointer}
 .asst-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (max-width:600px){.asst{right:0;bottom:0;width:100vw;height:100vh;border-radius:0}.asst-open{right:16px;bottom:16px}}
+/* "Check the sponsor's page now" in the detail panel */
+.asst-check{margin:0 0 18px}
+.asst-check-btn{width:100%;padding:11px 14px;border:1px solid var(--navy);border-radius:8px;background:var(--surface);
+  color:var(--navy);font:600 15px var(--sans);cursor:pointer}
+.asst-check-btn:hover:not(:disabled){background:var(--tint)}
+.asst-check-btn:disabled{cursor:progress;color:var(--ink-3);border-color:var(--line)}
+.asst-check-res:empty{display:none}
+.asst-check-res{border-radius:8px;padding:12px 14px;font-size:14px;line-height:1.45;border:1px solid var(--line)}
+.asst-check-res.ok{background:#EAF5EF;border-color:#B9DCC8;color:#17543A}
+.asst-check-res.warn{background:#FFF8E1;border-color:#F1DB8F;color:#6B4A00}
+.asst-check-res.bad{background:#FBEAEA;border-color:#EBC1C1;color:#8A1F1F}
+.asst-check-res p{margin:0 0 6px}
+.asst-check-head{font-size:15px}
+.asst-check-res blockquote{margin:4px 0 8px;padding:6px 10px;border-left:3px solid currentColor;background:rgba(255,255,255,.55);color:var(--ink);font-size:13px}
+.asst-check-res blockquote a{margin-left:6px;font-size:12px}
+.asst-check-small{font-size:12px;opacity:.85}

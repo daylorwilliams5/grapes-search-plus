@@ -90,15 +90,18 @@ The report is written to `data/agent_report.md`. Tests for the evidence checks r
 
 ## Student assistant (local prototype)
 
-`assistant/server.py` runs the search page on your own computer with a chat panel added. Students describe their degree, field, citizenship, and what the funding is for, and the assistant recommends listings. It can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. Record numbers that aren't listings are dropped.
+`assistant/server.py` runs the search page on your own computer with two additions:
+
+- **A chat panel.** Students describe their degree, field, citizenship, and what the funding is for, and the assistant recommends listings. It can only pick listings by record number; the page shows them with its usual cards, so the deadlines, amounts, and links come from the data, not from the AI. It uses Claude Sonnet 5.5, with the list of listings (about 60,000 tokens) cached between questions.
+- **"Check the sponsor's page now"** in every listing's details. It runs the research agent on that one listing (Claude Haiku 5.5, about 1 cent and 20-40 seconds) and shows what the sponsor's page says today, with quotes and links.
 
 ```bash
-pip install anthropic
+python -m pip install anthropic requests beautifulsoup4 python-dateutil
 export ANTHROPIC_API_KEY=...
 python assistant/server.py      # then open http://localhost:8000
 ```
 
-It uses Claude Haiku 5.5. The list of listings (about 60,000 tokens) is cached between questions. Questions aren't stored. It's a demo for staff: it sends questions to the Claude API, so don't open it to students until IT has approved where it runs. Tests: `python -m pytest tests/`.
+Questions aren't stored. It's a demo for staff: it sends questions to the Claude API, so don't open it to students until IT has approved where it runs. Tests: `python -m pytest tests/`.
 
 ## Citizenship and degree-stage tags
 
@@ -120,6 +123,7 @@ The page has a form for suggesting new fellowships, but its button stays hidden 
 | `scripts/01_extract.py` | Extracts records from the DGE GRAPES spreadsheet |
 | `scripts/02_enrich.py` | Template for adding descriptions and eligibility from sponsor websites |
 | `scripts/02_agent_research.py` | Checks listings against sponsor sites with a research agent and proposes verified updates |
+| `scripts/make_agent_updates.py` | Builds a spreadsheet of the research agent's findings to enter in the GRAPES admin system |
 | `scripts/make_worklist.py` | Builds a spreadsheet for checking listings by hand, sorted by upcoming deadline |
 | `scripts/make_update_list.py` | Builds a spreadsheet of the deadlines and links confirmed in the September audit that differ from the DGE spreadsheet |
 | `worklists/` | Manual update worklists |
