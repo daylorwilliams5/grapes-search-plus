@@ -19,33 +19,39 @@ function startChat(){
     </div>`;
   document.querySelector('header.mast').after(tabs);
 
-  const page = document.createElement('main');
-  page.className = 'chatpage wrap';
-  page.innerHTML = `
-    <div class="chat-intro">
-      <h1>Find funding that fits you.</h1>
-      <p>Tell the assistant your degree and year, your field, your citizenship, and what the funding is for.
-        It suggests awards from GRAPES and says why each one fits. Don't include your name or student ID.</p>
-      <div class="chat-try"><span>Try:</span>
-        <button type="button">3rd-year sociology PhD, international student, need summer research funding</button>
-        <button type="button">Master's student in public health looking for conference travel grants</button>
-        <button type="button">Dissertation-year fellowships in the humanities, U.S. citizen</button>
-      </div>
-    </div>
-    <div class="chat-log" aria-live="polite"></div>
-    <form class="chat-form">
-      <label for="chatQ" class="chat-sr">Your question</label>
-      <textarea id="chatQ" rows="2" maxlength="1500" placeholder="Describe what you're looking for…"></textarea>
-      <div class="chat-acts">
-        <button type="button" class="linkbtn chat-reset" hidden>Start over</button>
-        <button type="submit" class="btn solid">Ask</button>
-      </div>
-    </form>
-    <p class="chat-note">Suggestions from an AI assistant. Always confirm deadlines and eligibility on the sponsor's page.</p>`;
-  tabs.after(page);
+  // Capture the page's own views before adding the chat's
+  const views = {all: [document.querySelector('.hero'), document.querySelector('.browse'), document.getElementById('results')]};
 
-  const views = {all: [document.querySelector('.hero'), document.querySelector('.browse'), document.getElementById('results')],
-                 chat: [page]};
+  const page = document.createElement('div');
+  page.className = 'chatview';
+  page.innerHTML = `
+    <section class="chat-hero">
+      <div class="wrap chat-col">
+        <h1>Find funding that fits you.</h1>
+        <p class="chat-lede">Tell the assistant your degree and year, your field, your citizenship, and what the funding is for.
+          It suggests awards from GRAPES and says why each one fits. Don't include your name or student ID.</p>
+        <div class="chat-slot"></div>
+        <div class="chat-try"><span>Try:</span>
+          <button type="button">3rd-year sociology PhD, international student, need summer research funding</button>
+          <button type="button">Master's student in public health looking for conference travel grants</button>
+          <button type="button">Dissertation-year fellowships in the humanities, U.S. citizen</button>
+        </div>
+      </div>
+    </section>
+    <main class="wrap chat-col chatpage">
+      <div class="chat-log" aria-live="polite"></div>
+      <form class="chat-form">
+        <label for="chatQ" class="chat-sr">Your question</label>
+        <textarea id="chatQ" rows="2" maxlength="1500" placeholder="Describe what you're looking for…"></textarea>
+        <div class="chat-acts">
+          <button type="button" class="linkbtn chat-reset" hidden>Start over</button>
+          <button type="submit" class="chat-go">Ask</button>
+        </div>
+      </form>
+    </main>`;
+  tabs.after(page);
+  views.chat = [page];
+
   function show(tab){
     for (const [k, els] of Object.entries(views)) els.forEach(el => { el.hidden = k !== tab; });
     tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
@@ -64,7 +70,17 @@ function startChat(){
   const form = page.querySelector('form');
   const input = page.querySelector('textarea');
   const reset = page.querySelector('.chat-reset');
-  const intro = page.querySelector('.chat-intro');
+  const hero = page.querySelector('.chat-hero');
+  const slot = page.querySelector('.chat-slot');
+  const column = page.querySelector('.chatpage');
+  // The question box starts in the header band, like the main search, and
+  // moves under the conversation once it begins
+  function chatting(on){
+    hero.classList.toggle('compact', on);
+    reset.hidden = !on;
+    (on ? column : slot).append(form);
+  }
+  chatting(false);
 
   function bubble(cls, text){
     const p = document.createElement('div');
@@ -107,7 +123,7 @@ function startChat(){
   }));
   reset.addEventListener('click', () => {
     history.length = 0; log.innerHTML = '';
-    intro.hidden = false; reset.hidden = true;
+    chatting(false);
     input.focus();
   });
 
@@ -117,7 +133,7 @@ function startChat(){
     if (!q || busy) return;
     busy = true;
     input.value = '';
-    intro.hidden = true; reset.hidden = false;
+    chatting(true);
     bubble('me', q);
     history.push({role: 'user', text: q});
     const wait = bubble('bot wait', 'Looking through GRAPES…');
