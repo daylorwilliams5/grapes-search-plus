@@ -9,6 +9,9 @@
 .tabs button:focus-visible,.chatview button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .chatview[hidden],.hero[hidden],.browse[hidden],.main[hidden]{display:none}
 .chat-col{max-width:860px}
+/* On the chat tab the page fills the window, so the footer sits at the bottom */
+body.chat-on{display:flex;flex-direction:column;min-height:100vh}
+body.chat-on .chatview{flex:1}
 .chat-hero{background:var(--navy);color:#fff;padding:52px 0 40px;font-family:var(--sans)}
 .chat-hero h1{font-family:var(--serif);font-weight:500;font-size:42px;line-height:1.12;letter-spacing:-.015em;margin:0}
 .chat-lede{margin:12px 0 0;font-size:18px;line-height:1.5;color:rgba(255,255,255,.78)}
