@@ -55,6 +55,7 @@ function startChat(){
   function show(tab){
     for (const [k, els] of Object.entries(views)) els.forEach(el => { el.hidden = k !== tab; });
     tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-current', b.dataset.tab === tab ? 'page' : 'false'));
+    document.body.classList.toggle('chat-on', tab === 'chat');
     try { sessionStorage.setItem('grapes-tab', tab); } catch (e) {}
   }
   tabs.addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b){ show(b.dataset.tab); window.scrollTo(0, 0); } });
